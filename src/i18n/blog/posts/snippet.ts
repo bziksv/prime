@@ -7,6 +7,9 @@ export const snippetEn: BlogPost = {
   date: "2021-07-05",
   category: "SEO",
   cover: "/images/blog/snippet/cover-en.webp",
+  metaTitle: "SERP truncates and nobody clicks? Snippets: title, description, and rich results",
+  metaDescription:
+    "How to build a clickable preview. Checklist — rewrite meta before publish.",
   excerpt:
     "How a SERP snippet is built: title, description, breadcrumbs, and rich results. What schema.org / JSON-LD gives you — and why it’s about CTR, not ranking magic.",
   lead: [
@@ -134,6 +137,9 @@ export const snippetEs: BlogPost = {
   date: "2021-07-05",
   category: "SEO",
   cover: "/images/blog/snippet/cover-es.webp",
+  metaTitle: "¿El SERP corta y nadie clica? Snippet: title, description y resultados enriquecidos",
+  metaDescription:
+    "Cómo armar un preview clicable. Checklist — reescribe meta antes de publicar.",
   excerpt:
     "Cómo se arma un snippet de la SERP: title, description, breadcrumbs y rich results. Qué te da schema.org / JSON-LD — y por qué va de CTR, no de magia de rankings.",
   lead: [

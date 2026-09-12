@@ -7,6 +7,9 @@ export const zaspamlennostTekstaEn: BlogPost = {
   date: "2021-10-29",
   category: "SEO",
   cover: "/images/blog/zaspamlennost-teksta/cover-en.webp",
+  metaTitle: "Copy stuffed with keywords? Over-optimization: what it is and how to fix",
+  metaDescription:
+    "Signs and edits without tool dogma. Cheat sheet — before SEO publish.",
   excerpt:
     "What keyword stuffing and “text nausea” scores mean, how excess keywords hurt readers and SEO, which tools measure density, and how to clean the copy without padding it with fluff.",
   lead: [
@@ -133,6 +136,9 @@ export const zaspamlennostTekstaEs: BlogPost = {
   date: "2021-10-29",
   category: "SEO",
   cover: "/images/blog/zaspamlennost-teksta/cover-es.webp",
+  metaTitle: "¿Texto relleno de keywords? Sobreoptimización: qué es y cómo bajarla",
+  metaDescription:
+    "Señales y edición sin dogmatismo de tools. Chuleta — antes de publicar SEO.",
   excerpt:
     "Qué significan el keyword stuffing y las puntuaciones de «náusea» del texto, cómo el exceso de keywords duele a lectores y SEO, qué tools miden densidad y cómo limpiar el copy sin rellenarlo de fluff.",
   lead: [

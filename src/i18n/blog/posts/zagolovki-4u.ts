@@ -7,6 +7,9 @@ export const zagolovki4uEn: BlogPost = {
   date: "2020-06-24",
   category: "Content marketing",
   cover: "/images/blog/zagolovki-4u/cover-en.webp",
+  metaTitle: "Headline just a label? 4U: useful, unique, urgent, ultra-specific",
+  metaDescription:
+    "A formula for clickable H1/Title. Cheat sheet — before you rewrite snippets.",
   excerpt:
     "The 4U formula for headlines and email subjects: usefulness, uniqueness, ultra-specificity, and urgency — with examples, without “conversion ×10” claims or generators for the checkbox.",
   lead: [
@@ -146,6 +149,9 @@ export const zagolovki4uEs: BlogPost = {
   date: "2020-06-24",
   category: "Content marketing",
   cover: "/images/blog/zagolovki-4u/cover-es.webp",
+  metaTitle: "¿Titular solo una etiqueta? 4U: útil, único, urgente, concreto",
+  metaDescription:
+    "Fórmula de H1/Title clicable. Chuleta — antes de reescribir snippets.",
   excerpt:
     "La fórmula 4U para titulares y asuntos de email: utilidad, unicidad, ultra-especificidad y urgencia — con ejemplos, sin claims de «conversión ×10» ni generadores por el checkbox.",
   lead: [

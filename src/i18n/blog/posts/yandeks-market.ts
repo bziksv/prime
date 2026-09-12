@@ -7,6 +7,9 @@ export const yandeksMarketEn: BlogPost = {
   date: "2018-06-13",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-market/cover-en.webp",
+  metaTitle: "Store missing from Market? How to list an ecommerce shop on Yandex Market",
+  metaDescription:
+    "Models, feeds, and common mistakes. Checklist — before you connect the catalog.",
   excerpt:
     "How to connect a store to Yandex Market: site requirements, YML feed, delivery, and moderation — without outdated “20 million audience” claims and easy-sales promises.",
   lead: [
@@ -177,6 +180,9 @@ export const yandeksMarketEs: BlogPost = {
   date: "2018-06-13",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-market/cover-es.webp",
+  metaTitle: "¿Tienda fuera de Market? Cómo colocar el ecom en Yandex Market",
+  metaDescription:
+    "Modelos, feeds y errores típicos. Checklist — antes de conectar el catálogo.",
   excerpt:
     "Cómo conectar una tienda a Yandex Market: requisitos del sitio, feed YML, entrega y moderación — sin claims obsoletos de «audiencia de 20 millones» ni promesas de ventas fáciles.",
   lead: [

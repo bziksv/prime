@@ -7,6 +7,9 @@ export const userIntentEn: BlogPost = {
   date: "2018-08-29",
   category: "SEO",
   cover: "/images/blog/user-intent/cover-en.webp",
+  metaTitle: "Keyword match, intent miss? User intent in SEO: work the query’s job",
+  metaDescription:
+    "Info / commercial / navigational without mix-ups. Checklist — before clustering.",
   excerpt:
     "User intent is what the person wants behind a query. How to read the results, avoid mixing intents on one URL, and build pages for real intention — not keyword density.",
   lead: [
@@ -240,6 +243,9 @@ export const userIntentEs: BlogPost = {
   date: "2018-08-29",
   category: "SEO",
   cover: "/images/blog/user-intent/cover-es.webp",
+  metaTitle: "¿Keyword sí, intención no? User intent en SEO: trabaja el job de la query",
+  metaDescription:
+    "Info / comercial / navegacional sin lío. Checklist — antes del clustering.",
   excerpt:
     "User intent es lo que la persona quiere detrás de una consulta. Cómo leer los resultados, evitar mezclar intenciones en una URL y construir páginas para la intención real — no para la densidad de keywords.",
   lead: [

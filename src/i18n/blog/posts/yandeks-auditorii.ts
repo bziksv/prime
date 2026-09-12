@@ -7,6 +7,9 @@ export const yandeksAuditoriiEn: BlogPost = {
   date: "2017-01-31",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-auditorii/cover-en.webp",
+  metaTitle: "Yandex audiences “everyone”? Crypta, segments, and Direct",
+  metaDescription:
+    "How to pick without burning budget. Checklist — before retargeting goes live.",
   excerpt:
     "How Yandex segments users for ads: Crypta signals, demographics, interests, remarketing, and look-alike — without outdated “+35% conversion” claims or guides for uploading other people’s contact lists.",
   lead: [
@@ -166,6 +169,9 @@ export const yandeksAuditoriiEs: BlogPost = {
   date: "2017-01-31",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-auditorii/cover-es.webp",
+  metaTitle: "¿Audiencias Yandex “todos”? Crypta, segmentos y Direct",
+  metaDescription:
+    "Cómo elegir sin quemar presupuesto. Checklist — antes de lanzar retargeting.",
   excerpt:
     "Cómo Yandex segmenta usuarios para ads: señales Crypta, demografía, intereses, remarketing y look-alike — sin claims obsoletos de «+35% de conversión» ni guías para subir listas de contactos ajenas.",
   lead: [

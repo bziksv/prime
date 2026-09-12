@@ -7,6 +7,9 @@ export const peredZapuskomSaytaEn: BlogPost = {
   date: "2018-07-20",
   category: "Hosting",
   cover: "/images/blog/pered-zapuskom-sayta/cover-en.webp",
+  metaTitle: "Shipping to prod tomorrow unchecked? Technical pre-launch checklist",
+  metaDescription:
+    "SEO, forms, analytics, and security. Run the list before release.",
   excerpt:
     "Status codes, speed, sitemap and robots, 404, mixed content, duplicates, Title/URL, mobile, analytics, images, internal links, and structured data — without worshipping AMP or one crawler brand.",
   lead: [
@@ -125,6 +128,9 @@ export const peredZapuskomSaytaEs: BlogPost = {
   date: "2018-07-20",
   category: "Hosting",
   cover: "/images/blog/pered-zapuskom-sayta/cover-es.webp",
+  metaTitle: "¿A prod mañana sin revisar? Checklist técnico antes del lanzamiento",
+  metaDescription:
+    "SEO, formularios, analítica y seguridad. Pasa la lista antes del release.",
   excerpt:
     "Códigos de estado, velocidad, sitemap y robots, 404, mixed content, duplicados, Title/URL, móvil, analytics, imágenes, enlaces internos y datos estructurados — sin adorar AMP ni una marca de crawler.",
   lead: [

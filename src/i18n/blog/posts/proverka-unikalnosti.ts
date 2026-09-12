@@ -7,6 +7,9 @@ export const proverkaUnikalnostiEn: BlogPost = {
   date: "2021-06-03",
   category: "SEO",
   cover: "/images/blog/proverka-unikalnosti/cover-en.webp",
+  metaTitle: "Copy “unique by eye”? Plagiarism checks: why and how",
+  metaDescription:
+    "Tools, thresholds, and what to do with overlaps. Checklist — before publish.",
   excerpt:
     "How uniqueness differs from “anti-plagiarism for a percentage,” why check texts before publish, and how to use online tools without chasing 100% at any cost.",
   lead: [
@@ -177,6 +180,9 @@ export const proverkaUnikalnostiEs: BlogPost = {
   date: "2021-06-03",
   category: "SEO",
   cover: "/images/blog/proverka-unikalnosti/cover-es.webp",
+  metaTitle: "¿Texto “único a ojo”? Comprobación de unicidad: para qué y cómo",
+  metaDescription:
+    "Herramientas, umbrales y qué hacer con coincidencias. Checklist — antes de publicar.",
   excerpt:
     "En qué se diferencia la unicidad del «antiplagio por porcentaje», por qué revisar textos antes de publicar y cómo usar herramientas online sin perseguir el 100% a cualquier coste.",
   lead: [

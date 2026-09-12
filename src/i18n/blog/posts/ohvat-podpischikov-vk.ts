@@ -7,6 +7,9 @@ export const ohvatPodpischikovVkEn: BlogPost = {
   date: "2020-12-23",
   category: "SMM",
   cover: "/images/blog/ohvat-podpischikov-vk/cover-en.webp",
+  metaTitle: "Followers up, reach down? How to grow VK subscriber reach",
+  metaDescription:
+    "Algorithm cues, formats, and dead-public mistakes. Checklist — before the next post.",
   excerpt:
     "What follower reach means in VK stats, how it differs from total and viral, and how to show up in your own base’s feed more often — without fake engagement or outdated screenshots.",
   lead: [
@@ -156,6 +159,9 @@ export const ohvatPodpischikovVkEs: BlogPost = {
   date: "2020-12-23",
   category: "SMM",
   cover: "/images/blog/ohvat-podpischikov-vk/cover-es.webp",
+  metaTitle: "¿Seguidores sí, alcance no? Cómo subir el alcance en VK",
+  metaDescription:
+    "Algoritmo, formatos y errores de público muerto. Checklist — antes del próximo post.",
   excerpt:
     "Qué significa el alcance de followers en las stats de VK, en qué se diferencia del total y del viral, y cómo aparecer más a menudo en el feed de tu propia base — sin fake engagement ni screenshots obsoletos.",
   lead: [

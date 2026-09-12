@@ -7,6 +7,9 @@ export const filtryPoiskovikovEn: BlogPost = {
   date: "2021-06-03",
   category: "SEO",
   cover: "/images/blog/filtry-poiskovikov/cover-en.webp",
+  metaTitle: "Traffic dropped overnight? Search engine filters: avoid them and recover",
+  metaDescription:
+    "Sanction types, symptoms, and a calm recovery plan. Checklist — before aggressive link building.",
   excerpt:
     "Why sites lose rankings to filters and algorithm updates, how to diagnose the problem, and how to grow organic with white-hat methods — without bypass tricks or gray schemes.",
   lead: [
@@ -163,6 +166,9 @@ export const filtryPoiskovikovEs: BlogPost = {
   date: "2021-06-03",
   category: "SEO",
   cover: "/images/blog/filtry-poiskovikov/cover-es.webp",
+  metaTitle: "¿Tráfico cayó de golpe? Filtros de buscadores: evitarlos y salir",
+  metaDescription:
+    "Tipos de sanción, síntomas y plan de salida sin pánico. Checklist — antes del link building agresivo.",
   excerpt:
     "Por qué los sitios pierden rankings por filtros y actualizaciones de algoritmo, cómo diagnosticar el problema y cómo crecer en orgánico con métodos white-hat — sin trucos de bypass ni esquemas grises.",
   lead: [

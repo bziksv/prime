@@ -7,6 +7,9 @@ export const oshibkiNastroykiKontekstaEs: BlogPost = {
   date: "2018-07-02",
   category: "Paid search",
   cover: "/images/blog/oshibki-nastroyki-konteksta/cover-es.webp",
+  metaTitle: "¿Ads vivas y presupuesto se derrite? Errores típicos de configuración",
+  metaDescription:
+    "Campañas, keywords, anuncios y objetivos sin sustos. Checklist — audita la cuenta hoy.",
   excerpt:
     "Fallos típicos de setup en Direct y Ads: anuncios sin contactos ni extensiones, Search vs redes, geo y estructura de grupos, landing muerta, negativos, horario y remarketing — checklist antes de escalar presupuesto.",
   lead: [
@@ -150,6 +153,9 @@ export const oshibkiNastroykiKontekstaEn: BlogPost = {
   date: "2018-07-02",
   category: "Paid search",
   cover: "/images/blog/oshibki-nastroyki-konteksta/cover-en.webp",
+  metaTitle: "Ads live — budget melting? Common paid-search setup mistakes",
+  metaDescription:
+    "Campaigns, keywords, ads, and goals without surprises. Checklist — audit the account today.",
   excerpt:
     "Typical setup misses in Direct and Ads: ads without contacts and extensions, Search vs networks, geo and ad-group structure, a dead landing, negatives, ad schedule, and remarketing — a checklist before scaling budget.",
   lead: [

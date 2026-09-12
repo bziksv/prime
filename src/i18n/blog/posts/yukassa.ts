@@ -7,6 +7,9 @@ export const yukassaEn: BlogPost = {
   date: "2021-10-22",
   category: "Digital marketing",
   cover: "/images/blog/yukassa/cover-en.webp",
+  metaTitle: "Still no payments on the site? YooKassa: what it is and why stores need it",
+  metaDescription:
+    "Setup, fees, and use cases. Checklist — before checkout integration.",
   excerpt:
     "What YooKassa (formerly Yandex.Checkout) is: online payments, pay-by-link invoices, cloud cash registers. How merchants connect and what to check in tariffs.",
   lead: [
@@ -135,6 +138,9 @@ export const yukassaEs: BlogPost = {
   date: "2021-10-22",
   category: "Digital marketing",
   cover: "/images/blog/yukassa/cover-es.webp",
+  metaTitle: "¿Aún sin pagos en la web? YooKassa: qué es y para qué a la tienda",
+  metaDescription:
+    "Alta, comisiones y escenarios. Checklist — antes de integrar el checkout.",
   excerpt:
     "Qué es YooKassa (antes Yandex.Checkout): pagos online, facturas pay-by-link, cajas registradoras en la nube. Cómo se conectan los comercios y qué revisar en las tarifas.",
   lead: [

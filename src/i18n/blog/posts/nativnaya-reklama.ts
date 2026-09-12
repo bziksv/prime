@@ -7,6 +7,9 @@ export const nativnayaReklamaEn: BlogPost = {
   date: "2020-03-18",
   category: "Digital marketing",
   cover: "/images/blog/nativnaya-reklama/cover-en.webp",
+  metaTitle: "Native ads flopping? 7 common mistakes that kill the format",
+  metaDescription:
+    "Offer, placement, and tone without cringe. Checklist — before the next buy.",
   excerpt:
     "Why native advertising fails: fake emotion, weak product knowledge, thin posts, awkward links, and overheated drama — and how to make the integration honest.",
   lead: [
@@ -170,6 +173,9 @@ export const nativnayaReklamaEs: BlogPost = {
   date: "2020-03-18",
   category: "Marketing digital",
   cover: "/images/blog/nativnaya-reklama/cover-es.webp",
+  metaTitle: "¿La nativa no engancha? 7 errores típicos que matan el formato",
+  metaDescription:
+    "Oferta, plaza y tono sin cringe. Checklist — antes del próximo placement.",
   excerpt:
     "Por qué falla la publicidad nativa: emoción falsa, poco conocimiento del producto, posts flojos, enlaces torpes y drama sobredimensionado — y cómo hacer la integración honesta.",
   lead: [

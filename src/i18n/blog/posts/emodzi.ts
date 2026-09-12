@@ -7,6 +7,9 @@ export const emodziEn: BlogPost = {
   date: "2020-08-25",
   category: "Content marketing",
   cover: "/images/blog/emodzi/cover-en.webp",
+  metaTitle: "Emoji in every line? When they help — and when they annoy",
+  metaDescription:
+    "Where they fit in ads, email, and social — and where they kill the tone. Cheat sheet — before the next campaign.",
   excerpt:
     "What emoji are and how to use them in posts, chat, and snippets: tone for the audience, measure, and risks — without CTR guarantees or the “Apple only” myth.",
   lead: [
@@ -126,6 +129,9 @@ export const emodziEs: BlogPost = {
   date: "2020-08-25",
   category: "Content marketing",
   cover: "/images/blog/emodzi/cover-es.webp",
+  metaTitle: "¿Emojis en cada línea? Cuándo ayudan — y cuándo irritan",
+  metaDescription:
+    "Dónde encajan en ads, email y social — y dónde rompen el tono. Chuleta — antes de la próxima campaña.",
   excerpt:
     "Qué son los emoji y cómo usarlos en posts, chat y snippets: tono para la audiencia, medida y riesgos — sin garantías de CTR ni el mito de «solo Apple».",
   lead: [

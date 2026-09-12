@@ -7,6 +7,9 @@ export const poseshhaemostSaytaEn: BlogPost = {
   date: "2018-04-10",
   category: "Digital marketing",
   cover: "/images/blog/poseshhaemost-sayta/cover-en.webp",
+  metaTitle: "Traffic stuck flat? How to grow site visits without magic buttons",
+  metaDescription:
+    "Channels, content, and tech that move the needle. Plan — for the next quarter.",
   excerpt:
     "Start with an audit (speed, filters, navigation, content), then white-hat channels: SEO, title, email, images, social — without black-hat schemes or promising that “traffic in a month means page-one rankings.”",
   lead: [
@@ -111,6 +114,9 @@ export const poseshhaemostSaytaEs: BlogPost = {
   date: "2018-04-10",
   category: "Digital marketing",
   cover: "/images/blog/poseshhaemost-sayta/cover-es.webp",
+  metaTitle: "¿Tráfico plano? Cómo subir visitas a la web sin botones mágicos",
+  metaDescription:
+    "Canales, contenido y técnica que sí mueven. Plan — para el próximo trimestre.",
   excerpt:
     "Empieza con una auditoría (velocidad, filtros, navegación, contenido) y luego canales white-hat: SEO, title, email, imágenes, social — sin esquemas black-hat ni prometer que «tráfico en un mes = primera página».",
   lead: [

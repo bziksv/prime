@@ -7,6 +7,9 @@ export const bidderEs: BlogPost = {
   date: "2018-03-14",
   category: "Paid search",
   cover: "/images/blog/bidder/cover-es.webp",
+  metaTitle: "¿Pujas a mano? Cuándo un bidder sí aporta",
+  metaDescription:
+    "Qué hace un bid manager, qué tareas cubre y cómo elegirlo sin magia. Guarda antes de enchufar la tool.",
   excerpt:
     "Qué es un bidder para Direct y Google Ads: gestión automatizada de pujas vía API, pros y contras, cuándo encaja una herramienta externa y cómo comprobar el efecto — junto a las estrategias nativas de la cuenta.",
   lead: [
@@ -145,6 +148,9 @@ export const bidderEn: BlogPost = {
   date: "2018-03-14",
   category: "Paid search",
   cover: "/images/blog/bidder/cover-en.webp",
+  metaTitle: "Still bidding by hand? When a bidder actually helps",
+  metaDescription:
+    "What a bid manager does, which jobs it covers, and how to pick one without hype. Save before you plug a tool in.",
   excerpt:
     "What a bidder is for Direct and Google Ads: automated bid management via API, pros and cons, when a third-party tool fits, and how to check the effect — next to native account strategies.",
   lead: [

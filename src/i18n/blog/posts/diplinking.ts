@@ -7,6 +7,9 @@ export const diplinkingEn: BlogPost = {
   date: "2019-08-20",
   category: "Digital marketing",
   cover: "/images/blog/diplinking/cover-en.webp",
+  metaTitle: "Ads dumping on the homepage? Deeplinking — straight to the right screen",
+  metaDescription:
+    "Why deep links matter, where they break, and how to test the path. Checklist — before app campaigns go live.",
   excerpt:
     "What a deeplink and deferred deeplink are, why they matter in app ads and messaging, and how not to lose conversion on the path from banner to the right screen.",
   lead: [
@@ -222,6 +225,9 @@ export const diplinkingEs: BlogPost = {
   date: "2019-08-20",
   category: "Digital marketing",
   cover: "/images/blog/diplinking/cover-es.webp",
+  metaTitle: "¿Ads a la home? Deeplinking — directo a la pantalla correcta",
+  metaDescription:
+    "Para qué sirven, dónde fallan y cómo probar el camino. Checklist — antes de lanzar campañas in-app.",
   excerpt:
     "Qué son un deeplink y un deferred deeplink, por qué importan en ads de apps y mensajería, y cómo no perder conversión en el camino del banner a la pantalla correcta.",
   lead: [

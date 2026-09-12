@@ -7,6 +7,9 @@ export const shablonInstagramEn: BlogPost = {
   date: "2021-07-23",
   category: "SMM",
   cover: "/images/blog/shablon-instagram/cover-en.webp",
+  metaTitle: "Feed looking random? Instagram templates for a coherent grid",
+  metaDescription:
+    "Layout, covers, and Canva without perfectionism. Checklist — before a profile redesign.",
   excerpt:
     "Why Instagram post and profile-grid templates matter, which layout schemes work, how to build a mockup in an editor, and which apps help — without clinging to outdated UI buttons.",
   lead: [
@@ -152,6 +155,9 @@ export const shablonInstagramEs: BlogPost = {
   date: "2021-07-23",
   category: "SMM",
   cover: "/images/blog/shablon-instagram/cover-es.webp",
+  metaTitle: "¿Feed tipo revoltijo? Plantillas de Instagram para un estilo coherente",
+  metaDescription:
+    "Cuadrícula, portadas y Canva sin perfeccionismo. Checklist — antes de rediseñar el perfil.",
   excerpt:
     "Por qué importan las plantillas de posts y de la grilla del perfil en Instagram, qué esquemas de layout funcionan, cómo montar un mockup en un editor y qué apps ayudan — sin aferrarse a botones de UI obsoletos.",
   lead: [

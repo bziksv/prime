@@ -7,6 +7,9 @@ export const metrikaPosetiteliEn: BlogPost = {
   date: "2018-07-17",
   category: "Analytics",
   cover: "/images/blog/metrika-posetiteli/cover-en.webp",
+  metaTitle: "Visitors in one pile? Metrica “Visitors” report: profiles and lifecycle",
+  metaDescription:
+    "How to read the audience without self-deception. Cheat sheet — before campaign segmentation.",
   excerpt:
     "How to read the visitors report in Yandex Metrica: anonymous profiles, lifecycle metrics, quick segments, and jumping into Session Replay — without confusing it with the Audience section.",
   lead: [
@@ -173,6 +176,9 @@ export const metrikaPosetiteliEs: BlogPost = {
   date: "2018-07-17",
   category: "Analytics",
   cover: "/images/blog/metrika-posetiteli/cover-es.webp",
+  metaTitle: "¿Visitantes en un montón? Informe “Visitantes” de Métrica: perfiles y ciclo de vida",
+  metaDescription:
+    "Cómo leer la audiencia sin autoengaño. Chuleta — antes de segmentar campañas.",
   excerpt:
     "Cómo leer el informe de visitantes en Yandex Metrica: perfiles anónimos, métricas de ciclo de vida, segmentos rápidos y salto a Session Replay — sin confundirlo con la sección Audience.",
   lead: [

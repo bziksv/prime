@@ -7,6 +7,9 @@ export const metrikaTseliEn: BlogPost = {
   date: "2020-07-15",
   category: "SEO",
   cover: "/images/blog/metrika-tseli/cover-en.webp",
+  metaTitle: "Conversions by gut feel? Yandex Metrica goals: types and setup",
+  metaDescription:
+    "URL, events, JS — what to pick and how to verify. Checklist — before the ROI report.",
   excerpt:
     "How to set up goals in Yandex Metrica: pageviews, page visits, JavaScript events, and a multi-step goal — with verification and the current reachGoal form.",
   lead: [
@@ -236,6 +239,9 @@ export const metrikaTseliEs: BlogPost = {
   date: "2020-07-15",
   category: "SEO",
   cover: "/images/blog/metrika-tseli/cover-es.webp",
+  metaTitle: "¿Conversiones a ojo? Objetivos en Yandex Métrica: tipos y configuración",
+  metaDescription:
+    "URL, eventos, JS — qué elegir y cómo verificar. Checklist — antes del informe de ROI.",
   excerpt:
     "Cómo configurar goals en Yandex Metrica: pageviews, visita a página, eventos JavaScript y un goal multi-paso — con verificación y la forma actual de reachGoal.",
   lead: [

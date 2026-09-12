@@ -7,6 +7,9 @@ export const gipertekstEn: BlogPost = {
   date: "2022-01-25",
   category: "SEO",
   cover: "/images/blog/gipertekst/cover-en.webp",
+  metaTitle: "Wall of text, no links? Hypertext: structure and why sites need it",
+  metaDescription:
+    "Links, nodes, and meaning navigation — not just blue words. Primer — before you interlink a section.",
   excerpt:
     "What hypertext is: links, HTML markup, document structure. Why cross-links help a site, an encyclopedia, and an online store.",
   lead: [
@@ -161,6 +164,9 @@ export const gipertekstEs: BlogPost = {
   date: "2022-01-25",
   category: "SEO",
   cover: "/images/blog/gipertekst/cover-es.webp",
+  metaTitle: "¿Texto sin enlaces? Hipertexto: estructura y por qué la web lo necesita",
+  metaDescription:
+    "Enlaces, nodos y navegación de sentido — no solo palabras azules. Base — antes de interlinkear.",
   excerpt:
     "Qué es el hipertexto: enlaces, markup HTML, estructura del documento. Por qué los cross-links ayudan a un sitio, una enciclopedia y una tienda online.",
   lead: [

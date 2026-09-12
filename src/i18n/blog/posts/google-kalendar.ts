@@ -7,6 +7,9 @@ export const googleKalendarEn: BlogPost = {
   date: "2019-06-19",
   category: "Digital marketing",
   cover: "/images/blog/google-kalendar/cover-en.webp",
+  metaTitle: "Meetings lost in chats? Google Calendar: order for tasks and calls",
+  metaDescription:
+    "Calendars, reminders, and sharing. Cheat sheet — reset the week’s rhythm.",
   excerpt:
     "How to use Google Calendar at work: multiple calendars by purpose, meetings with guests, video, attachments, working hours, and sharing — without outdated clicks and Hangouts.",
   lead: [
@@ -170,6 +173,9 @@ export const googleKalendarEs: BlogPost = {
   date: "2019-06-19",
   category: "Digital marketing",
   cover: "/images/blog/google-kalendar/cover-es.webp",
+  metaTitle: "¿Reuniones perdidas en chats? Google Calendar: orden en tareas",
+  metaDescription:
+    "Calendarios, recordatorios y compartir. Chuleta — ordena el ritmo de la semana.",
   excerpt:
     "Cómo usar Google Calendar en el trabajo: varios calendarios por propósito, reuniones con invitados, vídeo, adjuntos, horario laboral y sharing — sin clics caducados ni Hangouts.",
   lead: [

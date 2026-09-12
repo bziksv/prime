@@ -7,6 +7,9 @@ export const besplatnyeSsylkiEn: BlogPost = {
   date: "2019-03-21",
   category: "Content marketing",
   cover: "/images/blog/besplatnye-ssylki/cover-en.webp",
+  metaTitle: "“Free links, lots of them”? Where to get them without gray schemes",
+  metaDescription:
+    "Useful vs risky sources — what to check before publishing. Checklist — save before buying “packages”.",
   excerpt:
     "Where free mentions and links really come from: content, directories, crowd, guest posts, reviews — and which tactics are better left alone.",
   lead: [
@@ -157,6 +160,9 @@ export const besplatnyeSsylkiEs: BlogPost = {
   date: "2019-03-21",
   category: "Content marketing",
   cover: "/images/blog/besplatnye-ssylki/cover-es.webp",
+  metaTitle: "¿“Enlaces gratis y muchos”? Dónde conseguirlos sin esquemas grises",
+  metaDescription:
+    "Fuentes útiles vs riesgosas — qué revisar antes de publicar. Checklist — antes de comprar “paquetes”.",
   excerpt:
     "De dónde salen de verdad las menciones y enlaces gratis: contenido, directorios, crowd, guest posts, reseñas — y qué tácticas es mejor dejar quietas.",
   lead: [

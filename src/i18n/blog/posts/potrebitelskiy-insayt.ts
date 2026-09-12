@@ -7,6 +7,9 @@ export const potrebitelskiyInsaytEn: BlogPost = {
   date: "2019-07-11",
   category: "Digital marketing",
   cover: "/images/blog/potrebitelskiy-insayt/cover-en.webp",
+  metaTitle: "Insight invented in a meeting? What it is and how to find it with the audience",
+  metaDescription:
+    "Research methods without fantasy. Checklist — before the creative brief.",
   excerpt:
     "A consumer insight is a hidden motive in the formula “I want…, but…”. Why marketing needs it and where to look: data, surveys, contradictions, forums, social, and competitors.",
   lead: [
@@ -144,6 +147,9 @@ export const potrebitelskiyInsaytEs: BlogPost = {
   date: "2019-07-11",
   category: "Digital marketing",
   cover: "/images/blog/potrebitelskiy-insayt/cover-es.webp",
+  metaTitle: "¿Insight inventado en la planning? Qué es y cómo buscarlo en la audiencia",
+  metaDescription:
+    "Métodos de research sin fantasía. Checklist — antes del brief creativo.",
   excerpt:
     "Un insight del consumidor es un motivo oculto en la fórmula «quiero…, pero…». Por qué lo necesita el marketing y dónde buscarlo: datos, encuestas, contradicciones, foros, redes y competidores.",
   lead: [

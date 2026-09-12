@@ -7,6 +7,9 @@ export const adaptivnyeMediynyeObyavleniyaEn: BlogPost = {
   date: "2018-12-17",
   category: "Paid search",
   cover: "/images/blog/adaptivnye-mediynye-obyavleniya/cover-en.webp",
+  metaTitle: "Responsive display ads: 6 practices so creatives don’t flop",
+  metaDescription:
+    "Build assets, crops, and copy that fit RDA. Checklist inside — audit the campaign before the next budget burn.",
   excerpt:
     "How to build Responsive Display Ads (RDA) that don’t fall apart: asset ratios, crops, logos, copy, previews, and brand safety — without a fossil CTR table or “upload and forget.”",
   lead: [
@@ -149,6 +152,9 @@ export const adaptivnyeMediynyeObyavleniyaEs: BlogPost = {
   date: "2018-12-17",
   category: "Paid search",
   cover: "/images/blog/adaptivnye-mediynye-obyavleniya/cover-es.webp",
+  metaTitle: "Anuncios display adaptables: 6 prácticas para que no fallen",
+  metaDescription:
+    "Arma assets, recortes y textos para RDA. Checklist dentro — audita la campaña antes del próximo gasto.",
   excerpt:
     "Cómo montar Responsive Display Ads (RDA) que no se desarmen: ratios de assets, crops, logos, copy, previews y brand safety — sin una tabla fósil de CTR ni «sube y olvida».",
   lead: [

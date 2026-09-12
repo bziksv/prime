@@ -7,6 +7,9 @@ export const crmEn: BlogPost = {
   date: "2020-02-26",
   category: "Digital marketing",
   cover: "/images/blog/crm/cover-en.webp",
+  metaTitle: "CRM by leaderboard? Choose for your process, not the hype",
+  metaDescription:
+    "Criteria, common mistakes, and what to check before rollout. Checklist — save before the vendor demo.",
   excerpt:
     "What a CRM is, how self-hosted, cloud, and “portal with CRM” options differ, and how to compare Bitrix24, amoCRM, and similar tools — without treating a 2020 best-of list or magic quadrant as gospel.",
   lead: [
@@ -146,6 +149,9 @@ export const crmEs: BlogPost = {
   date: "2020-02-26",
   category: "Marketing digital",
   cover: "/images/blog/crm/cover-es.webp",
+  metaTitle: "¿CRM por ranking? Elige por procesos, no por hype",
+  metaDescription:
+    "Criterios, errores típicos y qué revisar antes de implantar. Checklist — guárdalo antes del demo.",
   excerpt:
     "Qué es un CRM, en qué se diferencian self-hosted, cloud y «portal con CRM», y cómo comparar Bitrix24, amoCRM y herramientas similares — sin tomar una lista de 2020 o un magic quadrant como evangelio.",
   lead: [

@@ -7,6 +7,9 @@ export const razmeryBanneraEn: BlogPost = {
   date: "2021-03-01",
   category: "Digital marketing",
   cover: "/images/blog/razmery-bannera/cover-en.webp",
+  metaTitle: "Need a competitor banner’s size? How to check pixels on a live site",
+  metaDescription:
+    "DevTools and common formats. Designer cheat sheet — save it.",
   excerpt:
     "What web banners look like, why sizes are often arbitrary, and how to learn a competitor creative’s width/height in a minute with developer tools.",
   lead: [
@@ -140,6 +143,9 @@ export const razmeryBanneraEs: BlogPost = {
   date: "2021-03-01",
   category: "Digital marketing",
   cover: "/images/blog/razmery-bannera/cover-es.webp",
+  metaTitle: "¿Necesitas el tamaño del banner ajeno? Cómo ver píxeles en la web",
+  metaDescription:
+    "DevTools y formatos típicos. Chuleta para diseño — guárdala.",
   excerpt:
     "Qué aspecto tienen los banners web, por qué los tamaños suelen ser arbitrarios y cómo saber en un minuto el ancho/alto de un creativo de la competencia con las herramientas de desarrollador.",
   lead: [

@@ -7,6 +7,9 @@ export const kontentPlanInstagramEn: BlogPost = {
   date: "2022-01-14",
   category: "SMM",
   cover: "/images/blog/kontent-plan-instagram/cover-en.webp",
+  metaTitle: "Instagram without a plan burns you out? Content calendar that lasts",
+  metaDescription:
+    "Pillars, cadence, and idea buffer without daily panic. Template — fill 2–4 weeks ahead.",
   excerpt:
     "How to build a working Instagram content plan: goal, categories, post mix, schedule, ideas, and results review.",
   lead: [
@@ -208,6 +211,9 @@ export const kontentPlanInstagramEs: BlogPost = {
   date: "2022-01-14",
   category: "SMM",
   cover: "/images/blog/kontent-plan-instagram/cover-es.webp",
+  metaTitle: "¿Instagram sin plan te quema? Calendario de contenido que aguanta",
+  metaDescription:
+    "Pilares, ritmo y colchón de ideas sin pánico diario. Plantilla — rellena 2–4 semanas.",
   excerpt:
     "Cómo armar un plan de contenido de Instagram que funcione: objetivo, categorías, mix de posts, calendario, ideas y revisión de resultados.",
   lead: [

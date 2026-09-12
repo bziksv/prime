@@ -7,6 +7,9 @@ export const negativnoeSeoEn: BlogPost = {
   date: "2020-07-23",
   category: "SEO",
   cover: "/images/blog/negativnoe-seo/cover-en.webp",
+  metaTitle: "Rankings killed by toxic links? Negative SEO: threats and how to defend",
+  metaDescription:
+    "Attack signs, monitoring, and a response plan. Cheat sheet — before SERP panic.",
   excerpt:
     "Negative SEO means attempts to harm someone else’s site in search. Which signals show up, how to monitor and defend — without attack how-tos, DDoS, or “ban a competitor” guides.",
   lead: [
@@ -157,6 +160,9 @@ export const negativnoeSeoEs: BlogPost = {
   date: "2020-07-23",
   category: "SEO",
   cover: "/images/blog/negativnoe-seo/cover-es.webp",
+  metaTitle: "¿Posiciones matadas por links tóxicos? SEO negativo: amenazas y defensa",
+  metaDescription:
+    "Señales de ataque, monitorización y plan de respuesta. Chuleta — antes del pánico en el SERP.",
   excerpt:
     "SEO negativo son intentos de dañar el sitio de otro en la búsqueda. Qué señales aparecen, cómo monitorizar y defenderse — sin how-tos de ataque, DDoS ni guías de «banear a un competidor».",
   lead: [

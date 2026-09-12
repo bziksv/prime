@@ -7,6 +7,9 @@ export const sredniyChekEn: BlogPost = {
   date: "2019-12-21",
   category: "Digital marketing",
   cover: "/images/blog/sredniy-chek/cover-en.webp",
+  metaTitle: "Average order value stuck? How to calculate it and which ecommerce levers work",
+  metaDescription:
+    "Formula, upsells, and average traps. Checklist — before the next PDP A/B.",
   excerpt:
     "What average order value (AOV) is, what its dynamics say, and which levers really raise order size: cross-sell, upsell, bundles, shipping thresholds, and loyalty.",
   lead: [
@@ -155,6 +158,9 @@ export const sredniyChekEs: BlogPost = {
   date: "2019-12-21",
   category: "Digital marketing",
   cover: "/images/blog/sredniy-chek/cover-es.webp",
+  metaTitle: "¿Ticket medio estancado? Cómo calcularlo y qué palancas ecom funcionan",
+  metaDescription:
+    "Fórmula, upsells y trampas de promedios. Checklist — antes del próximo A/B de ficha.",
   excerpt:
     "Qué es el average order value (AOV), qué dice su dinámica y qué palancas suben de verdad el tamaño del pedido: cross-sell, upsell, bundles, umbrales de envío y loyalty.",
   lead: [

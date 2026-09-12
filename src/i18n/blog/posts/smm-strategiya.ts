@@ -8,6 +8,9 @@ export const smmStrategiyaEn: BlogPost = {
   date: "2018-06-01",
   category: "SMM",
   cover: "/images/blog/smm-strategiya/cover-en.webp",
+  metaTitle: "SMM posting whatever? Strategy: goals, priorities, and staying focused",
+  metaDescription:
+    "Channels, KPIs, and cadence without chaos. Frame — before a month content plan.",
   excerpt:
     "How to build an SMM strategy: tie social goals to the business, break them into tasks, prioritize, assign owners and deadlines, and adjust by metrics — without a “golden algorithm.”",
   lead: [
@@ -162,6 +165,9 @@ export const smmStrategiyaEs: BlogPost = {
   date: "2018-06-01",
   category: "SMM",
   cover: "/images/blog/smm-strategiya/cover-es.webp",
+  metaTitle: "¿SMM publicando lo que sea? Estrategia: objetivos, prioridades y no dispersarte",
+  metaDescription:
+    "Canales, KPIs y ritmo sin caos. Marco — antes del plan de contenido del mes.",
   excerpt:
     "Cómo armar una estrategia SMM: atar los objetivos de redes al negocio, partirlos en tareas, priorizar, asignar owners y plazos, y ajustar por métricas — sin un «algoritmo de oro».",
   lead: [

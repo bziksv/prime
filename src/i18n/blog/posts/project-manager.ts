@@ -7,6 +7,9 @@ export const projectManagerEn: BlogPost = {
   date: "2019-12-09",
   category: "Digital marketing",
   cover: "/images/blog/project-manager/cover-en.webp",
+  metaTitle: "PM just “assigning tickets”? IT project manager: duties and how to enter",
+  metaDescription:
+    "Skills, ownership, and a path into the role. Primer — before the offer or interview.",
   excerpt:
     "Who a project manager is in IT: why the role exists, typical duties and skills, and how people enter the profession — without “high salary right after a weekend course” promises.",
   lead: [
@@ -154,6 +157,9 @@ export const projectManagerEs: BlogPost = {
   date: "2019-12-09",
   category: "Digital marketing",
   cover: "/images/blog/project-manager/cover-es.webp",
+  metaTitle: "¿PM solo “pone tareas”? Project manager en IT: deberes y entrada",
+  metaDescription:
+    "Skills, ownership y camino a la profesión. Base — antes de la oferta o entrevista.",
   excerpt:
     "Quién es un project manager en IT: por qué existe el rol, deberes y skills típicos, y cómo se entra a la profesión — sin promesas de «sueldo alto justo tras un curso de fin de semana».",
   lead: [

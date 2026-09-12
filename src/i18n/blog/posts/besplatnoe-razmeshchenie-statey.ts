@@ -7,6 +7,9 @@ export const besplatnoeRazmeshchenieStateyEn: BlogPost = {
   date: "2021-11-23",
   category: "SEO",
   cover: "/images/blog/besplatnoe-razmeshchenie-statey/cover-en.webp",
+  metaTitle: "Articles going nowhere? Free places to publish for SEO",
+  metaDescription:
+    "Sites and formats without gray link markets. Placement checklist — before the next post.",
   excerpt:
     "Guest posts and media placements for links and traffic: how to prep the piece, where to pitch, typical editorial rules, and uniqueness mistakes.",
   lead: [
@@ -172,6 +175,9 @@ export const besplatnoeRazmeshchenieStateyEs: BlogPost = {
   date: "2021-11-23",
   category: "SEO",
   cover: "/images/blog/besplatnoe-razmeshchenie-statey/cover-es.webp",
+  metaTitle: "¿Artículos a ninguna parte? Dónde publicar gratis para SEO",
+  metaDescription:
+    "Sitios y formatos sin mercados grises. Checklist de publicación — antes del próximo post.",
   excerpt:
     "Guest posts y placements en medios para enlaces y tráfico: cómo preparar la pieza, dónde pitchar, reglas editoriales típicas y errores de unicidad.",
   lead: [

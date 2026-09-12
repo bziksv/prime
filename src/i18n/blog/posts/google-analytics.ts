@@ -7,6 +7,9 @@ export const googleAnalyticsEn: BlogPost = {
   date: "2020-10-13",
   category: "Digital marketing",
   cover: "/images/blog/google-analytics/cover-en.webp",
+  metaTitle: "Traffic up, sales flat? Google Analytics on ecommerce behavior",
+  metaDescription:
+    "What to watch in the funnel and ecom reports. Checklist — before the next marketing call.",
   excerpt:
     "How to read store audience behavior in Google Analytics: segments, funnel, reports, and hypotheses — in GA4 logic, without worshipping “average” metrics.",
   lead: [
@@ -215,6 +218,9 @@ export const googleAnalyticsEs: BlogPost = {
   date: "2020-10-13",
   category: "Digital marketing",
   cover: "/images/blog/google-analytics/cover-es.webp",
+  metaTitle: "¿Tráfico sí, ventas no? Google Analytics del comportamiento en tienda",
+  metaDescription:
+    "Qué mirar en el embudo e informes ecom. Checklist — antes de la próxima call de marketing.",
   excerpt:
     "Cómo leer el comportamiento de la audiencia de una tienda en Google Analytics: segmentos, funnel, informes e hipótesis — en lógica GA4, sin adorar métricas «medias».",
   lead: [

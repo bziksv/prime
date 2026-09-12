@@ -7,6 +7,9 @@ export const kommentariiVPablikeVkEn: BlogPost = {
   date: "2022-02-22",
   category: "SMM",
   cover: "/images/blog/kommentarii-v-pablike-vk/cover-en.webp",
+  metaTitle: "VK public drowning in spam? Comments: setup and moderation",
+  metaDescription:
+    "Filters, roles, and reply scenarios. Checklist — clean it up today.",
   excerpt:
     "How to manage comments in a VK community: open or close discussion, wall types, filters, manual moderation, and reply-feed control.",
   lead: [
@@ -177,6 +180,9 @@ export const kommentariiVPablikeVkEs: BlogPost = {
   date: "2022-02-22",
   category: "SMM",
   cover: "/images/blog/kommentarii-v-pablike-vk/cover-es.webp",
+  metaTitle: "¿Público VK ahogado en spam? Comentarios: configuración y moderación",
+  metaDescription:
+    "Filtros, roles y escenarios de respuesta. Checklist — ordena hoy.",
   excerpt:
     "Cómo gestionar comentarios en una comunidad de VK: abrir o cerrar la discusión, tipos de muro, filtros, moderación manual y control del feed de respuestas.",
   lead: [

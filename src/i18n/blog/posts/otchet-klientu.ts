@@ -7,6 +7,9 @@ export const otchetKlientuEn: BlogPost = {
   date: "2021-07-12",
   category: "Digital marketing",
   cover: "/images/blog/otchet-klientu/cover-en.webp",
+  metaTitle: "Report as a dashboard dump? 9 rules for client ad reporting",
+  metaDescription:
+    "Meaning, numbers, and next steps without fluff. Mental template — before Friday send.",
   excerpt:
     "How to deliver an ad report so the client understands the result: goals and ROI first, shared KPIs, a dashboard summary, a glossary, and details in an appendix — without “elf” jargon.",
   lead: [
@@ -132,6 +135,9 @@ export const otchetKlientuEs: BlogPost = {
   date: "2021-07-12",
   category: "Digital marketing",
   cover: "/images/blog/otchet-klientu/cover-es.webp",
+  metaTitle: "¿Informe = dump del panel? 9 reglas de reporting de ads al cliente",
+  metaDescription:
+    "Sentido, cifras y siguiente paso sin relleno. Plantilla mental — antes del envío del viernes.",
   excerpt:
     "Cómo entregar un informe de ads para que el cliente entienda el resultado: primero goals y ROI, KPIs compartidos, un resumen en dashboard, glosario y detalles en anexo — sin jerga de «elfos».",
   lead: [

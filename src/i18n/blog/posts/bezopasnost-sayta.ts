@@ -7,6 +7,9 @@ export const bezopasnostSaytaEn: BlogPost = {
   date: "2020-11-26",
   category: "SEO",
   cover: "/images/blog/bezopasnost-sayta/cover-en.webp",
+  metaTitle: "Site crackable “in an evening”? SQL and other threats, practical",
+  metaDescription:
+    "How attacks work, what to harden first, and how to check hosting. Security checklist — run it today.",
   excerpt:
     "Threats typical for sites and stores: SQL injection, XSS, brute force, vulnerable plugins. How to think about defense and what to do after compromise — without attack how-tos.",
   lead: [
@@ -230,6 +233,9 @@ export const bezopasnostSaytaEs: BlogPost = {
   date: "2020-11-26",
   category: "SEO",
   cover: "/images/blog/bezopasnost-sayta/cover-es.webp",
+  metaTitle: "¿Te pueden hackear “en una tarde”? SQL y otras amenazas, práctico",
+  metaDescription:
+    "Cómo atacan, qué cerrar primero y cómo revisar el hosting. Checklist de seguridad — hazlo hoy.",
   excerpt:
     "Amenazas típicas de sitios y tiendas: SQL injection, XSS, brute force, plugins vulnerables. Cómo pensar la defensa y qué hacer tras un compromise — sin how-tos de ataque.",
   lead: [

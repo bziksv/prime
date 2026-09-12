@@ -7,6 +7,9 @@ export const kontekstISeoEn: BlogPost = {
   date: "2019-04-24",
   category: "SEO",
   cover: "/images/blog/kontekst-i-seo/cover-en.webp",
+  metaTitle: "Paid search “boosts SEO”? Does advertising affect organic — without myths",
+  metaDescription:
+    "What actually overlaps and what doesn’t. Breakdown — before the next planning argument.",
   excerpt:
     "There’s no direct “pay for ads — get page one.” Myths, indirect effects (brand, data, faster hypothesis tests), and how to join paid search with organic without faking engagement.",
   lead: [
@@ -214,6 +217,9 @@ export const kontekstISeoEs: BlogPost = {
   date: "2019-04-24",
   category: "SEO",
   cover: "/images/blog/kontekst-i-seo/cover-es.webp",
+  metaTitle: "¿El contexto “sube el SEO”? ¿La publicidad afecta a la orgánica — sin mitos",
+  metaDescription:
+    "Qué se solapa de verdad y qué no. Análisis — antes de la discusión en planning.",
   excerpt:
     "No hay un «pago ads → primera página» directo. Mitos, efectos indirectos (marca, datos, tests de hipótesis más rápidos) y cómo unir paid search con orgánico sin fingir engagement.",
   lead: [

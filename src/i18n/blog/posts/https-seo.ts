@@ -7,6 +7,9 @@ export const httpsSeoEn: BlogPost = {
   date: "2021-06-17",
   category: "SEO",
   cover: "/images/blog/https-seo/cover-en.webp",
+  metaTitle: "Still on HTTP? HTTPS and SEO: impact plus a safe migration",
+  metaDescription:
+    "Certificate, redirects, and indexation nuances. Migration checklist — before cutover day.",
   excerpt:
     "How HTTPS affects SEO today: ranking hygiene, trust, and an http→https migration checklist without losing the index — without “green bar” myths or outdated 2014 studies.",
   lead: [
@@ -117,6 +120,9 @@ export const httpsSeoEs: BlogPost = {
   date: "2021-06-17",
   category: "SEO",
   cover: "/images/blog/https-seo/cover-es.webp",
+  metaTitle: "¿Aún en HTTP? HTTPS y SEO: impacto y migración segura",
+  metaDescription:
+    "Certificado, redirects y matices de indexación. Checklist de migración — antes del día X.",
   excerpt:
     "Cómo afecta HTTPS al SEO hoy: higiene de rankings, confianza y checklist de migración http→https sin perder el índice — sin mitos de «barra verde» ni estudios desfasados de 2014.",
   lead: [

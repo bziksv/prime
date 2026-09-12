@@ -7,6 +7,9 @@ export const formyZahvataEn: BlogPost = {
   date: "2019-09-17",
   category: "Digital marketing",
   cover: "/images/blog/formy-zahvata/cover-en.webp",
+  metaTitle: "Popups annoying — and conversion falling? Capture forms without the rage",
+  metaDescription:
+    "Types, goals, and UX rules. Checklist — before the next landing A/B.",
   excerpt:
     "Lead forms on a site: why they exist, closed/open/double layouts, signup, callback, calculator, and chat scenarios — with personal-data consent and without popup spam.",
   lead: [
@@ -137,6 +140,9 @@ export const formyZahvataEs: BlogPost = {
   date: "2019-09-17",
   category: "Digital marketing",
   cover: "/images/blog/formy-zahvata/cover-es.webp",
+  metaTitle: "¿Popups molestan y cae la conversión? Formularios de captura sin irritar",
+  metaDescription:
+    "Tipos, objetivos y reglas UX. Checklist — antes del próximo A/B del landing.",
   excerpt:
     "Formularios de leads en un sitio: para qué existen, layouts cerrados/abiertos/dobles, escenarios de alta, callback, calculadora y chat — con consentimiento de datos personales y sin spam de popups.",
   lead: [

@@ -7,6 +7,9 @@ export const metrikaKartyEn: BlogPost = {
   date: "2017-05-10",
   category: "Analytics",
   cover: "/images/blog/metrika-karty/cover-en.webp",
+  metaTitle: "Clicks going who-knows-where? Heatmaps and maps in Yandex Metrica",
+  metaDescription:
+    "How to read clicks, scroll, and attention. Checklist — open the report before UX edits.",
   excerpt:
     "Click, link, and scroll maps plus form analytics in Yandex Metrica: why look, how to read density, and what not to confuse with Session Replay — without outdated 2017 UI modes and limits.",
   lead: [
@@ -193,6 +196,9 @@ export const metrikaKartyEs: BlogPost = {
   date: "2017-05-10",
   category: "Analytics",
   cover: "/images/blog/metrika-karty/cover-es.webp",
+  metaTitle: "¿Clics a quién sabe dónde? Mapas de calor y mapas en Yandex Métrica",
+  metaDescription:
+    "Cómo leer clics, scroll y atención. Checklist — abre el informe antes de tocar UX.",
   excerpt:
     "Mapas de clics, enlaces y scroll más analítica de formularios en Yandex Metrica: por qué mirar, cómo leer la densidad y qué no confundir con Session Replay — sin modos y límites de UI obsoletos de 2017.",
   lead: [

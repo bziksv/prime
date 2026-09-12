@@ -7,6 +7,9 @@ export const zakrytyyAkkauntInstagramEn: BlogPost = {
   date: "2020-07-17",
   category: "SMM",
   cover: "/images/blog/zakrytyy-akkaunt-instagram/cover-en.webp",
+  metaTitle: "Public grid causing noise? Private Instagram: why and how to switch on",
+  metaDescription:
+    "Pros, cons, and the toggle. Cheat sheet — before you change privacy.",
   excerpt:
     "How a private Instagram profile differs from deletion and a pause, what non-followers see, how to enable privacy, and why a business account often can’t be “just made private.”",
   lead: [
@@ -160,6 +163,9 @@ export const zakrytyyAkkauntInstagramEs: BlogPost = {
   date: "2020-07-17",
   category: "SMM",
   cover: "/images/blog/zakrytyy-akkaunt-instagram/cover-es.webp",
+  metaTitle: "¿Feed público molesta? Instagram privado: para qué y cómo activarlo",
+  metaDescription:
+    "Pros, contras y el switch. Chuleta — antes de cambiar la privacidad.",
   excerpt:
     "En qué se diferencia un perfil privado de Instagram del borrado y de una pausa, qué ven los no-followers, cómo activar privacy y por qué una cuenta business a menudo no se puede «hacer privada así».",
   lead: [

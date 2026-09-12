@@ -13,6 +13,9 @@ export const caseTranslationsEnBatch8: Record<string, Partial<CaseStudy>> = {
     period: "support · Bitrix · 2026",
     metric: "55,000+",
     metricLabel: "SKUs in the catalog",
+    metaTitle: "55,000+ SKUs + rebrand — KosmaMed store case",
+    metaDescription:
+      "Medtech e-com on Bitrix: MedMarket→KosmaMed, 301s, speed, MoySklad/1C/CDEK. Live on kosmamed.ru — see the case or inquire.",
     summary:
       "We run a large medical-equipment store on Bitrix: MedMarket→KosmaMed rebrand, domain migration with 301s, speed (no RAND, composite, WebP), MoySklad/ERP/carriers. Live at kosmamed.ru.",
     coverAlt: "KosmaMed store homepage",
@@ -133,6 +136,9 @@ export const caseTranslationsEnBatch8: Record<string, Partial<CaseStudy>> = {
     period: "support · Bitrix · since 2021",
     metric: "~1,900",
     metricLabel: "SKUs in the catalog",
+    metaTitle: "~1,900 ophthalmic SKUs — Oftalmag store case",
+    metaDescription:
+      "Bitrix e-com: Heine/KaWe/Riester catalog, request-a-price, city select, SEO cabinet URLs. Live on oftalmag.ru — see the case.",
     summary:
       "We run an ophthalmology-equipment store on Bitrix (enext): Heine/KaWe/Riester catalog, “request a price”, city picker, account SEF. Live at oftalmag.ru.",
     coverAlt: "Oftalmag store homepage",
@@ -253,6 +259,9 @@ export const caseTranslationsEnBatch8: Record<string, Partial<CaseStudy>> = {
     period: "support · Bitrix · since 2014",
     metric: "~1,000",
     metricLabel: "items + ERP offers",
+    metaTitle: "~1,000 SKUs + 1C offers — MetProf store case",
+    metaDescription:
+      "Roofing/facade e-com on Bitrix: 1C catalog, fence calculator, RAL, price lists. Live on metprof-vrn.ru — see the case.",
     summary:
       "We run a roofing and facade store on Bitrix: metal tile and profiled sheet catalog from ERP, fence calculator, cart, RAL, price lists. Live at metprof-vrn.ru. Sister brand to Metallinvest (metplus-vrn.ru).",
     coverAlt: "Metallinvest Profile homepage — roofing and facades",

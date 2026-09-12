@@ -7,6 +7,9 @@ export const klikabelnayaSsylkaEn: BlogPost = {
   date: "2021-11-02",
   category: "SEO",
   cover: "/images/blog/klikabelnaya-ssylka/cover-en.webp",
+  metaTitle: "Link that looks like plain text? Make a real clickable URL",
+  metaDescription:
+    "HTML, mailto/tel, and common UX mistakes. Cheat sheet — before the next content edit.",
   excerpt:
     "How an active link differs from plain text, how to create one in HTML and an editor, nuances in social apps and Word — plus anchor text, target, and common mistakes.",
   lead: [
@@ -153,6 +156,9 @@ export const klikabelnayaSsylkaEs: BlogPost = {
   date: "2021-11-02",
   category: "SEO",
   cover: "/images/blog/klikabelnaya-ssylka/cover-es.webp",
+  metaTitle: "¿Enlace que parece texto? Haz un salto clicable de verdad",
+  metaDescription:
+    "HTML, mailto/tel y errores UX típicos. Chuleta — antes de editar el contenido.",
   excerpt:
     "En qué se diferencia un enlace activo del texto plano, cómo crearlo en HTML y en un editor, matices en apps sociales y Word — más texto ancla, target y errores habituales.",
   lead: [

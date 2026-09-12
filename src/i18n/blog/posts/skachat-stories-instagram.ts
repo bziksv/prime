@@ -7,6 +7,9 @@ export const skachatStoriesInstagramEn: BlogPost = {
   date: "2021-03-01",
   category: "SMM",
   cover: "/images/blog/skachat-stories-instagram/cover-en.webp",
+  metaTitle: "Stories gone in 24h? How to save yours and others’ — legally",
+  metaDescription:
+    "Built-in options and limits. Cheat sheet — no shady apps.",
   excerpt:
     "How to save your Instagram Stories to the archive and Highlights, what about other people’s stories, screenshots, and risks of third-party “downloaders” — without an app catalog or rule workarounds.",
   lead: [
@@ -161,6 +164,9 @@ export const skachatStoriesInstagramEs: BlogPost = {
   date: "2021-03-01",
   category: "SMM",
   cover: "/images/blog/skachat-stories-instagram/cover-es.webp",
+  metaTitle: "¿Stories desaparecen en 24h? Cómo guardar las tuyas y ajenas — legalmente",
+  metaDescription:
+    "Opciones nativas y límites. Chuleta — sin apps dudosas.",
   excerpt:
     "Cómo guardar tus Stories de Instagram en el archivo y Highlights, qué pasa con las de otros, capturas de pantalla y riesgos de «downloaders» de terceros — sin un catálogo de apps ni workarounds de reglas.",
   lead: [

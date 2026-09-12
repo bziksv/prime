@@ -7,6 +7,9 @@ export const vebvizorEn: BlogPost = {
   date: "2019-06-18",
   category: "Digital marketing",
   cover: "/images/blog/vebvizor/cover-en.webp",
+  metaTitle: "Users stuck on the site? Yandex Webvisor: enable and watch sessions",
+  metaDescription:
+    "Recordings, filters, and common finds. Checklist — before UX edits.",
   excerpt:
     "What Webvisor is in Yandex Metrika: how to turn on session recording, what to check on the site, how to filter visits, and why watch selectively — without outdated 1.0/2.0 versions and rigid 2019 limits.",
   lead: [
@@ -198,6 +201,9 @@ export const vebvizorEs: BlogPost = {
   date: "2019-06-18",
   category: "Digital marketing",
   cover: "/images/blog/vebvizor/cover-es.webp",
+  metaTitle: "¿Usuarios se traban en la web? Webvisor: actívalo y mira sesiones",
+  metaDescription:
+    "Grabaciones, filtros y hallazgos típicos. Checklist — antes de tocar UX.",
   excerpt:
     "Qué es Webvisor en Yandex Metrika: cómo activar la grabación de sesión, qué revisar en el sitio, cómo filtrar visitas y por qué mirar con criterio — sin versiones 1.0/2.0 obsoletas ni límites rígidos de 2019.",
   lead: [

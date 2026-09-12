@@ -7,6 +7,9 @@ export const googleTagManagerEn: BlogPost = {
   date: "2020-10-01",
   category: "Digital marketing",
   cover: "/images/blog/google-tag-manager/cover-en.webp",
+  metaTitle: "Still shipping tags via developers? GTM: how it works and where to start",
+  metaDescription:
+    "Container, triggers, and publish without chaos. Checklist — before you move tracking tags.",
   excerpt:
     "What GTM is: container, tags, triggers, and variables — install the code once, then publish counters and events without editing the theme for every pixel.",
   lead: [
@@ -142,6 +145,9 @@ export const googleTagManagerEs: BlogPost = {
   date: "2020-10-01",
   category: "Digital marketing",
   cover: "/images/blog/google-tag-manager/cover-es.webp",
+  metaTitle: "¿Tags solo vía desarrollador? GTM: cómo funciona y por dónde empezar",
+  metaDescription:
+    "Contenedor, triggers y publicación sin caos. Checklist — antes de mover contadores.",
   excerpt:
     "Qué es GTM: contenedor, tags, triggers y variables — instala el código una vez y luego publica contadores y eventos sin editar el tema por cada pixel.",
   lead: [

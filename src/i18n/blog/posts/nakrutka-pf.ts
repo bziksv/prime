@@ -7,6 +7,9 @@ export const nakrutkaPfEn: BlogPost = {
   date: "2020-01-10",
   category: "SEO",
   cover: "/images/blog/nakrutka-pf/cover-en.webp",
+  metaTitle: "Fake behavioral signals? Manipulating engagement metrics: risks and legal swaps",
+  metaDescription:
+    "Penalties, symptoms, and honest alternatives. Breakdown — before gray-hat schemes.",
   excerpt:
     "What behavioral signals are, why faking engagement leads to filters, how to spot a scheme or competitor attack — and how to improve on-site behavior the honest way.",
   lead: [
@@ -230,6 +233,9 @@ export const nakrutkaPfEs: BlogPost = {
   date: "2020-01-10",
   category: "SEO",
   cover: "/images/blog/nakrutka-pf/cover-es.webp",
+  metaTitle: "¿Falsificar señales de comportamiento? Riesgos y alternativas legales",
+  metaDescription:
+    "Sanciones, síntomas y sustitutos honestos. Análisis — antes de esquemas grises.",
   excerpt:
     "Qué son las señales de comportamiento, por qué falsificar engagement lleva a filtros, cómo detectar un esquema o un ataque de competidor — y cómo mejorar el comportamiento on-site de forma honesta.",
   lead: [

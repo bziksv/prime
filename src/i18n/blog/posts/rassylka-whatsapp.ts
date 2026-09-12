@@ -7,6 +7,9 @@ export const rassylkaWhatsappEn: BlogPost = {
   date: "2022-02-01",
   category: "SMM",
   cover: "/images/blog/rassylka-whatsapp/cover-en.webp",
+  metaTitle: "WhatsApp from a bought number list? Business API, consent, no spam",
+  metaDescription:
+    "Meta rules and practical scenarios. Checklist — before you launch broadcasts.",
   excerpt:
     "How a business can message on WhatsApp legally: manual broadcast lists, official Business API, templates and sessions — without bought number lists or gray “agency” senders. Meta note is on the page.",
   lead: [
@@ -151,6 +154,9 @@ export const rassylkaWhatsappEs: BlogPost = {
   date: "2022-02-01",
   category: "SMM",
   cover: "/images/blog/rassylka-whatsapp/cover-es.webp",
+  metaTitle: "¿WhatsApp con base de números? Business API, consentimiento y sin spam",
+  metaDescription:
+    "Reglas de Meta y escenarios prácticos. Checklist — antes de lanzar el mailing.",
   excerpt:
     "Cómo puede un negocio escribir en WhatsApp de forma legal: listas de broadcast manuales, Business API oficial, plantillas y sesiones — sin listas de números compradas ni remitentes «de agencia» grises. Nota Meta en la página.",
   lead: [

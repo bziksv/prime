@@ -7,6 +7,9 @@ export const raskrutkaYoutubeEn: BlogPost = {
   date: "2021-12-03",
   category: "SMM",
   cover: "/images/blog/raskrutka-youtube/cover-en.webp",
+  metaTitle: "YouTube channel live, views flat? Growth ideas for beginners",
+  metaDescription:
+    "Content, video SEO, and cadence without virality myths. Plan — before the next upload.",
   excerpt:
     "Where to start a YouTube channel: niche, packaging, script, video formats, posting cadence, content ideas, and subscriber growth without empty promises.",
   lead: [
@@ -175,6 +178,9 @@ export const raskrutkaYoutubeEs: BlogPost = {
   date: "2021-12-03",
   category: "SMM",
   cover: "/images/blog/raskrutka-youtube/cover-es.webp",
+  metaTitle: "¿Canal YouTube vivo y cero vistas? Crecimiento: ideas para principiantes",
+  metaDescription:
+    "Contenido, SEO de vídeo y ritmo sin mitos de viralidad. Plan — antes de la próxima subida.",
   excerpt:
     "Por dónde empezar un canal de YouTube: nicho, packaging, guion, formatos de vídeo, cadencia de publicación, ideas de contenido y crecimiento de suscriptores sin promesas vacías.",
   lead: [

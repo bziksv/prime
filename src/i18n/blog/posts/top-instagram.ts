@@ -7,6 +7,9 @@ export const topInstagramEn: BlogPost = {
   date: "2021-08-10",
   category: "SMM",
   cover: "/images/blog/top-instagram/cover-en.webp",
+  metaTitle: "Want Instagram Explore? Recommendations: what actually helps growth",
+  metaDescription:
+    "Algorithm signals without myths. Breakdown — before the next content test.",
   excerpt:
     "What it means to surface in hashtag results, Explore, and Instagram recommendations, which engagement signals matter, and why buying likes hurts more than it helps.",
   lead: [
@@ -151,6 +154,9 @@ export const topInstagramEs: BlogPost = {
   date: "2021-08-10",
   category: "SMM",
   cover: "/images/blog/top-instagram/cover-es.webp",
+  metaTitle: "¿Quieres el TOP/Explore de Instagram? Recomendaciones: qué sí ayuda al growth",
+  metaDescription:
+    "Señales del algoritmo sin mitos. Análisis — antes del próximo test de contenido.",
   excerpt:
     "Qué significa aparecer en resultados de hashtags, Explore y recomendaciones de Instagram, qué señales de engagement importan y por qué comprar likes perjudica más de lo que ayuda.",
   lead: [

@@ -7,6 +7,9 @@ export const razmerStranitsyEn: BlogPost = {
   date: "2020-10-12",
   category: "SEO",
   cover: "/images/blog/razmer-stranitsy/cover-en.webp",
+  metaTitle: "Page feeling heavy? Measure weight and speed up the load",
+  metaDescription:
+    "How to measure, what to cut, and where to start. Checklist — before the next release.",
   excerpt:
     "What page “weight” means, how to see transfer size in DevTools and tools, why heavy pages hurt UX and SEO, and what to compress first.",
   lead: [
@@ -214,6 +217,9 @@ export const razmerStranitsyEs: BlogPost = {
   date: "2020-10-12",
   category: "SEO",
   cover: "/images/blog/razmer-stranitsy/cover-es.webp",
+  metaTitle: "¿Página pesada? Mide el peso y acelera la carga",
+  metaDescription:
+    "Cómo medir, qué recortar y por dónde empezar. Checklist — antes del próximo release.",
   excerpt:
     "Qué significa el «peso» de una página, cómo ver el transfer size en DevTools y herramientas, por qué las páginas pesadas duelen a la UX y al SEO, y qué comprimir primero.",
   lead: [

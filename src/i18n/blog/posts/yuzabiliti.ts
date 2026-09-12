@@ -7,6 +7,9 @@ export const yuzabilitiEn: BlogPost = {
   date: "2017-09-11",
   category: "Digital marketing",
   cover: "/images/blog/yuzabiliti/cover-en.webp",
+  metaTitle: "Site feels awkward — leads dropping? Usability: what it is and how to improve",
+  metaDescription:
+    "Principles and quick fixes. Checklist — before the next UX sprint.",
   excerpt:
     "Usability is how easily a site gets people to the goal: short paths, speed, navigation, forms, and mobile. A self-audit checklist and practical fixes — without “rankings in a week” magic.",
   lead: [
@@ -107,6 +110,9 @@ export const yuzabilitiEs: BlogPost = {
   date: "2017-09-11",
   category: "Digital marketing",
   cover: "/images/blog/yuzabiliti/cover-es.webp",
+  metaTitle: "¿Web incómoda y caen leads? Usabilidad: qué es y cómo mejorarla",
+  metaDescription:
+    "Principios y fixes rápidos. Checklist — antes del próximo sprint UX.",
   excerpt:
     "Usabilidad es lo fácil que un sitio lleva a la gente a la meta: caminos cortos, velocidad, navegación, formularios y móvil. Checklist de autoauditoría y arreglos prácticos — sin magia de «rankings en una semana».",
   lead: [

@@ -7,6 +7,9 @@ export const wordpressSeoPlaginyEn: BlogPost = {
   date: "2019-12-16",
   category: "SEO",
   cover: "/images/blog/wordpress-seo-plaginy/cover-en.webp",
+  metaTitle: "SEO plugin zoo growing? What to install on WordPress — lean stack",
+  metaDescription:
+    "A minimum by job and conflicts. Shortlist — before Yoast/Rank Math and friends.",
   excerpt:
     "Which WordPress SEO plugins earn their keep: all-in-ones (Yoast, Rank Math, AIOSEO), sitemap, redirects, speed, images, and links — without installing the whole catalog at once.",
   lead: [
@@ -226,6 +229,9 @@ export const wordpressSeoPlaginyEs: BlogPost = {
   date: "2019-12-16",
   category: "SEO",
   cover: "/images/blog/wordpress-seo-plaginy/cover-es.webp",
+  metaTitle: "¿Zoo de plugins SEO? Qué poner en WordPress — stack magro",
+  metaDescription:
+    "Mínimo por tarea y conflictos. Selección — antes de Yoast/Rank Math y compañía.",
   excerpt:
     "Qué plugins SEO de WordPress merecen la pena: all-in-ones (Yoast, Rank Math, AIOSEO), sitemap, redirects, velocidad, imágenes y enlaces — sin instalar todo el catálogo de golpe.",
   lead: [

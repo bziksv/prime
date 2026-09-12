@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch12: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~400",
     metricLabel: "calls per month from the web",
+    metaTitle: "~400 calls for used cars — Respect SEO case",
+    metaDescription:
+      "Used-car showroom SEO: 162 phrases, page one, ~400 calls/month — appraisal, credit, purchase. See the case — or inquire.",
     summary:
       "SEO for a used-car showroom at Motor Land: 162 phrases, prep ~1 month, page one planned 2–6 months, about 400 calls per month — flow to appraisal, credit, and used-car purchase in Voronezh.",
     coverAlt: "Used-car lot",
@@ -132,6 +135,9 @@ export const caseTranslationsEnBatch12: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~100",
     metricLabel: "calls per month from the web",
+    metaTitle: "~100 calls for a hobby shop — Mir Uvlecheniy SEO",
+    metaDescription:
+      "Hobby e-com SEO: 54 phrases, page one, ~100 calls/month — bows, coins, metal detectors. See the case — or inquire.",
     summary:
       "SEO for a hobby online store: 54 phrases, prep ~1 month, page one planned 2–6 months, about 100 calls per month — bows, numismatics, metal detectors. Store refresh — separate case.",
     coverAlt: "hobbi36.ru homepage — Mir Uvlecheniy",
@@ -255,6 +261,9 @@ export const caseTranslationsEnBatch12: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~112",
     metricLabel: "showroom visits per month from search",
+    metaTitle: "~112 showroom visits — Volvo Belgorod SEO case",
+    metaDescription:
+      "Official Volvo dealer SEO: 96 phrases, page one planned 2–6 months, ~112 salon visits/month. Premium niche — see the case.",
     summary:
       "SEO for an official Volvo dealer in Belgorod: 96 phrases, page one planned over 2–6 months, about 112 showroom visits monthly — dealer and model queries in a premium niche.",
     coverAlt: "Volvo Car Belgorod — official dealer",

@@ -7,6 +7,9 @@ export const seoMalyyBiznesEn: BlogPost = {
   date: "2020-11-13",
   category: "SEO",
   cover: "/images/blog/seo-malyy-biznes/cover-en.webp",
+  metaTitle: "Enterprise SEO burning SME budget? Small business: where to start and what to skip",
+  metaDescription:
+    "Priorities and quick wins. Plan — before you hire a vendor.",
   excerpt:
     "Practical SEO priorities for a small business: local demand, speed, clear pages, keywords without empire-building — no “page one in a week” myth and no enterprise budget.",
   lead: [
@@ -231,6 +234,9 @@ export const seoMalyyBiznesEs: BlogPost = {
   date: "2020-11-13",
   category: "SEO",
   cover: "/images/blog/seo-malyy-biznes/cover-es.webp",
+  metaTitle: "¿SEO de enterprise quema presupuesto SME? Pequeño negocio: por dónde empezar y en qué no dispersarte",
+  metaDescription:
+    "Prioridades y victorias rápidas. Plan — antes de contratar proveedor.",
   excerpt:
     "Prioridades SEO prácticas para un pequeño negocio: demanda local, velocidad, páginas claras, keywords sin construir un imperio — sin el mito de «primera página en una semana» y sin presupuesto enterprise.",
   lead: [

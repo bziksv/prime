@@ -7,6 +7,9 @@ export const infografikaEn: BlogPost = {
   date: "2021-08-31",
   category: "Content marketing",
   cover: "/images/blog/infografika/cover-en.webp",
+  metaTitle: "Numbers buried in walls of text? Infographics: types and how to keep them clear",
+  metaDescription:
+    "When the format fits — and how not to drown in decoration. Checklist — before the designer brief.",
   excerpt:
     "What an infographic is, which types exist, how to start a layout, and which mistakes kill readability. Principles beat a list of outdated tools.",
   lead: [
@@ -139,6 +142,9 @@ export const infografikaEs: BlogPost = {
   date: "2021-08-31",
   category: "Content marketing",
   cover: "/images/blog/infografika/cover-es.webp",
+  metaTitle: "¿Cifras en un muro de texto? Infografía: tipos y cómo hacerla clara",
+  metaDescription:
+    "Cuándo encaja el formato y cómo no ahogarse en decoración. Checklist — antes del brief al diseñador.",
   excerpt:
     "Qué es una infografía, qué tipos existen, cómo empezar un layout y qué errores matan la legibilidad. Los principios ganan a una lista de herramientas obsoletas.",
   lead: [

@@ -7,6 +7,9 @@ export const bazaEmailSocsetiEn: BlogPost = {
   date: "2020-01-10",
   category: "SMM",
   cover: "/images/blog/baza-email-socseti/cover-en.webp",
+  metaTitle: "Leads stuck in DMs? Build an email list from social — legally",
+  metaDescription:
+    "Forms, content, and ads without gray scrapers. Checklist — before the next nurture blast.",
   excerpt:
     "How to collect newsletter subscribers from social legally: lead forms, bio links, content magnets, and ads — with consent and without outdated YouTube annotations.",
   lead: [
@@ -130,6 +133,9 @@ export const bazaEmailSocsetiEs: BlogPost = {
   date: "2020-01-10",
   category: "SMM",
   cover: "/images/blog/baza-email-socseti/cover-es.webp",
+  metaTitle: "¿Leads solo en Direct? Arma base de email desde social — legal",
+  metaDescription:
+    "Formularios, contenido y ads sin scrapers grises. Checklist — antes del próximo nurture.",
   excerpt:
     "Cómo captar subscribers de newsletter desde redes de forma legal: lead forms, enlaces en bio, content magnets y ads — con consentimiento y sin annotations obsoletas de YouTube.",
   lead: [

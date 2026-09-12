@@ -7,6 +7,9 @@ export const istochnikiTrafikaEn: BlogPost = {
   date: "2019-12-26",
   category: "Digital marketing",
   cover: "/images/blog/istochniki-trafika/cover-en.webp",
+  metaTitle: "Traffic “from somewhere”? Core sources: what to test first",
+  metaDescription:
+    "Channels, hypotheses, and test order without spreading budget thin. Checklist — before the media plan.",
   excerpt:
     "A channel overview: organic, paid search, directories and aggregators, classifieds, social, email, display and ad networks — pros, cons, and a sane test order.",
   lead: [
@@ -223,6 +226,9 @@ export const istochnikiTrafikaEs: BlogPost = {
   date: "2019-12-26",
   category: "Digital marketing",
   cover: "/images/blog/istochniki-trafika/cover-es.webp",
+  metaTitle: "¿Tráfico “de algún lado”? Fuentes clave: qué testear primero",
+  metaDescription:
+    "Canales, hipótesis y orden de pruebas sin diluir presupuesto. Checklist — antes del mediaplan.",
   excerpt:
     "Panorama de canales: orgánico, paid search, directorios y agregadores, clasificados, social, email, display y redes de ads — pros, contras y un orden sensato de test.",
   lead: [

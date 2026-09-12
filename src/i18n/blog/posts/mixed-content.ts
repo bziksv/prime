@@ -7,6 +7,9 @@ export const mixedContentEn: BlogPost = {
   date: "2020-03-02",
   category: "Content marketing",
   cover: "/images/blog/mixed-content/cover-en.webp",
+  metaTitle: "HTTPS live, browser still warns? Mixed content: HTTP on an HTTPS site",
+  metaDescription:
+    "SEO/trust risks and how to find it. Checklist — fix before the security audit.",
   excerpt:
     "What mixed content is on an HTTPS site: active and passive HTTP assets, how it hurts, how to find it in DevTools, and how to fix it — without treating the green padlock as gospel or relying on outdated Chrome screenshots.",
   lead: [
@@ -136,6 +139,9 @@ export const mixedContentEs: BlogPost = {
   date: "2020-03-02",
   category: "Content marketing",
   cover: "/images/blog/mixed-content/cover-es.webp",
+  metaTitle: "¿HTTPS sí, el navegador avisa? Mixed content: HTTP en sitio HTTPS",
+  metaDescription:
+    "Riesgos SEO/confianza y cómo encontrarlo. Checklist — arregla antes de la auditoría de seguridad.",
   excerpt:
     "Qué es el mixed content en un sitio HTTPS: assets HTTP activos y pasivos, cómo duele, cómo encontrarlo en DevTools y cómo arreglarlo — sin tomar el candado verde como evangelio ni apoyarse en capturas viejas de Chrome.",
   lead: [

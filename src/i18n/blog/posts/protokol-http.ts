@@ -7,6 +7,9 @@ export const protokolHttpEn: BlogPost = {
   date: "2020-12-22",
   category: "SEO",
   cover: "/images/blog/protokol-http/cover-en.webp",
+  metaTitle: "HTTP “just the address”? What the protocol is and why sites need it",
+  metaDescription:
+    "Request–response, versions, and the HTTPS link. Primer — before talking to engineering.",
   excerpt:
     "What HTTP is at the application layer: request and response, methods, headers, link to URL and HTML. How HTTP differs from HTTPS and where to check status codes for SEO.",
   lead: [
@@ -240,6 +243,9 @@ export const protokolHttpEs: BlogPost = {
   date: "2020-12-22",
   category: "SEO",
   cover: "/images/blog/protokol-http/cover-es.webp",
+  metaTitle: "¿HTTP “solo la dirección”? Qué es el protocolo y para qué sirve a la web",
+  metaDescription:
+    "Petición–respuesta, versiones y vínculo con HTTPS. Base — antes de hablar con el dev.",
   excerpt:
     "Qué es HTTP en la capa de aplicación: request y response, métodos, headers, vínculo con URL y HTML. En qué se diferencia HTTP de HTTPS y dónde revisar códigos de estado para SEO.",
   lead: [

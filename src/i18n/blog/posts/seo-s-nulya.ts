@@ -7,6 +7,9 @@ export const seoSNulyaEn: BlogPost = {
   date: "2021-09-09",
   category: "SEO",
   cover: "/images/blog/seo-s-nulya/cover-en.webp",
+  metaTitle: "SEO course then instant TOP? From scratch: where to start and how to learn by doing",
+  metaDescription:
+    "A path without illusions or tool chaos. Plan — before your first practice site.",
   excerpt:
     "A practical on-ramp into SEO: the concepts that matter, a beginner learning path, hands-on practice, what to read, and honest timelines for rankings — no magic formula.",
   lead: [
@@ -155,6 +158,9 @@ export const seoSNulyaEs: BlogPost = {
   date: "2021-09-09",
   category: "SEO",
   cover: "/images/blog/seo-s-nulya/cover-es.webp",
+  metaTitle: "¿Curso SEO y TOP al día? Desde cero: por dónde empezar y cómo aprender en la práctica",
+  metaDescription:
+    "Ruta sin ilusiones ni caos de tools. Plan — antes de la primera práctica en una web.",
   excerpt:
     "Una rampa práctica al SEO: los conceptos que importan, un camino de aprendizaje para principiantes, práctica hands-on, qué leer y plazos honestos de rankings — sin fórmula mágica.",
   lead: [

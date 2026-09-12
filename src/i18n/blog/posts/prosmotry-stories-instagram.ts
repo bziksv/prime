@@ -7,6 +7,9 @@ export const prosmotryStoriesInstagramEn: BlogPost = {
   date: "2020-07-24",
   category: "SMM",
   cover: "/images/blog/prosmotry-stories-instagram/cover-en.webp",
+  metaTitle: "Only friends watching Stories? 6 steps to grow Instagram Story views",
+  metaDescription:
+    "Formats, cadence, and hooks without fake views. Checklist — before the next series.",
   excerpt:
     "How to raise Stories views: audience activity, live content, gamification, Lives, Highlights, and measure in frame count — without fake views or “explosion” guarantees.",
   lead: [
@@ -163,6 +166,9 @@ export const prosmotryStoriesInstagramEs: BlogPost = {
   date: "2020-07-24",
   category: "SMM",
   cover: "/images/blog/prosmotry-stories-instagram/cover-es.webp",
+  metaTitle: "¿Solo los tuyos ven Stories? 6 pasos para subir vistas en Instagram",
+  metaDescription:
+    "Formatos, frecuencia y ganchos sin views falsas. Checklist — antes de la próxima serie.",
   excerpt:
     "Cómo subir las views de Stories: actividad de audiencia, contenido en vivo, gamificación, Lives, Highlights y medir en conteo de frames — sin views falsas ni garantías de «explosión».",
   lead: [

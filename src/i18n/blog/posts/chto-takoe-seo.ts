@@ -7,6 +7,9 @@ export const chtoTakoeSeoEn: BlogPost = {
   date: "2016-05-31",
   category: "SEO",
   cover: "/images/blog/chto-takoe-seo/cover-en.webp",
+  metaTitle: "SEO = “TOP-10 magic”? A plain explanation without one-month promises",
+  metaDescription:
+    "What promotion includes, how rankings grow, and realistic timelines. Save this primer.",
   excerpt:
     "What SEO is in plain English: why business needs search, how it differs from offline ads, what the work includes, and why site prep isn’t the same as landing on page one.",
   lead: [
@@ -164,6 +167,9 @@ export const chtoTakoeSeoEs: BlogPost = {
   date: "2016-05-31",
   category: "SEO",
   cover: "/images/blog/chto-takoe-seo/cover-es.webp",
+  metaTitle: "¿SEO = “magia TOP-10”? Explicación clara sin promesas de un mes",
+  metaDescription:
+    "Qué incluye, cómo suben posiciones y plazos realistas. Guarda esta base.",
   excerpt:
     "Qué es el SEO en español claro: por qué el negocio necesita la búsqueda, en qué se diferencia de la publicidad offline, qué incluye el trabajo y por qué la prep del sitio no es lo mismo que llegar a primera página.",
   lead: [

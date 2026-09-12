@@ -7,6 +7,9 @@ export const reklamnyyBannerEn: BlogPost = {
   date: "2020-02-28",
   category: "Digital marketing",
   cover: "/images/blog/reklamnyy-banner/cover-en.webp",
+  metaTitle: "Pretty banner, zero CTR? Principles of effective display creative",
+  metaDescription:
+    "Hierarchy, offer, and readability. Checklist — before you submit for review.",
   excerpt:
     "How to make an ad banner people notice: offer, hierarchy, CTA, sizes, fighting banner blindness, and careful pop-ups — without outdated “trends for trends’ sake.”",
   lead: [
@@ -188,6 +191,9 @@ export const reklamnyyBannerEs: BlogPost = {
   date: "2020-02-28",
   category: "Digital marketing",
   cover: "/images/blog/reklamnyy-banner/cover-es.webp",
+  metaTitle: "¿Banner bonito y CTR cero? Principios de creativo publicitario eficaz",
+  metaDescription:
+    "Jerarquía, oferta y legibilidad. Checklist — antes de enviar a moderación.",
   excerpt:
     "Cómo hacer un banner publicitario que la gente note: oferta, jerarquía, CTA, tamaños, combatir la ceguera de banner y pop-ups con cuidado — sin «tendencias por las tendencias» obsoletas.",
   lead: [

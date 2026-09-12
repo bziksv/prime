@@ -15,6 +15,9 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~90",
     metricLabel: "showroom inquiries per month",
+    metaTitle: "~90 salon leads/month — Motor Land Nissan SEO",
+    metaDescription:
+      "SEO + ads for a new Nissan salon: start ~11 days, 150+ phrases (141 on page one), rankings planned 2–6 months, ~90 leads/month. See the case.",
     summary:
       "SEO and Google Ads for the new Nissan Motor Land showroom: start in ~11 days, 150+ phrases (141 on page one), page one planned 2–6 months. About 90 showroom inquiries monthly. 2020 landing — separate case.",
     coverAlt: "Nissan Motor Land showroom — Voronezh",
@@ -146,6 +149,9 @@ export const caseTranslationsEnBatch18: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~120",
     metricLabel: "search calls per month",
+    metaTitle: "~120 search calls — Motor Land body shop SEO",
+    metaDescription:
+      "Dealer body-shop SEO: 101 phrases, page one planned 2–6 months, ~120 calls/month plus site fixes that SEO needed. See the case.",
     summary:
       "SEO for Motor Land’s branded body shop: 101 phrases, page one over 2–6 months and about 120 calls a month — plus site fixes: cleaned prior developer issues and shipped what promotion needed to hold.",
     coverAlt: "Paint booth in the body shop",

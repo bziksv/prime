@@ -7,6 +7,9 @@ export const vovlechennostSocsetiEn: BlogPost = {
   date: "2020-08-14",
   category: "SMM",
   cover: "/images/blog/vovlechennost-socseti/cover-en.webp",
+  metaTitle: "Audience asleep? Social engagement without fake interactions",
+  metaDescription:
+    "Formats, CTAs, and cadence. Checklist — before the next content cycle.",
   excerpt:
     "How to raise follower engagement on social: content quality, publish timing, dialogue, Stories, contests — without a cult of “normal ER” or a catalog of gray services.",
   lead: [
@@ -157,6 +160,9 @@ export const vovlechennostSocsetiEs: BlogPost = {
   date: "2020-08-14",
   category: "SMM",
   cover: "/images/blog/vovlechennost-socseti/cover-es.webp",
+  metaTitle: "¿Audiencia dormida? Engagement en social sin interacciones falsas",
+  metaDescription:
+    "Formatos, CTA y ritmo. Checklist — antes del próximo ciclo de contenido.",
   excerpt:
     "Cómo subir el engagement de followers en redes: calidad de contenido, timing de publicación, diálogo, Stories, contests — sin un culto al «ER normal» ni un catálogo de servicios grises.",
   lead: [

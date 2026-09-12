@@ -8,6 +8,9 @@ export const analizKonkurentovKontekstEs: BlogPost = {
   date: "2019-10-30",
   category: "Paid search",
   cover: "/images/blog/analiz-konkurentov-kontekst/cover-es.webp",
+  metaTitle: "Antes de gastar en Ads — teardown de competencia, no tirar a ciegas",
+  metaDescription:
+    "A quién contar como rival, temas de anuncios, USP y landings. Checklist de lanzamiento — antes del presupuesto.",
   excerpt:
     "Cómo desmontar a los competidores antes de Yandex Direct y Google Ads: quién cuenta, keywords de anuncios, creatividades, landings, USP, redes y estimaciones de tráfico — sin copiar la cuenta de otro.",
   lead: [
@@ -170,6 +173,9 @@ export const analizKonkurentovKontekstEn: BlogPost = {
   date: "2019-10-30",
   category: "Paid search",
   cover: "/images/blog/analiz-konkurentov-kontekst/cover-en.webp",
+  metaTitle: "Before Google Ads spend — competitor teardown, not guesses",
+  metaDescription:
+    "Who counts as a rival, ad copy themes, USPs, and landings. Launch checklist — run it before budget.",
   excerpt:
     "How to break down competitors before Yandex Direct and Google Ads: who counts as a competitor, ad keywords, copy, landing pages, USPs, networks, and traffic estimates — without copying someone else’s account.",
   lead: [

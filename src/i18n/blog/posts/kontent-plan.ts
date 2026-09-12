@@ -7,6 +7,9 @@ export const kontentPlanEn: BlogPost = {
   date: "2021-10-26",
   category: "Content marketing",
   cover: "/images/blog/kontent-plan/cover-en.webp",
+  metaTitle: "Posting when you remember? Content plan: what it is and how to build one",
+  metaDescription:
+    "Goals, pillars, and cadence without calendar chaos. Template — fill a month ahead.",
   excerpt:
     "What a content plan is, how it differs from an editorial calendar and a media plan, and a clear build process: formats, topics, keywords, categories, schedule, and headlines.",
   lead: [
@@ -156,6 +159,9 @@ export const kontentPlanEs: BlogPost = {
   date: "2021-10-26",
   category: "Content marketing",
   cover: "/images/blog/kontent-plan/cover-es.webp",
+  metaTitle: "¿Publicar cuando te acuerdas? Plan de contenido: qué es y cómo armarlo",
+  metaDescription:
+    "Objetivos, pilares y ritmo sin caos en el calendario. Plantilla — rellena un mes adelante.",
   excerpt:
     "Qué es un plan de contenidos, en qué se diferencia de un calendario editorial y un plan de medios, y un proceso claro: formatos, temas, keywords, categorías, calendario y titulares.",
   lead: [

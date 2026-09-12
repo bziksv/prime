@@ -7,6 +7,9 @@ export const prazdnichnyyRetargetingEn: BlogPost = {
   date: "2018-12-26",
   category: "Paid search",
   cover: "/images/blog/prazdnichnyy-retargeting/cover-en.webp",
+  metaTitle: "Holidays near, carts empty? 4 pre-holiday retargeting moves",
+  metaDescription:
+    "Segments, offers, and cadence without annoyance. Checklist — before peak season.",
   excerpt:
     "How to bring visitors back at the peak of holiday shopping: a separate retargeting campaign, a social segment, Audiences interests, display, and a cascade — without burning the budget.",
   lead: [
@@ -212,6 +215,9 @@ export const prazdnichnyyRetargetingEs: BlogPost = {
   date: "2018-12-26",
   category: "Paid search",
   cover: "/images/blog/prazdnichnyy-retargeting/cover-es.webp",
+  metaTitle: "¿Fiestas cerca y carritos vacíos? 4 trucos de retargeting prefestivo",
+  metaDescription:
+    "Segmentos, ofertas y frecuencia sin irritar. Checklist — antes del pico de temporada.",
   excerpt:
     "Cómo traer de vuelta a los visitantes en el pico de compras de fiestas: una campaña de retargeting aparte, un segmento social, intereses de Audiences, display y una cascada — sin quemar el presupuesto.",
   lead: [

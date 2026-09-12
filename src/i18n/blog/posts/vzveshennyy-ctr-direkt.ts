@@ -7,6 +7,9 @@ export const vzveshennyyCtrDirektEn: BlogPost = {
   date: "2018-07-05",
   category: "Paid search",
   cover: "/images/blog/vzveshennyy-ctr-direkt/cover-en.webp",
+  metaTitle: "Average CTR lying to you? Weighted CTR in Yandex Direct: compare creatives fairly",
+  metaDescription:
+    "Why the metric exists and how to read it. Cheat sheet — before the next A/B.",
   excerpt:
     "What weighted CTR, weighted impressions, and traffic volume mean in Direct reports — how to compare ads on different positions without raw CTR misleading you.",
   lead: [
@@ -179,6 +182,9 @@ export const vzveshennyyCtrDirektEs: BlogPost = {
   date: "2018-07-05",
   category: "Paid search",
   cover: "/images/blog/vzveshennyy-ctr-direkt/cover-es.webp",
+  metaTitle: "¿El CTR medio miente? CTR ponderado en Direct: compara creativos con criterio",
+  metaDescription:
+    "Para qué sirve y cómo leerlo sin autoengaño. Chuleta — antes del próximo A/B.",
   excerpt:
     "Qué significan CTR ponderado, impresiones ponderadas y volumen de tráfico en los informes de Direct — cómo comparar anuncios en distintas posiciones sin que el CTR crudo te engañe.",
   lead: [

@@ -13,6 +13,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2014",
     metric: "3000+",
     metricLabel: "keywords en la primera página",
+    metaTitle: "Más de 3000 frases en TOP — caso SEO Polimer",
+    metaDescription:
+      "SEO fontanería desde 2014: arranque con 393 frases, prep. ~1,5 meses, TOP en 2–6 meses. Ahora 3000+ en TOP. Mira el caso.",
     summary:
       "SEO del catálogo de fontanería de Polimer desde 2014. Cerramos un set inicial de 393 keywords, ~1,5 meses de preparación y luego crecimiento de posiciones planificado en 2–6 meses. Hoy más de 3000 keywords se mantienen en la primera página. Pedidos y pagos online llegaron en los dos primeros meses. La renovación de la tienda en Bitrix es otro caso.",
     coverAlt: "Inicio de polimer-vrn.ru — catálogo de fontanería",
@@ -142,6 +145,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "en curso · Bitrix",
     metric: "15.000+",
     metricLabel: "productos en catálogo",
+    metaTitle: "Más de 15.000 SKU en Bitrix — caso VILMED",
+    metaDescription:
+      "E-com medtech: búsqueda inteligente, UX de catálogo, filtros SEO, 1C, composite/Brotli y limpieza. En vilmed.ru — mira el caso.",
     summary:
       "Trabajo continuo en una gran tienda de equipamiento médico en Bitrix: cabecera fija y búsqueda inteligente, UX de catálogo y ficha, filtros SEO, sync con ERP, composite/Brotli y limpieza de shells. En vivo en vilmed.ru.",
     coverAlt: "Catálogo de equipamiento médico VILMED",
@@ -262,6 +268,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "producto · Next.js + Laravel · desde 2023",
     metric: "19",
     metricLabel: "módulos en un solo panel",
+    metaTitle: "19 módulos SEO en lugar de Excel — mira el caso Titlo",
+    metaDescription:
+      "Cómo montamos un SaaS Next.js + Laravel con demos de módulos y migración limpia desde Bitrix. Lee el caso — y escribe si necesitas el mismo stack.",
     summary:
       "Montamos Titlo de punta a punta: marketing en Next.js (titlo.ru) y app Laravel (cabinet.titlo.ru) — 19 módulos SEO, demos de invitado, tarifas y migración limpia desde Bitrix. En vivo en titlo.ru.",
     coverAlt: "Inicio de la plataforma Titlo — herramientas SEO",
@@ -382,6 +391,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "producto · Laravel · en curso",
     metric: "53k+",
     metricLabel: "SKUs en el catálogo",
+    metaTitle: "Más de 53k SKU y compras — caso almacén LagerPlus",
+    metaDescription:
+      "Web sobre MoySklad: panel, registro SKU, margen perdido, lista de compra, proveedores. En lagerplus.ru — mira el caso.",
     summary:
       "LagerPlus es una app web de almacén sobre inventario MoySklad: dashboard, registro de SKU, vista de ventas perdidas, listas de compra y proveedores. En vivo en lagerplus.ru.",
     coverAlt: "Dashboard LagerPlus — stock, totales y tendencias",
@@ -502,6 +514,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "producto propio · beta",
     metric: "16–64",
     metricLabel: "jugadores en un cuadro de torneo",
+    metaTitle: "Cuadros de 16–64 jugadores — plataforma billiard.guru",
+    metaDescription:
+      "Servicio para clubs: brackets en vivo, ranking, login Telegram, reserva de mesas. Beta abierta en billiard.guru.",
     summary:
       "Montamos billiard.guru para clubs y jugadores: cuadros de torneo en vivo, rankings, login con Telegram y reserva de mesas. Beta abierta en billiard.guru.",
     coverAlt: "Inicio de billiard.guru — torneos y comunidad",
@@ -622,6 +637,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "producto propio · beta",
     metric: "TG",
     metricLabel: "bot · menú · alertas · reservas",
+    metaTitle: "Bot TG: menú, pushes y reservas — BilliardGuruBot",
+    metaDescription:
+      "Bot para billiard.guru: acceso y confirmación, menú de jugador, avisos de partidos y reservas — sin app aparte.",
     summary:
       "Montamos @BilliardGuruBot para la plataforma billiard.guru: login y confirmación, menú de jugador, alertas de partidos, reserva de mesas y «Buscar partida» — sin app aparte.",
     coverAlt: "Bot de Telegram billiard.guru — servicio en el messenger",
@@ -747,6 +765,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "×4",
     metricLabel: "crecimiento del tráfico de ads",
+    metaTitle: "Tráfico ×4 con ads — caso Fortuna-auto Belgorod",
+    metaDescription:
+      "Tras el SEO — Yandex Direct + Google Ads: en 2 días, tráfico ×4, CTR búsqueda ~14%, ~100 consultas al taller. Mira el caso.",
     summary:
       "Tras el SEO lanzamos Google Ads (con búsqueda local en paralelo): en vivo en 2 días, tráfico ×4, CTR de búsqueda ~14%, unas 100 consultas al taller.",
     coverAlt: "Taller — reparación en el box",
@@ -870,6 +891,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "1,5 meses",
     metric: "1,5 mes.",
     metricLabel: "de cero al lanzamiento",
+    metaTitle: "Sitio desde cero en 1,5 meses — caso Insortex",
+    metaDescription:
+      "Sitio B2B de equipos de clasificación: estructura, catálogo, bloques custom y base SEO. Mira el caso — o consulta.",
     summary:
       "Sitio desde cero para un proveedor de equipos de clasificación: estructura B2B, catálogo, bloques a medida y base SEO — en vivo en 1,5 meses.",
     coverAlt: "Inicio de insortex.ru",
@@ -984,6 +1008,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "ERP → sitio",
     metricLabel: "del sync a un rediseño completo",
+    metaTitle: "Sync 1C → rediseño completo — caso Metallinvest",
+    metaDescription:
+      "Primero arreglamos la carga 1C; luego catálogo, filtros, carrito, responsive y base SEO. Mira el caso.",
     summary:
       "Primero arreglamos el export ERP al catálogo; luego reconstruimos toda la web del trader de metal: estructura, filtros, carrito, responsive y base SEO.",
     coverAlt: "Inicio de metplus-vrn.ru — vista en vivo",
@@ -1115,6 +1142,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2021 · en curso",
     metric: "LCP 2.1s",
     metricLabel: "inicio móvil · PageSpeed field",
+    metaTitle: "LCP móvil 2,1 s — caso rendimiento Almamed",
+    metaDescription:
+      "Tienda Webasyst desde 2021: UX catálogo/pedido, home, luego velocidad 2026 — búsqueda, N+1, caché, CWV. Mira el caso.",
     summary:
       "Desde 2021 llevamos la tienda Webasyst: UX de catálogo y camino al pedido, upgrades de inicio y luego un gran pool de velocidad 2026 — búsqueda, N+1, caché y Core Web Vitals.",
     coverAlt: "Inicio de almamed.su — vista en vivo",
@@ -1264,6 +1294,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2015 · en curso",
     metric: "10+ años",
     metricLabel: "juntos · desde 2015",
+    metaTitle: "Más de 10 años con la vitrina — caso Polimer",
+    metaDescription:
+      "Desde 2015: tráfico y leads de búsqueda; en 2021 gran mejora del catálogo Bitrix y acompañamiento. Mira el caso — o consulta.",
     summary:
       "Trabajamos con Polimer desde 2015: primero tráfico y consultas desde la búsqueda, en 2021 un gran upgrade del catálogo Bitrix y luego soporte continuo de la vitrina.",
     coverAlt: "Inicio de polimer-vrn.ru — vista en vivo",
@@ -1417,6 +1450,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016 · SEO → 2023 · Bitrix",
     metric: "473",
     metricLabel: "frases en el núcleo SEO",
+    metaTitle: "473 frases SEO y migración a Bitrix — TorgMag",
+    metaDescription:
+      "SEO desde 2016 tras un estudio fallido. En 2023 — CMS a medida → Bitrix: menú, pedidos, pago y envío. Mira el caso.",
     summary:
       "Desde 2016 — SEO tras un estudio anterior fallido. En 2023 — migración de un CMS a medida a Bitrix: menú, pedidos, pago y entrega.",
     coverAlt: "Inicio de torgmagvrn.ru — vista en vivo",
@@ -1562,6 +1598,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2020–2021",
     metric: "desde cero",
     metricLabel: "sitio de servicios y consultas",
+    metaTitle: "Sitio de bufete desde cero — caso Argument",
+    metaDescription:
+      "Cabecera fija con cita, modales, servicios B2B/B2C, confianza en home y móvil cómodo. Mira el caso — o consulta.",
     summary:
       "Sitio desde cero para un despacho: header fijo con reserva, formularios modales, servicios para empresas y particulares, confianza en el inicio y una buena experiencia en el teléfono.",
     coverAlt: "Inicio de argument-uk.ru",
@@ -1690,6 +1729,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "+30%",
     metricLabel: "visitas tras el lanzamiento",
+    metaTitle: "+30% tráfico tras migración — caso Mir Uvlecheniy",
+    metaDescription:
+      "MODX → Webasyst: carrito y área cliente, catálogo, responsive y base de filtros SEO — presupuesto contenido. Mira el caso.",
     summary:
       "Migración de tienda de MODX a Webasyst: carrito y cuenta completos, catálogo usable, layout responsive y base de filtros SEO — con presupuesto modesto.",
     coverAlt: "Inicio de hobbi36.ru — vista en vivo",
@@ -1821,6 +1863,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "en dominio",
     metricLabel: "landing dentro del sitio del dealer",
+    metaTitle: "Landing Nissan en el dominio del dealer — Motor Land",
+    metaDescription:
+      "Promo en el sitio del concesionario: header/footer oficiales, ofertas, stock y test drive — sin landing ajena. Mira el caso.",
     summary:
       "Landing promo Nissan en el dominio del dealer: header y footer como el sitio oficial, ofertas, coches en stock y reserva de test-drive — sin one-pager en una URL rara.",
     coverAlt: "Landing Nissan Qashqai — Motor Land",
@@ -1948,6 +1993,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "Bitrix",
     metricLabel: "tienda + sync de inventario",
+    metaTitle: "Bitrix + MoySklad — caso tienda medtech KaWe",
+    metaDescription:
+      "Tienda de medtech alemana: catálogo claro, carrito en dos clics, sync MoySklad y admin usable por el dueño. Mira el caso.",
     summary:
       "Tienda online de equipamiento médico alemán KaWe en Bitrix: catálogo claro, carrito en dos clics, sync de inventario MoySklad y un admin que el dueño puede llevar.",
     coverAlt: "Catálogo kawe.su — vista de tienda en vivo",
@@ -2074,6 +2122,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: ">4 min",
     metricLabel: "tiempo medio en el sitio",
+    metaTitle: ">4 min en el sitio — caso despacho kargo24.su",
+    metaDescription:
+      "Alquiler de maquinaria y transporte: UI propia, responsive y área cliente con pago — sin intermediario. Mira el caso.",
     summary:
       "Servicio estilo despacho para equipo especial y fletes: marketplace de nicho, UI a medida, layout responsive y cuenta con pagos — sin intermediario despachador.",
     coverAlt: "Inicio KarGo24 — búsqueda de equipo especial (archivo del proyecto)",
@@ -2200,6 +2251,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "producto · Node.js · en curso",
     metric: "60k+",
     metricLabel: "URLs en la cola de parse",
+    metaTitle: "Más de 60k URL en crawling de precios — Datagon",
+    metaDescription:
+      "Herramienta interna: precios rival, sync Bitrix/Webasyst, match de SKU y export a MoySklad. En p.datagon.ru — mira el caso.",
     summary:
       "Servicio web interno Datagon: parsing de precios de competencia, sync de catálogo desde Bitrix/Webasyst, matching smart de SKU y export a MoySklad. En vivo en p.datagon.ru.",
     coverAlt: "Dashboard Datagon — colas y syncs",
@@ -2320,6 +2374,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "soporte · Bitrix",
     metric: "~1.600",
     metricLabel: "SKUs en el catálogo",
+    metaTitle: "~1.600 SKU de equipo ORL — caso Lormag",
+    metaDescription:
+      "E-com Bitrix: catálogo, URLs SEO del área cliente, registro de imágenes, deploy git. En lormag.ru — mira el caso.",
     summary:
       "Llevamos una tienda de equipamiento ORL en Bitrix (enext): ~1.600 SKUs, URLs SEF de cuenta, registro de imágenes, deploy git. En vivo en lormag.ru.",
     coverAlt: "Inicio de la tienda LorMag — equipamiento ORL",
@@ -2440,6 +2497,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "soporte · Bitrix",
     metric: "~470",
     metricLabel: "SKUs en el catálogo",
+    metaTitle: "~470 pósteres médicos — caso Medplakaty",
+    metaDescription:
+      "E-com Bitrix: catálogo, slider y home, fix PHP 8, versionado CSS/JS. En medplakaty.ru — mira el caso.",
     summary:
       "Llevamos una tienda de pósters médicos y educativos en Bitrix: ~470 SKUs, slider e inicio, fix PHP 8, versionado CSS/JS. En vivo en medplakaty.ru.",
     coverAlt: "Inicio de la tienda Medplakaty",
@@ -2560,6 +2620,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "sitio · PHP/Smarty · soporte",
     metric: "calculadora",
     metricLabel: "volumen y coste por m³",
+    metaTitle: "Calculadora m³ y tarifas — sitio almacén Veles",
+    metaDescription:
+      "Montamos doskivrn.ru: catálogo tabla/viga, precios, calculadora m³ online y solicitud al manager. El SEO es otro caso.",
     summary:
       "Montamos el sitio del aserradero Veles (doskivrn.ru): catálogo de tablón y madera, lista de precios, calculadora online de m³ y solicitud al manager. SEO del mismo patio — ver el caso pilomaterialov.",
     coverAlt: "Sitio Veles — madera en Vorónezh",
@@ -2680,6 +2743,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "soporte · Bitrix · 2026",
     metric: "55.000+",
     metricLabel: "SKUs en el catálogo",
+    metaTitle: "Más de 55.000 SKU y rebrand — caso KosmaMed",
+    metaDescription:
+      "E-com medtech en Bitrix: MedMarket→KosmaMed, 301, velocidad, MoySklad/1C/CDEK. En kosmamed.ru — mira el caso o consulta.",
     summary:
       "Llevamos una gran tienda de equipamiento médico en Bitrix: rebrand MedMarket→KosmaMed, migración de dominio con 301s, velocidad (sin RAND, composite, WebP), MoySklad/ERP/carriers. En vivo en kosmamed.ru.",
     coverAlt: "Inicio de la tienda KosmaMed",
@@ -2800,6 +2866,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "soporte · Bitrix · desde 2021",
     metric: "~1.900",
     metricLabel: "SKUs en el catálogo",
+    metaTitle: "~1.900 SKU oftalmológicos — caso Oftalmag",
+    metaDescription:
+      "E-com Bitrix: catálogo Heine/KaWe/Riester, pedir precio, ciudad y área cliente con URL SEO. En oftalmag.ru — mira el caso.",
     summary:
       "Llevamos una tienda de equipamiento de oftalmología en Bitrix (enext): catálogo Heine/KaWe/Riester, «solicitar precio», selector de ciudad, SEF de cuenta. En vivo en oftalmag.ru.",
     coverAlt: "Inicio de la tienda Oftalmag",
@@ -2920,6 +2989,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "soporte · Bitrix · desde 2014",
     metric: "~1.000",
     metricLabel: "artículos + ofertas ERP",
+    metaTitle: "~1.000 posiciones + ofertas 1C — caso MetProf",
+    metaDescription:
+      "E-com cubiertas/fachadas en Bitrix: catálogo 1C, calculadora de valla, RAL, tarifas. En metprof-vrn.ru — mira el caso.",
     summary:
       "Llevamos una tienda de cubiertas y fachadas en Bitrix: catálogo de teja metálica y chapa perfilada desde ERP, calculadora de vallas, carrito, RAL, listas de precios. En vivo en metprof-vrn.ru. Marca hermana de Metallinvest (metplus-vrn.ru).",
     coverAlt: "Inicio Metallinvest Profile — cubiertas y fachadas",
@@ -3040,6 +3112,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016–2021",
     metric: "~120",
     metricLabel: "llamadas al mes desde la búsqueda",
+    metaTitle: "~120 llamadas desde búsqueda — mira el caso KabelMontazh",
+    metaDescription:
+      "Instalación eléctrica B2B: 30 frases, TOP en 2–6 meses, ~120 llamadas/mes. Desglose del caso SEO — o pide si quieres ese flujo.",
     summary:
       "Instalación eléctrica B2B: set comercial de 30 frases, crecimiento a primera página planificado en 2–6 meses, unas 120 llamadas de búsqueda al mes. Partnership hasta ~2021 — luego la empresa cerró bajo presión del mercado.",
     coverAlt: "Instalación eléctrica — tendidos de cable",
@@ -3160,6 +3235,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~120",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "De folletos a ~120 llamadas — caso VoronezhVtorma",
+    metaDescription:
+      "SEO para punto de reciclaje: 57 frases, TOP-10, ~120 llamadas/mes y visitas al punto. Mira el caso — o pide un plan similar.",
     summary:
       "SEO para un punto de recepción de reciclables: búsqueda en lugar de flyers. 57 frases, prep ~1 mes, primera página planificada en 2–6 meses, unas 120 llamadas al mes y visitas al punto de entrega.",
     coverAlt: "Inicio de vtorma-vrn.ru — recepción de reciclables",
@@ -3290,6 +3368,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~170",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~170 llamadas web — y una lección de modelo: Rc-Revolt",
+    metaDescription:
+      "SEO tienda RC: 68 frases, TOP en 2–6 meses, ~170 llamadas/mes. Había demanda; la economía no aguantó. Caso completo dentro.",
     summary:
       "SEO para una tienda de modelos RC: 68 frases, primera página planificada en 2–6 meses, unas 170 llamadas al mes. Había demanda de búsqueda — el negocio calculó mal su modelo financiero y pasó a ser deficitario.",
     coverAlt: "Rc-Revolt — modelos RC: helicóptero, coche, barco",
@@ -3427,6 +3508,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~90",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~90 llamadas en Liúbertsi — caso SEO Svetlyachok",
+    metaDescription:
+      "Centro infantil privado: 23 frases locales, TOP en 2–6 meses, ~90 llamadas/mes e inscripciones desde búsqueda. Mira el caso — o consulta.",
     summary:
       "SEO para un centro infantil privado en Liúbertsy: búsqueda local de la región de Moscú, 23 frases, primera página planificada en 2–6 meses, unas 90 llamadas al mes — más nuevas matrículas desde la búsqueda.",
     coverAlt: "Zona de juegos del centro infantil Svetlyachok",
@@ -3547,6 +3631,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~200",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~200 llamadas al taller — caso Fortuna-auto",
+    metaDescription:
+      "Taller en Belgorod sobre base Volvo/Subaru: 135 frases, TOP en 2–6 meses, ~200 llamadas/mes. Estructura desde cero — mira el caso.",
     summary:
       "SEO para un taller en dealers Volvo y Subaru en Bélgorod: estructura desde cero, 135 frases, primera página planificada en 2–6 meses, unas 200 llamadas al mes. Paid search es un caso aparte.",
     coverAlt: "Fortuna-avto — taller en Bélgorod",
@@ -3676,6 +3763,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~200",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~200 llamadas y ~6 mil visitas — caso HimOptTorg",
+    metaDescription:
+      "Mayorista de química y pinturas: 90 frases, TOP-10, ~200 llamadas/mes y ~6.000 visitas. SEO de catálogo — mira el caso o consulta.",
     summary:
       "SEO para un mayorista de químicos y pinturas en la región de Chernozem: 90 frases, prep ~1 mes, primera página planificada 2–6 meses, unas 200 llamadas al mes y ~6.000 visitas mensuales — un catálogo B2B para queries «comprar».",
     coverAlt: "Catálogo himopttorg.ru — pinturas, químicos, caucho",
@@ -3803,6 +3893,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~110",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~110 llamadas jurídicas desde búsqueda — Argument",
+    metaDescription:
+      "SEO bufete en Vorónezh: 37 frases, TOP en 2–6 meses, ~110 llamadas/mes en prácticas clave. Caso completo — o pide un plan.",
     summary:
       "SEO para un despacho de Vorónezh: 37 frases, primera página planificada en 2–6 meses, unas 110 llamadas al mes — sacamos a competidores del SERP en prácticas clave. Sitio nuevo — caso aparte.",
     coverAlt: "argument-uk.ru — reservar consulta y servicios",
@@ -3930,6 +4023,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~100",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~100 llamadas a la confitería — caso Skazka",
+    metaDescription:
+      "Dulcería en el centro de Vorónezh: 39 frases, TOP en 2–6 meses, ~100 llamadas/mes — caramelos, packs y té/café. Mira el caso.",
     summary:
       "SEO para una tienda de dulces en el centro de Vorónezh: 39 frases, primera página planificada en 2–6 meses, unas 100 llamadas al mes — dulces, latas de Año Nuevo y mostrador de té/café.",
     coverAlt: "Dulces, latas de Año Nuevo y té — surtido Skazka",
@@ -4058,6 +4154,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~100",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~100 llamadas por cortinas a medida — Barokko",
+    metaDescription:
+      "SEO estudio de cortinas: 70 frases, TOP en 2–6 meses, ~100 llamadas/mes — confección, salones, rieles. En barokko36.ru — mira el caso.",
     summary:
       "SEO para un estudio de diseño de cortinas: 70 frases, primera página planificada en 2–6 meses, unas 100 llamadas al mes — queries de alta intención para confección a medida, showrooms y barras en Vorónezh. Sitio en vivo en barokko36.ru.",
     coverAlt: "Inicio barokko36.ru — cortinas a medida llave en mano",
@@ -4185,6 +4284,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~400",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~400 llamadas por coches de ocasión — Respect",
+    metaDescription:
+      "SEO salón de usados: 162 frases, TOP-10, ~400 llamadas/mes — tasación, crédito, compra. Mira el caso — o consulta.",
     summary:
       "SEO para un showroom de usados en Motor Land: 162 frases, prep ~1 mes, primera página planificada 2–6 meses, unas 400 llamadas al mes — flujo a tasación, crédito y compra de usados en Vorónezh.",
     coverAlt: "Parking de coches de ocasión",
@@ -4303,6 +4405,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~100",
     metricLabel: "llamadas al mes desde la web",
+    metaTitle: "~100 llamadas a la tienda hobby — Mir Uvlecheniy",
+    metaDescription:
+      "SEO e-com hobby: 54 frases, TOP-10, ~100 llamadas/mes — arcos, numismática, detectores. Mira el caso — o consulta.",
     summary:
       "SEO para una tienda online de hobby: 54 frases, prep ~1 mes, primera página planificada 2–6 meses, unas 100 llamadas al mes — arcos, numismática, detectores de metales. Refresh de tienda — caso aparte.",
     coverAlt: "Inicio hobbi36.ru — Mir Uvlecheniy",
@@ -4426,6 +4531,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~112",
     metricLabel: "visitas al showroom al mes desde la búsqueda",
+    metaTitle: "~112 visitas al salón Volvo — caso Belgorod",
+    metaDescription:
+      "SEO concesionario Volvo: 96 frases, TOP en 2–6 meses, ~112 visitas/mes al salón. Nicho premium — mira el caso.",
     summary:
       "SEO para un dealer oficial Volvo en Bélgorod: 96 frases, primera página planificada en 2–6 meses, unas 112 visitas al showroom al mes — queries de dealer y modelo en un nicho premium.",
     coverAlt: "Volvo Car Belgorod — dealer oficial",
@@ -4550,6 +4658,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~240",
     metricLabel: "visitas al showroom al mes desde la búsqueda",
+    metaTitle: "~240 visitas al salón Chery — caso Vorónezh",
+    metaDescription:
+      "SEO Chery en mercado masivo: 98 frases, prep. ~1 mes, TOP hacia 3–6 meses, ~240 visitas/mes. Caso completo dentro.",
     summary:
       "SEO para un concesionario Chery en Vorónezh: 98 frases, prep ~1 mes, crecimiento a primera página planificado en 2–6 meses — unas 240 visitas al showroom al mes en competencia dura de mass market.",
     coverAlt: "Chery — gama de modelos del concesionario",
@@ -4673,6 +4784,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2014",
     metric: "3–5",
     metricLabel: "clientes al mes desde la búsqueda",
+    metaTitle: "3–5 clientes/mes desde búsqueda — GreenStroy",
+    metaDescription:
+      "SEO alquiler de maquinaria: 68 frases, prep. ~1 mes, TOP hacia 3–6 meses — movimiento de tierras, demoliciones. Mira el caso.",
     summary:
       "SEO para alquiler de equipo especial en Vorónezh: 68 frases, prep ~1 mes, crecimiento a primera página planificado en 2–6 meses — movimiento de tierras, demolición, zanjas, retirada de tierra.",
     coverAlt: "GreenStroy — movimiento de tierras de cualquier complejidad",
@@ -4796,6 +4910,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~300",
     metricLabel: "clientes al mes desde la búsqueda",
+    metaTitle: "~300 clientes/mes — caso servicio Samsung",
+    metaDescription:
+      "SEO servicio autorizado: 135 frases, TOP en neveras y lavadoras, ~300 clientes/mes desde búsqueda. Mira el caso — o consulta.",
     summary:
       "SEO para un servicio autorizado: 135 frases, prep ~1 mes, primera página planificada 2–6 meses en reparación de frigoríficos y lavadoras, unos 300 clientes al mes desde la web.",
     coverAlt: "Inzhener-servis — centro de servicio autorizado",
@@ -4908,6 +5025,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2014",
     metric: "~50",
     metricLabel: "clientes al mes desde la búsqueda",
+    metaTitle: "~50 clientes al centro infantil — caso Klyaksa",
+    metaDescription:
+      "SEO centro de desarrollo: 20 frases, TOP en logopeda y psicólogo en Vorónezh, ~50 clientes/mes. Mira el caso.",
     summary:
       "SEO para un centro de desarrollo infantil: 20 frases objetivo, prep ~1 mes, primera página planificada 2–6 meses en logopedia y psicología en Vorónezh, unos 50 clientes al mes — clases y matrículas.",
     coverAlt: "Klyaksa — centro infantil de desarrollo y terapia",
@@ -5021,6 +5141,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~200",
     metricLabel: "clientes al mes desde la búsqueda",
+    metaTitle: "~200 clientes al servicio de marca — Samsung Plaza",
+    metaDescription:
+      "SEO solo de marca: 34 frases, TOP en reparación de smartphones y centro de servicio, ~200 clientes/mes. Mira el caso.",
     summary:
       "SEO para servicio autorizado Samsung: 34 frases solo de marca, prep ~1 mes, primera página planificada 2–6 meses en reparación de smartphones y centro de servicio, unos 200 clientes al mes.",
     coverAlt: "Samsung Service Plaza Vorónezh",
@@ -5134,6 +5257,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~500",
     metricLabel: "ventas al mes desde la búsqueda",
+    metaTitle: "~500 ventas/mes — caso pinturas premium Ticiana",
+    metaDescription:
+      "SEO pinturas/yesos premium sin masa: 77 frases, TOP en LKM decorativos en Vorónezh, ~500 ventas/mes. Mira el caso.",
     summary:
       "SEO para pinturas y yesos premium: 77 frases sin ruido de mass market, prep ~1,5 meses, primera página planificada 2–6 meses en revestimientos decorativos en Vorónezh, unas 500 ventas al mes.",
     coverAlt: "TICIANA — pinturas premium y acabados decorativos",
@@ -5247,6 +5373,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "186",
     metricLabel: "frases en el set SEO de keywords",
+    metaTitle: "186 frases y mayoristas desde búsqueda — Metallinvest",
+    metaDescription:
+      "SEO trader de metal: prep. ~1 mes, TOP en 2–6 meses. En 2 meses: ~112 visitas/día, 68 pedidos, 7 mayoristas. Mira el caso.",
     summary:
       "SEO para un trader de metal en un nicho duro: 186 frases, prep ~1 mes, primera página planificada 2–6 meses. Primeros 2 meses — ~112 visitas/día, 68 pedidos y 7 clientes mayoristas. Sitio nuevo — caso aparte.",
     coverAlt: "metplus-vrn.ru — catálogo de productos de acero",
@@ -5370,6 +5499,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2014",
     metric: "43",
     metricLabel: "frases en el set SEO de keywords",
+    metaTitle: "43 frases frente a DIY — caso madera tallada",
+    metaDescription:
+      "SEO taller de escaleras y paneles: prep. ~1,5 meses, TOP en 2–6 meses. En 2 meses — consultas y compras desde búsqueda. Mira el caso.",
     summary:
       "SEO para un taller de escaleras y paneles tallados: 43 frases frente a artículos DIY en el SERP, prep ~1,5 meses, primera página planificada 2–6 meses. Primeros 2 meses — consultas y compras desde la búsqueda.",
     coverAlt: "Escalera de roble tallada de élite en un interior",
@@ -5491,6 +5623,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~60",
     metricLabel: "nuevos alumnos al mes",
+    metaTitle: "~60 alumnos/mes desde búsqueda — centro formativo",
+    metaDescription:
+      "SEO + sitio Bitrix: 35 frases en educación, prep. ~1,5 meses, TOP en 2–6 meses, ~60 matrículas/mes. Mira el caso.",
     summary:
       "SEO y un sitio Bitrix nuevo para un centro de formación: 35 frases en un nicho educativo competitivo, prep ~1,5 meses, primera página planificada 2–6 meses. Unos 60 matrículas de cursos al mes.",
     coverAlt: "Clases en el Centro de Formación de Chernozem Central",
@@ -5614,6 +5749,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~103",
     metricLabel: "consultas al showroom al mes",
+    metaTitle: "~103 consultas al salón Volvo — caso Chernozemie",
+    metaDescription:
+      "Sitio Bitrix + SEO (87 frases) y paid: prep. ~2,5 meses, TOP en 2–6 meses, ~103 consultas/mes. Mira el caso.",
     summary:
       "Sitio Bitrix nuevo + SEO (87 frases) y Google Ads/social para un concesionario Volvo: prep ~2,5 meses, primera página planificada 2–6 meses, unas 103 consultas al showroom al mes. Belgorod — caso aparte.",
     coverAlt: "Volvo XC90 — gama del concesionario",
@@ -5739,6 +5877,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "2015",
     metric: "6",
     metricLabel: "contratos de alquiler en 2 meses",
+    metaTitle: "6 contratos de alquiler en 2 meses — oficinas",
+    metaDescription:
+      "Yandex Direct + Google Ads: en marcha en 2 días, presupuesto ≈12 mil ₽. En 2 meses — 14 llamadas y 6 contratos. Mira el caso.",
     summary:
       "Google Ads para un centro de oficinas: lanzamiento en 2 días, presupuesto unos $200. En dos meses — 14 llamadas y 6 alquileres; todo el espacio vacante ocupado.",
     coverAlt: "Centro de negocios de oficinas — fachada",
@@ -5850,6 +5991,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~40",
     metricLabel: "consultas a la empresa al mes",
+    metaTitle: "~40 consultas/mes — caso SEO marca MilkFor",
+    metaDescription:
+      "SEO con sitio desde cero: 45 frases, prep. ~42 días, TOP en 2–6 meses. De regional a demanda federal. Mira el caso.",
     summary:
       "SEO para un fabricante de filtros de leche: sitio desde cero (specs y supervisión de build), 45 frases, prep ~42 días, primera página planificada 2–6 meses. De demanda regional a nacional — unas 40 consultas al mes.",
     coverAlt: "Equipos de filtración MilkFor",
@@ -5974,6 +6118,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~90",
     metricLabel: "consultas al almacén al mes",
+    metaTitle: "~90 consultas al almacén — caso madera Veles",
+    metaDescription:
+      "SEO almacén de madera: sitio según nuestro brief, 30 frases, prep. ~55 días, TOP en 2–6 meses, ~90 consultas/mes. Mira el caso.",
     summary:
       "SEO para el almacén de madera Veles: sitio desde cero según nuestras specs, 30 frases en un nicho duro («tabla», «madera»), prep ~55 días, primera página planificada 2–6 meses. Unas 90 consultas al almacén al mes.",
     coverAlt: "Almacén de madera — tablas y madera",
@@ -6103,6 +6250,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "×4",
     metricLabel: "crecimiento del tráfico de ads",
+    metaTitle: "Tráfico ×4 con ads — caso forja artística EHK",
+    metaDescription:
+      "Yandex Direct para tienda de forja: en marcha en 2 días, tráfico ×4, ~100 consultas. Sitio vrn-ehk.ru — mira el caso.",
     summary:
       "Google Ads para la tienda de hierro forjado artístico EHK: lanzamiento en 2 días, tráfico ×4, posiciones líderes de anuncio con CPC bajo, unas 100 consultas. Sitio — vrn-ehk.ru.",
     coverAlt: "Productos de hierro forjado EHK — forja artística",
@@ -6228,6 +6378,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2014",
     metric: "100+",
     metricLabel: "frases en la primera página de búsqueda",
+    metaTitle: "Más de 100 frases en TOP-10 — Jeep Vorónezh",
+    metaDescription:
+      "SEO + rediseño: 417 errores técnicos limpios, 100+ frases, prep. ~42 días, TOP en 2–6 meses. Más ads — ~24 consultas/mes.",
     summary:
       "SEO y refresco del sitio para un concesionario Jeep: 417 bugs técnicos limpios, diseño nuevo según brand guidelines, 100+ frases, prep ~42 días, primera página planificada 2–6 meses. Más Google Ads — unas 24 consultas al showroom al mes.",
     coverAlt: "Jeep — gama del concesionario en Vorónezh",
@@ -6353,6 +6506,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~90",
     metricLabel: "consultas al showroom al mes",
+    metaTitle: "~90 consultas al salón Nissan — Motor Land",
+    metaDescription:
+      "SEO + ads para salón Nissan nuevo: arranque ~11 días, 150+ frases (141 en TOP-10), TOP en 2–6 meses, ~90 consultas/mes. Mira el caso.",
     summary:
       "SEO y Google Ads para el showroom nuevo Nissan Motor Land: arranque en ~11 días, 150+ frases (141 en primera página), primera página planificada 2–6 meses. Unas 90 consultas al showroom al mes. Landing 2020 — caso aparte.",
     coverAlt: "Showroom Nissan Motor Land — Vorónezh",
@@ -6484,6 +6640,9 @@ export const caseTranslationsEs: Record<string, Partial<CaseStudy>> = {
     period: "desde 2016",
     metric: "~120",
     metricLabel: "llamadas de búsqueda al mes",
+    metaTitle: "~120 llamadas al taller de carrocería — Motor Land",
+    metaDescription:
+      "SEO taller de marca: 101 frases, TOP en 2–6 meses, ~120 llamadas/mes + arreglos del sitio para SEO. Mira el caso.",
     summary:
       "SEO para el taller de carrocería de marca Motor Land: 101 frases, primera página en 2–6 meses y unas 120 llamadas al mes — más fixes del sitio: limpiamos issues de desarrolladores previos y entregamos lo que la promoción necesitaba para aguantar.",
     coverAlt: "Cabina de pintura en el taller de carrocería",

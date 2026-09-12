@@ -7,6 +7,9 @@ export const ymlFaylEn: BlogPost = {
   date: "2020-10-20",
   category: "Digital marketing",
   cover: "/images/blog/yml-fayl/cover-en.webp",
+  metaTitle: "Products missing on Market? YML feed: why you need it and how to prep",
+  metaDescription:
+    "Feed structure and common mistakes. Checklist — before you upload the catalog.",
   excerpt:
     "What an online store YML feed is, why it beats CSV/XLS on a large catalog, which fields matter, and how to load a price list into Market — without outdated cabinet screenshots.",
   lead: [
@@ -136,6 +139,9 @@ export const ymlFaylEs: BlogPost = {
   date: "2020-10-20",
   category: "Digital marketing",
   cover: "/images/blog/yml-fayl/cover-es.webp",
+  metaTitle: "¿Productos no llegan a Market? Archivo YML: para qué y cómo prepararlo",
+  metaDescription:
+    "Estructura del feed y errores típicos. Checklist — antes de subir el catálogo.",
   excerpt:
     "Qué es un feed YML de tienda online, por qué gana a CSV/XLS en un catálogo grande, qué campos importan y cómo cargar un price list en Market — sin capturas obsoletas del cabinet.",
   lead: [

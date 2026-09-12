@@ -7,6 +7,9 @@ export const logiServeraEn: BlogPost = {
   date: "2021-07-19",
   category: "SEO",
   cover: "/images/blog/logi-servera/cover-en.webp",
+  metaTitle: "Crawlers behaving oddly? Server logs and search bot behavior",
+  metaDescription:
+    "What to watch in access logs and why SEO cares. Cheat sheet — before the technical audit.",
   excerpt:
     "How to read site access logs: crawler User-Agents, status codes, crawl budget, duplicates, and scan errors — alongside Webmaster tools and Search Console.",
   lead: [
@@ -162,6 +165,9 @@ export const logiServeraEs: BlogPost = {
   date: "2021-07-19",
   category: "SEO",
   cover: "/images/blog/logi-servera/cover-es.webp",
+  metaTitle: "¿Bots raros? Logs del servidor y comportamiento de crawlers",
+  metaDescription:
+    "Qué mirar en access logs y por qué importa al SEO. Chuleta — antes de la auditoría técnica.",
   excerpt:
     "Cómo leer access logs del sitio: User-Agents de crawlers, códigos de estado, crawl budget, duplicados y errores de escaneo — junto a tools de Webmaster y Search Console.",
   lead: [

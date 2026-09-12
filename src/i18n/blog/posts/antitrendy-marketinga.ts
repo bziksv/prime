@@ -7,6 +7,9 @@ export const antitrendyMarketingaEn: BlogPost = {
   date: "2020-02-10",
   category: "Digital marketing",
   cover: "/images/blog/antitrendy-marketinga/cover-en.webp",
+  metaTitle: "Still doing “what always worked”? Drop these anti-trends",
+  metaDescription:
+    "Single-channel bets, SMS spam, smile-stock, cold calls without an offer — what to do instead. Save and audit the plan.",
   excerpt:
     "Which marketing tactics already underperform: one channel, spam SMS, stock “with a smile,” cold calls without consent, cross-posting everywhere — and what to use instead without hype about “trends for rankings.”",
   lead: [
@@ -180,6 +183,9 @@ export const antitrendyMarketingaEs: BlogPost = {
   date: "2020-02-10",
   category: "Marketing digital",
   cover: "/images/blog/antitrendy-marketinga/cover-es.webp",
+  metaTitle: "¿Sigues “como siempre”? Anti-tendencias que toca soltar",
+  metaDescription:
+    "Un solo canal, SMS spam, stock de sonrisa, cold calls sin oferta — qué hacer en su lugar. Guarda y audita el plan.",
   excerpt:
     "Qué tácticas de marketing ya rinden poco: un solo canal, SMS spam, stock «con sonrisa», llamadas frías sin consentimiento, cross-posting en todas partes — y qué usar en su lugar sin hype de «tendencias para posiciones».",
   lead: [

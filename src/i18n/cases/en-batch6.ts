@@ -13,6 +13,9 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "Bitrix",
     metricLabel: "store + inventory sync",
+    metaTitle: "Bitrix + MoySklad — KaWe medtech store case",
+    metaDescription:
+      "German medtech shop: clear catalog, two-click cart, MoySklad sync, and an admin the owner can run. See the case.",
     summary:
       "Online store for German KaWe medical equipment on Bitrix: clear catalog, two-click cart, MoySklad inventory sync, and an admin the owner can run.",
     coverAlt: "kawe.su catalog — live store view",
@@ -139,6 +142,9 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: ">4 min",
     metricLabel: "average time on site",
+    metaTitle: ">4 min average session — kargo24.su dispatch case",
+    metaDescription:
+      "Heavy equipment and truck rental marketplace: custom UI, responsive, cabinet with payments — no middleman dispatcher.",
     summary:
       "A dispatch-style service for special equipment and freight: niche marketplace, custom UI, responsive layout, and an account with payments — without a middleman dispatcher.",
     coverAlt: "KarGo24 homepage — special equipment search (project archive)",
@@ -265,6 +271,9 @@ export const caseTranslationsEnBatch6: Record<string, Partial<CaseStudy>> = {
     period: "product · Node.js · ongoing",
     metric: "60k+",
     metricLabel: "URLs in the parse queue",
+    metaTitle: "60k+ URLs in a price crawl — Datagon case",
+    metaDescription:
+      "Internal tool: competitor prices, Bitrix/Webasyst sync, smart SKU match, MoySklad export. Live on p.datagon.ru — see the case.",
     summary:
       "Internal Datagon web service: competitor price parsing, catalog sync from Bitrix/Webasyst, smart SKU matching, and export to MoySklad. Live at p.datagon.ru.",
     coverAlt: "Datagon dashboard — queues and syncs",

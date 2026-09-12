@@ -7,6 +7,9 @@ export const seoVkontakteEn: BlogPost = {
   date: "2020-10-15",
   category: "SMM",
   cover: "/images/blog/seo-vkontakte/cover-en.webp",
+  metaTitle: "VK community invisible in search? Community SEO + SMM as one system",
+  metaDescription:
+    "Name, description, and content for discovery. Checklist — before the next post.",
   excerpt:
     "Why optimize a VK group for Yandex and Google, who it fits, how to work with name, description, content, and indexing — and how VK SEO differs from growing subscribers.",
   lead: [
@@ -211,6 +214,9 @@ export const seoVkontakteEs: BlogPost = {
   date: "2020-10-15",
   category: "SMM",
   cover: "/images/blog/seo-vkontakte/cover-es.webp",
+  metaTitle: "¿Comunidad VK invisible en búsqueda? SEO de públicos + SMM en un solo sistema",
+  metaDescription:
+    "Nombre, descripción y contenido para el discovery. Checklist — antes del próximo post.",
   excerpt:
     "Por qué optimizar un grupo de VK para Yandex y Google, a quién le encaja, cómo trabajar nombre, descripción, contenido e indexación — y en qué se diferencia el SEO de VK de crecer suscriptores.",
   lead: [

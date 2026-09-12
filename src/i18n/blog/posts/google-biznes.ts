@@ -7,6 +7,9 @@ export const googleBiznesEn: BlogPost = {
   date: "2020-12-24",
   category: "SEO",
   cover: "/images/blog/google-biznes/cover-en.webp",
+  metaTitle: "Not on the map yet? Add your business to Google Maps",
+  metaDescription:
+    "Create, verify, and fill the profile fields. Checklist — before the next local search.",
   excerpt:
     "How to appear in Google Maps and the local pack: Google Business Profile, verification, data, photos, and reviews — without outdated “Google My Business 2020” screenshots.",
   lead: [
@@ -206,6 +209,9 @@ export const googleBiznesEs: BlogPost = {
   date: "2020-12-24",
   category: "SEO",
   cover: "/images/blog/google-biznes/cover-es.webp",
+  metaTitle: "¿No estás en el mapa? Añade tu negocio a Google Maps",
+  metaDescription:
+    "Alta, verificación y campos del perfil. Checklist — antes de la próxima búsqueda local.",
   excerpt:
     "Cómo aparecer en Google Maps y en el local pack: Google Business Profile, verificación, datos, fotos y reseñas — sin capturas obsoletas de «Google My Business 2020».",
   lead: [

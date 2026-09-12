@@ -47,7 +47,9 @@ const categories = (() => {
 
 const searchDocs = posts.map(toSearchDoc);
 
-const blogDescription = `PRIME Blog: practical articles on SEO, ads, SMM, and digital marketing — from agency project experience.`;
+const blogDescription =
+  "Read agency practice on SEO, Google Ads, SMM, and digital marketing — no “page-one secrets.” Bookmark the blog; we refresh posts from live projects.";
+const blogTitle = "Marketing without fluff: agency articles — PRIME Blog";
 const blogOgImage = (featured?.cover || "").split("?")[0] || undefined;
 const crumbsLd = breadcrumbJsonLd(
   [
@@ -67,9 +69,9 @@ const crumbsLd = breadcrumbJsonLd(
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={blogDescription} />
-    <title>{ui.blog} — {ui.brand}</title>
+    <title>{blogTitle}</title>
     <SiteSeo
-      title={`${ui.blog} — ${ui.brand}`}
+      title={blogTitle}
       description={blogDescription}
       path="/en/blog/"
       image={blogOgImage}

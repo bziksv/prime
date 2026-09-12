@@ -7,6 +7,9 @@ export const prodvizheniePrilozheniyEn: BlogPost = {
   date: "2019-10-24",
   category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-prilozheniy/cover-en.webp",
+  metaTitle: "App invisible in the store? Promoting apps and games that actually grow",
+  metaDescription:
+    "ASO, ads, and retention without burning CPI. Checklist — before the next release.",
   excerpt:
     "App and game promotion: creatives and playables, category-interest targeting, event-based remarketing, deep links, and retention metrics — without racing only for installs.",
   lead: [
@@ -173,6 +176,9 @@ export const prodvizheniePrilozheniyEs: BlogPost = {
   date: "2019-10-24",
   category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-prilozheniy/cover-es.webp",
+  metaTitle: "¿App invisible en la store? Promoción de apps y juegos que sí crecen",
+  metaDescription:
+    "ASO, ads y retención sin quemar CPI. Checklist — antes del próximo release.",
   excerpt:
     "Promoción de apps y juegos: creatives y playables, targeting por interés de categoría, remarketing por eventos, deep links y métricas de retention — sin correr solo por installs.",
   lead: [

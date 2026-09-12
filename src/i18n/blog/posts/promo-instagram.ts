@@ -7,6 +7,9 @@ export const promoInstagramEn: BlogPost = {
   date: "2020-07-22",
   category: "SMM",
   cover: "/images/blog/promo-instagram/cover-en.webp",
+  metaTitle: "Boosted post, flat results? Instagram promo: how to push and what to watch",
+  metaDescription:
+    "Settings, budget, and metrics. Checklist — before the next boost.",
   excerpt:
     "What Instagram Promote is: when to boost a post, how to set goal and budget, and how it differs from full Ads Manager — without outdated payment screenshots.",
   lead: [
@@ -156,6 +159,9 @@ export const promoInstagramEs: BlogPost = {
   date: "2020-07-22",
   category: "SMM",
   cover: "/images/blog/promo-instagram/cover-es.webp",
+  metaTitle: "¿Promo sin resultado? Instagram: cómo impulsar y qué mirar",
+  metaDescription:
+    "Ajustes, presupuesto y métricas. Checklist — antes del próximo boost.",
   excerpt:
     "Qué es Instagram Promote: cuándo boostear un post, cómo fijar objetivo y presupuesto y en qué se diferencia del Ads Manager completo — sin capturas obsoletas de pago.",
   lead: [

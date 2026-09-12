@@ -7,6 +7,9 @@ export const maloPokazovEs: BlogPost = {
   date: "2017-05-17",
   category: "Paid search",
   cover: "/images/blog/malo-pokazov/cover-es.webp",
+  metaTitle: "¿“Pocas impresiones” en Direct? Por qué el estado y qué hacer",
+  metaDescription:
+    "Causas, pujas, keywords y comprobaciones sin pánico. Checklist — abre la campaña hoy.",
   excerpt:
     "Por qué Direct marca grupos de baja frecuencia como «Pocas impresiones», qué afecta al estado y cómo recuperar impresiones: fusionar keywords LF, plantillas, negativos — sin el dogma obsoleto de «exactamente 10 en 30 días».",
   lead: [
@@ -127,6 +130,9 @@ export const maloPokazovEn: BlogPost = {
   date: "2017-05-17",
   category: "Paid search",
   cover: "/images/blog/malo-pokazov/cover-en.webp",
+  metaTitle: "“Low impressions” in Yandex Direct? Why the status and what to do",
+  metaDescription:
+    "Causes, bids, keywords, and checks without panic. Checklist — open the campaign today.",
   excerpt:
     "Why Direct marks low-frequency groups as “Low impressions,” what affects the status, and how to get impressions back: merging LF keywords, templates, negatives — without outdated “exactly 10 in 30 days” dogma.",
   lead: [

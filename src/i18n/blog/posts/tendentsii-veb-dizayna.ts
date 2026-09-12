@@ -7,6 +7,9 @@ export const tendentsiiVebDizaynaEn: BlogPost = {
   date: "2018-05-29",
   category: "Digital marketing",
   cover: "/images/blog/tendentsii-veb-dizayna/cover-en.webp",
+  metaTitle: "Design trends for trends’ sake? What to adopt — and what hurts UX",
+  metaDescription:
+    "Pick without blind copying. Checklist — before the next redesign.",
   excerpt:
     "How to choose web design trends without chasing fashion: animation, color and type, data storytelling, AI in UI, illustrations, mobile-first, asymmetry, tools, email and e-com — focused on the user path and speed.",
   lead: [
@@ -194,6 +197,9 @@ export const tendentsiiVebDizaynaEs: BlogPost = {
   date: "2018-05-29",
   category: "Digital marketing",
   cover: "/images/blog/tendentsii-veb-dizayna/cover-es.webp",
+  metaTitle: "¿Tendencias de diseño por moda? Qué adoptar — y qué daña el UX",
+  metaDescription:
+    "Elige sin copiar a ciegas. Checklist — antes del próximo rediseño.",
   excerpt:
     "Cómo elegir tendencias de web design sin perseguir la moda: animación, color y tipografía, data storytelling, IA en la UI, ilustraciones, mobile-first, asimetría, tools, email y e-com — centrado en el camino del usuario y la velocidad.",
   lead: [

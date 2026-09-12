@@ -7,6 +7,9 @@ export const kontentINativnayaEn: BlogPost = {
   date: "2020-09-18",
   category: "Content marketing",
   cover: "/images/blog/kontent-i-nativnaya/cover-en.webp",
+  metaTitle: "Mixing content marketing and native ads? The difference — and when to use each",
+  metaDescription:
+    "Goals, labeling, and audience expectations. Cheat sheet — before the agency brief.",
   excerpt:
     "How content marketing differs from native ads: owned channels and a long funnel vs paid integrations in someone else’s environment — and how to combine them without mixing terms.",
   lead: [
@@ -142,6 +145,9 @@ export const kontentINativnayaEs: BlogPost = {
   date: "2020-09-18",
   category: "Content marketing",
   cover: "/images/blog/kontent-i-nativnaya/cover-es.webp",
+  metaTitle: "¿Mezclas content y nativa? La diferencia — y cuándo usar cada una",
+  metaDescription:
+    "Objetivos, marcado y expectativas de audiencia. Chuleta — antes del brief a la agencia.",
   excerpt:
     "En qué se diferencia el content marketing de los ads nativos: canales propios y un embudo largo vs integraciones de pago en el entorno de otro — y cómo combinarlos sin mezclar términos.",
   lead: [

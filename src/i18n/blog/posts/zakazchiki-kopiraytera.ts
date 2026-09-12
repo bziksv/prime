@@ -7,6 +7,9 @@ export const zakazchikiKopirayteraEn: BlogPost = {
   date: "2020-10-30",
   category: "Content marketing",
   cover: "/images/blog/zakazchiki-kopiraytera/cover-en.webp",
+  metaTitle: "No writing clients? How copywriters find buyers — where to start",
+  metaDescription:
+    "Venues, portfolio, and first outreach. Checklist — before cold emails.",
   excerpt:
     "How a copywriter finds clients: portfolio, search channels, a strong pitch, and work terms — without a catalog of outdated groups or dumping “from pennies per 1,000 characters.”",
   lead: [
@@ -161,6 +164,9 @@ export const zakazchikiKopirayteraEs: BlogPost = {
   date: "2020-10-30",
   category: "Content marketing",
   cover: "/images/blog/zakazchiki-kopiraytera/cover-es.webp",
+  metaTitle: "¿Sin clientes de textos? Cómo encuentra clientes un copy — por dónde empezar",
+  metaDescription:
+    "Plazas, portfolio y primer contacto. Checklist — antes del cold outreach.",
   excerpt:
     "Cómo un copywriter encuentra clientes: portfolio, canales de búsqueda, un pitch fuerte y condiciones de trabajo — sin un catálogo de grupos obsoletos ni dumping «desde céntimos por 1.000 caracteres».",
   lead: [

@@ -8,6 +8,9 @@ export const spetsrazmeshchenieDirektEn: BlogPost = {
   date: "2021-02-19",
   category: "Paid search",
   cover: "/images/blog/spetsrazmeshchenie-direkt/cover-en.webp",
+  metaTitle: "Looking for old “premium placement”? What Yandex Direct had — and what to watch now",
+  metaDescription:
+    "Format history and today’s positions. Primer — before campaign setup.",
   excerpt:
     "What “special placement” meant in old Yandex Direct, why the term is outdated, and how to think today about ad blocks, bids, and ad quality.",
   lead: [
@@ -251,6 +254,9 @@ export const spetsrazmeshchenieDirektEs: BlogPost = {
   date: "2021-02-19",
   category: "Paid search",
   cover: "/images/blog/spetsrazmeshchenie-direkt/cover-es.webp",
+  metaTitle: "¿Buscas el “premium placement” de antes? Qué había en Direct y qué mirar ahora",
+  metaDescription:
+    "Historia del formato y posiciones actuales. Base — antes de configurar campañas.",
   excerpt:
     "Qué significaba el «emplazamiento especial» en el Direct antiguo, por qué el término está desfasado y cómo pensar hoy en bloques de ads, pujas y calidad del anuncio.",
   lead: [

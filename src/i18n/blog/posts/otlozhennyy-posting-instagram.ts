@@ -7,6 +7,9 @@ export const otlozhennyyPostingInstagramEn: BlogPost = {
   date: "2021-01-18",
   category: "SMM",
   cover: "/images/blog/otlozhennyy-posting-instagram/cover-en.webp",
+  metaTitle: "Posting when you remember? Instagram scheduling: why and how",
+  metaDescription:
+    "Schedulers, limits, and cadence without burnout. Checklist — build a week calendar.",
   excerpt:
     "Scheduled posting on Instagram: why plan ahead, how a content calendar helps, and how to choose a tool — without shady auto-posters or stealing other people’s content.",
   lead: [
@@ -182,6 +185,9 @@ export const otlozhennyyPostingInstagramEs: BlogPost = {
   date: "2021-01-18",
   category: "SMM",
   cover: "/images/blog/otlozhennyy-posting-instagram/cover-es.webp",
+  metaTitle: "¿Publicar cuando te acuerdas? Programación en Instagram: para qué y cómo",
+  metaDescription:
+    "Schedulers, límites y ritmo sin burnout. Checklist — arma el calendario de la semana.",
   excerpt:
     "Publicación programada en Instagram: por qué planificar, cómo ayuda un calendario de contenido y cómo elegir una herramienta — sin auto-posters dudosos ni robar contenido ajeno.",
   lead: [

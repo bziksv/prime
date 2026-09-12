@@ -7,6 +7,9 @@ export const zapuskInternetMagazinaEn: BlogPost = {
   date: "2020-11-20",
   category: "E-commerce",
   cover: "/images/blog/zapusk-internet-magazina/cover-en.webp",
+  metaTitle: "Store launch “whenever”? Ecommerce go-live stages from start to finish",
+  metaDescription:
+    "Niche, stack, content, and ads without chaos. Roadmap — before the team brief.",
   excerpt:
     "Online store launch stages: business plan, warehouse or dropshipping, platform, storefront, legal form and receipts, payments, team, and ads — without “store in one evening” promises or outdated 2020 price lists.",
   lead: [
@@ -186,6 +189,9 @@ export const zapuskInternetMagazinaEs: BlogPost = {
   date: "2020-11-20",
   category: "E-commerce",
   cover: "/images/blog/zapusk-internet-magazina/cover-es.webp",
+  metaTitle: "¿Lanzar la tienda “cuando sea”? Etapas ecom de principio a fin",
+  metaDescription:
+    "Nicho, stack, contenido y ads sin caos. Hoja de ruta — antes del brief al equipo.",
   excerpt:
     "Etapas del lanzamiento de una tienda online: plan de negocio, almacén o dropshipping, plataforma, escaparate, forma jurídica y recibos, pagos, equipo y ads — sin promesas de «tienda en una tarde» ni listas de precios obsoletas de 2020.",
   lead: [

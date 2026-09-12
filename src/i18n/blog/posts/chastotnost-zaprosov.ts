@@ -7,6 +7,9 @@ export const chastotnostZaprosovEn: BlogPost = {
   date: "2022-01-21",
   category: "SEO",
   cover: "/images/blog/chastotnost-zaprosov/cover-en.webp",
+  metaTitle: "Guessing keyword volume? Types of frequency and how to check it",
+  metaDescription:
+    "Exact, broad, seasonal — and tools without self-deception. Semantics cheat sheet — save it.",
   excerpt:
     "High-, mid-, and low-frequency queries; base vs exact frequency in Yandex Wordstat; demand checks in Google — how to read the numbers without fooling yourself.",
   lead: [
@@ -188,6 +191,9 @@ export const chastotnostZaprosovEs: BlogPost = {
   date: "2022-01-21",
   category: "SEO",
   cover: "/images/blog/chastotnost-zaprosov/cover-es.webp",
+  metaTitle: "¿Volumen de keywords a ojo? Tipos de frecuencia y cómo mirarla",
+  metaDescription:
+    "Exacta, amplia, estacional — y tools sin autoengaño. Chuleta de semántica — guárdala.",
   excerpt:
     "Consultas de alta, media y baja frecuencia; frecuencia base vs exacta en Yandex Wordstat; checks de demanda en Google — cómo leer los números sin engañarte.",
   lead: [

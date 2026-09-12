@@ -7,6 +7,9 @@ export const kommentariiInstagramEn: BlogPost = {
   date: "2021-05-28",
   category: "SMM",
   cover: "/images/blog/kommentarii-instagram/cover-en.webp",
+  metaTitle: "Ignoring comments ignores the brand? Instagram: why reply and how to moderate",
+  metaDescription:
+    "Reply rules, toxicity, and templates that don’t sound robotic. Checklist — before the next spike.",
   excerpt:
     "Why a commercial Instagram account needs comments, how to handle questions and negativity, what to set in moderation, and why spam schemes with hashtags in comments hurt.",
   lead: [
@@ -161,6 +164,9 @@ export const kommentariiInstagramEs: BlogPost = {
   date: "2021-05-28",
   category: "SMM",
   cover: "/images/blog/kommentarii-instagram/cover-es.webp",
+  metaTitle: "¿Ignorar comentarios es ignorar la marca? Instagram: por qué responder y cómo moderar",
+  metaDescription:
+    "Reglas de respuesta, toxicidad y plantillas sin sonar a bot. Checklist — antes del próximo pico.",
   excerpt:
     "Por qué una cuenta comercial de Instagram necesita comentarios, cómo tratar preguntas y negatividad, qué fijar en moderación y por qué los esquemas de spam con hashtags en comentarios hacen daño.",
   lead: [

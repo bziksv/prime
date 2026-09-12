@@ -7,6 +7,9 @@ export const robotsTxtWordpressEn: BlogPost = {
   date: "2018-01-29",
   category: "SEO",
   cover: "/images/blog/robots-txt-wordpress/cover-en.webp",
+  metaTitle: "WordPress robots.txt from a 2015 post? Rules without a blind template",
+  metaDescription:
+    "Plugins, sitemap, and common mistakes. Checklist — verify indexation today.",
   excerpt:
     "How to set robots.txt on WordPress: wp-admin, system paths, Sitemap, Webmaster checks — without banning all of wp-content or blindly closing categories.",
   lead: [
@@ -178,6 +181,9 @@ export const robotsTxtWordpressEs: BlogPost = {
   date: "2018-01-29",
   category: "SEO",
   cover: "/images/blog/robots-txt-wordpress/cover-es.webp",
+  metaTitle: "¿Robots.txt de WordPress de un post de 2015? Reglas sin plantilla ciega",
+  metaDescription:
+    "Plugins, sitemap y errores típicos. Checklist — verifica indexación hoy.",
   excerpt:
     "Cómo configurar robots.txt en WordPress: wp-admin, rutas del sistema, Sitemap, checks en Webmaster — sin banear todo wp-content ni cerrar categorías a ciegas.",
   lead: [

@@ -7,6 +7,9 @@ export const autrichEn: BlogPost = {
   date: "2020-03-06",
   category: "SEO",
   cover: "/images/blog/autrich/cover-en.webp",
+  metaTitle: "Guest posts going nowhere? Outreach that finds real sites",
+  metaDescription:
+    "Where to find publishers, what to pitch editors, and mistakes to skip. Outreach checklist — save it.",
   excerpt:
     "What outreach means in SEO: manually finding topical sites, donor criteria, pitching editors, and checking the post — without link-exchange spam or Wikipedia rule-bypass schemes.",
   lead: [
@@ -253,6 +256,9 @@ export const autrichEs: BlogPost = {
   date: "2020-03-06",
   category: "SEO",
   cover: "/images/blog/autrich/cover-es.webp",
+  metaTitle: "¿Guest posts a ninguna parte? Outreach que encuentra sitios",
+  metaDescription:
+    "Dónde buscar publishers, qué decir al editor y errores a evitar. Checklist de outreach — guárdalo.",
   excerpt:
     "Qué significa outreach en SEO: encontrar a mano sitios temáticos, criterios de donor, pitch a editores y comprobar el post — sin spam de exchanges de enlaces ni esquemas para saltar reglas de Wikipedia.",
   lead: [

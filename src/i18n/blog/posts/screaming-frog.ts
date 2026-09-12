@@ -7,6 +7,9 @@ export const screamingFrogEn: BlogPost = {
   date: "2020-07-07",
   category: "SEO",
   cover: "/images/blog/screaming-frog/cover-en.webp",
+  metaTitle: "Technical audit by eye? Screaming Frog: crawl the site properly",
+  metaDescription:
+    "What to watch in the crawler and where to start. Checklist — before the next SEO audit.",
   excerpt:
     "How to run a technical crawl in Screaming Frog: spider settings, status codes, title/H1, images, internal links, broken URLs, and Excel export — without an “one-button audit” cult.",
   lead: [
@@ -248,6 +251,9 @@ export const screamingFrogEs: BlogPost = {
   date: "2020-07-07",
   category: "SEO",
   cover: "/images/blog/screaming-frog/cover-es.webp",
+  metaTitle: "¿Auditoría técnica a ojo? Screaming Frog: rastrea la web con criterio",
+  metaDescription:
+    "Qué mirar en el crawler y por dónde empezar. Checklist — antes de la próxima auditoría SEO.",
   excerpt:
     "Cómo lanzar un crawl técnico en Screaming Frog: ajustes del spider, códigos de estado, title/H1, imágenes, enlaces internos, URLs rotas y export a Excel — sin culto a la «auditoría de un botón».",
   lead: [

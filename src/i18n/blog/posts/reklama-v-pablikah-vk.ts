@@ -7,6 +7,9 @@ export const reklamaVPablikahVkEn: BlogPost = {
   date: "2022-01-25",
   category: "SMM",
   cover: "/images/blog/reklama-v-pablikah-vk/cover-en.webp",
+  metaTitle: "VK public with reach — wrong audience? Community ads: pick and place",
+  metaDescription:
+    "Venue criteria and a post without spam. Checklist — before you pay for placement.",
   excerpt:
     "How to run ads via VK communities: audience fit, picking pages, bot and engagement-rate checks, the post itself, comments, and measuring results.",
   lead: [
@@ -207,6 +210,9 @@ export const reklamaVPablikahVkEs: BlogPost = {
   date: "2022-01-25",
   category: "SMM",
   cover: "/images/blog/reklama-v-pablikah-vk/cover-es.webp",
+  metaTitle: "¿Público VK con alcance — audiencia equivocada? Ads en comunidades: elegir y publicar",
+  metaDescription:
+    "Criterios de plaza y post sin spam. Checklist — antes de pagar el placement.",
   excerpt:
     "Cómo hacer ads vía comunidades de VK: encaje de audiencia, elegir páginas, chequeos de bots y engagement rate, el post en sí, comentarios y medir resultados.",
   lead: [

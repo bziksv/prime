@@ -7,6 +7,9 @@ export const cookiesEn: BlogPost = {
   date: "2020-08-31",
   category: "SEO",
   cover: "/images/blog/cookies/cover-en.webp",
+  metaTitle: "Cookies scare users? Why they exist and what’s about security",
+  metaDescription:
+    "How they work, types, and what to say in the policy. Primer — before the consent banner.",
   excerpt:
     "What a cookie is, how session differs from persistent and third-party, why sites need analytics and auth, privacy risks, and how to manage consent.",
   lead: [
@@ -212,6 +215,9 @@ export const cookiesEs: BlogPost = {
   date: "2020-08-31",
   category: "SEO",
   cover: "/images/blog/cookies/cover-es.webp",
+  metaTitle: "¿Las cookies asustan? Para qué sirven y qué hay de seguridad",
+  metaDescription:
+    "Cómo funcionan, tipos y qué poner en la política. Base — antes del banner de consentimiento.",
   excerpt:
     "Qué es una cookie, en qué se diferencian sesión, persistentes y de terceros, por qué el sitio necesita analytics y auth, riesgos de privacidad y cómo gestionar el consentimiento.",
   lead: [

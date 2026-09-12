@@ -7,6 +7,9 @@ export const yandeksXmlEn: BlogPost = {
   date: "2020-09-15",
   category: "SEO",
   cover: "/images/blog/yandeks-xml/cover-en.webp",
+  metaTitle: "Looking for old Yandex.XML? What it was — and what to use now",
+  metaDescription:
+    "API history and current alternatives. Primer — before search integration.",
   excerpt:
     "What Yandex.XML was, why it shut down, what Yandex Search API replaces it with, which jobs official quotas cover, and why scraping the results page is the wrong path.",
   lead: [
@@ -212,6 +215,9 @@ export const yandeksXmlEs: BlogPost = {
   date: "2020-09-15",
   category: "SEO",
   cover: "/images/blog/yandeks-xml/cover-es.webp",
+  metaTitle: "¿Buscas Yandex.XML de antes? Qué era — y qué usar ahora",
+  metaDescription:
+    "Historia del API y alternativas actuales. Base — antes de integrar búsqueda.",
   excerpt:
     "Qué era Yandex.XML, por qué se apagó, con qué lo sustituye Yandex Search API, qué trabajos cubren las cuotas oficiales y por qué scrapear la página de resultados es el camino equivocado.",
   lead: [

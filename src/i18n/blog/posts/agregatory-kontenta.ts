@@ -7,6 +7,9 @@ export const agregatoryKontentaEn: BlogPost = {
   date: "2017-12-29",
   category: "Digital marketing",
   cover: "/images/blog/agregatory-kontenta/cover-en.webp",
+  metaTitle: "Want a “feed of the whole web”? Design the aggregator first",
+  metaDescription:
+    "Aggregator types, why teams use them, and what to decide before build. Save the brief before picking a stack.",
   excerpt:
     "What content aggregators are, why people use them, which types exist, and what to watch at launch: architecture, sources, SEO, and user value — without “page one in a month” promises.",
   lead: [
@@ -117,6 +120,9 @@ export const agregatoryKontentaEs: BlogPost = {
   date: "2017-12-29",
   category: "Digital marketing",
   cover: "/images/blog/agregatory-kontenta/cover-es.webp",
+  metaTitle: "¿Quieres un feed de toda la web? Diseña el agregador primero",
+  metaDescription:
+    "Tipos de agregadores, para qué sirven y qué decidir antes de construir. Guarda el brief antes del stack.",
   excerpt:
     "Qué son los agregadores de contenido, por qué se usan, qué tipos hay y qué vigilar en el lanzamiento: arquitectura, fuentes, SEO y valor para el usuario — sin promesas de «primera página en un mes».",
   lead: [

@@ -7,6 +7,9 @@ export const abTestyReklamyEn: BlogPost = {
   date: "2019-02-07",
   category: "Paid search",
   cover: "/images/blog/ab-testy-reklamy/cover-en.webp",
+  metaTitle: "A/B ads without fooling yourself — fair tests in Direct & Google",
+  metaDescription:
+    "Learn rotation, experiments, and money metrics. Save the guide — stop crowning winners on CTR alone.",
   excerpt:
     "How to run fair ad tests in Yandex Direct and Google Ads: rotation, reports, campaign experiments, and what to do when volume is low — without clinging to 2019 menu paths.",
   lead: [
@@ -188,6 +191,9 @@ export const abTestyReklamyEs: BlogPost = {
   date: "2019-02-07",
   category: "Paid search",
   cover: "/images/blog/ab-testy-reklamy/cover-es.webp",
+  metaTitle: "A/B en Direct y Google sin engañarte — tests justos",
+  metaDescription:
+    "Aprende rotación, experimentos y métricas de dinero. Guarda la guía — deja de elegir ganador solo por CTR.",
   excerpt:
     "Cómo correr tests justos de anuncios en Yandex Direct y Google Ads: rotación, informes, experimentos de campaña y qué hacer cuando el volumen es bajo — sin aferrarte a rutas de menú de 2019.",
   lead: [

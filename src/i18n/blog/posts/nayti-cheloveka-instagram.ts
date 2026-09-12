@@ -7,6 +7,9 @@ export const naytiChelovekaInstagramEn: BlogPost = {
   date: "2020-10-29",
   category: "SMM",
   cover: "/images/blog/nayti-cheloveka-instagram/cover-en.webp",
+  metaTitle: "Someone “vanished” on Instagram? Find them via handle, search, and contacts",
+  metaDescription:
+    "Practical methods and limits. Cheat sheet — no shady lookup services.",
   excerpt:
     "How to find an Instagram profile by username, name, hashtag, place, or contacts — without outdated screenshots or the myth that every action works without an account.",
   lead: [
@@ -136,6 +139,9 @@ export const naytiChelovekaInstagramEs: BlogPost = {
   date: "2020-10-29",
   category: "SMM",
   cover: "/images/blog/nayti-cheloveka-instagram/cover-es.webp",
+  metaTitle: "¿Alguien “desapareció” en Instagram? Búscalo por nick, búsqueda y contactos",
+  metaDescription:
+    "Métodos prácticos y límites. Chuleta — sin servicios grises.",
   excerpt:
     "Cómo encontrar un perfil de Instagram por username, nombre, hashtag, lugar o contactos — sin capturas obsoletas ni el mito de que cada acción funciona sin cuenta.",
   lead: [

@@ -7,6 +7,9 @@ export const reklamaTiktokEn: BlogPost = {
   date: "2020-04-27",
   category: "SMM",
   cover: "/images/blog/reklama-tiktok/cover-en.webp",
+  metaTitle: "TikTok Ads from scratch? Launch a campaign in Ads Manager, step by step",
+  metaDescription:
+    "Goal, creative, and pixel without chaos. Checklist — before review.",
   excerpt:
     "When TikTok Ads makes sense, and how a launch works in Ads Manager: goal, budget, targeting, and creative — without outdated “from $500” minimums and 2018 app catalogs.",
   lead: [
@@ -135,6 +138,9 @@ export const reklamaTiktokEs: BlogPost = {
   date: "2020-04-27",
   category: "SMM",
   cover: "/images/blog/reklama-tiktok/cover-es.webp",
+  metaTitle: "¿TikTok Ads desde cero? Lanza la campaña en Ads Manager, paso a paso",
+  metaDescription:
+    "Objetivo, creativo y píxel sin caos. Checklist — antes de la moderación.",
   excerpt:
     "Cuándo tiene sentido TikTok Ads y cómo funciona un lanzamiento en Ads Manager: objetivo, presupuesto, targeting y creativo — sin mínimos obsoletos «desde $500» ni catálogos de apps de 2018.",
   lead: [

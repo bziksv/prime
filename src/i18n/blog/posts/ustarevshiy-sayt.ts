@@ -7,6 +7,9 @@ export const ustarevshiySaytEn: BlogPost = {
   date: "2019-02-25",
   category: "Digital marketing",
   cover: "/images/blog/ustarevshiy-sayt/cover-en.webp",
+  metaTitle: "Site “looks old” — or is it actually outdated? Checklist before redesign",
+  metaDescription:
+    "Tech, UX, and content without emotion. Run the list before the designer brief.",
   excerpt:
     "When a site feels outdated: bulky structure, no responsive layout, thin features, overstuffed copy, design/brand mismatch, Flash legacy, and slow load — without ranking guarantees after a redesign.",
   lead: [
@@ -115,6 +118,9 @@ export const ustarevshiySaytEs: BlogPost = {
   date: "2019-02-25",
   category: "Digital marketing",
   cover: "/images/blog/ustarevshiy-sayt/cover-es.webp",
+  metaTitle: "¿La web “parece vieja” — o está obsoleta de verdad? Checklist antes del rediseño",
+  metaDescription:
+    "Técnica, UX y contenido sin emoción. Pasa la lista antes del brief al diseñador.",
   excerpt:
     "Cuándo un sitio se siente viejo: estructura hinchada, sin layout responsive, funciones pobres, copy atiborrado, desajuste diseño/marca, legado Flash y carga lenta — sin garantías de rankings tras un rediseño.",
   lead: [

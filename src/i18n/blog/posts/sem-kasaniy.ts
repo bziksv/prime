@@ -7,6 +7,9 @@ export const semKasaniyEn: BlogPost = {
   date: "2019-12-17",
   category: "Digital marketing",
   cover: "/images/blog/sem-kasaniy/cover-en.webp",
+  metaTitle: "One touch and they should buy? The 7-touch rule: where to meet the audience",
+  metaDescription:
+    "Channels and scenarios without spam. Map — before you build the funnel.",
   excerpt:
     "Why one channel isn’t enough: a user’s digital day, the 7-touch hypothesis, and how to build a chain of display, search, social, and retarget to a lead — without a magical “exactly seven”.",
   lead: [
@@ -186,6 +189,9 @@ export const semKasaniyEs: BlogPost = {
   date: "2019-12-17",
   category: "Digital marketing",
   cover: "/images/blog/sem-kasaniy/cover-es.webp",
+  metaTitle: "¿Un toque y ya compran? Teoría de 7 toques: dónde enganchar a la audiencia",
+  metaDescription:
+    "Canales y escenarios sin spam. Mapa — antes de armar el embudo.",
   excerpt:
     "Por qué un canal no basta: el día digital del usuario, la hipótesis de los 7 toques y cómo armar una cadena de display, búsqueda, social y retarget hacia un lead — sin un mágico «exactamente siete».",
   lead: [

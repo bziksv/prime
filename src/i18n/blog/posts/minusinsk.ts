@@ -7,6 +7,9 @@ export const minusinskEn: BlogPost = {
   date: "2017-04-25",
   category: "SEO",
   cover: "/images/blog/minusinsk/cover-en.webp",
+  metaTitle: "Rankings dropped after links? Minusinsk: Yandex’s paid-link filter",
+  metaDescription:
+    "Signs, risks, and what to do. Breakdown — before the next link batch.",
   excerpt:
     "What the Minusinsk algorithm is: sanctions for low-quality link spam, how to suspect a problem, what to do with junk backlinks, and how it differs from text filters like Baden-Baden.",
   lead: [
@@ -131,6 +134,9 @@ export const minusinskEs: BlogPost = {
   date: "2017-04-25",
   category: "SEO",
   cover: "/images/blog/minusinsk/cover-es.webp",
+  metaTitle: "¿Caída tras comprar enlaces? Minusinsk: filtro de Yandex por link building de pago",
+  metaDescription:
+    "Señales, riesgos y qué hacer. Análisis — antes del próximo lote de links.",
   excerpt:
     "Qué es el algoritmo Minusinsk: sanciones por spam de enlaces de baja calidad, cómo sospechar un problema, qué hacer con backlinks basura, y en qué se diferencia de filtros de texto como Baden-Baden.",
   lead: [

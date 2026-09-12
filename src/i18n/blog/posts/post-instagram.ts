@@ -7,6 +7,9 @@ export const postInstagramEn: BlogPost = {
   date: "2021-12-07",
   category: "SMM",
   cover: "/images/blog/post-instagram/cover-en.webp",
+  metaTitle: "Pretty posts that don’t sell? Structure and headline for Instagram that converts",
+  metaDescription:
+    "Offer, hook, and CTA without cringe. Template — before the next commercial post.",
   excerpt:
     "How to build a selling Instagram post: offer, USP, copy structure, headline, CTA, and handling comments.",
   lead: [
@@ -178,6 +181,9 @@ export const postInstagramEs: BlogPost = {
   date: "2021-12-07",
   category: "SMM",
   cover: "/images/blog/post-instagram/cover-es.webp",
+  metaTitle: "¿Posts bonitos que no venden? Estructura y titular de Instagram que convierte",
+  metaDescription:
+    "Oferta, gancho y CTA sin cringe. Plantilla — antes del próximo post comercial.",
   excerpt:
     "Cómo armar un post de venta en Instagram: oferta, USP, estructura del copy, titular, CTA y gestión de comentarios.",
   lead: [

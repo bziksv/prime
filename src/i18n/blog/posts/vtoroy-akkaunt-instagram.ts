@@ -7,6 +7,9 @@ export const vtoroyAkkauntInstagramEn: BlogPost = {
   date: "2020-07-29",
   category: "SMM",
   cover: "/images/blog/vtoroy-akkaunt-instagram/cover-en.webp",
+  metaTitle: "Second Instagram “for tests”? Why you need one and how to add it",
+  metaDescription:
+    "Use cases and profile switching. Cheat sheet — before you create the account.",
   excerpt:
     "Why create a second Instagram profile, how to add an account in the app, how personal and work accounts differ, and typical signup glitches — without outdated screenshots.",
   lead: [
@@ -149,6 +152,9 @@ export const vtoroyAkkauntInstagramEs: BlogPost = {
   date: "2020-07-29",
   category: "SMM",
   cover: "/images/blog/vtoroy-akkaunt-instagram/cover-es.webp",
+  metaTitle: "¿Segundo Instagram “para tests”? Para qué sirve y cómo añadirlo",
+  metaDescription:
+    "Casos de uso y cambio de perfiles. Chuleta — antes de crear la cuenta.",
   excerpt:
     "Por qué crear un segundo perfil de Instagram, cómo añadir una cuenta en la app, en qué se diferencian personal y trabajo, y glitches típicos de signup — sin capturas obsoletas.",
   lead: [

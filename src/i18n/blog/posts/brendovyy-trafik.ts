@@ -7,6 +7,9 @@ export const brendovyyTrafikEn: BlogPost = {
   date: "2019-09-19",
   category: "SEO",
   cover: "/images/blog/brendovyy-trafik/cover-en.webp",
+  metaTitle: "Low brand searches? What branded traffic is and how to grow it",
+  metaDescription:
+    "Where it comes from, how to measure it, and which levers actually work. Save before your brand report.",
   excerpt:
     "What counts as branded traffic, why it matters for business and SEO, how to grow name awareness, and how to measure the share in Metrika and Search Console.",
   lead: [
@@ -235,6 +238,9 @@ export const brendovyyTrafikEs: BlogPost = {
   date: "2019-09-19",
   category: "SEO",
   cover: "/images/blog/brendovyy-trafik/cover-es.webp",
+  metaTitle: "¿Pocas búsquedas de marca? Qué es el tráfico de marca y cómo subirlo",
+  metaDescription:
+    "De dónde sale, cómo medirlo y qué palancas sí funcionan. Guarda antes del informe de marca.",
   excerpt:
     "Qué cuenta como tráfico de marca, por qué importa para el negocio y el SEO, cómo crecer el awareness del nombre y cómo medir la cuota en Metrika y Search Console.",
   lead: [

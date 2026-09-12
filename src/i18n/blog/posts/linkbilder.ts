@@ -7,6 +7,9 @@ export const linkbilderEn: BlogPost = {
   date: "2019-12-13",
   category: "Digital marketing",
   cover: "/images/blog/linkbilder/cover-en.webp",
+  metaTitle: "Links “somehow somehow”? Link builder: who they are and what they do in SEO",
+  metaDescription:
+    "Jobs, methods, and outsourcing red flags. Breakdown — before you hire a vendor.",
   excerpt:
     "What a link builder does: tasks, skills, how the role differs from buying links in packs, donor quality, and the link to outreach — without spam how-tos or course promos.",
   lead: [
@@ -173,6 +176,9 @@ export const linkbilderEs: BlogPost = {
   date: "2019-12-13",
   category: "Digital marketing",
   cover: "/images/blog/linkbilder/cover-es.webp",
+  metaTitle: "¿Enlaces “como sea”? Link builder: quién es y qué hace en SEO",
+  metaDescription:
+    "Tareas, métodos y red flags del outsource. Análisis — antes de contratar proveedor.",
   excerpt:
     "Qué hace un link builder: tareas, skills, en qué se diferencia el rol de comprar enlaces por packs, calidad del donor y el vínculo con outreach — sin how-tos de spam ni promos de cursos.",
   lead: [

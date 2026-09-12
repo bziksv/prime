@@ -7,6 +7,9 @@ export const telegramBotyEn: BlogPost = {
   date: "2021-03-05",
   category: "SMM",
   cover: "/images/blog/telegram-boty/cover-en.webp",
+  metaTitle: "Bot just for show? Telegram bots: why they matter and how they work",
+  metaDescription:
+    "Use cases, limits, and a start without overengineering. Checklist — before the build brief.",
   excerpt:
     "What Telegram bots can do for business and channels: replies, leads, compliant broadcasts, finding bots, and basic command logic — without a catalog of shady growth hacks.",
   lead: [
@@ -239,6 +242,9 @@ export const telegramBotyEs: BlogPost = {
   date: "2021-03-05",
   category: "SMM",
   cover: "/images/blog/telegram-boty/cover-es.webp",
+  metaTitle: "¿Bot de postureo? Bots de Telegram: para qué sirven y cómo funcionan",
+  metaDescription:
+    "Casos de uso, límites y arranque sin overengineering. Checklist — antes del brief al dev.",
   excerpt:
     "Qué pueden hacer los bots de Telegram para negocio y canales: respuestas, leads, broadcasts con consentimiento, encontrar bots y lógica básica de comandos — sin un catálogo de hacks dudosos de crecimiento.",
   lead: [

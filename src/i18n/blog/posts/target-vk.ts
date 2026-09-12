@@ -7,6 +7,9 @@ export const targetVkEn: BlogPost = {
   date: "2019-12-24",
   category: "SMM",
   cover: "/images/blog/target-vk/cover-en.webp",
+  metaTitle: "VK Ads from scratch? Step-by-step setup without burning budget",
+  metaDescription:
+    "Account, audiences, and creatives. Checklist — before the first review.",
   excerpt:
     "How to launch VK Ads targeting: formats, audience, remarketing and pixel, schedule, CPC/CPM, and reading the stats — without outdated 2019 ad-account click paths.",
   lead: [
@@ -153,6 +156,9 @@ export const targetVkEs: BlogPost = {
   date: "2019-12-24",
   category: "SMM",
   cover: "/images/blog/target-vk/cover-es.webp",
+  metaTitle: "¿Ads VK desde cero? Configuración paso a paso sin quemar presupuesto",
+  metaDescription:
+    "Cuenta, audiencias y creativos. Checklist — antes de la primera moderación.",
   excerpt:
     "Cómo lanzar targeting en VK Ads: formatos, audiencia, remarketing y pixel, schedule, CPC/CPM y lectura de stats — sin click paths obsoletos de cuentas de 2019.",
   lead: [

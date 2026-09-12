@@ -7,6 +7,9 @@ export const logotipEn: BlogPost = {
   date: "2019-08-26",
   category: "Digital marketing",
   cover: "/images/blog/logotip/cover-en.webp",
+  metaTitle: "Logo from a Canva guess? How to make a company mark: types and criteria",
+  metaDescription:
+    "Applications, readability, and designer brief. Checklist — before you approve a version.",
   excerpt:
     "Why you need a logo, where it lives, how a mark, wordmark, and combo differ, and how to choose a path: builder, freelance, studio — without outdated “market percentage” claims.",
   lead: [
@@ -148,6 +151,9 @@ export const logotipEs: BlogPost = {
   date: "2019-08-26",
   category: "Digital marketing",
   cover: "/images/blog/logotip/cover-es.webp",
+  metaTitle: "¿Logo a ojo en Canva? Cómo hacer la marca: tipos y criterios",
+  metaDescription:
+    "Soportes, legibilidad y brief al diseñador. Checklist — antes de aprobar una versión.",
   excerpt:
     "Por qué hace falta un logo, dónde vive, cómo difieren mark, wordmark y combo, y cómo elegir el camino: builder, freelance, estudio — sin afirmaciones caducadas de «porcentaje de mercado».",
   lead: [

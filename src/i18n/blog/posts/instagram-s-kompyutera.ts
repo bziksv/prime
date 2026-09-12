@@ -7,6 +7,9 @@ export const instagramSKompyuteraEn: BlogPost = {
   date: "2021-05-28",
   category: "SMM",
   cover: "/images/blog/instagram-s-kompyutera/cover-en.webp",
+  metaTitle: "Posting only from the phone? Instagram from a computer — what works",
+  metaDescription:
+    "Browser, Meta Business Suite, and limits. Checklist — before you batch-schedule content.",
   excerpt:
     "How to publish a post or Reels on Instagram from a PC via the official web app and Business Suite — without a catalog of shady clients and emulators.",
   lead: [
@@ -195,6 +198,9 @@ export const instagramSKompyuteraEs: BlogPost = {
   date: "2021-05-28",
   category: "SMM",
   cover: "/images/blog/instagram-s-kompyutera/cover-es.webp",
+  metaTitle: "¿Publicar solo desde el móvil? Instagram desde el PC — qué funciona",
+  metaDescription:
+    "Navegador, Meta Business Suite y límites. Checklist — antes de programar en lote.",
   excerpt:
     "Cómo publicar un post o Reels en Instagram desde el PC vía la web oficial y Business Suite — sin catálogo de clientes dudosos ni emuladores.",
   lead: [

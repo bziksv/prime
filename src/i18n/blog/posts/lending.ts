@@ -7,6 +7,9 @@ export const lendingEn: BlogPost = {
   date: "2021-05-06",
   category: "Digital marketing",
   cover: "/images/blog/lending/cover-en.webp",
+  metaTitle: "Landing that tries everything? What a landing page is and how to focus it",
+  metaDescription:
+    "Structure, offer, and CTA without noise. Checklist — before ads go live.",
   excerpt:
     "What a landing page is, why teams build one, which blocks to assemble, and which mistakes kill conversion — separate from writing the offer copy.",
   lead: [
@@ -175,6 +178,9 @@ export const lendingEs: BlogPost = {
   date: "2021-05-06",
   category: "Digital marketing",
   cover: "/images/blog/lending/cover-es.webp",
+  metaTitle: "¿Landing “para todo”? Qué es y cómo diseñarla con un solo objetivo",
+  metaDescription:
+    "Estructura, oferta y CTA sin ruido. Checklist — antes de lanzar ads.",
   excerpt:
     "Qué es una landing page, por qué los equipos la montan, qué bloques ensamblar y qué errores matan la conversión — aparte de escribir el copy de la oferta.",
   lead: [

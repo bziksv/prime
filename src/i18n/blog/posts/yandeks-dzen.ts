@@ -7,6 +7,9 @@ export const yandeksDzenEn: BlogPost = {
   date: "2021-07-02",
   category: "Content marketing",
   cover: "/images/blog/yandeks-dzen/cover-en.webp",
+  metaTitle: "Yandex Zen “for followers only”? Topic, rules, and monetization without illusions",
+  metaDescription:
+    "Where to start and when to stop. Checklist — before the first channel post.",
   excerpt:
     "How Zen works for authors: the recommendation feed, niche choice, publishing rules, and monetization logic — without outdated “in a week” thresholds or advice to copy other people’s texts.",
   lead: [
@@ -139,6 +142,9 @@ export const yandeksDzenEs: BlogPost = {
   date: "2021-07-02",
   category: "Content marketing",
   cover: "/images/blog/yandeks-dzen/cover-es.webp",
+  metaTitle: "¿Zen “solo por seguidores”? Tema, reglas y monetización sin ilusiones",
+  metaDescription:
+    "Por dónde empezar y cuándo parar. Checklist — antes de la primera publicación.",
   excerpt:
     "Cómo funciona Zen para autores: el feed de recomendaciones, elección de nicho, reglas de publicación y lógica de monetización — sin umbrales obsoletos «en una semana» ni consejos de copiar textos ajenos.",
   lead: [

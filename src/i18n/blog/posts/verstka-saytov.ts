@@ -7,6 +7,9 @@ export const verstkaSaytovEn: BlogPost = {
   date: "2022-01-17",
   category: "SEO",
   cover: "/images/blog/verstka-saytov/cover-en.webp",
+  metaTitle: "Design ready — markup messy? Website layout stages and quality criteria",
+  metaDescription:
+    "What to demand from front-end. Checklist — before production acceptance.",
   excerpt:
     "What a front-end layout engineer does: from mockup to live page. Stages, HTML/CSS, responsive design, QA, and the SEO connection.",
   lead: [
@@ -192,6 +195,9 @@ export const verstkaSaytovEs: BlogPost = {
   date: "2022-01-17",
   category: "SEO",
   cover: "/images/blog/verstka-saytov/cover-es.webp",
+  metaTitle: "¿Diseño listo — maqueta “como salga”? Etapas y criterios de calidad",
+  metaDescription:
+    "Qué exigir al maquetador. Checklist — antes de la aceptación en prod.",
   excerpt:
     "Qué hace un ingeniero de maquetación front-end: del mockup a la página viva. Etapas, HTML/CSS, diseño responsive, QA y el vínculo con el SEO.",
   lead: [

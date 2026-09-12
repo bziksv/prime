@@ -7,6 +7,9 @@ export const trendySeoEn: BlogPost = {
   date: "2020-01-21",
   category: "SEO",
   cover: "/images/blog/trendy-seo/cover-en.webp",
+  metaTitle: "SEO trends for slide decks? Zero-click, meaning, and what to do in practice",
+  metaDescription:
+    "What to adopt — and what to ignore. Breakdown — before the yearly strategy.",
   excerpt:
     "How SEO is changing: answers in the results without a click, search engines’ own services, meaning-aware text analysis — and practical moves on snippets, content, links, and analytics.",
   lead: [
@@ -230,6 +233,9 @@ export const trendySeoEs: BlogPost = {
   date: "2020-01-21",
   category: "SEO",
   cover: "/images/blog/trendy-seo/cover-es.webp",
+  metaTitle: "¿Tendencias SEO para la presentación? Zero-click, sentido y qué hacer en la práctica",
+  metaDescription:
+    "Qué adoptar — y qué ignorar. Análisis — antes de la estrategia anual.",
   excerpt:
     "Cómo está cambiando el SEO: respuestas en los resultados sin clic, servicios propios de los buscadores, análisis de texto con sentido — y movimientos prácticos en snippets, contenido, enlaces y analítica.",
   lead: [

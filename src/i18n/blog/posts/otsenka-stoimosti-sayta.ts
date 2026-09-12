@@ -7,6 +7,9 @@ export const otsenkaStoimostiSaytaEn: BlogPost = {
   date: "2021-02-25",
   category: "Digital marketing",
   cover: "/images/blog/otsenka-stoimosti-sayta/cover-en.webp",
+  metaTitle: "Online calculator “valued” your site? Why the numbers lie — and what to check",
+  metaDescription:
+    "Real valuation criteria without illusions. Read before a deal or investment.",
   excerpt:
     "Why people value sites, why pr-cy-style numbers diverge from a real deal, and which factors beat a one-click “magic” estimate.",
   lead: [
@@ -119,6 +122,9 @@ export const otsenkaStoimostiSaytaEs: BlogPost = {
   date: "2021-02-25",
   category: "Digital marketing",
   cover: "/images/blog/otsenka-stoimosti-sayta/cover-es.webp",
+  metaTitle: "¿Una calculadora “valoró” tu web? Por qué miente — y en qué fijarte",
+  metaDescription:
+    "Criterios reales de valoración sin ilusiones. Léelo antes de la operación.",
   excerpt:
     "Por qué se valoran sitios, por qué las cifras estilo pr-cy divergen de un trato real, y qué factores ganan a un «precio mágico» en un clic.",
   lead: [

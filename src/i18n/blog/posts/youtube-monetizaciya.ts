@@ -7,6 +7,9 @@ export const youtubeMonetizaciyaEn: BlogPost = {
   date: "2021-04-20",
   category: "SMM",
   cover: "/images/blog/youtube-monetizaciya/cover-en.webp",
+  metaTitle: "YouTube monetization “someday”? Channels and requirements without illusions",
+  metaDescription:
+    "Thresholds, revenue formats, and blockers. Checklist — before Partner Program apply.",
   excerpt:
     "How YouTube works for creators: the channel, ad monetization, and other income paths — without “easy millions” promises or outdated threshold numbers.",
   lead: [
@@ -190,6 +193,9 @@ export const youtubeMonetizaciyaEs: BlogPost = {
   date: "2021-04-20",
   category: "SMM",
   cover: "/images/blog/youtube-monetizaciya/cover-es.webp",
+  metaTitle: "¿Monetización YouTube “algún día”? Canales y requisitos sin ilusiones",
+  metaDescription:
+    "Umbrales, formatos de ingreso y bloqueos. Checklist — antes de solicitar Partner Program.",
   excerpt:
     "Cómo funciona YouTube para creators: el canal, monetización por ads y otros caminos de ingreso — sin promesas de «millones fáciles» ni umbrales numéricos obsoletos.",
   lead: [

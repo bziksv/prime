@@ -7,6 +7,9 @@ export const poiskovyePodskazkiEn: BlogPost = {
   date: "2018-02-19",
   category: "SEO",
   cover: "/images/blog/poiskovye-podskazki/cover-en.webp",
+  metaTitle: "Ignoring autocomplete? Search suggestions: what they are and SEO use",
+  metaDescription:
+    "Idea and intent mining without myths. Checklist — before you expand keywords.",
   excerpt:
     "How Yandex and Google suggestions form, how they help semantics and content, why you can’t “get into suggest” by faking queries, and how to collect ideas without spam.",
   lead: [
@@ -205,6 +208,9 @@ export const poiskovyePodskazkiEs: BlogPost = {
   date: "2018-02-19",
   category: "SEO",
   cover: "/images/blog/poiskovye-podskazki/cover-es.webp",
+  metaTitle: "¿Ignoras el autocomplete? Sugerencias de búsqueda: qué son y uso SEO",
+  metaDescription:
+    "Ideas e intención sin mitos. Checklist — antes de ampliar la semántica.",
   excerpt:
     "Cómo se forman las sugerencias de Yandex y Google, cómo ayudan a la semántica y al contenido, por qué no se puede «entrar en suggest» falsificando consultas, y cómo reunir ideas sin spam.",
   lead: [

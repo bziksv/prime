@@ -7,6 +7,9 @@ export const chromeRasshireniyaSeoEn: BlogPost = {
   date: "2019-11-14",
   category: "SEO",
   cover: "/images/blog/chrome-rasshireniya-seo/cover-en.webp",
+  metaTitle: "SEO in the browser without tool sprawl? A useful Chrome minimum",
+  metaDescription:
+    "What to install for audits and SERP checks — and what to skip. Save the list.",
   excerpt:
     "Which Chrome extensions actually help SEO work: page audits, keyword research, UTM tags, cookies, links, and web tooling — with the caveat that the Chrome Web Store catalog keeps changing.",
   lead: [
@@ -208,6 +211,9 @@ export const chromeRasshireniyaSeoEs: BlogPost = {
   date: "2019-11-14",
   category: "SEO",
   cover: "/images/blog/chrome-rasshireniya-seo/cover-es.webp",
+  metaTitle: "¿SEO en el navegador sin zoo de tools? Mínimo útil de Chrome",
+  metaDescription:
+    "Qué instalar para auditoría y SERP — y qué no hace falta. Guarda la lista.",
   excerpt:
     "Qué extensiones de Chrome ayudan de verdad al trabajo SEO: auditoría de página, keywords, UTM, cookies, enlaces y herramientas web — con el aviso de que el catálogo de Chrome Web Store cambia.",
   lead: [

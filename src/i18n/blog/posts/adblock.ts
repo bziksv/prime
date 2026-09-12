@@ -7,6 +7,9 @@ export const adblockEn: BlogPost = {
   date: "2020-09-29",
   category: "Digital marketing",
   cover: "/images/blog/adblock/cover-en.webp",
+  metaTitle: "Ads vanished in the browser? Understand AdBlock without panic",
+  metaDescription:
+    "How blockers get installed, how to pause them for your site, and what it means for advertisers. Save the cheat sheet.",
   excerpt:
     "AdBlock and similar tools hide ads in the browser. Why people install them, how to pause one site, and why blockers also cut widgets and analytics.",
   lead: [
@@ -116,6 +119,9 @@ export const adblockEs: BlogPost = {
   date: "2020-09-29",
   category: "Digital marketing",
   cover: "/images/blog/adblock/cover-es.webp",
+  metaTitle: "¿Desapareció la publicidad? Entiende AdBlock sin drama",
+  metaDescription:
+    "Cómo se instalan bloqueadores, cómo pausarlos en tu web y qué implica para anunciantes. Guarda la chuleta.",
   excerpt:
     "AdBlock y tools parecidas ocultan ads en el navegador. Por qué la gente las instala, cómo pausar un sitio y por qué los blockers también cortan widgets y analytics.",
   lead: [

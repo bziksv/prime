@@ -13,6 +13,9 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "×4",
     metricLabel: "ad traffic growth",
+    metaTitle: "4× ad traffic — Fortuna-auto Belgorod ads case",
+    metaDescription:
+      "After SEO — Yandex Direct + Google Ads: live in 2 days, traffic ×4, search CTR ~14%, ~100 service inquiries. See the case.",
     summary:
       "After SEO we launched Google Ads (with local search ads in parallel): live in 2 days, traffic ×4, search CTR ~14%, about 100 service inquiries.",
     coverAlt: "Auto service — repair in the bay",
@@ -136,6 +139,9 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     period: "1.5 months",
     metric: "1.5 mo.",
     metricLabel: "from zero to launch",
+    metaTitle: "Site from scratch in 1.5 months — Insortex case",
+    metaDescription:
+      "B2B site for sorting equipment: structure, catalog, custom blocks, and SEO room to grow. See the case — or inquire.",
     summary:
       "A site from scratch for a sorting-equipment supplier: B2B structure, catalog, custom blocks, and SEO groundwork — live in 1.5 months.",
     coverAlt: "insortex.ru homepage",
@@ -250,6 +256,9 @@ export const caseTranslationsEnBatch3: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "ERP → site",
     metricLabel: "from sync to a full redesign",
+    metaTitle: "1C sync → full redesign — Metallinvest site case",
+    metaDescription:
+      "Fixed 1C feed first, then rebuilt catalog, filters, cart, responsive layout, and SEO foundations. See the case.",
     summary:
       "First we fixed ERP export into the catalog, then rebuilt the metal trader’s whole site: structure, filters, cart, responsive layout, and SEO groundwork.",
     coverAlt: "metplus-vrn.ru homepage — live view",

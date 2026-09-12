@@ -7,6 +7,9 @@ export const marketingovayaStrategiyaEn: BlogPost = {
   date: "2019-10-07",
   category: "Digital marketing",
   cover: "/images/blog/marketingovaya-strategiya/cover-en.webp",
+  metaTitle: "Marketing from chat tasks? Strategy: how to plan and build one",
+  metaDescription:
+    "Goals, segments, and channels without chaos. Framework — before the next quarterly plan.",
   excerpt:
     "How to assemble a marketing strategy: goal and KPIs, audience, channels, content, and a schedule — without chaotic gut-feel campaigns and without swapping strategy for a single SEO plan.",
   lead: [
@@ -170,6 +173,9 @@ export const marketingovayaStrategiyaEs: BlogPost = {
   date: "2019-10-07",
   category: "Digital marketing",
   cover: "/images/blog/marketingovaya-strategiya/cover-es.webp",
+  metaTitle: "¿Marketing por tareas del chat? Estrategia: cómo planificarla y armarla",
+  metaDescription:
+    "Objetivos, segmentos y canales sin caos. Marco — antes del próximo plan trimestral.",
   excerpt:
     "Cómo armar una estrategia de marketing: objetivo y KPIs, audiencia, canales, contenido y calendario — sin campañas caóticas a ojo y sin sustituir la estrategia por un solo plan SEO.",
   lead: [

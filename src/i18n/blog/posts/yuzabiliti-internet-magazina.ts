@@ -7,6 +7,9 @@ export const yuzabilitiInternetMagazinaEn: BlogPost = {
   date: "2018-08-31",
   category: "E-commerce",
   cover: "/images/blog/yuzabiliti-internet-magazina/cover-en.webp",
+  metaTitle: "Store live — buying is hard? 18 ecommerce usability mistakes",
+  metaDescription:
+    "Catalog, PDP, and checkout. Checklist — audit today.",
   excerpt:
     "Long forms, missing search or mobile layout, hidden terms, forced registration, weak product pages, cart and checkout friction — an ecommerce UX checklist without “fix it and instantly 2×” promises.",
   lead: [
@@ -134,6 +137,9 @@ export const yuzabilitiInternetMagazinaEs: BlogPost = {
   date: "2018-08-31",
   category: "E-commerce",
   cover: "/images/blog/yuzabiliti-internet-magazina/cover-es.webp",
+  metaTitle: "¿Tienda viva — comprar es difícil? 18 errores de usabilidad ecom",
+  metaDescription:
+    "Catálogo, ficha y checkout. Checklist — audita hoy.",
   excerpt:
     "Formularios largos, sin búsqueda o layout móvil, términos ocultos, registro forzado, fichas débiles, fricción en carrito y checkout — un checklist UX de ecommerce sin promesas de «arréglalo y al instante ×2».",
   lead: [

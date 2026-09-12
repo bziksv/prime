@@ -7,6 +7,9 @@ export const parsingPythonEn: BlogPost = {
   date: "2020-03-27",
   category: "Digital marketing",
   cover: "/images/blog/parsing-python/cover-en.webp",
+  metaTitle: "Want to scrape with Python? A beginner start without code chaos",
+  metaDescription:
+    "Stack, ethics, and first steps. Learning plan — save before the pet project.",
   excerpt:
     "Why Python is often chosen for scraping, how Scrapy, Beautiful Soup, and Selenium differ, how to set up the environment, and where legal data collection ends.",
   lead: [
@@ -159,6 +162,9 @@ export const parsingPythonEs: BlogPost = {
   date: "2020-03-27",
   category: "Marketing digital",
   cover: "/images/blog/parsing-python/cover-es.webp",
+  metaTitle: "¿Quieres scrapear con Python? Arranque para novatos sin caos en el código",
+  metaDescription:
+    "Stack, ética y primeros pasos. Plan de aprendizaje — guárdalo antes del pet project.",
   excerpt:
     "Por qué se elige a menudo Python para scraping, en qué se diferencian Scrapy, Beautiful Soup y Selenium, cómo montar el entorno y dónde termina la recogida legal de datos.",
   lead: [

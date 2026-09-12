@@ -7,6 +7,9 @@ export const seoKopiraytingEn: BlogPost = {
   date: "2019-12-07",
   category: "SEO",
   cover: "/images/blog/seo-kopirayting/cover-en.webp",
+  metaTitle: "Keyword-stuffed copy nobody reads? SEO copywriting: rules, LSI, checklist",
+  metaDescription:
+    "Write for people and search without stuffing. Run the list before the brief is done.",
   excerpt:
     "What SEO copywriting is, how it differs from “just text,” a brief glossary for briefs, LSI, a creation checklist, and common mistakes — without a keyword-density cult.",
   lead: [
@@ -223,6 +226,9 @@ export const seoKopiraytingEs: BlogPost = {
   date: "2019-12-07",
   category: "SEO",
   cover: "/images/blog/seo-kopirayting/cover-es.webp",
+  metaTitle: "¿Copy relleno de keywords ilegible? SEO copy: reglas, LSI y checklist",
+  metaDescription:
+    "Escribe para personas y buscador sin stuffing. Pasa la lista antes de cerrar el brief.",
   excerpt:
     "Qué es el copywriting SEO, en qué se diferencia de «solo texto», un glosario corto para briefs, LSI, un checklist de creación y errores habituales — sin culto a la densidad de keywords.",
   lead: [

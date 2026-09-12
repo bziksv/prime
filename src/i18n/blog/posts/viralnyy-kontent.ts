@@ -7,6 +7,9 @@ export const viralnyyKontentEn: BlogPost = {
   date: "2021-02-12",
   category: "Content marketing",
   cover: "/images/blog/viralnyy-kontent/cover-en.webp",
+  metaTitle: "Virality “will just happen”? What it is and how to amplify without magic",
+  metaDescription:
+    "Share mechanics and cringe risk. Checklist — before the next “viral” creative.",
   excerpt:
     "What viral content is, how it relates to viral marketing, which signals raise share odds, and why you can’t guarantee a “hit.”",
   lead: [
@@ -236,6 +239,9 @@ export const viralnyyKontentEs: BlogPost = {
   date: "2021-02-12",
   category: "Content marketing",
   cover: "/images/blog/viralnyy-kontent/cover-es.webp",
+  metaTitle: "¿La viralidad “pasa sola”? Qué es y cómo potenciarla sin magia",
+  metaDescription:
+    "Mecánicas de share y riesgo de cringe. Checklist — antes del próximo creativo “viral”.",
   excerpt:
     "Qué es el contenido viral, cómo se relaciona con el marketing viral, qué señales suben las odds de share y por qué no puedes garantizar un «hit».",
   lead: [

@@ -7,6 +7,9 @@ export const lichnyyKabinetEn: BlogPost = {
   date: "2021-02-26",
   category: "Digital marketing",
   cover: "/images/blog/lichnyy-kabinet/cover-en.webp",
+  metaTitle: "Account area just for show? Site personal cabinet: why and what’s inside",
+  metaDescription:
+    "Use cases, data, and UX without overbuilding. Checklist — before the account-area brief.",
   excerpt:
     "Why a site needs a personal account, what features appear after login, when it’s required, and what to watch in development — from security to UX.",
   lead: [
@@ -155,6 +158,9 @@ export const lichnyyKabinetEs: BlogPost = {
   date: "2021-02-26",
   category: "Digital marketing",
   cover: "/images/blog/lichnyy-kabinet/cover-es.webp",
+  metaTitle: "¿Área de cliente de postureo? Gabinete personal: para qué y qué meter",
+  metaDescription:
+    "Casos de uso, datos y UX sin overengineering. Checklist — antes del brief del área privada.",
   excerpt:
     "Por qué un sitio necesita una cuenta personal, qué features aparecen tras el login, cuándo es obligatoria y qué vigilar en el desarrollo — de seguridad a UX.",
   lead: [

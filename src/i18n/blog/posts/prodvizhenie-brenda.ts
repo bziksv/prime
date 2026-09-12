@@ -7,6 +7,9 @@ export const prodvizhenieBrendaEn: BlogPost = {
   date: "2020-12-04",
   category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-brenda/cover-en.webp",
+  metaTitle: "Brand = just a logo? How to start promotion: goals, SMART, and SWOT",
+  metaDescription:
+    "A strategy frame without fluff. Checklist — before the quarterly media plan.",
   excerpt:
     "Where to begin brand promotion online: how a goal differs from a task, how to set SMART goals, which mistakes to avoid, and why SWOT comes before channel budget.",
   lead: [
@@ -138,6 +141,9 @@ export const prodvizhenieBrendaEs: BlogPost = {
   date: "2020-12-04",
   category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-brenda/cover-es.webp",
+  metaTitle: "¿Marca = solo logo? Cómo empezar la promoción: objetivos, SMART y SWOT",
+  metaDescription:
+    "Marco de estrategia sin relleno. Checklist — antes del mediaplan trimestral.",
   excerpt:
     "Por dónde empezar la promoción de marca online: cómo difiere un objetivo de una tarea, cómo fijar metas SMART, qué errores evitar y por qué el SWOT va antes del presupuesto de canales.",
   lead: [

@@ -7,6 +7,9 @@ export const roasEn: BlogPost = {
   date: "2019-03-04",
   category: "Digital marketing",
   cover: "/images/blog/roas/cover-en.webp",
+  metaTitle: "Did ads pay off? ROAS: ad spend return without mixing it up with ROI",
+  metaDescription:
+    "Formula, thresholds, and common traps. Cheat sheet — before the client report.",
   excerpt:
     "ROAS = ad revenue / ad spend: how it differs from ROI/ROMI (return on marketing investment), how to calculate it, why include creative in costs, and why in B2B without end-to-end analytics the metric lies.",
   lead: [
@@ -117,6 +120,9 @@ export const roasEs: BlogPost = {
   date: "2019-03-04",
   category: "Digital marketing",
   cover: "/images/blog/roas/cover-es.webp",
+  metaTitle: "¿Los ads rentaron? ROAS: rentabilidad del gasto sin mezclarlo con ROI",
+  metaDescription:
+    "Fórmula, umbral y trampas típicas. Chuleta — antes del informe al cliente.",
   excerpt:
     "ROAS = revenue de ads / gasto en ads: en qué se diferencia de ROI/ROMI (retorno de la inversión en marketing), cómo calcularlo, por qué incluir creativo en costes y por qué en B2B sin analytics de extremo a extremo la métrica miente.",
   lead: [

@@ -7,6 +7,9 @@ export const vizualizatsiyaDannyihEn: BlogPost = {
   date: "2019-06-17",
   category: "Content marketing",
   cover: "/images/blog/vizualizatsiya-dannyih/cover-en.webp",
+  metaTitle: "Nobody reads Excel sheets? Data visualization tools for marketing",
+  metaDescription:
+    "Dashboards without pretty emptiness. Shortlist — before the analytics brief.",
   excerpt:
     "Looker Studio, Power BI, Tableau, and other tools for reports and dashboards — how to choose without outdated 2019 prices and without confusing them with article infographics.",
   lead: [
@@ -142,6 +145,9 @@ export const vizualizatsiyaDannyihEs: BlogPost = {
   date: "2019-06-17",
   category: "Content marketing",
   cover: "/images/blog/vizualizatsiya-dannyih/cover-es.webp",
+  metaTitle: "¿Nadie lee el Excel? Tools de visualización de datos para marketing",
+  metaDescription:
+    "Dashboards sin “bonito vacío”. Selección — antes del brief de analítica.",
   excerpt:
     "Looker Studio, Power BI, Tableau y otras herramientas para informes y dashboards — cómo elegir sin precios obsoletos de 2019 y sin confundirlas con infografías de artículo.",
   lead: [

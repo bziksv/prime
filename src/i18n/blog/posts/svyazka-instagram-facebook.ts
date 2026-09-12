@@ -7,6 +7,9 @@ export const svyazkaInstagramFacebookEn: BlogPost = {
   date: "2021-07-16",
   category: "SMM",
   cover: "/images/blog/svyazka-instagram-facebook/cover-en.webp",
+  metaTitle: "Instagram and Facebook not talking? How to connect — and disconnect",
+  metaDescription:
+    "Meta Business steps and common mistakes. Checklist — before cross-posting.",
   excerpt:
     "Why link Instagram to Facebook via Accounts Center, what a professional profile gives you, how to unlink, and which cross-posting expectations are outdated.",
   lead: [
@@ -150,6 +153,9 @@ export const svyazkaInstagramFacebookEs: BlogPost = {
   date: "2021-07-16",
   category: "SMM",
   cover: "/images/blog/svyazka-instagram-facebook/cover-es.webp",
+  metaTitle: "¿Instagram y Facebook no se ven? Cómo vincular — y desvincular",
+  metaDescription:
+    "Pasos en Meta Business y errores típicos. Checklist — antes del cross-posting.",
   excerpt:
     "Por qué vincular Instagram a Facebook vía Accounts Center, qué da un perfil profesional, cómo desvincular y qué expectativas de cross-posting están obsoletas.",
   lead: [

@@ -7,6 +7,9 @@ export const excelGoogleTablitsyEn: BlogPost = {
   date: "2019-05-24",
   category: "SEO",
   cover: "/images/blog/excel-google-tablitsy/cover-en.webp",
+  metaTitle: "Keyword sheet chaos? Excel and Google Sheets: cleanup and SEO formulas",
+  metaDescription:
+    "How to tidy semantics without script magic. Checklist — save before the next clustering pass.",
   excerpt:
     "How to process keywords in Excel and Google Sheets: strip links and plus signs, fix spaces, remove duplicates, build negatives, sort, and use useful formulas — without Key Collector.",
   lead: [
@@ -218,6 +221,9 @@ export const excelGoogleTablitsyEs: BlogPost = {
   date: "2019-05-24",
   category: "SEO",
   cover: "/images/blog/excel-google-tablitsy/cover-es.webp",
+  metaTitle: "¿Semántica en caos? Excel y Google Sheets: limpieza y fórmulas SEO",
+  metaDescription:
+    "Cómo ordenar el núcleo sin “magia de scripts”. Checklist — guárdalo antes del próximo clustering.",
   excerpt:
     "Cómo procesar keywords en Excel y Google Sheets: quitar enlaces y signos más, arreglar espacios, eliminar duplicados, armar negativas, ordenar y usar fórmulas útiles — sin Key Collector.",
   lead: [

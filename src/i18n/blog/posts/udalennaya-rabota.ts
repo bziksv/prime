@@ -7,6 +7,9 @@ export const udalennayaRabotaEn: BlogPost = {
   date: "2019-12-09",
   category: "Digital marketing",
   cover: "/images/blog/udalennaya-rabota/cover-en.webp",
+  metaTitle: "Remote work as chat chaos? How to organize the team properly",
+  metaDescription:
+    "Processes, access, and cadence without burnout. Checklist — before the team goes remote.",
   excerpt:
     "How to run a remote team: hiring outside the office, managing by outcomes, communication and task tools, motivation and team feeling — without total surveillance.",
   lead: [
@@ -162,6 +165,9 @@ export const udalennayaRabotaEs: BlogPost = {
   date: "2019-12-09",
   category: "Digital marketing",
   cover: "/images/blog/udalennaya-rabota/cover-es.webp",
+  metaTitle: "¿Remoto = caos en chats? Cómo organizar al equipo bien",
+  metaDescription:
+    "Procesos, accesos y ritmo sin burnout. Checklist — antes del paso a remoto.",
   excerpt:
     "Cómo llevar un equipo remoto: hiring fuera de la oficina, gestión por outcomes, tools de comunicación y tareas, motivación y feeling de equipo — sin vigilancia total.",
   lead: [

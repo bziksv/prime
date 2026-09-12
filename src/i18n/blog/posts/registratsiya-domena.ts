@@ -7,6 +7,9 @@ export const registratsiyaDomenaEn: BlogPost = {
   date: "2017-11-13",
   category: "Digital marketing",
   cover: "/images/blog/registratsiya-domena/cover-en.webp",
+  metaTitle: "Domain “later”? How to register a name with a registrar without surprises",
+  metaDescription:
+    "WHOIS, DNS, and common mistakes. Checklist — before payment and hosting link.",
   excerpt:
     "Domain registration step by step: registrar account, availability check, owner data, name servers, and payment — using a REG.ru-style flow as an example, without outdated account screenshots.",
   lead: [
@@ -161,6 +164,9 @@ export const registratsiyaDomenaEs: BlogPost = {
   date: "2017-11-13",
   category: "Digital marketing",
   cover: "/images/blog/registratsiya-domena/cover-es.webp",
+  metaTitle: "¿Dominio “luego”? Cómo registrar el nombre sin sorpresas",
+  metaDescription:
+    "WHOIS, DNS y errores típicos. Checklist — antes de pagar y ligar el hosting.",
   excerpt:
     "Registro de dominio paso a paso: cuenta en el registrador, comprobación de disponibilidad, datos del titular, name servers y pago — con un flujo tipo REG.ru de ejemplo, sin capturas de cuenta desfasadas.",
   lead: [

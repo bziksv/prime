@@ -7,6 +7,9 @@ export const rozygryshInstagramEn: BlogPost = {
   date: "2020-08-21",
   category: "SMM",
   cover: "/images/blog/rozygrysh-instagram/cover-en.webp",
+  metaTitle: "Picking a winner by eye? A fair random generator for giveaways",
+  metaDescription:
+    "How to choose randomly and record the result. Cheat sheet — before you announce.",
   excerpt:
     "How fair random works for social giveaways: why use a generator, how to lock the result, which tools to use, and what to avoid — without “how to win” tips.",
   lead: [
@@ -205,6 +208,9 @@ export const rozygryshInstagramEs: BlogPost = {
   date: "2020-08-21",
   category: "SMM",
   cover: "/images/blog/rozygrysh-instagram/cover-es.webp",
+  metaTitle: "¿Ganador “a ojo”? Generador aleatorio justo para el sorteo",
+  metaDescription:
+    "Cómo elegir al azar y dejar constancia. Chuleta — antes de anunciar al ganador.",
   excerpt:
     "Cómo funciona el azar justo en sorteos de redes: por qué usar un generador, cómo fijar el resultado, qué tools usar y qué evitar — sin tips de «cómo ganar».",
   lead: [

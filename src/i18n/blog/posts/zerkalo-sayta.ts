@@ -7,6 +7,9 @@ export const zerkaloSaytaEn: BlogPost = {
   date: "2018-02-01",
   category: "SEO",
   cover: "/images/blog/zerkalo-sayta/cover-en.webp",
+  metaTitle: "Two domains, one site? Mirrors: how to consolidate and verify",
+  metaDescription:
+    "Canonical, redirects, and common mistakes. Checklist — before Webmaster merge.",
   excerpt:
     "What people call a site mirror: www and non-www, extra domains, and copies on other servers. How to merge with 301, why it matters for SEO, and how to verify the main host.",
   lead: [
@@ -191,6 +194,9 @@ export const zerkaloSaytaEs: BlogPost = {
   date: "2018-02-01",
   category: "SEO",
   cover: "/images/blog/zerkalo-sayta/cover-es.webp",
+  metaTitle: "¿Dos dominios, un contenido? Espejo del sitio: unificar y comprobar",
+  metaDescription:
+    "Canonical, redirects y errores típicos. Checklist — antes de unificar en Webmaster.",
   excerpt:
     "Qué se llama espejo del sitio: www y sin www, dominios extra y copias en otros servidores. Cómo unificar con 301, por qué importa para el SEO y cómo verificar el host principal.",
   lead: [

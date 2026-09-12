@@ -7,6 +7,9 @@ export const biznesAkkauntInstagramEn: BlogPost = {
   date: "2022-01-19",
   category: "SMM",
   cover: "/images/blog/biznes-akkaunt-instagram/cover-en.webp",
+  metaTitle: "Still a personal profile for business? Switch to a business account",
+  metaDescription:
+    "Why it matters, how to set it up, and what Insights unlock. Checklist — before you run ads.",
   excerpt:
     "How an Instagram business or professional profile differs from a personal one: insights, contacts, ads. How to switch account type and what to avoid.",
   lead: [
@@ -193,6 +196,9 @@ export const biznesAkkauntInstagramEs: BlogPost = {
   date: "2022-01-19",
   category: "SMM",
   cover: "/images/blog/biznes-akkaunt-instagram/cover-es.webp",
+  metaTitle: "¿Perfil personal “para negocio”? Pásalo a cuenta business",
+  metaDescription:
+    "Para qué sirve, cómo configurarlo y qué abre Insights. Checklist — antes de anunciarte.",
   excerpt:
     "En qué se diferencia un perfil business o professional de Instagram de uno personal: insights, contactos, ads. Cómo cambiar el tipo de cuenta y qué evitar.",
   lead: [

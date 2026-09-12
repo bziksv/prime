@@ -7,6 +7,9 @@ export const yandeksKatalogEn: BlogPost = {
   date: "2018-03-13",
   category: "SEO",
   cover: "/images/blog/yandeks-katalog/cover-en.webp",
+  metaTitle: "Yandex Catalog shut down — what’s next? What replaces registration",
+  metaDescription:
+    "Service history and practical alternatives. Breakdown — before “mass signup” habits.",
   excerpt:
     "Why Yandex.Catalog closed, what happened to TIC and regions, and where local presence lives now: Webmaster, Business/Maps, and live directories.",
   lead: [
@@ -171,6 +174,9 @@ export const yandeksKatalogEs: BlogPost = {
   date: "2018-03-13",
   category: "SEO",
   cover: "/images/blog/yandeks-katalog/cover-es.webp",
+  metaTitle: "¿Catálogo Yandex cerrado — y ahora? Con qué sustituir el alta",
+  metaDescription:
+    "Historia del servicio y alternativas prácticas. Análisis — antes del hábito de “altas masivas”.",
   excerpt:
     "Por qué cerró Yandex.Catalog, qué pasó con el TIC y las regiones, y dónde vive ahora la presencia local: Webmaster, Business/Maps y directorios vivos.",
   lead: [

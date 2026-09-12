@@ -7,6 +7,9 @@ export const cheklistSaytaEn: BlogPost = {
   date: "2018-09-24",
   category: "Websites",
   cover: "/images/blog/cheklist-sayta/cover-en.webp",
+  metaTitle: "Site “almost ready”? Launch and audit checklist without surprises",
+  metaDescription:
+    "Must-haves: tech, content, forms, analytics. Run the list before you go live.",
   excerpt:
     "Speed, HTTPS, clean URLs, 404 pages, responsive layout, contacts, offer, forms, reviews, privacy policy, and other blocks — a practical checklist without “50 items or failure” panic.",
   lead: [
@@ -148,6 +151,9 @@ export const cheklistSaytaEs: BlogPost = {
   date: "2018-09-24",
   category: "Websites",
   cover: "/images/blog/cheklist-sayta/cover-es.webp",
+  metaTitle: "¿Web “casi lista”? Checklist de lanzamiento y auditoría sin sorpresas",
+  metaDescription:
+    "Obligatorios: técnica, contenido, formularios, analítica. Pasa la lista antes del release.",
   excerpt:
     "Velocidad, HTTPS, URLs limpias, páginas 404, layout responsive, contactos, oferta, formularios, reseñas, política de privacidad y otros bloques — un checklist práctico sin pánico de «50 ítems o fracaso».",
   lead: [

@@ -7,6 +7,9 @@ export const nastroikaReklamyInstagramEn: BlogPost = {
   date: "2020-04-27",
   category: "SMM",
   cover: "/images/blog/nastroika-reklamy-instagram/cover-en.webp",
+  metaTitle: "Instagram Ads from scratch? Launch a campaign in Meta Ads, step by step",
+  metaDescription:
+    "Goal, audience, creative, and budget. Checklist — before the first review.",
   excerpt:
     "How to run Instagram ads from Meta Ads Manager: account linking, campaign goal, Instagram-only placements, budget, and testing — without outdated 2020 bid screenshots.",
   lead: [
@@ -163,6 +166,9 @@ export const nastroikaReklamyInstagramEs: BlogPost = {
   date: "2020-04-27",
   category: "SMM",
   cover: "/images/blog/nastroika-reklamy-instagram/cover-es.webp",
+  metaTitle: "¿Instagram Ads desde cero? Lanza la campaña en Meta Ads, paso a paso",
+  metaDescription:
+    "Objetivo, audiencia, creativo y presupuesto. Checklist — antes de la primera moderación.",
   excerpt:
     "Cómo correr ads de Instagram desde Meta Ads Manager: vínculo de cuenta, objetivo de campaña, placements solo Instagram, presupuesto y testing — sin capturas obsoletas de bids de 2020.",
   lead: [

@@ -7,6 +7,9 @@ export const skorostSaytaEn: BlogPost = {
   date: "2018-06-15",
   category: "SEO",
   cover: "/images/blog/skorost-sayta/cover-en.webp",
+  metaTitle: "Site crawling on mobile? How to check speed: CWV and tools",
+  metaDescription:
+    "Honest measurements and what to fix first. Checklist — run PageSpeed today.",
   excerpt:
     "How to measure page load: lab vs field data, Core Web Vitals, PageSpeed Insights, and what to do with the report — without a cult of “100 points” or a dusty 2018 tools top-10.",
   lead: [
@@ -172,6 +175,9 @@ export const skorostSaytaEs: BlogPost = {
   date: "2018-06-15",
   category: "SEO",
   cover: "/images/blog/skorost-sayta/cover-es.webp",
+  metaTitle: "¿La web va lenta en móvil? Cómo medir velocidad: CWV y tools",
+  metaDescription:
+    "Mediciones honestas y por dónde empezar. Checklist — pasa PageSpeed hoy.",
   excerpt:
     "Cómo medir la carga de página: datos de laboratorio vs de campo, Core Web Vitals, PageSpeed Insights y qué hacer con el informe — sin culto a «100 puntos» ni un ranking polvoriento de herramientas de 2018.",
   lead: [

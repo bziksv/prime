@@ -13,6 +13,9 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     period: "support · Bitrix",
     metric: "~1,600",
     metricLabel: "SKUs in the catalog",
+    metaTitle: "~1,600 ENT equipment SKUs — Lormag store case",
+    metaDescription:
+      "Bitrix e-com: catalog, SEO cabinet URLs, image registry, git deploy. Live on lormag.ru — see the case or inquire.",
     summary:
       "We run an ENT-equipment store on Bitrix (enext): ~1,600 SKUs, account SEF URLs, image registry, git deploy. Live at lormag.ru.",
     coverAlt: "LorMag store homepage — ENT equipment",
@@ -133,6 +136,9 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     period: "support · Bitrix",
     metric: "~470",
     metricLabel: "SKUs in the catalog",
+    metaTitle: "~470 medical posters — Medplakaty store case",
+    metaDescription:
+      "Bitrix e-com: catalog, homepage slider, PHP 8 fix, CSS/JS versioning. Live on medplakaty.ru — see the case.",
     summary:
       "We run a medical and educational poster store on Bitrix: ~470 SKUs, slider and homepage, PHP 8 fix, CSS/JS versioning. Live at medplakaty.ru.",
     coverAlt: "Medplakaty store homepage",
@@ -253,6 +259,9 @@ export const caseTranslationsEnBatch7: Record<string, Partial<CaseStudy>> = {
     period: "site · PHP/Smarty · support",
     metric: "calculator",
     metricLabel: "volume and cost per m³",
+    metaTitle: "m³ calculator + price list — Veles lumber site",
+    metaDescription:
+      "Built doskivrn.ru: board/timber catalog, prices, online m³ calculator and manager request. SEO is a separate case.",
     summary:
       "We built the Veles yard site (doskivrn.ru): board and timber catalog, price list, online m³ calculator, and a manager request. SEO for the same yard — see the pilomaterialov case.",
     coverAlt: "Veles site — lumber in Voronezh",

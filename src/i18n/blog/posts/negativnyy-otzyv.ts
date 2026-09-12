@@ -7,6 +7,9 @@ export const negativnyyOtzyvEn: BlogPost = {
   date: "2019-12-04",
   category: "Digital marketing",
   cover: "/images/blog/negativnyy-otzyv/cover-en.webp",
+  metaTitle: "Bad review and radio silence? How to reply: rules and examples",
+  metaDescription:
+    "Tone, facts, and escalation without a flame war. Templates — save before the next case.",
   excerpt:
     "How to answer negative reviews without aggression or flattery: apologies when warranted, speed of response, a real fix, and giving a choice — with auto-service examples you can reuse.",
   lead: [
@@ -151,6 +154,9 @@ export const negativnyyOtzyvEs: BlogPost = {
   date: "2019-12-04",
   category: "Digital marketing",
   cover: "/images/blog/negativnyy-otzyv/cover-es.webp",
+  metaTitle: "¿Reseña negativa y silencio? Cómo responder: reglas y ejemplos",
+  metaDescription:
+    "Tono, hechos y escalado sin pelea. Plantillas — guárdalas antes del próximo caso.",
   excerpt:
     "Cómo contestar reseñas negativas sin agresión ni adulaciones: disculpas cuando tocan, velocidad de respuesta, un arreglo real y dar a elegir — con ejemplos de taller de autos que puedes reutilizar.",
   lead: [

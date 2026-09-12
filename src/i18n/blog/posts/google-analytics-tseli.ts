@@ -7,6 +7,9 @@ export const googleAnalyticsTseliEn: BlogPost = {
   date: "2020-07-09",
   category: "Digital marketing",
   cover: "/images/blog/google-analytics-tseli/cover-en.webp",
+  metaTitle: "Conversions by gut feel? Goals and events in Google Analytics (GA4)",
+  metaDescription:
+    "How to mark key actions and verify hits. Checklist — before your ROI report.",
   excerpt:
     "How to set up conversions in Google Analytics 4: key events, thank-you URLs, engagement and clicks — mapping old Universal “goals” and checking reports.",
   lead: [
@@ -236,6 +239,9 @@ export const googleAnalyticsTseliEs: BlogPost = {
   date: "2020-07-09",
   category: "Digital marketing",
   cover: "/images/blog/google-analytics-tseli/cover-es.webp",
+  metaTitle: "¿Conversiones a ojo? Objetivos y eventos en Google Analytics (GA4)",
+  metaDescription:
+    "Cómo marcar acciones clave y verificar el envío. Checklist — antes del informe de ROI.",
   excerpt:
     "Cómo configurar conversiones en Google Analytics 4: key events, URLs de gracias, engagement y clics — mapeo de los viejos «goals» de Universal y comprobación de informes.",
   lead: [

@@ -7,6 +7,9 @@ export const klyuchiGoogleAdsEn: BlogPost = {
   date: "2021-03-09",
   category: "Paid search",
   cover: "/images/blog/klyuchi-google-ads/cover-en.webp",
+  metaTitle: "Guessing keywords in Ads? Build Google Ads semantics properly",
+  metaDescription:
+    "Tools, match types, and negatives. Checklist — before the campaign goes live.",
   excerpt:
     "How to pick keywords for Google Ads (formerly AdWords): match types, planner stats, and intent checks — without mixing them up with an SEO keyword set.",
   lead: [
@@ -259,6 +262,9 @@ export const klyuchiGoogleAdsEs: BlogPost = {
   date: "2021-03-09",
   category: "Paid search",
   cover: "/images/blog/klyuchi-google-ads/cover-es.webp",
+  metaTitle: "¿Keywords en Ads a ojo? Semántica de Google Ads bien hecha",
+  metaDescription:
+    "Tools, tipos de concordancia y negativas. Checklist — antes de lanzar la campaña.",
   excerpt:
     "Cómo elegir keywords para Google Ads (antes AdWords): tipos de coincidencia, stats del planner y checks de intención — sin mezclarlos con un set SEO.",
   lead: [

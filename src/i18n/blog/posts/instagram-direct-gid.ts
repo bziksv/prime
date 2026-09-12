@@ -7,6 +7,9 @@ export const instagramDirectGidEn: BlogPost = {
   date: "2021-12-21",
   category: "SMM",
   cover: "/images/blog/instagram-direct-gid/cover-en.webp",
+  metaTitle: "Lost in DMs? Instagram Direct: how to use the messenger",
+  metaDescription:
+    "Tabs, requests, and features without confusion. Guide — save before you set business replies.",
   excerpt:
     "How to open Direct, send a message, attachments, quick replies, and chats on Instagram — a messenger guide without grey broadcasts or outdated “paper plane” screenshots.",
   lead: [
@@ -180,6 +183,9 @@ export const instagramDirectGidEs: BlogPost = {
   date: "2021-12-21",
   category: "SMM",
   cover: "/images/blog/instagram-direct-gid/cover-es.webp",
+  metaTitle: "¿Perdido en los DMs? Direct de Instagram: cómo usar el messenger",
+  metaDescription:
+    "Pestañas, solicitudes y funciones sin lío. Guía — guárdala antes de configurar respuestas.",
   excerpt:
     "Cómo abrir Direct, enviar un mensaje, adjuntos, quick replies y chats en Instagram — una guía del messenger sin broadcasts grises ni screenshots obsoletos del «avión de papel».",
   lead: [

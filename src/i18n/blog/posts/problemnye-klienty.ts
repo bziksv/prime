@@ -7,6 +7,9 @@ export const problemnyeKlientyEn: BlogPost = {
   date: "2018-07-19",
   category: "Digital marketing",
   cover: "/images/blog/problemnye-klienty/cover-en.webp",
+  metaTitle: "A client draining the team? 11 types and how to handle them",
+  metaDescription:
+    "Boundaries, scripts, and escalation without meltdown. Cheat sheet — share with sales.",
   excerpt:
     "Unsure, know-it-all, aggressive, impulsive, cautious, chatty, dissatisfied, tactless, thrifty, demanding, and pessimist — portraits and workable replies without escalation.",
   lead: [
@@ -109,6 +112,9 @@ export const problemnyeKlientyEs: BlogPost = {
   date: "2018-07-19",
   category: "Digital marketing",
   cover: "/images/blog/problemnye-klienty/cover-es.webp",
+  metaTitle: "¿Un cliente agota al equipo? 11 tipos y cómo interactuar",
+  metaDescription:
+    "Límites, scripts y escalado sin crisis. Chuleta — compártela con ventas.",
   excerpt:
     "Inseguro, sabelotodo, agresivo, impulsivo, cauteloso, hablador, insatisfecho, sin tacto, ahorrador, exigente y pesimista — retratos y respuestas que funcionan sin escalar.",
   lead: [

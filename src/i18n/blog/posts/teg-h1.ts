@@ -7,6 +7,9 @@ export const tegH1En: BlogPost = {
   date: "2020-12-28",
   category: "SEO",
   cover: "/images/blog/teg-h1/cover-en.webp",
+  metaTitle: "H1 copying the title — or five of them? H1 tag: markup, hierarchy, SEO",
+  metaDescription:
+    "Rules without dogma. Cheat sheet — before you edit the page template.",
   excerpt:
     "Why H1 matters, how it differs from the title tag, how to build an H1–H6 hierarchy, where keywords fit, and how to check headings without stuffing.",
   lead: [
@@ -220,6 +223,9 @@ export const tegH1Es: BlogPost = {
   date: "2020-12-28",
   category: "SEO",
   cover: "/images/blog/teg-h1/cover-es.webp",
+  metaTitle: "¿H1 = Title o cinco H1? Etiqueta H1: marcado, jerarquía y SEO",
+  metaDescription:
+    "Reglas sin dogmatismo. Chuleta — antes de editar la plantilla.",
   excerpt:
     "Por qué importa el H1, en qué se diferencia del title tag, cómo montar una jerarquía H1–H6, dónde encajan las keywords y cómo revisar headings sin stuffing.",
   lead: [

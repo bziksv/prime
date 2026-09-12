@@ -7,6 +7,9 @@ export const smsRassylkaEn: BlogPost = {
   date: "2019-11-15",
   category: "Digital marketing",
   cover: "/images/blog/sms-rassylka/cover-en.webp",
+  metaTitle: "SMS to everyone = spam risk? Broadcasts: where to start without getting blocked",
+  metaDescription:
+    "Consent, copy, and cadence. Checklist — before the first mass send.",
   excerpt:
     "How to launch SMS: channel jobs, your own list and consent, picking an operator/aggregator, short copy, frequency, opt-out, and measurement — without cold spam to bought numbers.",
   lead: [
@@ -170,6 +173,9 @@ export const smsRassylkaEs: BlogPost = {
   date: "2019-11-15",
   category: "Digital marketing",
   cover: "/images/blog/sms-rassylka/cover-es.webp",
+  metaTitle: "¿SMS a todos = spam? Mailing: por dónde empezar y no acabar bloqueado",
+  metaDescription:
+    "Consentimiento, texto y frecuencia. Checklist — antes del primer envío masivo.",
   excerpt:
     "Cómo lanzar SMS: trabajos del canal, tu propia lista y consentimiento, elegir operador/agregador, copy corto, frecuencia, opt-out y medición — sin spam frío a números comprados.",
   lead: [

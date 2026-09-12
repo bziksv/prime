@@ -7,6 +7,9 @@ export const keisyFacebookAdsEn: BlogPost = {
   date: "2020-11-03",
   category: "SMM",
   cover: "/images/blog/keisy-facebook-ads/cover-en.webp",
+  metaTitle: "Facebook Ads case studies without rose glasses? Failures and wins that teach",
+  metaDescription:
+    "What worked, what burned budget, and takeaways. Breakdown — before the next launch.",
   excerpt:
     "Typical Meta/Facebook ads mistakes and practical lessons from other people’s campaigns: goal, segment, tests, landing, and remarketing — without copying someone else’s ROI as a guarantee.",
   lead: [
@@ -159,6 +162,9 @@ export const keisyFacebookAdsEs: BlogPost = {
   date: "2020-11-03",
   category: "SMM",
   cover: "/images/blog/keisy-facebook-ads/cover-es.webp",
+  metaTitle: "¿Casos de Facebook Ads sin romanticismo? Errores y lecciones que sí enseñan",
+  metaDescription:
+    "Qué funcionó, qué quemó presupuesto y qué llevarte. Análisis — antes del próximo lanzamiento.",
   excerpt:
     "Errores típicos de ads de Meta/Facebook y lecciones prácticas de campañas ajenas: objetivo, segmento, tests, landing y remarketing — sin copiar el ROI de otro como garantía.",
   lead: [

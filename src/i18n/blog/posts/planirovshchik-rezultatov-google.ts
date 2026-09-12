@@ -7,6 +7,9 @@ export const planirovshchikRezultatovGoogleEn: BlogPost = {
   date: "2020-02-05",
   category: "Paid search",
   cover: "/images/blog/planirovshchik-rezultatov-google/cover-en.webp",
+  metaTitle: "Ads forecasts from thin air? Google Performance Planner: how to use it",
+  metaDescription:
+    "Reach, clicks, and budget estimates without illusions. Checklist — before budget approval.",
   excerpt:
     "Performance Planner in Google Ads: forecast budget and conversions from live campaigns, plan for seasonality, and reallocate spend across campaigns — and how it differs from Keyword Planner.",
   lead: [
@@ -156,6 +159,9 @@ export const planirovshchikRezultatovGoogleEs: BlogPost = {
   date: "2020-02-05",
   category: "Búsqueda de pago",
   cover: "/images/blog/planirovshchik-rezultatov-google/cover-es.webp",
+  metaTitle: "¿Pronósticos Ads a ojo? Planificador de resultados de Google: cómo usarlo",
+  metaDescription:
+    "Alcance, clics y presupuesto sin ilusiones. Checklist — antes de aprobar la partida.",
   excerpt:
     "Performance Planner en Google Ads: prever presupuesto y conversiones desde campañas vivas, planificar estacionalidad y reasignar spend entre campañas — y en qué se diferencia del Keyword Planner.",
   lead: [

@@ -7,6 +7,9 @@ export const seoBitrixEn: BlogPost = {
   date: "2021-06-22",
   category: "SEO",
   cover: "/images/blog/seo-bitrix/cover-en.webp",
+  metaTitle: "Bitrix SEO “out of the box”? Robots, meta, and a practical baseline",
+  metaDescription:
+    "What to enable first without a module zoo. Checklist — before the catalog audit.",
   excerpt:
     "What the built-in 1C-Bitrix SEO module gives you, how to handle robots.txt, meta templates, and counters carefully — without treating Marketplace paid modules as the only path.",
   lead: [
@@ -147,6 +150,9 @@ export const seoBitrixEs: BlogPost = {
   date: "2021-06-22",
   category: "SEO",
   cover: "/images/blog/seo-bitrix/cover-es.webp",
+  metaTitle: "¿Bitrix SEO “de fábrica”? Robots, meta y baseline práctico",
+  metaDescription:
+    "Qué activar primero sin zoo de módulos. Checklist — antes de auditar el catálogo.",
   excerpt:
     "Qué da el módulo SEO integrado de 1C-Bitrix, cómo manejar robots.txt, plantillas meta y contadores con cuidado — sin tratar los módulos de pago del Marketplace como el único camino.",
   lead: [

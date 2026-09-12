@@ -7,6 +7,9 @@ export const kannibalizatsiyaZaprosovEn: BlogPost = {
   date: "2019-08-08",
   category: "SEO",
   cover: "/images/blog/kannibalizatsiya-zaprosov/cover-en.webp",
+  metaTitle: "Pages fighting one keyword? Cannibalization: find it and fix it",
+  metaDescription:
+    "Symptoms, diagnosis, and merge options. Checklist — before you clean the keyword map.",
   excerpt:
     "When several site pages fight for one query, why it hurts, how to spot the conflict, and what to do: merge, separate intents, or strengthen one URL.",
   lead: [
@@ -247,6 +250,9 @@ export const kannibalizatsiyaZaprosovEs: BlogPost = {
   date: "2019-08-08",
   category: "SEO",
   cover: "/images/blog/kannibalizatsiya-zaprosov/cover-es.webp",
+  metaTitle: "¿Páginas pelean por una keyword? Canibalización: encuéntrala y quítala",
+  metaDescription:
+    "Síntomas, diagnóstico y opciones de fusión. Checklist — antes de limpiar la semántica.",
   excerpt:
     "Cuando varias páginas del sitio pelean por una consulta, por qué duele, cómo detectar el conflicto y qué hacer: fusionar, separar intents o reforzar una URL.",
   lead: [

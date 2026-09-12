@@ -7,6 +7,9 @@ export const pwaEn: BlogPost = {
   date: "2019-09-10",
   category: "Digital marketing",
   cover: "/images/blog/pwa/cover-en.webp",
+  metaTitle: "Native app too expensive? PWA: what Progressive Web Apps are and when they fit",
+  metaDescription:
+    "Pros, limits, and use cases. Breakdown — before you pick the mobile stack.",
   excerpt:
     "What a PWA is: a site with a manifest and Service Worker, home-screen install, offline cache, and push. Pros for stores and the limits — without promising an automatic Google ranking boost.",
   lead: [
@@ -138,6 +141,9 @@ export const pwaEs: BlogPost = {
   date: "2019-09-10",
   category: "Digital marketing",
   cover: "/images/blog/pwa/cover-es.webp",
+  metaTitle: "¿App nativa cara? PWA: qué son Progressive Web Apps y cuándo encajan",
+  metaDescription:
+    "Pros, límites y casos de uso. Análisis — antes de elegir el stack móvil.",
   excerpt:
     "Qué es una PWA: un sitio con manifest y Service Worker, instalación en la pantalla de inicio, cache offline y push. Pros para tiendas y los límites — sin prometer un boost automático de rankings en Google.",
   lead: [

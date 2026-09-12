@@ -7,6 +7,9 @@ export const nakrutkaZriteleyYoutubeEn: BlogPost = {
   date: "2020-09-29",
   category: "SMM",
   cover: "/images/blog/nakrutka-zriteley-youtube/cover-en.webp",
+  metaTitle: "Buying live viewers in bulk? YouTube stream farms: risks and better swaps",
+  metaDescription:
+    "What happens to the channel — and legal reach alternatives. Read before you pay bots.",
   excerpt:
     "Why people buy live viewers, what it risks for the channel and advertisers, and how to grow a real audience without bots and proxy workarounds.",
   lead: [
@@ -122,6 +125,9 @@ export const nakrutkaZriteleyYoutubeEs: BlogPost = {
   date: "2020-09-29",
   category: "SMM",
   cover: "/images/blog/nakrutka-zriteley-youtube/cover-es.webp",
+  metaTitle: "¿Espectadores a granel en el directo? Farms de YouTube: riesgos y alternativas",
+  metaDescription:
+    "Qué le pasa al canal y sustitutos legales de alcance. Léelo antes de pagar bots.",
   excerpt:
     "Por qué la gente compra espectadores en vivo, qué arriesga para el canal y los anunciantes, y cómo crecer una audiencia real sin bots ni workarounds de proxy.",
   lead: [

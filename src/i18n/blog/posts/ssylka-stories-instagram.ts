@@ -8,6 +8,9 @@ export const ssylkaStoriesInstagramEn: BlogPost = {
   date: "2020-09-11",
   category: "SMM",
   cover: "/images/blog/ssylka-stories-instagram/cover-en.webp",
+  metaTitle: "No more swipe-up in Stories? Links: sticker, CTA, and what changed",
+  metaDescription:
+    "How to add the tap-through and the limits. Checklist — before the next Stories.",
   excerpt:
     "How to add a tappable link in Instagram Stories: the Link sticker, internal jumps, ads, and limits — without outdated “swipe up” as the only method.",
   lead: [
@@ -143,6 +146,9 @@ export const ssylkaStoriesInstagramEs: BlogPost = {
   date: "2020-09-11",
   category: "SMM",
   cover: "/images/blog/ssylka-stories-instagram/cover-es.webp",
+  metaTitle: "¿Ya no hay swipe up en Stories? Enlace: sticker, CTA y qué cambió",
+  metaDescription:
+    "Cómo poner el salto y los límites. Checklist — antes de la próxima Stories.",
   excerpt:
     "Cómo añadir un enlace tocable en Instagram Stories: el sticker Link, saltos internos, ads y límites — sin el «swipe up» obsoleto como único método.",
   lead: [

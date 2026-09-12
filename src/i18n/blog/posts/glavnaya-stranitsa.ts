@@ -7,6 +7,9 @@ export const glavnayaStranitsaEn: BlogPost = {
   date: "2020-12-01",
   category: "Websites",
   cover: "/images/blog/glavnaya-stranitsa/cover-en.webp",
+  metaTitle: "Homepage confuses in 5 seconds? Capture attention without chaos",
+  metaDescription:
+    "Hierarchy, offer, and the next click path. First-screen checklist — before redesign.",
   excerpt:
     "What a homepage needs: who you are, what you offer, how you differ; header, blocks, CTA, and footer — without a wall of text or outdated pretty design for design’s sake.",
   lead: [
@@ -161,6 +164,9 @@ export const glavnayaStranitsaEs: BlogPost = {
   date: "2020-12-01",
   category: "Sitios web",
   cover: "/images/blog/glavnaya-stranitsa/cover-es.webp",
+  metaTitle: "¿La home confunde en 5 segundos? Atrae sin caos",
+  metaDescription:
+    "Jerarquía, oferta y siguiente clic. Checklist del first screen — antes del rediseño.",
   excerpt:
     "Qué necesita una homepage: quién eres, qué ofreces, en qué te diferencias; header, bloques, CTA y footer — sin un muro de texto ni diseño bonito obsoleto por el diseño mismo.",
   lead: [

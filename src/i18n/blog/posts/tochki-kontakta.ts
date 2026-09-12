@@ -7,6 +7,9 @@ export const tochkiKontaktaEn: BlogPost = {
   date: "2020-01-22",
   category: "Digital marketing",
   cover: "/images/blog/tochki-kontakta/cover-en.webp",
+  metaTitle: "Customers dropping off mid-journey? Touchpoints: find and strengthen sales",
+  metaDescription:
+    "A contact map and weak spots. Checklist — before funnel fixes.",
   excerpt:
     "What touchpoints are: online and offline, positive and negative, how to map the customer journey and link touches into a chain before and after purchase.",
   lead: [
@@ -181,6 +184,9 @@ export const tochkiKontaktaEs: BlogPost = {
   date: "2020-01-22",
   category: "Marketing digital",
   cover: "/images/blog/tochki-kontakta/cover-es.webp",
+  metaTitle: "¿El cliente se pierde por el camino? Puntos de contacto: encuéntralos y refuerza ventas",
+  metaDescription:
+    "Mapa de toques y puntos flojos. Checklist — antes de tocar el embudo.",
   excerpt:
     "Qué son los puntos de contacto: online y offline, positivos y negativos, cómo mapear el customer journey y encadenar toques antes y después de la compra.",
   lead: [

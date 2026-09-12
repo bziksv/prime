@@ -7,6 +7,9 @@ export const googleAnalyticsNastroykaEn: BlogPost = {
   date: "2019-08-15",
   category: "Digital marketing",
   cover: "/images/blog/google-analytics-nastroyka/cover-en.webp",
+  metaTitle: "GA4 still missing? Setup from scratch — beginner walkthrough",
+  metaDescription:
+    "Account, property, stream, and a basic check. Checklist — get the tag live today.",
   excerpt:
     "Basic GA4 setup: account, property, data stream, tag or GTM install, DebugView checks, and what to turn on next — without Universal Analytics screenshots.",
   lead: [
@@ -145,6 +148,9 @@ export const googleAnalyticsNastroykaEs: BlogPost = {
   date: "2019-08-15",
   category: "Digital marketing",
   cover: "/images/blog/google-analytics-nastroyka/cover-es.webp",
+  metaTitle: "¿Aún sin GA4? Configuración desde cero — guía para novatos",
+  metaDescription:
+    "Cuenta, propiedad, stream y comprobación básica. Checklist — activa el tag hoy.",
   excerpt:
     "Setup básico de GA4: cuenta, property, data stream, instalación con tag o GTM, comprobaciones en DebugView y qué activar después — sin screenshots de Universal Analytics.",
   lead: [

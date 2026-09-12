@@ -7,6 +7,9 @@ export const zashchitaKontentaEn: BlogPost = {
   date: "2019-12-21",
   category: "Content marketing",
   cover: "/images/blog/zashchita-kontenta/cover-en.webp",
+  metaTitle: "Copy scraped in bulk? How to protect site content from theft",
+  metaDescription:
+    "Tech and legal moves without 100% illusion. Checklist — before you publish new posts.",
   excerpt:
     "Text plagiarism: why it hurts, how to monitor copies, what to do after theft, and why disabling right-click barely helps — without cultish outdated link-score myths.",
   lead: [
@@ -125,6 +128,9 @@ export const zashchitaKontentaEs: BlogPost = {
   date: "2019-12-21",
   category: "Content marketing",
   cover: "/images/blog/zashchita-kontenta/cover-es.webp",
+  metaTitle: "¿Te copian textos a granel? Cómo proteger el contenido de la web",
+  metaDescription:
+    "Técnica y legal sin ilusión del 100%. Checklist — antes de publicar artículos nuevos.",
   excerpt:
     "Plagio de texto: por qué hace daño, cómo monitorizar copias, qué hacer tras el robo y por qué desactivar el clic derecho apenas ayuda — sin mitos cultistas de link-score obsoletos.",
   lead: [

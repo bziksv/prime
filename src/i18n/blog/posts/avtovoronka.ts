@@ -7,6 +7,9 @@ export const avtovoronkaEn: BlogPost = {
   date: "2019-08-01",
   category: "Digital marketing",
   cover: "/images/blog/avtovoronka/cover-en.webp",
+  metaTitle: "Napkin funnel falling apart? Build an autofunnel without chaos",
+  metaDescription:
+    "What it is, common types, and where to start without a tool zoo. Map inside — save before setup.",
   excerpt:
     "An automated sales funnel: stages from first touch to purchase, simple/medium/multi-level schemes, key elements, and why automate — without the myth that “a bot replaces everyone.”",
   lead: [
@@ -145,6 +148,9 @@ export const avtovoronkaEs: BlogPost = {
   date: "2019-08-01",
   category: "Digital marketing",
   cover: "/images/blog/avtovoronka/cover-es.webp",
+  metaTitle: "¿El embudo en servilleta se cae? Monta una autofunnel sin caos",
+  metaDescription:
+    "Qué es, tipos habituales y por dónde empezar sin zoo de tools. Mapa dentro — guarda antes de configurar.",
   excerpt:
     "Un embudo de ventas automatizado: etapas del primer touch a la compra, esquemas simple/medio/multinivel, elementos clave y por qué automatizar — sin el mito de que «un bot lo sustituye todo».",
   lead: [

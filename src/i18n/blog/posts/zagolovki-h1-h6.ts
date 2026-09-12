@@ -7,6 +7,9 @@ export const zagolovkiH1H6En: BlogPost = {
   date: "2018-08-03",
   category: "SEO",
   cover: "/images/blog/zagolovki-h1-h6/cover-en.webp",
+  metaTitle: "H1–H6 in random order? Headings: technique and meaning for SEO",
+  metaDescription:
+    "Hierarchy without stuffing. Checklist — before you edit the article template.",
   excerpt:
     "How to use H1–H6 on a page: one main heading, a clear hierarchy, keywords without stuffing, and readable structure — not 4U ad copy and not HTTP headers.",
   lead: [
@@ -127,6 +130,9 @@ export const zagolovkiH1H6Es: BlogPost = {
   date: "2018-08-03",
   category: "SEO",
   cover: "/images/blog/zagolovki-h1-h6/cover-es.webp",
+  metaTitle: "¿H1–H6 a lo loco? Encabezados: técnica y sentido para SEO",
+  metaDescription:
+    "Jerarquía sin stuffing. Checklist — antes de editar la plantilla del artículo.",
   excerpt:
     "Cómo usar H1–H6 en una página: un encabezado principal, jerarquía clara, keywords sin stuffing y estructura legible — no copy publicitario 4U ni cabeceras HTTP.",
   lead: [

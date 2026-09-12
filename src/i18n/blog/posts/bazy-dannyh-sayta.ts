@@ -7,6 +7,9 @@ export const bazyDannyhSaytaEn: BlogPost = {
   date: "2021-01-15",
   category: "SEO",
   cover: "/images/blog/bazy-dannyh-sayta/cover-en.webp",
+  metaTitle: "Site down, no backup? Databases and restore basics",
+  metaDescription:
+    "How to organize site DBs and what to back up on a schedule. Backup checklist — verify hosting today.",
   excerpt:
     "What a site database stores, how it differs from files on disk, why backups matter, and how not to lose orders, users, and content after a failure or hack.",
   lead: [
@@ -211,6 +214,9 @@ export const bazyDannyhSaytaEs: BlogPost = {
   date: "2021-01-15",
   category: "SEO",
   cover: "/images/blog/bazy-dannyh-sayta/cover-es.webp",
+  metaTitle: "¿Web caída y sin backup? Bases de datos y copia de seguridad",
+  metaDescription:
+    "Cómo organizar la BD y qué copiar con rutina. Checklist de backup — revisa el hosting hoy.",
   excerpt:
     "Qué guarda la base de datos de un sitio, cómo se diferencia de los archivos en disco, por qué importan los backups y cómo no perder pedidos, usuarios y contenido tras un fallo o un hack.",
   lead: [

@@ -7,6 +7,9 @@ export const auktsionDirektEs: BlogPost = {
   date: "2017-04-10",
   category: "Paid search",
   cover: "/images/blog/auktsion-direkt/cover-es.webp",
+  metaTitle: "¿Pujas altas y pocos clics? Cómo funciona la subasta Direct",
+  metaDescription:
+    "Pujas, CTR y competencia — sin el mito de “comprar el puesto 1”. Guarda antes de tocar la estrategia.",
   excerpt:
     "Cómo funciona la subasta de Yandex Direct: puja y calidad del anuncio, lógica de second-price, por qué el «premium placement» de guías de 2017 es un término histórico y por qué los «props» de puja de competidores son mala idea.",
   lead: [
@@ -125,6 +128,9 @@ export const auktsionDirektEn: BlogPost = {
   date: "2017-04-10",
   category: "Paid search",
   cover: "/images/blog/auktsion-direkt/cover-en.webp",
+  metaTitle: "Bids up, clicks flat? How the Direct auction really works",
+  metaDescription:
+    "Bids, CTR, and competition — without the “buy position one” myth. Save before you tweak strategy again.",
   excerpt:
     "How the Yandex Direct auction works: bid and ad quality, second-price logic, why “premium placement” from 2017 guides is a historical term, and why competitor “bid props” are a bad idea.",
   lead: [

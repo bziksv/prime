@@ -7,6 +7,9 @@ export const klyuchiInternetMagazinEn: BlogPost = {
   date: "2021-01-26",
   category: "SEO",
   cover: "/images/blog/klyuchi-internet-magazin/cover-en.webp",
+  metaTitle: "Catalog without a keyword map? Ecommerce keywords: research and filtering",
+  metaDescription:
+    "Categories, products, and junk queries. Checklist — before the SEO/copy brief.",
   excerpt:
     "How to build semantics for an online store: products and categories, keyword tools and junk filters, clusters for cards — without copying a competitor’s core “as is” or promising page one in a week.",
   lead: [
@@ -214,6 +217,9 @@ export const klyuchiInternetMagazinEs: BlogPost = {
   date: "2021-01-26",
   category: "SEO",
   cover: "/images/blog/klyuchi-internet-magazin/cover-es.webp",
+  metaTitle: "¿Catálogo sin núcleo? Keywords de tienda: selección y filtrado",
+  metaDescription:
+    "Categorías, productos y consultas basura. Checklist — antes del brief SEO/copy.",
   excerpt:
     "Cómo armar la semántica de una tienda online: productos y categorías, herramientas de keywords y filtros de basura, clusters para fichas — sin copiar el núcleo de un competidor «tal cual» ni prometer primera página en una semana.",
   lead: [

@@ -7,6 +7,9 @@ export const pryamoyEfirInstagramEn: BlogPost = {
   date: "2022-03-04",
   category: "SMM",
   cover: "/images/blog/pryamoy-efir-instagram/cover-en.webp",
+  metaTitle: "Went live to silence? Instagram Live: prep, hosting, and debrief",
+  metaDescription:
+    "Script, engagement, and follow-up. Checklist — before the next live.",
   excerpt:
     "How to prepare a live stream: goal, script, tech, announcement, comment handling, and post-stream stats review.",
   lead: [
@@ -192,6 +195,9 @@ export const pryamoyEfirInstagramEs: BlogPost = {
   date: "2022-03-04",
   category: "SMM",
   cover: "/images/blog/pryamoy-efir-instagram/cover-es.webp",
+  metaTitle: "¿Directo y silencio? Instagram Live: preparación, conducción y debrief",
+  metaDescription:
+    "Guion, engagement y follow-up. Checklist — antes del próximo directo.",
   excerpt:
     "Cómo preparar un directo: objetivo, guion, técnica, anuncio, gestión de comentarios y revisión de stats tras el stream.",
   lead: [

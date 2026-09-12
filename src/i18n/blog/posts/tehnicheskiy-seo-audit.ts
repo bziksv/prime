@@ -7,6 +7,9 @@ export const tehnicheskiySeoAuditEn: BlogPost = {
   date: "2021-07-22",
   category: "SEO",
   cover: "/images/blog/tehnicheskiy-seo-audit/cover-en.webp",
+  metaTitle: "Tech SEO “later”? Technical audit: goals, tasks, and a DIY start",
+  metaDescription:
+    "What to check first without a report zoo. Checklist — crawl the site today.",
   excerpt:
     "Why a technical SEO audit matters, what to check, and whether you can run a basic pass yourself.",
   lead: [
@@ -262,6 +265,9 @@ export const tehnicheskiySeoAuditEs: BlogPost = {
   date: "2021-07-22",
   category: "SEO",
   cover: "/images/blog/tehnicheskiy-seo-audit/cover-es.webp",
+  metaTitle: "¿SEO técnico “luego”? Auditoría: objetivos, tareas y arranque DIY",
+  metaDescription:
+    "Qué revisar primero sin zoo de informes. Checklist — rastrea la web hoy.",
   excerpt:
     "Por qué importa una auditoría SEO técnica, qué revisar y si puedes hacer un pase básico tú mismo.",
   lead: [

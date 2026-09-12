@@ -7,6 +7,9 @@ export const chtoTakoeSsylkaEn: BlogPost = {
   date: "2021-09-21",
   category: "SEO",
   cover: "/images/blog/chto-takoe-ssylka/cover-en.webp",
+  metaTitle: "A link isn’t just a blue string? Types, anchors, and SEO role",
+  metaDescription:
+    "Internal, external, nofollow, and anchors without myths. Cheat sheet — before the next link build.",
   excerpt:
     "Hyperlinks in HTML: internal and external, absolute and relative, anchors and bare URLs, nofollow. How links help navigation and site crawl.",
   lead: [
@@ -165,6 +168,9 @@ export const chtoTakoeSsylkaEs: BlogPost = {
   date: "2021-09-21",
   category: "SEO",
   cover: "/images/blog/chto-takoe-ssylka/cover-es.webp",
+  metaTitle: "¿Un enlace no es solo texto azul? Tipos, anclas y rol SEO",
+  metaDescription:
+    "Internos, externos, nofollow y anclas sin mitos. Chuleta — antes del próximo link building.",
   excerpt:
     "Hiperenlaces en HTML: internos y externos, absolutos y relativos, anclas y URLs peladas, nofollow. Cómo los enlaces ayudan a la navegación y al crawl del sitio.",
   lead: [

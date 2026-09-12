@@ -7,6 +7,9 @@ export const parsingAuditoriiEn: BlogPost = {
   date: "2020-02-25",
   category: "Digital marketing",
   cover: "/images/blog/parsing-auditorii/cover-en.webp",
+  metaTitle: "Scraping audiences in bulk? What it is — and cleaner alternatives",
+  metaDescription:
+    "Risks and practical ad alternatives. Breakdown — before you buy contact dumps.",
   excerpt:
     "What marketers mean by audience scraping on social networks, risks of mass profile harvesting, and how to segment legally — via ad accounts, your own list, and research.",
   lead: [
@@ -154,6 +157,9 @@ export const parsingAuditoriiEs: BlogPost = {
   date: "2020-02-25",
   category: "Marketing digital",
   cover: "/images/blog/parsing-auditorii/cover-es.webp",
+  metaTitle: "¿Scraping de audiencias a granel? Qué es — y alternativas más limpias",
+  metaDescription:
+    "Riesgos y alternativas prácticas para ads. Análisis — antes de comprar bases.",
   excerpt:
     "Qué entienden los marketers por scraping de audiencia en redes, riesgos de cosechar perfiles en masa y cómo segmentar de forma legal — vía cuentas de ads, tu propia lista e investigación.",
   lead: [

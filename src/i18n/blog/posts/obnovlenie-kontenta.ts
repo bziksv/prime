@@ -7,6 +7,9 @@ export const obnovlenieKontentaEn: BlogPost = {
   date: "2021-07-08",
   category: "Content marketing",
   cover: "/images/blog/obnovlenie-kontenta/cover-en.webp",
+  metaTitle: "Old posts dead in search? Refresh content and grow traffic again",
+  metaDescription:
+    "What to edit, how to measure, and what to touch first. Checklist — before the next blog sprint.",
   excerpt:
     "Find posts that still have search demand, decide what to update first, improve the writing and the page, then promote again — without promising “2× traffic in 90 days for every site.”",
   lead: [
@@ -145,6 +148,9 @@ export const obnovlenieKontentaEs: BlogPost = {
   date: "2021-07-08",
   category: "Content marketing",
   cover: "/images/blog/obnovlenie-kontenta/cover-es.webp",
+  metaTitle: "¿Posts viejos muertos? Actualiza contenido y recupera tráfico",
+  metaDescription:
+    "Qué editar, cómo medir y por dónde empezar. Checklist — antes del próximo sprint del blog.",
   excerpt:
     "Encuentra posts que aún tienen demanda de búsqueda, decide qué actualizar primero, mejora el texto y la página, y vuelve a promover — sin prometer «2× de tráfico en 90 días para cualquier sitio».",
   lead: [

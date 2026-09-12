@@ -7,6 +7,9 @@ export const messendzherEn: BlogPost = {
   date: "2021-01-15",
   category: "SMM",
   cover: "/images/blog/messendzher/cover-en.webp",
+  metaTitle: "Chat “just for chatting”? Messengers: types, features, and business use",
+  metaDescription:
+    "When the channel fits sales and support. Primer — before you pick the comms stack.",
   excerpt:
     "A messenger is an app or web client for instant messages, calls, and files. How WhatsApp*, Telegram, and workplace chats differ — and how to roll them out without spam.",
   lead: [
@@ -165,6 +168,9 @@ export const messendzherEs: BlogPost = {
   date: "2021-01-15",
   category: "SMM",
   cover: "/images/blog/messendzher/cover-es.webp",
+  metaTitle: "¿Chat “solo para hablar”? Mensajería: tipos, funciones y negocio",
+  metaDescription:
+    "Cuándo encaja en ventas y soporte. Base — antes de elegir el stack de comunicación.",
   excerpt:
     "Un messenger es una app o cliente web para mensajes instantáneos, llamadas y archivos. En qué se diferencian WhatsApp*, Telegram y los chats de trabajo — y cómo desplegarlos sin spam.",
   lead: [

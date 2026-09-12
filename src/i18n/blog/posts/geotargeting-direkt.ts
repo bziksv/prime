@@ -7,6 +7,9 @@ export const geotargetingDirektEs: BlogPost = {
   date: "2017-05-05",
   category: "Paid search",
   cover: "/images/blog/geotargeting-direkt/cover-es.webp",
+  metaTitle: "¿Geo “todo el país” quema presupuesto? Geotargeting en Direct, práctico",
+  metaDescription:
+    "Búsqueda, redes y ajustes avanzados sin diluir. Checklist — antes del próximo cambio de campaña.",
   excerpt:
     "Cómo funciona el geo en Yandex Direct en búsqueda y en redes, para qué existe el geotargeting avanzado y cómo no quemar presupuesto en otras ciudades — sin capturas obsoletas de 2017.",
   lead: [
@@ -172,6 +175,9 @@ export const geotargetingDirektEn: BlogPost = {
   date: "2017-05-05",
   category: "Paid search",
   cover: "/images/blog/geotargeting-direkt/cover-en.webp",
+  metaTitle: "Nationwide geo burning budget? Yandex Direct geotargeting, practical",
+  metaDescription:
+    "Search, networks, and advanced settings without dilution. Checklist — before the next campaign edit.",
   excerpt:
     "How geo works in Yandex Direct on search and in networks, why advanced geotargeting exists, and how not to burn budget on other cities — without outdated 2017 screenshots.",
   lead: [

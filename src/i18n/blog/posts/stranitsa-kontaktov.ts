@@ -7,6 +7,9 @@ export const stranitsaKontaktovEn: BlogPost = {
   date: "2019-11-07",
   category: "Content marketing",
   cover: "/images/blog/stranitsa-kontaktov/cover-en.webp",
+  metaTitle: "Contacts page = just an email? Layout it so people actually reach out",
+  metaDescription:
+    "Blocks, map, form, and trust signals. Checklist — before you redesign /contacts.",
   excerpt:
     "A dedicated Contacts page: what to list, how not to overload the header, clickable phones, map and form — without turning the block into a dump of legal details.",
   lead: [
@@ -164,6 +167,9 @@ export const stranitsaKontaktovEs: BlogPost = {
   date: "2019-11-07",
   category: "Content marketing",
   cover: "/images/blog/stranitsa-kontaktov/cover-es.webp",
+  metaTitle: "¿Contactos = solo un email? Diseña la página para que escriban y llamen",
+  metaDescription:
+    "Bloques, mapa, formulario y confianza. Checklist — antes de rediseñar /contacts.",
   excerpt:
     "Una página de Contactos dedicada: qué listar, cómo no sobrecargar el header, teléfonos clicables, mapa y formulario — sin convertir el bloque en un vertedero de datos legales.",
   lead: [

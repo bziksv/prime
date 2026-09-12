@@ -7,6 +7,9 @@ export const crelloEn: BlogPost = {
   date: "2020-01-16",
   category: "SMM",
   cover: "/images/blog/crello/cover-en.webp",
+  metaTitle: "SMM visuals without a designer? Crello (VistaCreate), practical",
+  metaDescription:
+    "Where it saves time and where templates kill the brand. Read before you lock the creative stack.",
   excerpt:
     "What Crello is and why it’s now VistaCreate: templates for posts and banners, animation, team workflows — when a template editor is enough, and when you still need a designer.",
   lead: [
@@ -125,6 +128,9 @@ export const crelloEs: BlogPost = {
   date: "2020-01-16",
   category: "SMM",
   cover: "/images/blog/crello/cover-es.webp",
+  metaTitle: "¿Visual SMM sin diseñador? Crello (VistaCreate), práctico",
+  metaDescription:
+    "Dónde ahorra tiempo y dónde las plantillas matan la marca. Léelo antes de fijar el stack.",
   excerpt:
     "Qué es Crello y por qué ahora es VistaCreate: plantillas para posts y banners, animación, flujos de equipo — cuándo basta un editor de plantillas y cuándo sigue haciendo falta un diseñador.",
   lead: [

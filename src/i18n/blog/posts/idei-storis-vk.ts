@@ -7,6 +7,9 @@ export const ideiStorisVkEn: BlogPost = {
   date: "2021-01-28",
   category: "SMM",
   cover: "/images/blog/idei-storis-vk/cover-en.webp",
+  metaTitle: "VK Stories without empty challenges? Engagement by ideas, not freebies",
+  metaDescription:
+    "Formats for community and product. Shortlist — save before the content plan.",
   excerpt:
     "Ideas for VK stories: polls, mini tips, behind the scenes, relay prompts, and quizzes for business and blogs — without promising thousands of views or toxic 2020 formats.",
   lead: [
@@ -158,6 +161,9 @@ export const ideiStorisVkEs: BlogPost = {
   date: "2021-01-28",
   category: "SMM",
   cover: "/images/blog/idei-storis-vk/cover-es.webp",
+  metaTitle: "¿Stories VK sin challenges vacíos? Engagement con ideas, no chollo",
+  metaDescription:
+    "Formatos para comunidad y producto. Selección — guárdala antes del plan de contenido.",
   excerpt:
     "Ideas para stories de VK: encuestas, mini tips, behind the scenes, prompts de relay y quizzes para negocio y blogs — sin prometer miles de views ni formatos tóxicos de 2020.",
   lead: [

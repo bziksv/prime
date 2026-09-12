@@ -7,6 +7,9 @@ export const eatKopiraytingEn: BlogPost = {
   date: "2020-01-29",
   category: "Content marketing",
   cover: "/images/blog/eat-kopirayting/cover-en.webp",
+  metaTitle: "Copy like everyone else? E-E-A-T writing with expertise and trust",
+  metaDescription:
+    "How to show experience, sources, and authorship without fluff. Checklist — before the expert-article brief.",
   excerpt:
     "E-E-A-T in copy: experience, expertise, authoritativeness, and trustworthiness — how to write for YMYL and everyday topics without keyword stuffing or the myth that a rater personally assigns page one.",
   lead: [
@@ -137,6 +140,9 @@ export const eatKopiraytingEs: BlogPost = {
   date: "2020-01-29",
   category: "Content marketing",
   cover: "/images/blog/eat-kopirayting/cover-es.webp",
+  metaTitle: "¿Copy como todos? Redacción E-E-A-T con expertise y confianza",
+  metaDescription:
+    "Cómo mostrar experiencia, fuentes y autoría sin relleno. Checklist — antes del brief de artículo experto.",
   excerpt:
     "E-E-A-T en el copy: experiencia, expertise, autoridad y fiabilidad — cómo escribir para YMYL y temas cotidianos sin keyword stuffing ni el mito de que un rater asigna a mano la primera página.",
   lead: [

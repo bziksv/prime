@@ -7,6 +7,9 @@ export const primeryEmailRassylokEn: BlogPost = {
   date: "2020-03-20",
   category: "Email marketing",
   cover: "/images/blog/primery-email-rassylok/cover-en.webp",
+  metaTitle: "Newsletters like everyone else? Global brand email examples — steal the patterns",
+  metaDescription:
+    "Structure, offer, and tone without copy-paste. Shortlist — before the next digest.",
   excerpt:
     "What to learn from strong emails: two offers in one letter, a warm welcome, a progress bar, a survey, a reminder, and an honest tone — without copying someone else’s layouts one-to-one.",
   lead: [
@@ -120,6 +123,9 @@ export const primeryEmailRassylokEs: BlogPost = {
   date: "2020-03-20",
   category: "Email marketing",
   cover: "/images/blog/primery-email-rassylok/cover-es.webp",
+  metaTitle: "¿Mailings como todos? Ejemplos de email de marcas globales — copia los patrones",
+  metaDescription:
+    "Estructura, oferta y tono sin copy-paste. Selección — antes del próximo digest.",
   excerpt:
     "Qué aprender de emails fuertes: dos ofertas en una carta, un welcome cálido, una barra de progreso, una encuesta, un recordatorio y un tono honesto — sin copiar layouts ajenos uno a uno.",
   lead: [

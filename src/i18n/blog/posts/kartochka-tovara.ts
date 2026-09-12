@@ -7,6 +7,9 @@ export const kartochkaTovaraEn: BlogPost = {
   date: "2019-06-10",
   category: "E-commerce",
   cover: "/images/blog/kartochka-tovara/cover-en.webp",
+  metaTitle: "PDP live, Buy ignored? Structure, photos, price, and CTA",
+  metaDescription:
+    "What’s mandatory on the product page and where conversion dies. Checklist — audit the template today.",
   excerpt:
     "How to build an ecommerce product page: required blocks, photos and video, description, price with CTA, delivery, and reviews — so the buy decision doesn’t stall.",
   lead: [
@@ -125,6 +128,9 @@ export const kartochkaTovaraEs: BlogPost = {
   date: "2019-06-10",
   category: "E-commerce",
   cover: "/images/blog/kartochka-tovara/cover-es.webp",
+  metaTitle: "¿Ficha viva y nadie pulsa Comprar? Estructura, fotos, precio y CTA",
+  metaDescription:
+    "Qué es obligatorio en la PDP y dónde se pierde la conversión. Checklist — audita la plantilla hoy.",
   excerpt:
     "Cómo armar la ficha de producto en ecommerce: bloques obligatorios, fotos y vídeo, descripción, precio con CTA, entrega y reseñas — para que la decisión de compra no se estanque.",
   lead: [

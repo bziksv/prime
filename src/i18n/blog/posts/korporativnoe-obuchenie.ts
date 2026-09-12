@@ -7,6 +7,9 @@ export const korporativnoeObuchenieEn: BlogPost = {
   date: "2019-08-16",
   category: "Digital marketing",
   cover: "/images/blog/korporativnoe-obuchenie/cover-en.webp",
+  metaTitle: "Training just for show? Corporate learning: system, goals, expert",
+  metaDescription:
+    "How to tie motivation to skills without checkbox theater. Read before you launch the program.",
   excerpt:
     "Why employees don’t learn “on their own,” how to build a development system, set a goal and the expert’s role — and how online format differs from the motivation to learn.",
   lead: [
@@ -123,6 +126,9 @@ export const korporativnoeObuchenieEs: BlogPost = {
   date: "2019-08-16",
   category: "Digital marketing",
   cover: "/images/blog/korporativnoe-obuchenie/cover-es.webp",
+  metaTitle: "¿Formación de postureo? Aprendizaje corporativo: sistema, objetivos, experto",
+  metaDescription:
+    "Cómo ligar motivación y skills sin formalismo. Léelo antes de lanzar el programa.",
   excerpt:
     "Por qué los empleados no aprenden «por su cuenta», cómo armar un sistema de desarrollo, fijar una meta y el rol del experto — y en qué se diferencia el formato online de la motivación para aprender.",
   lead: [

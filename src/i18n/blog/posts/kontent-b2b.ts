@@ -7,6 +7,9 @@ export const kontentB2bEn: BlogPost = {
   date: "2018-05-14",
   category: "Content marketing",
   cover: "/images/blog/kontent-b2b/cover-en.webp",
+  metaTitle: "B2B content copying B2C? 5 material types that actually work",
+  metaDescription:
+    "Formats for the deal cycle and decision-makers. Shortlist — save before the content strategy.",
   excerpt:
     "What works in B2B content: reviews and UGC, fast contact, interactives, case studies, and a live voice — without outdated “% trust” stats and +800% in a month promises.",
   lead: [
@@ -151,6 +154,9 @@ export const kontentB2bEs: BlogPost = {
   date: "2018-05-14",
   category: "Content marketing",
   cover: "/images/blog/kontent-b2b/cover-es.webp",
+  metaTitle: "¿Contenido B2B como B2C? 5 tipos de materiales que sí funcionan",
+  metaDescription:
+    "Formatos para el ciclo de venta y decidores. Selección — guárdala antes de la estrategia.",
   excerpt:
     "Qué funciona en contenido B2B: reviews y UGC, contacto rápido, interactivos, case studies y una voz viva — sin stats obsoletas de «% de confianza» ni promesas de +800% en un mes.",
   lead: [

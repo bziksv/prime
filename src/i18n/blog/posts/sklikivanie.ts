@@ -7,6 +7,9 @@ export const sklikivanieEn: BlogPost = {
   date: "2021-09-17",
   category: "Paid search",
   cover: "/images/blog/sklikivanie/cover-en.webp",
+  metaTitle: "Clicks eating the budget? Click fraud: signs and protection in Direct & Google Ads",
+  metaDescription:
+    "How to spot it and what to do. Checklist — open the reports today.",
   excerpt:
     "What click fraud is, how to tell it from a weak campaign, which defenses exist in Yandex Direct and Google Ads, and what to do if you suspect fraud.",
   lead: [
@@ -185,6 +188,9 @@ export const sklikivanieEs: BlogPost = {
   date: "2021-09-17",
   category: "Paid search",
   cover: "/images/blog/sklikivanie/cover-es.webp",
+  metaTitle: "¿Los clics se comen el presupuesto? Click fraud: señales y protección en Direct y Google Ads",
+  metaDescription:
+    "Cómo detectarlo y qué hacer. Checklist — abre los informes hoy.",
   excerpt:
     "Qué es el fraude de clics, cómo distinguirlo de una campaña floja, qué defensas hay en Yandex Direct y Google Ads, y qué hacer si sospechas fraude.",
   lead: [

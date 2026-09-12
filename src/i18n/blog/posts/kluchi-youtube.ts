@@ -7,6 +7,9 @@ export const kluchiYoutubeEn: BlogPost = {
   date: "2020-11-10",
   category: "SMM",
   cover: "/images/blog/kluchi-youtube/cover-en.webp",
+  metaTitle: "Videos without keyword research? YouTube keywords: build a semantic set",
+  metaDescription:
+    "Research, tags, and titles without spam. Checklist — before the next upload.",
   excerpt:
     "How to pick keywords for YouTube title, description, and tags: retention beats a “perfect” keyword set, search suggestions and demand tools, competitor review, and long-tail queries — without ranking promises in a week.",
   lead: [
@@ -105,6 +108,9 @@ export const kluchiYoutubeEs: BlogPost = {
   date: "2020-11-10",
   category: "SMM",
   cover: "/images/blog/kluchi-youtube/cover-es.webp",
+  metaTitle: "¿Vídeos sin semántica? Keywords de YouTube: arma el núcleo",
+  metaDescription:
+    "Búsqueda, tags y title sin spam. Checklist — antes de la próxima subida.",
   excerpt:
     "Cómo elegir keywords para título, descripción y tags de YouTube: la retención gana a un set «perfecto», sugerencias de búsqueda y tools de demanda, review de competidores y queries long-tail — sin promesas de ranking en una semana.",
   lead: [

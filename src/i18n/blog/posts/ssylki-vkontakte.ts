@@ -7,6 +7,9 @@ export const ssylkiVkontakteEn: BlogPost = {
   date: "2021-06-16",
   category: "SMM",
   cover: "/images/blog/ssylki-vkontakte/cover-en.webp",
+  metaTitle: "Messy VK links? Mentions, previews, and post URLs done cleanly",
+  metaDescription:
+    "How to make them tidy and clickable. Cheat sheet — before the next post.",
   excerpt:
     "How to make a clickable mention of a person or community on VKontakte, attach a site link with a preview, and copy a post URL — without confusing them with a bare browser address.",
   lead: [
@@ -153,6 +156,9 @@ export const ssylkiVkontakteEs: BlogPost = {
   date: "2021-06-16",
   category: "SMM",
   cover: "/images/blog/ssylki-vkontakte/cover-es.webp",
+  metaTitle: "¿Enlaces VK “como salga”? Menciones, preview y URL del post",
+  metaDescription:
+    "Cómo dejarlos limpios y clicables. Chuleta — antes del próximo post.",
   excerpt:
     "Cómo hacer una mención clicable de una persona o comunidad en VKontakte, adjuntar un enlace al sitio con preview y copiar la URL de un post — sin confundirlas con la dirección desnuda del navegador.",
   lead: [

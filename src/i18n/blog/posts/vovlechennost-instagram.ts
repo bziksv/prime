@@ -7,6 +7,9 @@ export const vovlechennostInstagramEn: BlogPost = {
   date: "2020-11-17",
   category: "SMM",
   cover: "/images/blog/vovlechennost-instagram/cover-en.webp",
+  metaTitle: "Likes up, engagement flat? Instagram ER and profile analysis",
+  metaDescription:
+    "How to calculate and what to improve. Cheat sheet — before the SMM report.",
   excerpt:
     "What Engagement Rate means on Instagram, which formulas exist, and how to read ER with profile stats — without the “mandatory 3%” myth and without fake engagement.",
   lead: [
@@ -173,6 +176,9 @@ export const vovlechennostInstagramEs: BlogPost = {
   date: "2020-11-17",
   category: "SMM",
   cover: "/images/blog/vovlechennost-instagram/cover-es.webp",
+  metaTitle: "¿Likes sí, engagement no? ER de Instagram y análisis del perfil",
+  metaDescription:
+    "Cómo calcular y qué mejorar. Chuleta — antes del informe SMM.",
   excerpt:
     "Qué significa Engagement Rate en Instagram, qué fórmulas existen y cómo leer el ER con stats del perfil — sin el mito del «3% obligatorio» y sin engagement falso.",
   lead: [

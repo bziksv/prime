@@ -7,6 +7,9 @@ export const virtualnyyNomerEn: BlogPost = {
   date: "2020-07-21",
   category: "Digital marketing",
   cover: "/images/blog/virtualnyy-nomer/cover-en.webp",
+  metaTitle: "Personal mobiles for work risky? Virtual numbers: why business needs them — and limits",
+  metaDescription:
+    "Use cases, recording, and boundaries. Checklist — before you connect the PBX.",
   excerpt:
     "What a virtual number is: receiving SMS and calls over the internet, business use cases (call tracking, toll-free, IVR), and risks of free “numbers for sign-ups.” No guides to bypassing platform rules.",
   lead: [
@@ -119,6 +122,9 @@ export const virtualnyyNomerEs: BlogPost = {
   date: "2020-07-21",
   category: "Digital marketing",
   cover: "/images/blog/virtualnyy-nomer/cover-es.webp",
+  metaTitle: "¿Móvil personal de riesgo? Número virtual: para qué al negocio y límites",
+  metaDescription:
+    "Casos de uso, grabación y fronteras. Checklist — antes de conectar la centralita.",
   excerpt:
     "Qué es un número virtual: recibir SMS y llamadas por internet, casos de uso de negocio (call tracking, toll-free, IVR) y riesgos de «números gratis para registros». Sin guías para saltar reglas de plataforma.",
   lead: [

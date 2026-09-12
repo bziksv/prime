@@ -7,6 +7,9 @@ export const feykStranitsaEn: BlogPost = {
   date: "2021-02-26",
   category: "Digital marketing",
   cover: "/images/blog/feyk-stranitsa/cover-en.webp",
+  metaTitle: "Brand clone in the SERP? Fake pages: how to spot them and what to do",
+  metaDescription:
+    "Red flags, SEO/reputation risks, and first moves. Cheat sheet — share with the team.",
   excerpt:
     "What counts as a fake page or fake account, why scammers build them, and how to verify authenticity — without how-tos for making forgeries.",
   lead: [
@@ -155,6 +158,9 @@ export const feykStranitsaEs: BlogPost = {
   date: "2021-02-26",
   category: "Digital marketing",
   cover: "/images/blog/feyk-stranitsa/cover-es.webp",
+  metaTitle: "¿Clon de marca en el SERP? Página falsa: cómo detectarla y qué hacer",
+  metaDescription:
+    "Señales, riesgos SEO/reputación y primeros pasos. Chuleta — compártela con el equipo.",
   excerpt:
     "Qué cuenta como página o cuenta falsa, por qué los estafadores las montan y cómo verificar autenticidad — sin how-tos para fabricar falsificaciones.",
   lead: [

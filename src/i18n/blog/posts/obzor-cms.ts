@@ -7,6 +7,9 @@ export const obzorCmsEn: BlogPost = {
   date: "2017-01-10",
   category: "Digital marketing",
   cover: "/images/blog/obzor-cms/cover-en.webp",
+  metaTitle: "Picking a CMS by gut? WordPress, Joomla, Bitrix, Drupal, MODX, DLE — practical",
+  metaDescription:
+    "Where each shines and where it burns budget. Compare before you lock the engine.",
   excerpt:
     "A look at popular CMS options: WordPress, Joomla, 1C-Bitrix, Drupal, MODX, and DLE — pros, cons, and which jobs they fit, without 2017 market-share charts or the myth that “the engine ranks you.”",
   lead: [
@@ -196,6 +199,9 @@ export const obzorCmsEs: BlogPost = {
   date: "2017-01-10",
   category: "Digital marketing",
   cover: "/images/blog/obzor-cms/cover-es.webp",
+  metaTitle: "¿CMS a ojo? WordPress, Joomla, Bitrix, Drupal, MODX y DLE — práctico",
+  metaDescription:
+    "Dónde brilla cada una y dónde quema presupuesto. Compara antes de fijar el motor.",
   excerpt:
     "Un repaso a opciones populares de CMS: WordPress, Joomla, 1C-Bitrix, Drupal, MODX y DLE — pros, contras y a qué trabajos encajan, sin charts de cuota de mercado de 2017 ni el mito de que «el motor te posiciona».",
   lead: [

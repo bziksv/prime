@@ -7,6 +7,9 @@ export const intentSotsialnyeProdazhiEn: BlogPost = {
   date: "2018-09-04",
   category: "Digital marketing",
   cover: "/images/blog/intent-sotsialnye-prodazhi/cover-en.webp",
+  metaTitle: "Posts into the void? Social intent: working with buyer signals",
+  metaDescription:
+    "How to read intent and answer with an offer. Checklist — before the next content cycle.",
   excerpt:
     "Social selling and intent monitoring in feeds and communities: “just dreaming / comparing / ready to buy,” ethical replies, CRM, and retarget — not the same as SEO user intent.",
   lead: [
@@ -121,6 +124,9 @@ export const intentSotsialnyeProdazhiEs: BlogPost = {
   date: "2018-09-04",
   category: "Digital marketing",
   cover: "/images/blog/intent-sotsialnye-prodazhi/cover-es.webp",
+  metaTitle: "¿Posts al vacío? Intent en social: trabajar las señales de compra",
+  metaDescription:
+    "Cómo leer intención y responder con oferta. Checklist — antes del próximo ciclo de contenido.",
   excerpt:
     "Social selling y monitorización de intent en feeds y comunidades: «solo soñando / comparando / listo para comprar», respuestas éticas, CRM y retarget — no es lo mismo que el user intent de SEO.",
   lead: [

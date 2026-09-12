@@ -8,6 +8,9 @@ export const cmsInternetMagazinaEn: BlogPost = {
   date: "2019-03-15",
   category: "Digital marketing",
   cover: "/images/blog/cms-internet-magazina/cover-en.webp",
+  metaTitle: "Picking an ecommerce CMS by gut? Cons of Bitrix, Magento, OpenCart & more",
+  metaDescription:
+    "Where platforms burn budget and speed. Compare before you lock the store engine.",
   excerpt:
     "How to pick a CMS for an online store with typical downsides in mind: 1C-Bitrix, Magento, OpenCart, WooCommerce, and CS-Cart — without 2019 price lists and the myth that the engine alone ranks you.",
   lead: [
@@ -203,6 +206,9 @@ export const cmsInternetMagazinaEs: BlogPost = {
   date: "2019-03-15",
   category: "Digital marketing",
   cover: "/images/blog/cms-internet-magazina/cover-es.webp",
+  metaTitle: "¿CMS de tienda a ojo? Contras de Bitrix, Magento, OpenCart y más",
+  metaDescription:
+    "Dónde las plataformas queman presupuesto y velocidad. Compara antes de fijar el motor.",
   excerpt:
     "Cómo elegir una CMS para tienda online con contras típicos en mente: 1C-Bitrix, Magento, OpenCart, WooCommerce y CS-Cart — sin listas de precios de 2019 ni el mito de que el motor solo te rankea.",
   lead: [

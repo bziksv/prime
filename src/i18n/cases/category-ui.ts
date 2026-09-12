@@ -10,8 +10,8 @@ export type CasesCategoryUi = {
   ctaText: string;
   ctaSubmit: string;
   allCases: string;
-  pageTitle: (title: string) => string;
-  pageDescription: (lead: string, title: string) => string;
+  pageTitle: (id: CaseCategoryId) => string;
+  pageDescription: (id: CaseCategoryId) => string;
   themes: {
     seo: {
       query: string;
@@ -65,9 +65,24 @@ const ru: CasesCategoryUi = {
     "Более 10 лет в интернет-маркетинге — короткий разбор ниши и прогноз по срокам и экономике канала.",
   ctaSubmit: "Оставить заявку",
   allCases: "Все кейсы",
-  pageTitle: (title) => `${title} — кейсы ПРАЙМ`,
-  pageDescription: (lead, title) =>
-    `${lead} Кейсы агентства ПРАЙМ по направлению «${title}».`,
+  pageTitle: (id) =>
+    (
+      {
+        seo: "SEO с оплатой за ТОП-10 — смотрите живые кейсы",
+        ads: "Контекст с нормальным CPL — разбор кейсов ПРАЙМ",
+        web: "Сайты под заявки: кейсы разработки — смотрите",
+        bots: "Боты в мессенджерах: кейсы сервиса — смотрите",
+      } as const
+    )[id],
+  pageDescription: (id) =>
+    (
+      {
+        seo: "Разберите проекты с позициями и заявками из поиска. Нужен похожий рост — оставьте заявку на расчёт SEO.",
+        ads: "Смотрите связки Директ/Ads с CRM и CPL. Хотите такой же контроль бюджета — напишите нам.",
+        web: "Кейсы лендингов, корпоративов и магазинов под продажи. Нужен сайт — обсудим стек и сроки.",
+        bots: "Сценарии Telegram и мессенджеров с записью и CRM. Нужен бот — закажите разбор задачи.",
+      } as const
+    )[id],
   themes: {
     seo: {
       query: "купить · услуга · город",
@@ -151,9 +166,24 @@ const en: CasesCategoryUi = {
     "Over 10 years in digital marketing — a short niche review and a forecast on timelines and channel economics.",
   ctaSubmit: "Talk to us",
   allCases: "All work",
-  pageTitle: (title) => `${title} — PRIME case studies`,
-  pageDescription: (lead, title) =>
-    `${lead} PRIME case studies in ${title}.`,
+  pageTitle: (id) =>
+    (
+      {
+        seo: "Pay-for-page-one SEO — browse live case studies",
+        ads: "Google Ads with sane CPL — see PRIME work",
+        web: "Sites built for leads — web case studies",
+        bots: "Messenger bots that serve clients — see the builds",
+      } as const
+    )[id],
+  pageDescription: (id) =>
+    (
+      {
+        seo: "Review projects with rankings and search leads. Want similar growth — ask for an SEO quote.",
+        ads: "See Ads/CRM setups and CPL control. Want the same budget discipline — talk to us.",
+        web: "Landings, corporate sites, and stores that convert. Need a site — let’s pick the stack.",
+        bots: "Telegram flows with bookings and CRM. Need a bot — send the brief.",
+      } as const
+    )[id],
   themes: {
     seo: {
       query: "buy · service · city",
@@ -237,9 +267,24 @@ const es: CasesCategoryUi = {
     "Más de 10 años en marketing digital — una revisión breve de tu nicho y una previsión de plazos y economía del canal.",
   ctaSubmit: "Escríbenos",
   allCases: "Ver todos los casos",
-  pageTitle: (title) => `${title} — casos de éxito de PRIME`,
-  pageDescription: (lead, title) =>
-    `${lead} Casos de éxito de la agencia PRIME en ${title}.`,
+  pageTitle: (id) =>
+    (
+      {
+        seo: "SEO con pago por primera página — mira casos reales",
+        ads: "Google Ads con CPL sano — casos de PRIME",
+        web: "Webs hechas para leads — casos de desarrollo",
+        bots: "Bots de mensajería que atienden — mira los builds",
+      } as const
+    )[id],
+  pageDescription: (id) =>
+    (
+      {
+        seo: "Revisa proyectos con posiciones y leads de búsqueda. ¿Quieres un crecimiento parecido? Pide presupuesto SEO.",
+        ads: "Mira setups Ads/CRM y control de CPL. ¿Misma disciplina de presupuesto? Escríbenos.",
+        web: "Landings, corporativos y tiendas que convierten. ¿Necesitas web? Elegimos stack y plazos.",
+        bots: "Flujos de Telegram con reservas y CRM. ¿Necesitas un bot? Envía el brief.",
+      } as const
+    )[id],
   themes: {
     seo: {
       query: "comprar · servicio · ciudad",

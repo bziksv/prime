@@ -7,6 +7,9 @@ export const metaDescriptionEn: BlogPost = {
   date: "2020-02-26",
   category: "SEO",
   cover: "/images/blog/meta-description/cover-en.webp",
+  metaTitle: "Description copying the H1? Meta description: why it matters for SEO",
+  metaDescription:
+    "Length, CTR, and common mistakes. Checklist — rewrite snippets before publish.",
   excerpt:
     "What a meta description is, whether it directly affects rankings, how it ties to the snippet and CTR, and how to write it without keyword stuffing or clickbait.",
   lead: [
@@ -144,6 +147,9 @@ export const metaDescriptionEs: BlogPost = {
   date: "2020-02-26",
   category: "SEO",
   cover: "/images/blog/meta-description/cover-es.webp",
+  metaTitle: "¿Description = H1? Meta description: para qué sirve y cómo afecta al SEO",
+  metaDescription:
+    "Longitud, CTR y errores típicos. Checklist — reescribe snippets antes de publicar.",
   excerpt:
     "Qué es una meta description, si afecta directamente a los rankings, cómo se liga al snippet y al CTR, y cómo escribirla sin stuffing de keywords ni clickbait.",
   lead: [

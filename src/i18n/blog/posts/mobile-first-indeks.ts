@@ -7,6 +7,9 @@ export const mobileFirstIndeksEn: BlogPost = {
   date: "2018-09-18",
   category: "SEO",
   cover: "/images/blog/mobile-first-indeks/cover-en.webp",
+  metaTitle: "Desktop fine, mobile broken? Google Mobile-First Index: what it is and how to check",
+  metaDescription:
+    "Signals, tools, and common mistakes. Checklist — audit the mobile version.",
   excerpt:
     "What Google’s Mobile-First Index means: why the bot leans on the mobile document, why a stripped m-site hurts, and how to check content parity — without 2018 “transition” panic.",
   lead: [
@@ -173,6 +176,9 @@ export const mobileFirstIndeksEs: BlogPost = {
   date: "2018-09-18",
   category: "SEO",
   cover: "/images/blog/mobile-first-indeks/cover-es.webp",
+  metaTitle: "¿Desktop bien, móvil mal? Mobile-First Index de Google: qué es y cómo comprobar",
+  metaDescription:
+    "Señales, tools y errores típicos. Checklist — audita la versión móvil.",
   excerpt:
     "Qué significa el Mobile-First Index de Google: por qué el bot se apoya en el documento móvil, por qué un m-site recortado duele y cómo comprobar paridad de contenido — sin el pánico de la «transición» de 2018.",
   lead: [

@@ -7,6 +7,9 @@ export const paginatsiyaEn: BlogPost = {
   date: "2021-03-30",
   category: "SEO",
   cover: "/images/blog/paginatsiya/cover-en.webp",
+  metaTitle: "Page 1–2–3 hurting SEO? Pagination that doesn’t tank rankings",
+  metaDescription:
+    "Canonical, noindex, and UX traps. Checklist — before catalog edits.",
   excerpt:
     "What catalog and blog pagination is, how numbering works, and how to set indexing so pages 2, 3, 4… don’t spawn duplicates.",
   lead: [
@@ -246,6 +249,9 @@ export const paginatsiyaEs: BlogPost = {
   date: "2021-03-30",
   category: "SEO",
   cover: "/images/blog/paginatsiya/cover-es.webp",
+  metaTitle: "¿La paginación 1–2–3 daña el SEO? Hazla sin tumbar rankings",
+  metaDescription:
+    "Canonical, noindex y trampas UX. Checklist — antes de tocar el catálogo.",
   excerpt:
     "Qué es la paginación de catálogo y blog, cómo funciona la numeración y cómo fijar la indexación para que las páginas 2, 3, 4… no generen duplicados.",
   lead: [

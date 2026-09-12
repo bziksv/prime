@@ -7,6 +7,9 @@ export const instrumentyVebAnalitikiEn: BlogPost = {
   date: "2018-11-16",
   category: "SEO",
   cover: "/images/blog/instrumenty-veb-analitiki/cover-en.webp",
+  metaTitle: "Analytics = one site tag? Tools: counters, logs, and platforms",
+  metaDescription:
+    "What to connect and how not to duplicate data. Map — before you implement the stack.",
   excerpt:
     "What analytics systems give you, how JS tags differ from log analyzers, why Metrica and Google Analytics matter, and how not to drown in reports without goals.",
   lead: [
@@ -204,6 +207,9 @@ export const instrumentyVebAnalitikiEs: BlogPost = {
   date: "2018-11-16",
   category: "SEO",
   cover: "/images/blog/instrumenty-veb-analitiki/cover-es.webp",
+  metaTitle: "¿Analítica = un contador? Tools: contadores, logs y paneles",
+  metaDescription:
+    "Qué conectar y cómo no duplicar datos. Mapa — antes de implantar el stack.",
   excerpt:
     "Qué te dan los sistemas de analytics, en qué se diferencian los tags JS de los analizadores de logs, por qué importan Metrica y Google Analytics, y cómo no ahogarte en informes sin goals.",
   lead: [

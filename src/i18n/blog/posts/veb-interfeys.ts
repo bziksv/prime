@@ -7,6 +7,9 @@ export const vebInterfeysEn: BlogPost = {
   date: "2021-03-11",
   category: "Blog",
   cover: "/images/blog/veb-interfeys/cover-en.webp",
+  metaTitle: "“Interface” sound abstract? Web UI: what it is and where you meet it",
+  metaDescription:
+    "Practical UI without jargon overload. Primer — before talking to a designer.",
   excerpt:
     "What a web interface is: using a service in the browser instead of a local app — mail, hosting panel, router, cloud. Why teams build it that way, and why it isn’t “just a website.”",
   lead: [
@@ -151,6 +154,9 @@ export const vebInterfeysEs: BlogPost = {
   date: "2021-03-11",
   category: "Blog",
   cover: "/images/blog/veb-interfeys/cover-es.webp",
+  metaTitle: "¿“Interfaz” suena abstracto? UI web: qué es y dónde aparece",
+  metaDescription:
+    "UI práctico sin jerga de más. Base — antes de hablar con el diseñador.",
   excerpt:
     "Qué es una interfaz web: usar un servicio en el navegador en lugar de una app local — correo, panel de hosting, router, cloud. Por qué los equipos la construyen así y por qué no es «solo un sitio web».",
   lead: [

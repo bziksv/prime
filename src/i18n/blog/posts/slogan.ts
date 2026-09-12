@@ -7,6 +7,9 @@ export const sloganEn: BlogPost = {
   date: "2020-01-17",
   category: "Content marketing",
   cover: "/images/blog/slogan/cover-en.webp",
+  metaTitle: "Slogan stuck on “quality & trust”? How to invent a line for brand and ads",
+  metaDescription:
+    "Criteria, tests, and clichés to skip. Checklist — before brand-committee approval.",
   excerpt:
     "Brand and ad slogans: why they matter, how they differ from a USP, what to avoid, and how to craft a short line without “two-click” generators and empty promises.",
   lead: [
@@ -138,6 +141,9 @@ export const sloganEs: BlogPost = {
   date: "2020-01-17",
   category: "Content marketing",
   cover: "/images/blog/slogan/cover-es.webp",
+  metaTitle: "¿Eslogan “calidad y confianza”? Cómo inventar una frase para marca y ads",
+  metaDescription:
+    "Criterios, tests y clichés a evitar. Checklist — antes de la aprobación de marca.",
   excerpt:
     "Slogans de marca y de ads: por qué importan, en qué se diferencian de un USP, qué evitar y cómo armar una línea corta sin generadores «en dos clics» ni promesas vacías.",
   lead: [

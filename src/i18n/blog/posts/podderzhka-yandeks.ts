@@ -7,6 +7,9 @@ export const podderzhkaYandeksEn: BlogPost = {
   date: "2020-06-25",
   category: "SEO",
   cover: "/images/blog/podderzhka-yandeks/cover-en.webp",
+  metaTitle: "Yandex support ticket into the void? Mail, Webmaster, Help — where to go",
+  metaDescription:
+    "Where to write and what to attach. Cheat sheet — before you escalate an incident.",
   excerpt:
     "When to write Yandex support, how to file Mail and Webmaster tickets, what to attach, and which jobs to fix yourself first — without waiting for a ranking button.",
   lead: [
@@ -239,6 +242,9 @@ export const podderzhkaYandeksEs: BlogPost = {
   date: "2020-06-25",
   category: "SEO",
   cover: "/images/blog/podderzhka-yandeks/cover-es.webp",
+  metaTitle: "¿Ticket a Yandex “a la nada”? Correo, Webmaster y ayuda — a dónde ir",
+  metaDescription:
+    "Dónde escribir y qué adjuntar. Chuleta — antes de escalar el incidente.",
   excerpt:
     "Cuándo escribir al soporte de Yandex, cómo abrir tickets de Mail y Webmaster, qué adjuntar y qué trabajos arreglar tú primero — sin esperar un botón de rankings.",
   lead: [

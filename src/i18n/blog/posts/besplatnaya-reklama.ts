@@ -7,6 +7,9 @@ export const besplatnayaReklamaEn: BlogPost = {
   date: "2020-03-16",
   category: "Digital marketing",
   cover: "/images/blog/besplatnaya-reklama/cover-en.webp",
+  metaTitle: "Zero media budget? Free promotion that can actually work",
+  metaDescription:
+    "Startup channels without paid media — where to expect lift vs self-deception. Save the list before launch.",
   excerpt:
     "Which “free” advertising channels make sense: media and a news hook, aggregators, expert content, partnerships, listings — and which grey schemes to leave alone.",
   lead: [
@@ -191,6 +194,9 @@ export const besplatnayaReklamaEs: BlogPost = {
   date: "2020-03-16",
   category: "Marketing digital",
   cover: "/images/blog/besplatnaya-reklama/cover-es.webp",
+  metaTitle: "¿Presupuesto cero? Promoción gratis que sí puede funcionar",
+  metaDescription:
+    "Canales de arranque sin media de pago — dónde hay efecto y dónde autoengaño. Guarda la lista antes de lanzar.",
   excerpt:
     "Qué canales de publicidad «gratis» tienen sentido: medios y un gancho de noticia, agregadores, contenido experto, partnerships, anuncios clasificados — y qué esquemas grises dejar de lado.",
   lead: [

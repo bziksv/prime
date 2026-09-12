@@ -7,6 +7,9 @@ export const vebServisyEn: BlogPost = {
   date: "2020-09-08",
   category: "Digital marketing",
   cover: "/images/blog/veb-servisy/cover-en.webp",
+  metaTitle: "Site living alone? Web services: what they are and why sites need them",
+  metaDescription:
+    "APIs, integrations, and common cases. Primer — before product architecture.",
   excerpt:
     "What a web service (API) is: how systems exchange data over the network, where business needs it, and how modern REST/JSON differs from old SOAP/UDDI roundups.",
   lead: [
@@ -129,6 +132,9 @@ export const vebServisyEs: BlogPost = {
   date: "2020-09-08",
   category: "Digital marketing",
   cover: "/images/blog/veb-servisy/cover-es.webp",
+  metaTitle: "¿La web sola? Servicios web: qué son y para qué a los sitios",
+  metaDescription:
+    "APIs, integraciones y casos típicos. Base — antes de la arquitectura del producto.",
   excerpt:
     "Qué es un servicio web (API): cómo los sistemas intercambian datos por la red, dónde lo necesita el negocio, y cómo REST/JSON moderno difiere de los roundups viejos de SOAP/UDDI.",
   lead: [

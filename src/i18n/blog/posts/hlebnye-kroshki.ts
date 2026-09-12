@@ -7,6 +7,9 @@ export const hlebnyeKroshkiEn: BlogPost = {
   date: "2017-12-19",
   category: "SEO",
   cover: "/images/blog/hlebnye-kroshki/cover-en.webp",
+  metaTitle: "Users lost in sections? Breadcrumbs: navigation and SEO",
+  metaDescription:
+    "Markup, UX, and common mistakes. Checklist — ship before the next audit.",
   excerpt:
     "What breadcrumbs are, why they matter for UX and SEO, which types exist, and how to build the trail: none on the homepage, markup for the snippet, no “rankings via breadcrumbs” promises.",
   lead: [
@@ -221,6 +224,9 @@ export const hlebnyeKroshkiEs: BlogPost = {
   date: "2017-12-19",
   category: "SEO",
   cover: "/images/blog/hlebnye-kroshki/cover-es.webp",
+  metaTitle: "¿Usuarios perdidos en secciones? Migas de pan: navegación y SEO",
+  metaDescription:
+    "Marcado, UX y errores típicos. Checklist — implanta antes de la próxima auditoría.",
   excerpt:
     "Qué son los breadcrumbs, por qué importan para UX y SEO, qué tipos existen y cómo montar el rastro: nada en la homepage, markup para el snippet, sin promesas de «rankings vía breadcrumbs».",
   lead: [

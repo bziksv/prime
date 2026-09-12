@@ -121,9 +121,9 @@ export type SeoContent = {
 
 const seoRu: SeoContent = {
   path: "/prodvizhenie-sayta/",
-  metaTitle: "Продвижение сайта — ПРАЙМ",
+  metaTitle: "Хотите ТОП-10 без абонентки «за процесс»? — ПРАЙМ",
   metaDescription:
-    "SEO-продвижение сайта с оплатой по факту ТОП-10. Аналитика, аудит, внутренняя и внешняя оптимизация. Подготовка ~1 мес., выход в ТОП планово 2–6 мес. Тарифы для регионов, Москвы и СПб.",
+    "Получите расчёт SEO: платите за фразы, которые держатся в ТОП-10. Аудит и семантика до старта; подготовка ~1 мес., рост позиций планово 2–6 мес.",
   serviceName: "Продвижение сайта",
   serviceType: "SEO-продвижение сайта",
   breadcrumbHome: "Главная",
@@ -298,9 +298,9 @@ function enTariff(
 
 const seoEn: SeoContent = {
   path: "/en/seo/",
-  metaTitle: "SEO — PRIME",
+  metaTitle: "Tired of SEO retainers with no rankings? — PRIME",
   metaDescription:
-    "SEO with pay-for-page-one pricing. Audit, keyword research, on-page and off-page work. Prep ~1 month; page-one growth planned over 2–6 months. Packages for local and competitive markets worldwide.",
+    "Get a quote: pay when keywords stay on Google’s first page. Audit and keyword research first; prep ~1 month, page-one growth planned over 2–6 months — worldwide.",
   serviceName: "SEO",
   serviceType: "Performance SEO",
   breadcrumbHome: "Home",
@@ -635,9 +635,9 @@ function esTariff(
 
 const seoEs: SeoContent = {
   path: "/es/seo/",
-  metaTitle: "SEO — PRIME",
+  metaTitle: "¿Cansado de pagar SEO sin posiciones? — PRIME",
   metaDescription:
-    "SEO con pago por primera página: auditoría, investigación de palabras clave, optimización on-page y off-page. Preparación ~1 mes; el crecimiento a primera página se planea en 2–6 meses. Paquetes para mercados locales y competitivos en todo el mundo.",
+    "Pide presupuesto: pagas cuando las keywords se mantienen en la primera página de Google. Auditoría y semántica primero; prep ~1 mes, crecimiento 2–6 meses — en todo el mundo.",
   serviceName: "SEO",
   serviceType: "SEO por resultados",
   breadcrumbHome: "Inicio",

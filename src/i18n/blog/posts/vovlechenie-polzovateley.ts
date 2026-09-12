@@ -7,6 +7,9 @@ export const vovlecheniePolzovateleyEn: BlogPost = {
   date: "2018-05-07",
   category: "Digital marketing",
   cover: "/images/blog/vovlechenie-polzovateley/cover-en.webp",
+  metaTitle: "Users bounce in seconds? Engagement in 5 steps without gimmicks",
+  metaDescription:
+    "Scenarios and metrics on site/product. Checklist — before the next UX release.",
   excerpt:
     "Five engagement steps: traffic source and motivation, reacting to passivity, social channels, feedback, and product adoption — without promising “retain 80% more in a week.”",
   lead: [
@@ -108,6 +111,9 @@ export const vovlecheniePolzovateleyEs: BlogPost = {
   date: "2018-05-07",
   category: "Digital marketing",
   cover: "/images/blog/vovlechenie-polzovateley/cover-es.webp",
+  metaTitle: "¿Entran y se van? Engagement en 5 pasos sin trucos baratos",
+  metaDescription:
+    "Escenarios y métricas en web/producto. Checklist — antes del próximo release UX.",
   excerpt:
     "Cinco pasos de engagement: fuente de tráfico y motivación, reacción a la pasividad, canales sociales, feedback y adopción del producto — sin prometer «retener un 80% más en una semana».",
   lead: [

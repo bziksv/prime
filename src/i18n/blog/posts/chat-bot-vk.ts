@@ -7,6 +7,9 @@ export const chatBotVkEn: BlogPost = {
   date: "2018-12-19",
   category: "SMM",
   cover: "/images/blog/chat-bot-vk/cover-en.webp",
+  metaTitle: "VK chatbot just for show? Why you need one and how to start",
+  metaDescription:
+    "Scenarios, limits, and a launch approach without overbuilding. Checklist — before the dev brief.",
   excerpt:
     "How a chat bot helps in VK community messages: FAQ, leads, catalog — when a builder is enough, when you need a developer, and why a bot with no exit to a human operator drives people away.",
   lead: [
@@ -156,6 +159,9 @@ export const chatBotVkEs: BlogPost = {
   date: "2018-12-19",
   category: "SMM",
   cover: "/images/blog/chat-bot-vk/cover-es.webp",
+  metaTitle: "¿Chatbot de VK de postureo? Para qué sirve y cómo empezar",
+  metaDescription:
+    "Escenarios, límites y enfoque de lanzamiento sin overengineering. Checklist — antes del brief al dev.",
   excerpt:
     "Cómo ayuda un chat bot en los mensajes de una comunidad VK: FAQ, leads, catálogo — cuándo basta un builder, cuándo hace falta un developer y por qué un bot sin salida a un operador humano ahuyenta a la gente.",
   lead: [

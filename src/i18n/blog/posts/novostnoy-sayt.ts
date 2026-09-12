@@ -7,6 +7,9 @@ export const novostnoySaytEn: BlogPost = {
   date: "2019-07-15",
   category: "SEO",
   cover: "/images/blog/novostnoy-sayt/cover-en.webp",
+  metaTitle: "News live, traffic flat? Promoting a news site: semantics, tech, distribution",
+  metaDescription:
+    "Priorities beyond “just publish more.” Plan — before the next editorial cycle.",
   excerpt:
     "What news SEO actually needs: a steady stream of fresh URLs, clean templates without duplicates, mobile-first reading, internal links, RSS/push, and aggregators — without “double the audience in a week.”",
   lead: [
@@ -214,6 +217,9 @@ export const novostnoySaytEs: BlogPost = {
   date: "2019-07-15",
   category: "SEO",
   cover: "/images/blog/novostnoy-sayt/cover-es.webp",
+  metaTitle: "¿Noticias sí, tráfico no? Promoción de medio: semántica, técnica, distribución",
+  metaDescription:
+    "Prioridades más allá de “publicar más”. Plan — antes del próximo ciclo editorial.",
   excerpt:
     "Qué necesita de verdad el SEO de noticias: un flujo constante de URLs frescas, plantillas limpias sin duplicados, lectura mobile-first, enlaces internos, RSS/push y agregadores — sin «duplicar la audiencia en una semana».",
   lead: [

@@ -7,6 +7,9 @@ export const kanonicheskiyTegEn: BlogPost = {
   date: "2020-10-20",
   category: "SEO",
   cover: "/images/blog/kanonicheskiy-teg/cover-en.webp",
+  metaTitle: "Duplicates confusing Google? rel=canonical: how it works and how to set it",
+  metaDescription:
+    "Rules, mistakes, and verification. Cheat sheet — before you ship to production.",
   excerpt:
     "What rel=canonical is, how it differs from 301 and noindex, how to set the canon in HTML and HTTP, typical mistakes, and when the tag doesn’t help.",
   lead: [
@@ -230,6 +233,9 @@ export const kanonicheskiyTegEs: BlogPost = {
   date: "2020-10-20",
   category: "SEO",
   cover: "/images/blog/kanonicheskiy-teg/cover-es.webp",
+  metaTitle: "¿Duplicados confunden a Google? rel=canonical: cómo funciona y cómo ponerlo",
+  metaDescription:
+    "Reglas, errores y verificación. Chuleta — antes de subir a prod.",
   excerpt:
     "Qué es rel=canonical, en qué se diferencia de 301 y noindex, cómo fijar el canónico en HTML y HTTP, errores típicos y cuándo el tag no ayuda.",
   lead: [

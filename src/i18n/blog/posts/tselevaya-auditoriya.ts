@@ -7,6 +7,9 @@ export const tselevayaAuditoriyaEn: BlogPost = {
   date: "2019-07-12",
   category: "SEO",
   cover: "/images/blog/tselevaya-auditoriya/cover-en.webp",
+  metaTitle: "Audience = “everyone who needs it”? How to define segments with real questions",
+  metaDescription:
+    "No meeting-room fantasies. Checklist — before personas and the offer.",
   excerpt:
     "A practical audience breakdown: demographics, jobs, anti-persona, segments, and data sources — so ads and content don’t shoot into the void.",
   lead: [
@@ -210,6 +213,9 @@ export const tselevayaAuditoriyaEs: BlogPost = {
   date: "2019-07-12",
   category: "SEO",
   cover: "/images/blog/tselevaya-auditoriya/cover-es.webp",
+  metaTitle: "¿Audiencia “todos los que lo necesitan”? Cómo definir segmentos con preguntas reales",
+  metaDescription:
+    "Sin fantasías de planning. Checklist — antes de personas y oferta.",
   excerpt:
     "Un desglose práctico de audiencia: demografía, jobs, anti-persona, segmentos y fuentes de datos — para que ads y contenido no disparen al vacío.",
   lead: [

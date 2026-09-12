@@ -7,6 +7,9 @@ export const opisanieTovaraEn: BlogPost = {
   date: "2020-07-27",
   category: "Content marketing",
   cover: "/images/blog/opisanie-tovara/cover-en.webp",
+  metaTitle: "Copy-pasted from the supplier? Product descriptions that actually sell",
+  metaDescription:
+    "Structure, USP, and SEO without fluff. Checklist — before a mass catalog upload.",
   excerpt:
     "How to write a product-card description: photos and copy, emotion without fluff, features and specs, structure and SEO — so the buyer finds price arguments and places the order.",
   lead: [
@@ -235,6 +238,9 @@ export const opisanieTovaraEs: BlogPost = {
   date: "2020-07-27",
   category: "Content marketing",
   cover: "/images/blog/opisanie-tovara/cover-es.webp",
+  metaTitle: "¿Copiado del proveedor? Descripciones de producto que sí venden",
+  metaDescription:
+    "Estructura, USP y SEO sin relleno. Checklist — antes de subir el catálogo en masa.",
   excerpt:
     "Cómo escribir la descripción de una ficha de producto: fotos y copy, emoción sin fluff, features y specs, estructura y SEO — para que el comprador encuentre argumentos de precio y haga el pedido.",
   lead: [

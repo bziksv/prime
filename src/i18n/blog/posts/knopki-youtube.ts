@@ -7,6 +7,9 @@ export const knopkiYoutubeEn: BlogPost = {
   date: "2021-05-27",
   category: "SMM",
   cover: "/images/blog/knopki-youtube/cover-en.webp",
+  metaTitle: "Viewers leave after the video? YouTube buttons: subscribe, cards, end screens",
+  metaDescription:
+    "Which elements to use and where. Checklist — before the next upload.",
   excerpt:
     "Which interactive elements replaced outdated YouTube annotations: subscribe, cards, end screens — and how to use them without cluttering the video.",
   lead: [
@@ -185,6 +188,9 @@ export const knopkiYoutubeEs: BlogPost = {
   date: "2021-05-27",
   category: "SMM",
   cover: "/images/blog/knopki-youtube/cover-es.webp",
+  metaTitle: "¿El espectador se va tras el vídeo? Botones de YouTube: suscripción, cards, end screen",
+  metaDescription:
+    "Qué elementos poner y dónde. Checklist — antes de la próxima subida.",
   excerpt:
     "Qué elementos interactivos sustituyeron las anotaciones antiguas de YouTube: suscripción, tarjetas, end screens — y cómo usarlos sin saturar el vídeo.",
   lead: [

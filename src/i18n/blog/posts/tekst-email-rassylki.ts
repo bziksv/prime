@@ -7,6 +7,9 @@ export const tekstEmailRassylkiEs: BlogPost = {
   date: "2019-09-24",
   category: "Email marketing",
   cover: "/images/blog/tekst-email-rassylki/cover-es.webp",
+  metaTitle: "¿Abren y cierran? Copy de email convincente en 5 pasos",
+  metaDescription:
+    "Asunto, oferta y CTA sin relleno. Checklist — antes del próximo digest.",
   excerpt:
     "Cómo escribir copy de email: objetivos y segmentos, lenguaje de la audiencia, tipos de mensaje (welcome, ventas, pedido), técnicas de persuasión y chequeo previo al envío — sin el mito de que «el email está muerto».",
   lead: [
@@ -141,6 +144,9 @@ export const tekstEmailRassylkiEn: BlogPost = {
   date: "2019-09-24",
   category: "Email marketing",
   cover: "/images/blog/tekst-email-rassylki/cover-en.webp",
+  metaTitle: "Opened then closed? Persuasive email copy in 5 steps",
+  metaDescription:
+    "Subject, offer, and CTA without fluff. Checklist — before the next digest.",
   excerpt:
     "How to write email copy: goals and segments, audience language, message types (welcome, sales, order), persuasion techniques, and a pre-send check — without the myth that “email is dead.”",
   lead: [

@@ -7,6 +7,9 @@ export const sotsialnyeSetiEn: BlogPost = {
   date: "2022-01-27",
   category: "SMM",
   cover: "/images/blog/sotsialnye-seti/cover-en.webp",
+  metaTitle: "Social “just for posting”? History, types, and why business needs them",
+  metaDescription:
+    "A platform map without hype. Primer — before you pick channels in the strategy.",
   excerpt:
     "What social networks are: a short history, platform types, benefits and risks, and trends — without outdated MAU roundups or dead Google+. Meta disclaimer on the page.",
   lead: [
@@ -171,6 +174,9 @@ export const sotsialnyeSetiEs: BlogPost = {
   date: "2022-01-27",
   category: "SMM",
   cover: "/images/blog/sotsialnye-seti/cover-es.webp",
+  metaTitle: "¿Social “solo para publicar”? Historia, tipos y para qué al negocio",
+  metaDescription:
+    "Mapa de plataformas sin hype. Base — antes de elegir canales en la estrategia.",
   excerpt:
     "Qué son las redes sociales: una historia corta, tipos de plataformas, beneficios y riesgos, y tendencias — sin roundups de MAU obsoletos ni Google+ muerto. Disclaimer Meta en la página.",
   lead: [

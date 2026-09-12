@@ -7,6 +7,9 @@ export const reklamaOdnoklassnikiEn: BlogPost = {
   date: "2020-12-16",
   category: "SMM",
   cover: "/images/blog/reklama-odnoklassniki/cover-en.webp",
+  metaTitle: "Odnoklassniki “not for ads”? Audience, formats, and response",
+  metaDescription:
+    "When the channel fits and how to measure lift. Breakdown — before a budget test.",
   excerpt:
     "Who OK ads fit, what ad tone works, how to think about formats and audience, and how to measure response — without outdated pixels and ad-account screenshots.",
   lead: [
@@ -135,6 +138,9 @@ export const reklamaOdnoklassnikiEs: BlogPost = {
   date: "2020-12-16",
   category: "SMM",
   cover: "/images/blog/reklama-odnoklassniki/cover-es.webp",
+  metaTitle: "¿OK “no sirve para ads”? Audiencia, formatos y respuesta en Odnoklassniki",
+  metaDescription:
+    "Cuándo encaja el canal y cómo medir. Análisis — antes de testear presupuesto.",
   excerpt:
     "A quién encajan los ads de OK, qué tono de anuncio funciona, cómo pensar formatos y audiencia, y cómo medir la respuesta — sin píxeles obsoletos ni capturas del ad account.",
   lead: [

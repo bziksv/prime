@@ -7,6 +7,9 @@ export const tzNaSaytEn: BlogPost = {
   date: "2019-12-11",
   category: "Digital marketing",
   cover: "/images/blog/tz-na-sayt/cover-en.webp",
+  metaTitle: "Website brief only verbal? Spec, structure, and common mistakes",
+  metaDescription:
+    "What to lock before development. Template — save before the vendor call.",
   excerpt:
     "How to write a website technical specification: why the document matters, how a short brief differs from a full spec, what to cover by block, and which client mistakes cost the most.",
   lead: [
@@ -175,6 +178,9 @@ export const tzNaSaytEs: BlogPost = {
   date: "2019-12-11",
   category: "Digital marketing",
   cover: "/images/blog/tz-na-sayt/cover-es.webp",
+  metaTitle: "¿Brief de web solo de palabra? Spec, estructura y errores típicos",
+  metaDescription:
+    "Qué fijar antes del desarrollo. Plantilla — guárdala antes de la call con el proveedor.",
   excerpt:
     "Cómo escribir una especificación técnica de sitio: por qué importa el documento, en qué se diferencia un brief corto de una spec completa, qué cubrir por bloque y qué errores del cliente cuestan más.",
   lead: [

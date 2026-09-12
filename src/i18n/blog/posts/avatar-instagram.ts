@@ -7,6 +7,9 @@ export const avatarInstagramEn: BlogPost = {
   date: "2022-01-04",
   category: "SMM",
   cover: "/images/blog/avatar-instagram/cover-en.webp",
+  metaTitle: "Profile looks grey in the feed? Make the Instagram avatar pop",
+  metaDescription:
+    "How to craft a unique profile image without stock clichés. Cheat sheet — save before a redesign.",
   excerpt:
     "How to choose and make an Instagram avatar: photo or drawing, readability in a circle, editors, and swapping the image without rights headaches.",
   lead: [
@@ -183,6 +186,9 @@ export const avatarInstagramEs: BlogPost = {
   date: "2022-01-04",
   category: "SMM",
   cover: "/images/blog/avatar-instagram/cover-es.webp",
+  metaTitle: "¿Perfil gris en el feed? Haz que el avatar de Instagram destaque",
+  metaDescription:
+    "Cómo crear una imagen de perfil única sin stock cliché. Chuleta — guárdala antes del rediseño.",
   excerpt:
     "Cómo elegir y hacer un avatar de Instagram: foto o dibujo, legibilidad en círculo, editores y cambiar la imagen sin dolores de derechos.",
   lead: [

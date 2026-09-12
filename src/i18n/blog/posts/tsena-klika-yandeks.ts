@@ -7,6 +7,9 @@ export const tsenaKlikaYandeksEn: BlogPost = {
   date: "2021-02-19",
   category: "Paid search",
   cover: "/images/blog/tsena-klika-yandeks/cover-en.webp",
+  metaTitle: "Yandex CPC from thin air? How to calculate a workable bid",
+  metaDescription:
+    "Formula, margin, and testing. Cheat sheet — before budget approval.",
   excerpt:
     "How to derive an acceptable CPC from target CPA and site conversion, why Yandex Metrika matters, and why an “average market click price” without economics is useless.",
   lead: [
@@ -134,6 +137,9 @@ export const tsenaKlikaYandeksEs: BlogPost = {
   date: "2021-02-19",
   category: "Paid search",
   cover: "/images/blog/tsena-klika-yandeks/cover-es.webp",
+  metaTitle: "¿CPC en Yandex a ojo? Cómo calcular una puja razonable",
+  metaDescription:
+    "Fórmula, margen y test. Chuleta — antes de aprobar el presupuesto.",
   excerpt:
     "Cómo derivar un CPC aceptable desde el CPA objetivo y la conversión del sitio, por qué importa Yandex Metrika y por qué un «precio medio de clic del mercado» sin economía no sirve.",
   lead: [

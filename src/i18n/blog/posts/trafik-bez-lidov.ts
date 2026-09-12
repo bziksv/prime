@@ -7,6 +7,9 @@ export const trafikBezLidovEn: BlogPost = {
   date: "2019-03-25",
   category: "Digital marketing",
   cover: "/images/blog/trafik-bez-lidov/cover-en.webp",
+  metaTitle: "Traffic up, leads zero? Offer, value, and CTA under the microscope",
+  metaDescription:
+    "Where the path to a lead breaks. Checklist — audit the landing today.",
   excerpt:
     "Traffic grows but leads don’t: weak offer, selling the drill instead of the hole, no CTA, wrong audience — a landing-copy fix checklist without magic words.",
   lead: [
@@ -124,6 +127,9 @@ export const trafikBezLidovEs: BlogPost = {
   date: "2019-03-25",
   category: "Digital marketing",
   cover: "/images/blog/trafik-bez-lidov/cover-es.webp",
+  metaTitle: "¿Tráfico sí, leads no? Oferta, beneficio y CTA bajo la lupa",
+  metaDescription:
+    "Dónde se rompe el camino a la solicitud. Checklist — audita el landing hoy.",
   excerpt:
     "El tráfico crece pero los leads no: oferta débil, vender el taladro en lugar del agujero, sin CTA, audiencia equivocada — un checklist de copy de landing sin palabras mágicas.",
   lead: [

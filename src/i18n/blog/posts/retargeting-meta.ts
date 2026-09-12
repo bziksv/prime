@@ -7,6 +7,9 @@ export const retargetingMetaEn: BlogPost = {
   date: "2020-01-13",
   category: "Digital marketing",
   cover: "/images/blog/retargeting-meta/cover-en.webp",
+  metaTitle: "Meta retargeting with one list? Instagram and Facebook audience types",
+  metaDescription:
+    "Site, engagement, and lookalikes without chaos. Checklist — before the next test.",
   excerpt:
     "Custom audiences for retargeting: site visitors, customer lists, and Instagram / Facebook engagement — how segments work, without an outdated Ads Manager click-path.",
   lead: [
@@ -171,6 +174,9 @@ export const retargetingMetaEs: BlogPost = {
   date: "2020-01-13",
   category: "Digital marketing",
   cover: "/images/blog/retargeting-meta/cover-es.webp",
+  metaTitle: "¿Retargeting Meta con una lista? Tipos de audiencia en Instagram y Facebook",
+  metaDescription:
+    "Web, engagement y lookalikes sin caos. Checklist — antes del próximo test.",
   excerpt:
     "Custom audiences para retargeting: visitantes del sitio, listas de clientes y engagement en Instagram / Facebook — cómo funcionan los segmentos, sin un click-path obsoleto de Ads Manager.",
   lead: [

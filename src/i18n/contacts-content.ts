@@ -48,8 +48,9 @@ export type ContactsContent = {
 
 const contactsRu: ContactsContent = {
   path: "/kontakty/",
-  metaTitle: "Контакты — ПРАЙМ",
-  metaDescription: `Контакты ПРАЙМ: ${contacts.address}, ${contacts.phone}, ${contacts.email}`,
+  metaTitle: "Есть задача по маркетингу? Напишите — ответим по делу",
+  metaDescription:
+    "Оставьте заявку или письмо на info@prime-ltd.su. Разберём нишу и формат работы. Офис в Воронеже — работаем с клиентами по всей России.",
   breadcrumbHome: "Главная",
   breadcrumbCurrent: "Контакты",
   menuLabel: "Меню",
@@ -94,9 +95,9 @@ const contactsRu: ContactsContent = {
 
 const contactsEn: ContactsContent = {
   path: "/en/contacts/",
-  metaTitle: "Contact — PRIME",
+  metaTitle: "Got a growth brief? Email us — we’ll answer with a plan",
   metaDescription:
-    "Contact PRIME: email or a short form. We work with clients worldwide — location and language aren’t a barrier.",
+    "Send a short form or email. We work with clients worldwide — language and location aren’t a barrier. Tell us the niche; we’ll propose the next step.",
   breadcrumbHome: "Home",
   breadcrumbCurrent: "Contact",
   menuLabel: "Menu",
@@ -157,9 +158,9 @@ const contactsEn: ContactsContent = {
 
 const contactsEs: ContactsContent = {
   path: "/es/contacts/",
-  metaTitle: "Contacto — PRIME",
+  metaTitle: "¿Tienes un brief de crecimiento? Escríbenos — respondemos",
   metaDescription:
-    "Contacta con PRIME: email o un formulario breve. Trabajamos con clientes en todo el mundo — la ubicación y el idioma no son un obstáculo.",
+    "Envía el formulario o un email. Trabajamos con clientes en todo el mundo — ubicación e idioma no son barrera. Cuéntanos el nicho; proponemos el siguiente paso.",
   breadcrumbHome: "Inicio",
   breadcrumbCurrent: "Contacto",
   menuLabel: "Menú",

@@ -7,6 +7,9 @@ export const interaktivnyyKontentEn: BlogPost = {
   date: "2019-12-26",
   category: "Content marketing",
   cover: "/images/blog/interaktivnyy-kontent/cover-en.webp",
+  metaTitle: "Content scrolled past? Quizzes, calculators, and visuals that engage",
+  metaDescription:
+    "When interactive pays off — and how not to overbuild. Ideas — save before the dev brief.",
   excerpt:
     "How to make interactive content useful: quizzes and surveys, calculators, configurators, timelines — and why usefulness beats a “wow” effect.",
   lead: [
@@ -165,6 +168,9 @@ export const interaktivnyyKontentEs: BlogPost = {
   date: "2019-12-26",
   category: "Content marketing",
   cover: "/images/blog/interaktivnyy-kontent/cover-es.webp",
+  metaTitle: "¿Contenido que se pasa de largo? Tests, calculadoras y visual que enganchan",
+  metaDescription:
+    "Cuándo renta lo interactivo y cómo no complicarlo. Ideas — guárdalas antes del brief al dev.",
   excerpt:
     "Cómo hacer útil el contenido interactivo: quizzes y encuestas, calculadoras, configuradores, timelines — y por qué la utilidad gana a un efecto «wow».",
   lead: [

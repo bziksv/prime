@@ -7,6 +7,9 @@ export const vstavkaJavascriptEn: BlogPost = {
   date: "2020-11-13",
   category: "SEO",
   cover: "/images/blog/vstavka-javascript/cover-en.webp",
+  metaTitle: "Where does the script go? Adding JavaScript on CMS and site builders",
+  metaDescription:
+    "Steps without breaking the layout. Checklist — before you publish a tag/widget.",
   excerpt:
     "Where to place JS snippets: head and body, WordPress, sites without an admin panel, and builders. How to avoid breaking layout or installing the same script twice — with counters and widgets as examples.",
   lead: [
@@ -216,6 +219,9 @@ export const vstavkaJavascriptEs: BlogPost = {
   date: "2020-11-13",
   category: "SEO",
   cover: "/images/blog/vstavka-javascript/cover-es.webp",
+  metaTitle: "¿Dónde va el script? JavaScript en CMS y constructores",
+  metaDescription:
+    "Pasos sin romper el layout. Checklist — antes de publicar contador/widget.",
   excerpt:
     "Dónde colocar snippets JS: head y body, WordPress, sitios sin panel de admin y builders. Cómo no romper el layout ni instalar el mismo script dos veces — con contadores y widgets como ejemplos.",
   lead: [

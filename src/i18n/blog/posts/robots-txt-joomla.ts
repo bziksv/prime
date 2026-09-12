@@ -7,6 +7,9 @@ export const robotsTxtJoomlaEn: BlogPost = {
   date: "2018-02-26",
   category: "SEO",
   cover: "/images/blog/robots-txt-joomla/cover-en.webp",
+  metaTitle: "Copied a Joomla robots.txt? Rules and a careful template",
+  metaDescription:
+    "What to block — and what not to touch. Checklist — before production deploy.",
   excerpt:
     "How robots.txt works on Joomla: User-agent, Allow/Disallow, Sitemap, and system paths — without treating a Joomla 3.3 paste as gospel or leaning on an outdated Host line as your only mirror.",
   lead: [
@@ -184,6 +187,9 @@ export const robotsTxtJoomlaEs: BlogPost = {
   date: "2018-02-26",
   category: "SEO",
   cover: "/images/blog/robots-txt-joomla/cover-es.webp",
+  metaTitle: "¿Copiaste el robots.txt de Joomla? Reglas y plantilla prudente",
+  metaDescription:
+    "Qué cerrar — y qué no tocar. Checklist — antes de subir a prod.",
   excerpt:
     "Cómo funciona robots.txt en Joomla: User-agent, Allow/Disallow, Sitemap y rutas del sistema — sin tratar un paste de Joomla 3.3 como evangelio ni apoyarte solo en una línea Host desfasada como espejo.",
   lead: [

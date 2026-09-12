@@ -7,6 +7,9 @@ export const favikonEn: BlogPost = {
   date: "2018-05-10",
   category: "Websites",
   cover: "/images/blog/favikon/cover-en.webp",
+  metaTitle: "Tab with no icon? What a favicon is and why you need one",
+  metaDescription:
+    "Formats, sizes, and common mistakes. Checklist — ship it before the next site release.",
   excerpt:
     "A favicon is the site icon in the tab, bookmarks, and often in the SERP. Why you need one, which sizes and formats to ship, how to connect it, and how not to spoil the brand with someone else’s gallery image.",
   lead: [
@@ -113,6 +116,9 @@ export const favikonEs: BlogPost = {
   date: "2018-05-10",
   category: "Websites",
   cover: "/images/blog/favikon/cover-es.webp",
+  metaTitle: "¿Pestaña sin icono? Qué es un favicon y para qué sirve",
+  metaDescription:
+    "Formatos, tamaños y errores típicos. Checklist — ponlo antes del próximo release.",
   excerpt:
     "El favicon es el icono del sitio en la pestaña, favoritos y a menudo en el SERP. Por qué hace falta, qué tamaños y formatos publicar, cómo conectarlo y cómo no estropear la marca con una imagen de galería ajena.",
   lead: [

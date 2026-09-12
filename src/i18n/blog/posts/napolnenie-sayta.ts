@@ -7,6 +7,9 @@ export const napolnenieSaytaEn: BlogPost = {
   date: "2020-10-19",
   category: "Content marketing",
   cover: "/images/blog/napolnenie-sayta/cover-en.webp",
+  metaTitle: "Empty site — “we’ll fill later”? How to publish content without chaos",
+  metaDescription:
+    "Uniqueness, structure, and publish rules. Checklist — before a mass page dump.",
   excerpt:
     "How to pick topics and formats, study competitors for ideas, build a content plan, write a brief, and publish on a steady rhythm — without auto-fill scrapers or copy-paste.",
   lead: [
@@ -230,6 +233,9 @@ export const napolnenieSaytaEs: BlogPost = {
   date: "2020-10-19",
   category: "Content marketing",
   cover: "/images/blog/napolnenie-sayta/cover-es.webp",
+  metaTitle: "¿Web vacía — “ya lo llenamos”? Cómo publicar contenido sin caos",
+  metaDescription:
+    "Unicidad, estructura y reglas de publicación. Checklist — antes de subir páginas en masa.",
   excerpt:
     "Cómo elegir temas y formatos, estudiar competidores para ideas, montar un plan de contenidos, escribir un brief y publicar con ritmo estable — sin scrapers de autorelleno ni copy-paste.",
   lead: [

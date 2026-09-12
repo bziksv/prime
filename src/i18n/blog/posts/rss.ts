@@ -7,6 +7,9 @@ export const rssEn: BlogPost = {
   date: "2020-06-30",
   category: "Content marketing",
   cover: "/images/blog/rss/cover-en.webp",
+  metaTitle: "Blog readers drifting away? RSS: why it matters and how to enable it",
+  metaDescription:
+    "Feed, validation, and distribution. Checklist — turn it on before the next post.",
   excerpt:
     "What an RSS feed is, who still benefits from it, benefits and risks for a site, how to enable a feed on a CMS — without a Feedburner cult or “link mass” promises.",
   lead: [
@@ -139,6 +142,9 @@ export const rssEs: BlogPost = {
   date: "2020-06-30",
   category: "Content marketing",
   cover: "/images/blog/rss/cover-es.webp",
+  metaTitle: "¿Lectores del blog se van? RSS: para qué sirve y cómo conectarlo",
+  metaDescription:
+    "Feed, validación y distribución. Checklist — actívalo antes del próximo post.",
   excerpt:
     "Qué es un feed RSS, a quién sigue beneficiando, ventajas y riesgos para un sitio, cómo activar un feed en un CMS — sin culto a Feedburner ni promesas de «masa de enlaces».",
   lead: [

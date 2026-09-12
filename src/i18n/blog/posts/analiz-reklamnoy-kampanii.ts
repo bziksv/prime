@@ -7,6 +7,9 @@ export const analizReklamnoyKampaniiEn: BlogPost = {
   date: "2020-03-25",
   category: "Paid search",
   cover: "/images/blog/analiz-reklamnoy-kampanii/cover-en.webp",
+  metaTitle: "Ads running, results flat? Direct/Google campaign audit checklist",
+  metaDescription:
+    "Analytics wiring, keywords, placements, and cuts. Walk the list — find where budget leaks.",
   excerpt:
     "How to break down a paid search campaign in Yandex Metrica and Google Analytics: account linking, keywords, placements, demographics, time, devices, geo, landings, and audiences — without judging by clicks alone.",
   lead: [
@@ -192,6 +195,9 @@ export const analizReklamnoyKampaniiEs: BlogPost = {
   date: "2020-03-25",
   category: "Paid search",
   cover: "/images/blog/analiz-reklamnoy-kampanii/cover-es.webp",
+  metaTitle: "¿Campañas activas sin resultado? Checklist de auditoría Ads/Direct",
+  metaDescription:
+    "Enlace a Analytics, keywords, emplazamientos y cortes. Recorre la lista — halla fugas de presupuesto.",
   excerpt:
     "Cómo desglosar una campaña de paid search en Yandex Metrica y Google Analytics: enlace de cuentas, keywords, emplazamientos, demografía, hora, dispositivos, geo, landings y audiencias — sin juzgar solo por clics.",
   lead: [

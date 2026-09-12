@@ -7,6 +7,9 @@ export const metrikaNeRabotaetEn: BlogPost = {
   date: "2020-11-19",
   category: "SEO",
   cover: "/images/blog/metrika-ne-rabotaet/cover-en.webp",
+  metaTitle: "Yandex Metrica silent? Why the counter fails and how to fix it",
+  metaDescription:
+    "Code, blockers, CSP, and common mistakes. Diagnostics checklist — run it today.",
   excerpt:
     "What to do if the Metrica counter isn’t counting visits, Session Replay is silent, the informer is empty, or goals don’t fire: a calm diagnostics checklist.",
   lead: [
@@ -216,6 +219,9 @@ export const metrikaNeRabotaetEs: BlogPost = {
   date: "2020-11-19",
   category: "SEO",
   cover: "/images/blog/metrika-ne-rabotaet/cover-es.webp",
+  metaTitle: "¿Métrica en silencio? Por qué falla el contador y cómo arreglarlo",
+  metaDescription:
+    "Código, bloqueadores, CSP y errores típicos. Checklist de diagnóstico — pásalo hoy.",
   excerpt:
     "Qué hacer si el contador de Metrica no cuenta visitas, Session Replay está en silencio, el informer vacío o los goals no disparan: un checklist de diagnóstico tranquilo.",
   lead: [

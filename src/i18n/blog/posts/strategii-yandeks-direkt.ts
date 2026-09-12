@@ -7,6 +7,9 @@ export const strategiiYandeksDirektEn: BlogPost = {
   date: "2017-07-02",
   category: "Paid search",
   cover: "/images/blog/strategii-yandeks-direkt/cover-en.webp",
+  metaTitle: "Yandex Direct strategy by button name? What to decide from — practically",
+  metaDescription:
+    "Goals, data, and limits. Cheat sheet — before you flip the mode.",
   excerpt:
     "Why Direct’s “easy mode for beginners” faded, why goals and CPA matter, and how to choose a strategy from unit economics — not auction anxiety.",
   lead: [
@@ -148,6 +151,9 @@ export const strategiiYandeksDirektEs: BlogPost = {
   date: "2017-07-02",
   category: "Paid search",
   cover: "/images/blog/strategii-yandeks-direkt/cover-es.webp",
+  metaTitle: "¿Estrategia Direct por el nombre del botón? De qué partir de verdad",
+  metaDescription:
+    "Objetivos, datos y límites. Chuleta — antes de cambiar el modo.",
   excerpt:
     "Por qué se apagó el «modo fácil para principiantes» de Direct, por qué importan goals y CPA, y cómo elegir estrategia desde unit economics — no desde la ansiedad de la subasta.",
   lead: [

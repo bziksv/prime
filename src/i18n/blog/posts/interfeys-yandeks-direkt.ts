@@ -7,6 +7,9 @@ export const interfeysYandeksDirektEn: BlogPost = {
   date: "2018-08-08",
   category: "Paid search",
   cover: "/images/blog/interfeys-yandeks-direkt/cover-en.webp",
+  metaTitle: "Yandex Direct UI confusing? From the 2018 beta to stats-first work",
+  metaDescription:
+    "Screen and report logic without getting lost. Cheat sheet — before the next optimization pass.",
   excerpt:
     "What the 2018 Direct redesign actually changed — and what still matters: tables, filters, bulk edits, report-driven decisions — without a pitch to “join the beta.”",
   lead: [
@@ -166,6 +169,9 @@ export const interfeysYandeksDirektEs: BlogPost = {
   date: "2018-08-08",
   category: "Paid search",
   cover: "/images/blog/interfeys-yandeks-direkt/cover-es.webp",
+  metaTitle: "¿UI de Direct confunde? De la beta 2018 al trabajo por estadísticas",
+  metaDescription:
+    "Lógica de pantallas e informes sin perderte. Chuleta — antes de la próxima optimización.",
   excerpt:
     "Qué cambió de verdad el rediseño de Direct de 2018 — y qué sigue importando: tablas, filtros, ediciones masivas, decisiones por informes — sin el pitch de «entra a la beta».",
   lead: [

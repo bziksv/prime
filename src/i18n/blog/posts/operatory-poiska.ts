@@ -7,6 +7,9 @@ export const operatoryPoiskaEn: BlogPost = {
   date: "2020-03-03",
   category: "SEO",
   cover: "/images/blog/operatory-poiska/cover-en.webp",
+  metaTitle: "Searching blind? Search operators for SEO audits",
+  metaDescription:
+    "site:, intitle:, and more — a recon cheat sheet. Save before the next audit.",
   excerpt:
     "How to use Google and Yandex operators in SEO: site:, intitle:, inurl:, filetype: and combos — for index, duplicates, and research, without outdated “magic” commands.",
   lead: [
@@ -249,6 +252,9 @@ export const operatoryPoiskaEs: BlogPost = {
   date: "2020-03-03",
   category: "SEO",
   cover: "/images/blog/operatory-poiska/cover-es.webp",
+  metaTitle: "¿Búsqueda a ciegas? Operadores de Google/Yandex para auditoría SEO",
+  metaDescription:
+    "site:, intitle: y más — chuleta de reconocimiento. Guárdala antes de la próxima auditoría.",
   excerpt:
     "Cómo usar operadores de Google y Yandex en SEO: site:, intitle:, inurl:, filetype: y combos — para índice, duplicados e investigación, sin comandos «mágicos» obsoletos.",
   lead: [

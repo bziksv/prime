@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch13: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~240",
     metricLabel: "showroom visits per month from search",
+    metaTitle: "~240 showroom visits — Chery Voronezh SEO",
+    metaDescription:
+      "Chery salon SEO in mass-market rivalry: 98 phrases, prep ~1 month, page one nearer 3–6 months, ~240 visits/month. Full case inside.",
     summary:
       "SEO for a Chery dealership in Voronezh: 98 phrases, prep ~1 month, page-one growth planned over 2–6 months — about 240 showroom visits monthly in tough mass-market competition.",
     coverAlt: "Chery — dealership model range",
@@ -137,6 +140,9 @@ export const caseTranslationsEnBatch13: Record<string, Partial<CaseStudy>> = {
     period: "since 2014",
     metric: "3–5",
     metricLabel: "clients per month from search",
+    metaTitle: "3–5 clients/month from search — GreenStroy SEO",
+    metaDescription:
+      "Equipment rental SEO: 68 phrases, prep ~1 month, page one nearer 3–6 months — earthworks, demolition, trenches. See the case.",
     summary:
       "SEO for special-equipment rental in Voronezh: 68 phrases, prep ~1 month, page-one growth planned over 2–6 months — earthworks, demolition, trenches, soil removal.",
     coverAlt: "GreenStroy — earthworks of any complexity",
@@ -260,6 +266,9 @@ export const caseTranslationsEnBatch13: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~300",
     metricLabel: "clients per month from search",
+    metaTitle: "~300 clients/month — Samsung service SEO case",
+    metaDescription:
+      "Authorized repair SEO: 135 phrases, page one for fridge and washer repair, ~300 clients/month from search. See the case — or inquire.",
     summary:
       "SEO for an authorized service: 135 phrases, prep ~1 month, page one planned 2–6 months on fridge and washing-machine repair, about 300 clients per month from the web.",
     coverAlt: "Inzhener-servis — authorized service center",

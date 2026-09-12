@@ -7,6 +7,9 @@ export const parsingEmailEn: BlogPost = {
   date: "2020-03-03",
   category: "Digital marketing",
   cover: "/images/blog/parsing-email/cover-en.webp",
+  metaTitle: "Emails scraped from competitor sites? Risks and legal alternatives",
+  metaDescription:
+    "Why it’s dangerous — and what to use instead. Checklist — before cold outreach.",
   excerpt:
     "Why mass-harvesting other people’s emails from sites and social is a bad strategy: law, spam filters, and reputation. How to grow a list with consent — and what replaces “email parsers.”",
   lead: [
@@ -144,6 +147,9 @@ export const parsingEmailEs: BlogPost = {
   date: "2020-03-03",
   category: "Marketing digital",
   cover: "/images/blog/parsing-email/cover-es.webp",
+  metaTitle: "¿Emails scrapeados de la competencia? Riesgos y alternativas legales",
+  metaDescription:
+    "Por qué es peligroso — y con qué sustituirlo. Checklist — antes del cold outreach.",
   excerpt:
     "Por qué cosechar en masa emails ajenos de sitios y redes es mala estrategia: ley, filtros de spam y reputación. Cómo crecer una lista con consentimiento — y qué sustituye a los «parsers de email».",
   lead: [

@@ -7,6 +7,9 @@ export const naytiMarketologaEn: BlogPost = {
   date: "2019-07-29",
   category: "Digital marketing",
   cover: "/images/blog/nayti-marketologa/cover-en.webp",
+  metaTitle: "Need a marketer yesterday? Agency vs in-house: what to look for",
+  metaDescription:
+    "Selection criteria and common traps. Checklist — before interviews or the brief.",
   excerpt:
     "Where to look for a digital marketer: agency or hiring in-house, pros and cons, which skills to check, and how to agree on KPIs — without the “10,000 hours” myth.",
   lead: [
@@ -119,6 +122,9 @@ export const naytiMarketologaEs: BlogPost = {
   date: "2019-07-29",
   category: "Digital marketing",
   cover: "/images/blog/nayti-marketologa/cover-es.webp",
+  metaTitle: "¿Marketer “para ayer”? Agencia vs in-house: en qué fijarte",
+  metaDescription:
+    "Criterios de selección y trampas típicas. Checklist — antes de entrevistas o brief.",
   excerpt:
     "Dónde buscar un marketer digital: agencia o contratar in-house, pros y contras, qué skills revisar y cómo acordar KPIs — sin el mito de las «10.000 horas».",
   lead: [

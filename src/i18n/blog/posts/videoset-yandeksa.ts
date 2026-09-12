@@ -8,6 +8,9 @@ export const videosetYandeksaEn: BlogPost = {
   date: "2018-10-18",
   category: "Paid search",
   cover: "/images/blog/videoset-yandeksa/cover-en.webp",
+  metaTitle: "Yandex Video Network confusing? Formats, targeting, and how to judge the campaign",
+  metaDescription:
+    "How to read results without self-deception. Checklist — before you scale.",
   excerpt:
     "How the Yandex Video Network works: prerolls and in-page placements, targeting, VTR, and tying results to business goals — without treating 2018 industry-share and CPV reports as today’s price list.",
   lead: [
@@ -189,6 +192,9 @@ export const videosetYandeksaEs: BlogPost = {
   date: "2018-10-18",
   category: "Paid search",
   cover: "/images/blog/videoset-yandeksa/cover-es.webp",
+  metaTitle: "¿Red de vídeo Yandex confusa? Formatos, targeting y cómo evaluar la campaña",
+  metaDescription:
+    "Cómo leer resultados sin autoengaño. Checklist — antes de escalar.",
   excerpt:
     "Cómo funciona la Red de vídeo de Yandex: prerolls y placements in-page, targeting, VTR y amarrar resultados a metas de negocio — sin tratar shares de industria y CPV de 2018 como la lista de precios de hoy.",
   lead: [

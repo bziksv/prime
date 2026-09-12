@@ -7,6 +7,9 @@ export const rasshirenieTsenyGoogleEs: BlogPost = {
   date: "2017-05-27",
   category: "Paid search",
   cover: "/images/blog/rasshirenie-tseny-google/cover-es.webp",
+  metaTitle: "¿Precios en el anuncio sin clics? Extensión de precios en Google Ads",
+  metaDescription:
+    "Cuándo activar, cómo configurar y qué revisar. Checklist — antes del próximo A/B.",
   excerpt:
     "Por qué los anuncios de Google Ads muestran un bloque de precio: tipos (productos, servicios, eventos, marcas), cuándo activarlo y qué vigilar — un clic en un precio se factura, y la UI puede haber cambiado desde 2017.",
   lead: [
@@ -130,6 +133,9 @@ export const rasshirenieTsenyGoogleEn: BlogPost = {
   date: "2017-05-27",
   category: "Paid search",
   cover: "/images/blog/rasshirenie-tseny-google/cover-en.webp",
+  metaTitle: "Prices in ads not getting clicks? Google Ads Price extensions",
+  metaDescription:
+    "When to enable, how to set up, and what to check. Checklist — before the next A/B.",
   excerpt:
     "Why Google Ads ads show a price block: types (products, services, events, brands), when to enable it, and what to watch — a click on a price is billed, and the UI may have changed since 2017.",
   lead: [

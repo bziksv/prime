@@ -7,6 +7,9 @@ export const straykYoutubeEn: BlogPost = {
   date: "2021-08-24",
   category: "SMM",
   cover: "/images/blog/strayk-youtube/cover-en.webp",
+  metaTitle: "Got a YouTube strike? What it is, why you get one, and what to do",
+  metaDescription:
+    "Violation types, appeals, and prevention. Cheat sheet — before Studio panic.",
   excerpt:
     "How a Community Guidelines strike differs from a copyright complaint, which limits apply, how to check channel status, and how to appeal or avoid sanctions.",
   lead: [
@@ -138,6 +141,9 @@ export const straykYoutubeEs: BlogPost = {
   date: "2021-08-24",
   category: "SMM",
   cover: "/images/blog/strayk-youtube/cover-es.webp",
+  metaTitle: "¿Te llegó un strike en YouTube? Qué es, por qué lo dan y qué hacer",
+  metaDescription:
+    "Tipos de infracción, apelación y prevención. Chuleta — antes del pánico en Studio.",
   excerpt:
     "En qué se diferencia un strike de Community Guidelines de una reclamación de copyright, qué límites aplican, cómo revisar el estado del canal y cómo apelar o evitar sanciones.",
   lead: [

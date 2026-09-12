@@ -7,6 +7,9 @@ export const parsingEn: BlogPost = {
   date: "2021-11-05",
   category: "SEO",
   cover: "/images/blog/parsing/cover-en.webp",
+  metaTitle: "Collecting data by hand forever? Parsing: why webmasters use it — and the limits",
+  metaDescription:
+    "Jobs, risks, and the legal boundary. Primer — before you automate collection.",
   excerpt:
     "What website scraping is: collecting and structuring data, legitimate SEO/marketing uses, and limits from robots.txt and copyright.",
   lead: [
@@ -144,6 +147,9 @@ export const parsingEs: BlogPost = {
   date: "2021-11-05",
   category: "SEO",
   cover: "/images/blog/parsing/cover-es.webp",
+  metaTitle: "¿Datos a mano eternamente? Parsing: para qué al webmaster y dónde está el límite",
+  metaDescription:
+    "Tareas, riesgos y marco legal. Base — antes de automatizar la recogida.",
   excerpt:
     "Qué es el scraping de sitios: recopilar y estructurar datos, usos legítimos en SEO/marketing y límites de robots.txt y copyright.",
   lead: [

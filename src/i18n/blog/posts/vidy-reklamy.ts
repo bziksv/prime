@@ -7,6 +7,9 @@ export const vidyReklamyEn: BlogPost = {
   date: "2016-08-23",
   category: "Digital marketing",
   cover: "/images/blog/vidy-reklamy/cover-en.webp",
+  metaTitle: "Ads everywhere at once? Online ad types that actually bring customers",
+  metaDescription:
+    "Channels by job without spreading budget thin. Map — before the media plan.",
   excerpt:
     "Channel overview: SEO, paid search, social targeting, teasers, and banners — pros, cons, and when to choose what. No page-one guarantees and no advice for shady offers.",
   lead: [
@@ -115,6 +118,9 @@ export const vidyReklamyEs: BlogPost = {
   date: "2016-08-23",
   category: "Digital marketing",
   cover: "/images/blog/vidy-reklamy/cover-es.webp",
+  metaTitle: "¿Ads en todos lados? Tipos de publicidad online que sí traen clientes",
+  metaDescription:
+    "Canales por tarea sin diluir presupuesto. Mapa — antes del mediaplan.",
   excerpt:
     "Overview de canales: SEO, paid search, targeting social, teasers y banners — pros, contras y cuándo elegir qué. Sin garantías de primera página ni consejos para ofertas dudosas.",
   lead: [

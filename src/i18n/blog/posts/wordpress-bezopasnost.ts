@@ -7,6 +7,9 @@ export const wordpressBezopasnostEn: BlogPost = {
   date: "2019-12-27",
   category: "SEO",
   cover: "/images/blog/wordpress-bezopasnost/cover-en.webp",
+  metaTitle: "WordPress security “later”? A practical hardening checklist",
+  metaDescription:
+    "Updates, access, and backups. Run the list before an incident.",
   excerpt:
     "How to lower WordPress breach risk: updates, passwords, login, plugins and themes, backups, HTTPS, 2FA, and least privilege — without attack how-tos.",
   lead: [
@@ -208,6 +211,9 @@ export const wordpressBezopasnostEs: BlogPost = {
   date: "2019-12-27",
   category: "SEO",
   cover: "/images/blog/wordpress-bezopasnost/cover-es.webp",
+  metaTitle: "¿Seguridad WordPress “luego”? Checklist práctico de hardening",
+  metaDescription:
+    "Updates, accesos y backups. Pasa la lista antes del incidente.",
   excerpt:
     "Cómo bajar el riesgo de breach en WordPress: updates, contraseñas, login, plugins y temas, backups, HTTPS, 2FA y least privilege — sin how-tos de ataque.",
   lead: [

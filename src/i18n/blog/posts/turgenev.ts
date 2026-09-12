@@ -7,6 +7,9 @@ export const turgenevEn: BlogPost = {
   date: "2018-04-27",
   category: "SEO",
   cover: "/images/blog/turgenev/cover-en.webp",
+  metaTitle: "Copy over-optimized? Turgenev: check risk without tool dogma",
+  metaDescription:
+    "How to read the score and edit with judgment. Cheat sheet — before SEO publish.",
   excerpt:
     "What Ashmanov & Partners’ Turgenev checks: text-spam risk, nausea, water, and style — how to read scores, and why it is not a “Baden-Baden button” or a ranking guarantee.",
   lead: [
@@ -155,6 +158,9 @@ export const turgenevEs: BlogPost = {
   date: "2018-04-27",
   category: "SEO",
   cover: "/images/blog/turgenev/cover-es.webp",
+  metaTitle: "¿Texto sobreoptimizado? Turgenev: riesgo sin dogmatismo de tools",
+  metaDescription:
+    "Cómo leer la nota y editar con criterio. Chuleta — antes de publicar SEO.",
   excerpt:
     "Qué revisa el Turgenev de Ashmanov & Partners: riesgo de text-spam, náusea, agua y estilo — cómo leer las puntuaciones, y por qué no es un «botón Baden-Baden» ni una garantía de ranking.",
   lead: [

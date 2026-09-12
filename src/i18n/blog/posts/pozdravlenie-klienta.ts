@@ -7,6 +7,9 @@ export const pozdravlenieKlientaEn: BlogPost = {
   date: "2020-06-29",
   category: "Email marketing",
   cover: "/images/blog/pozdravlenie-klienta/cover-en.webp",
+  metaTitle: "Client birthday = generic “congrats”? Email, SMS, and B2B without cringe",
+  metaDescription:
+    "Tone, occasion, and boundaries. Cheat sheet — before you automate greetings.",
   excerpt:
     "How to write client birthday greetings: tone, personalization, email and SMS templates, a manager’s personal note, and B2B — without pushy ads.",
   lead: [
@@ -185,6 +188,9 @@ export const pozdravlenieKlientaEs: BlogPost = {
   date: "2020-06-29",
   category: "Email marketing",
   cover: "/images/blog/pozdravlenie-klienta/cover-es.webp",
+  metaTitle: "¿Cumpleaños del cliente = “felicidades” genérico? Email, SMS y B2B sin cringe",
+  metaDescription:
+    "Tono, motivo y límites. Chuleta — antes de automatizar felicitaciones.",
   excerpt:
     "Cómo escribir felicitaciones de cumpleaños a clientes: tono, personalización, plantillas de email y SMS, nota personal del manager y B2B — sin ads agresivos.",
   lead: [

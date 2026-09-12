@@ -7,6 +7,9 @@ export const klassifikatsiyaZaprosovEs: BlogPost = {
   date: "2017-09-28",
   category: "SEO",
   cover: "/images/blog/klassifikatsiya-zaprosov/cover-es.webp",
+  metaTitle: "¿Keywords en un montón? Clasifica consultas por intención",
+  metaDescription:
+    "Informativas, comerciales, navegacionales — y por qué separar. Chuleta de semántica — guárdala.",
   excerpt:
     "Cómo se parten las consultas: informativas, comerciales, transaccionales, navegacionales, geo y estacionales — y por qué importa para SEO y contenido. Frecuencia y competencia son ejes relacionados, no un sustituto de la intención.",
   lead: [
@@ -139,6 +142,9 @@ export const klassifikatsiyaZaprosovEn: BlogPost = {
   date: "2017-09-28",
   category: "SEO",
   cover: "/images/blog/klassifikatsiya-zaprosov/cover-en.webp",
+  metaTitle: "Keywords in one pile? Classify search queries by intent",
+  metaDescription:
+    "Informational, commercial, navigational — and why the split matters. Semantics cheat sheet — save it.",
   excerpt:
     "How search queries are split: informational, commercial, transactional, navigational, geo, and seasonal — and why that matters for SEO and content. Frequency and competition are related axes, not a substitute for intent.",
   lead: [

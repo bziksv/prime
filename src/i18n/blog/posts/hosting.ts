@@ -7,6 +7,9 @@ export const hostingEn: BlogPost = {
   date: "2017-08-30",
   category: "Digital marketing",
   cover: "/images/blog/hosting/cover-en.webp",
+  metaTitle: "Cheapest hosting wins? What hosting is and how to pick a provider",
+  metaDescription:
+    "Types, uptime, support, and red flags. Checklist — before you migrate the site.",
   excerpt:
     "Hosting in plain language: why a site needs a server, how shared, VPS, dedicated, and cloud differ, and what to check when choosing — without “uptime = rankings” myths or paid league tables.",
   lead: [
@@ -179,6 +182,9 @@ export const hostingEs: BlogPost = {
   date: "2017-08-30",
   category: "Digital marketing",
   cover: "/images/blog/hosting/cover-es.webp",
+  metaTitle: "¿Hosting “el más barato”? Qué es y cómo elegir proveedor",
+  metaDescription:
+    "Tipos, uptime, soporte y red flags. Checklist — antes de migrar la web.",
   excerpt:
     "Hosting en lenguaje claro: por qué un sitio necesita servidor, en qué se diferencian shared, VPS, dedicado y cloud, y qué comprobar al elegir — sin mitos de «uptime = rankings» ni tablas de ligas de pago.",
   lead: [

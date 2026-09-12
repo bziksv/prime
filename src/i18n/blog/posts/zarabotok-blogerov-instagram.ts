@@ -7,6 +7,9 @@ export const zarabotokBlogerovInstagramEn: BlogPost = {
   date: "2022-02-04",
   category: "SMM",
   cover: "/images/blog/zarabotok-blogerov-instagram/cover-en.webp",
+  metaTitle: "Every creator a millionaire? Instagram income models and realistic ranges",
+  metaDescription:
+    "Ads, products, and affiliates without myths. Breakdown — before a monetization plan.",
   excerpt:
     "How Instagram blog monetization works: ads, barter, services, admin work. Why “naked” numbers age fast and what to watch instead of myths.",
   lead: [
@@ -222,6 +225,9 @@ export const zarabotokBlogerovInstagramEs: BlogPost = {
   date: "2022-02-04",
   category: "SMM",
   cover: "/images/blog/zarabotok-blogerov-instagram/cover-es.webp",
+  metaTitle: "¿Todo creator millonario? Modelos de ingreso en Instagram y rangos realistas",
+  metaDescription:
+    "Ads, productos y afiliados sin mitos. Análisis — antes del plan de monetización.",
   excerpt:
     "Cómo funciona la monetización del blog en Instagram: ads, trueque, servicios, admin. Por qué los números «desnudos» envejecen rápido y qué mirar en lugar de mitos.",
   lead: [

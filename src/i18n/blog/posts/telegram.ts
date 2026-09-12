@@ -7,6 +7,9 @@ export const telegramEn: BlogPost = {
   date: "2021-07-27",
   category: "SMM",
   cover: "/images/blog/telegram/cover-en.webp",
+  metaTitle: "Telegram “just a chat app”? Features, pros, and how it compares",
+  metaDescription:
+    "Channels, bots, and business use cases. Primer — before you pick the comms stack.",
   excerpt:
     "What Telegram can do: chats, channels, bots, cloud, and security. Pros and cons, comparison with other messengers, and why a business channel helps — without outdated “forever” stats.",
   lead: [
@@ -141,6 +144,9 @@ export const telegramEs: BlogPost = {
   date: "2021-07-27",
   category: "SMM",
   cover: "/images/blog/telegram/cover-es.webp",
+  metaTitle: "¿Telegram “solo un chat”? Funciones, pros y comparación con otros messengers",
+  metaDescription:
+    "Canales, bots y casos de negocio. Base — antes de elegir el stack de comunicación.",
   excerpt:
     "Qué puede hacer Telegram: chats, canales, bots, nube y seguridad. Pros y contras, comparación con otros messengers y por qué un canal de negocio ayuda — sin stats «para siempre» obsoletas.",
   lead: [

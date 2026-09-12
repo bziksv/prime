@@ -7,6 +7,9 @@ export const vygoranieSotrudnikovEn: BlogPost = {
   date: "2019-06-07",
   category: "Digital marketing",
   cover: "/images/blog/vygoranie-sotrudnikov/cover-en.webp",
+  metaTitle: "Team at the edge? Employee burnout: how to lower the risk",
+  metaDescription:
+    "Signs, workload, and support without slogans. Checklist — before turnover spikes.",
   excerpt:
     "Burnout prevention in a team: trust and feedback, healthy humor, clear tasks, breaks and workload boundaries — without the cult of \"meditation instead of pay.\"",
   lead: [
@@ -123,6 +126,9 @@ export const vygoranieSotrudnikovEs: BlogPost = {
   date: "2019-06-07",
   category: "Digital marketing",
   cover: "/images/blog/vygoranie-sotrudnikov/cover-es.webp",
+  metaTitle: "¿Equipo al límite? Burnout profesional: cómo bajar el riesgo",
+  metaDescription:
+    "Señales, carga y apoyo sin eslóganes. Checklist — antes de que suba la rotación.",
   excerpt:
     "Prevención del burnout en un equipo: confianza y feedback, humor sano, tareas claras, pausas y límites de carga — sin el culto de «meditación en vez de sueldo».",
   lead: [

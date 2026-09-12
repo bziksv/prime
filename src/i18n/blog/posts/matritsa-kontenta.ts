@@ -7,6 +7,9 @@ export const matritsaKontentaEn: BlogPost = {
   date: "2019-12-20",
   category: "Content marketing",
   cover: "/images/blog/matritsa-kontenta/cover-en.webp",
+  metaTitle: "Posting whatever comes to mind? A content matrix for steady cadence",
+  metaDescription:
+    "Pillars × formats without burnout. Template — fill it before planning.",
   excerpt:
     "A content matrix: audience and journey stage, conversion goal, delivery channel, and format — how to build the table and find gaps, next to a regular content calendar.",
   lead: [
@@ -147,6 +150,9 @@ export const matritsaKontentaEs: BlogPost = {
   date: "2019-12-20",
   category: "Content marketing",
   cover: "/images/blog/matritsa-kontenta/cover-es.webp",
+  metaTitle: "¿Publicar lo que salga? Matriz de contenido para ritmo estable",
+  metaDescription:
+    "Pilares × formatos sin burnout. Plantilla — rellénala antes de la planning.",
   excerpt:
     "Una matriz de contenido: audiencia y etapa del journey, objetivo de conversión, canal de entrega y formato — cómo armar la tabla y encontrar huecos, junto a un calendario de contenido habitual.",
   lead: [

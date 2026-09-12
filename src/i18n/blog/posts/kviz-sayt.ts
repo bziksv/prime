@@ -7,6 +7,9 @@ export const kvizSaytEn: BlogPost = {
   date: "2020-01-14",
   category: "Digital marketing",
   cover: "/images/blog/kviz-sayt/cover-en.webp",
+  metaTitle: "Landing not converting? Quiz sites: when you need one and how to make it work",
+  metaDescription:
+    "Flow, lead magnet, and UX mistakes. Checklist — before the build brief.",
   excerpt:
     "What a quiz site and a landing quiz are: gamification, when a multi-step survey beats a long page, a build algorithm, and builder vs agency.",
   lead: [
@@ -178,6 +181,9 @@ export const kvizSaytEs: BlogPost = {
   date: "2020-01-14",
   category: "Digital marketing",
   cover: "/images/blog/kviz-sayt/cover-es.webp",
+  metaTitle: "¿Landing sin conversión? Sitio quiz: cuándo hace falta y cómo hacerlo eficaz",
+  metaDescription:
+    "Guion, lead magnet y errores UX. Checklist — antes del brief de desarrollo.",
   excerpt:
     "Qué son un sitio quiz y un quiz en landing: gamificación, cuándo una encuesta multi-paso gana a una página larga, algoritmo de build, y builder vs agencia.",
   lead: [

@@ -7,6 +7,9 @@ export const posmotretAvatarInstagramEn: BlogPost = {
   date: "2020-12-10",
   category: "SMM",
   cover: "/images/blog/posmotret-avatar-instagram/cover-en.webp",
+  metaTitle: "Avatar cropped in the circle? View the full Instagram profile photo",
+  metaDescription:
+    "Practical methods without shady sites. Cheat sheet — one minute.",
   excerpt:
     "How to see an Instagram avatar larger: the feed, the web client, and sensible methods — without a catalog of shady “viewer” services and apps that ask for your password.",
   lead: [
@@ -149,6 +152,9 @@ export const posmotretAvatarInstagramEs: BlogPost = {
   date: "2020-12-10",
   category: "SMM",
   cover: "/images/blog/posmotret-avatar-instagram/cover-es.webp",
+  metaTitle: "¿Avatar recortado en el círculo? Mira la foto completa de Instagram",
+  metaDescription:
+    "Métodos prácticos sin webs dudosas. Chuleta — en un minuto.",
   excerpt:
     "Cómo ver un avatar de Instagram más grande: el feed, el cliente web y métodos sensatos — sin un catálogo de servicios y apps «viewer» dudosas que piden tu contraseña.",
   lead: [

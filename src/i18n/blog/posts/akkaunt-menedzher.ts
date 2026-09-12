@@ -7,6 +7,9 @@ export const akkauntMenedzherEn: BlogPost = {
   date: "2019-05-30",
   category: "Digital marketing",
   cover: "/images/blog/akkaunt-menedzher/cover-en.webp",
+  metaTitle: "Client asks “who’s my manager?” — clear account-manager role",
+  metaDescription:
+    "How AM differs from sales and PM, project duties, and upsell lines. For agencies and clients — save the explainer.",
   excerpt:
     "An agency account manager: how they differ from sales and a PM, day-to-day project work, client communication, upsell, and stress — without the “easy MacBook job” myth.",
   lead: [
@@ -137,6 +140,9 @@ export const akkauntMenedzherEs: BlogPost = {
   date: "2019-05-30",
   category: "Digital marketing",
   cover: "/images/blog/akkaunt-menedzher/cover-es.webp",
+  metaTitle: "¿El cliente pregunta “quién es mi manager”? Rol de account claro",
+  metaDescription:
+    "En qué se diferencia el AM de ventas y PM, tareas y upsell. Para agencias y clientes — guarda la guía.",
   excerpt:
     "Un account manager de agencia: en qué se diferencia de sales y de un PM, el día a día del proyecto, comunicación con el cliente, upsell y estrés — sin el mito del «trabajo fácil con MacBook».",
   lead: [

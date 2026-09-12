@@ -7,6 +7,9 @@ export const nazvanieAuditoriiInstagramEn: BlogPost = {
   date: "2020-04-27",
   category: "SMM",
   cover: "/images/blog/nazvanie-auditorii-instagram/cover-en.webp",
+  metaTitle: "Audiences named “Audience 1”? How to label Instagram Ads segments",
+  metaDescription:
+    "Naming, structure, and Ads Manager order. Cheat sheet — before the next test.",
   excerpt:
     "Why the internal audience name in Instagram/Meta promotion matters, how to name segments for tests, and how it differs from the public profile name.",
   lead: [
@@ -150,6 +153,9 @@ export const nazvanieAuditoriiInstagramEs: BlogPost = {
   date: "2020-04-27",
   category: "SMM",
   cover: "/images/blog/nazvanie-auditorii-instagram/cover-es.webp",
+  metaTitle: "¿Audiencias “Audiencia 1”? Cómo nombrar segmentos en Instagram Ads",
+  metaDescription:
+    "Nombres, estructura y orden en el Ads Manager. Chuleta — antes del próximo test.",
   excerpt:
     "Por qué importa el nombre interno de audiencia en la promoción de Instagram/Meta, cómo nombrar segmentos para tests y en qué se diferencia del nombre público del perfil.",
   lead: [

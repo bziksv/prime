@@ -7,6 +7,9 @@ export const kartinkiSeoEn: BlogPost = {
   date: "2017-11-21",
   category: "Content marketing",
   cover: "/images/blog/kartinki-seo/cover-en.webp",
+  metaTitle: "Pretty images, zero SEO? Where to get them, how to prep and place",
+  metaDescription:
+    "Filenames, weight, alt, and indexation. Checklist — before you ship the gallery.",
   excerpt:
     "Site images for people and search: your own photos and AI instead of stock, file name, weight, alt, captions, responsive delivery, and og:image — without “unique image = rankings” promises.",
   lead: [
@@ -131,6 +134,9 @@ export const kartinkiSeoEs: BlogPost = {
   date: "2017-11-21",
   category: "Content marketing",
   cover: "/images/blog/kartinki-seo/cover-es.webp",
+  metaTitle: "¿Imágenes bonitas sin SEO? De dónde sacarlas, cómo prepararlas y publicarlas",
+  metaDescription:
+    "Nombres, peso, alt e indexación. Checklist — antes de subir la galería.",
   excerpt:
     "Imágenes del sitio para personas y búsqueda: fotos propias e IA en vez de stock, nombre de archivo, peso, alt, captions, entrega responsive y og:image — sin promesas de «imagen única = rankings».",
   lead: [

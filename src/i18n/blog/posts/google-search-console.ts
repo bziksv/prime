@@ -7,6 +7,9 @@ export const googleSearchConsoleEn: BlogPost = {
   date: "2020-08-17",
   category: "SEO",
   cover: "/images/blog/google-search-console/cover-en.webp",
+  metaTitle: "Guessing at indexation? Search Console: why webmasters need it",
+  metaDescription:
+    "Coverage, queries, and errors without panic. Primer — connect the property today.",
   excerpt:
     "What Google Search Console (formerly Webmaster Tools) does: verify the site, submit a sitemap, read index and error reports, and review queries — without treating it like a ranking switch.",
   lead: [
@@ -225,6 +228,9 @@ export const googleSearchConsoleEs: BlogPost = {
   date: "2020-08-17",
   category: "SEO",
   cover: "/images/blog/google-search-console/cover-es.webp",
+  metaTitle: "¿Indexación a ojo? Search Console: para qué sirve al webmaster",
+  metaDescription:
+    "Cobertura, queries y errores sin pánico. Base — conecta la propiedad hoy.",
   excerpt:
     "Qué hace Google Search Console (antes Webmaster Tools): verificar el sitio, enviar un sitemap, leer informes de índice y errores, y revisar queries — sin tratarlo como un interruptor de rankings.",
   lead: [

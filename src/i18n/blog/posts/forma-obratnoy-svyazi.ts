@@ -7,6 +7,9 @@ export const formaObratnoySvyaziEn: BlogPost = {
   date: "2021-10-01",
   category: "Websites",
   cover: "/images/blog/forma-obratnoy-svyazi/cover-en.webp",
+  metaTitle: "Form live, zero leads? Goals, fields, and placement rules",
+  metaDescription:
+    "How not to overwhelm users or lose the lead. Checklist — audit the form today.",
   excerpt:
     "Why you need a feedback form, which fields to use, where to place the block, how to fight spam, and how to raise the share of completed requests.",
   lead: [
@@ -198,6 +201,9 @@ export const formaObratnoySvyaziEs: BlogPost = {
   date: "2021-10-01",
   category: "Websites",
   cover: "/images/blog/forma-obratnoy-svyazi/cover-es.webp",
+  metaTitle: "¿Formulario vivo y cero leads? Objetivos, campos y reglas de colocación",
+  metaDescription:
+    "Cómo no saturar al usuario ni perder el lead. Checklist — audita el formulario hoy.",
   excerpt:
     "Para qué sirve un formulario de contacto, qué campos usar, dónde colocar el bloque, cómo combatir el spam y cómo subir la cuota de solicitudes completadas.",
   lead: [

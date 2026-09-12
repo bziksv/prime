@@ -8,6 +8,9 @@ export const relevantnostSaytaEn: BlogPost = {
   date: "2017-05-10",
   category: "SEO",
   cover: "/images/blog/relevantnost-sayta/cover-en.webp",
+  metaTitle: "Site about everything — and nothing? Relevance in plain English",
+  metaDescription:
+    "How to strengthen query match without stuffing. Checklist — before content edits.",
   excerpt:
     "What page relevance to a query means, how formal keyword match differs from a useful answer, and how to check and improve fit without a 4–5% density cult.",
   lead: [
@@ -189,6 +192,9 @@ export const relevantnostSaytaEs: BlogPost = {
   date: "2017-05-10",
   category: "SEO",
   cover: "/images/blog/relevantnost-sayta/cover-es.webp",
+  metaTitle: "¿Web de todo — y de nada? Relevancia en claro",
+  metaDescription:
+    "Cómo reforzar el match con la query sin stuffing. Checklist — antes de editar contenido.",
   excerpt:
     "Qué significa la relevancia de una página a una consulta, en qué se diferencia el match formal de keywords de una respuesta útil, y cómo revisar y mejorar el encaje sin el culto a la densidad del 4–5%.",
   lead: [

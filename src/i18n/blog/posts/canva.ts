@@ -7,6 +7,9 @@ export const canvaEn: BlogPost = {
   date: "2019-11-18",
   category: "SMM",
   cover: "/images/blog/canva/cover-en.webp",
+  metaTitle: "Canva instead of a designer? Pros and cons for marketing",
+  metaDescription:
+    "Where it saves time and where it weakens the brand. Read before you lock your creative stack.",
   excerpt:
     "Who Canva fits, what the free plan covers, where it falls short of Photoshop, and how to keep one visual style in social without promising you’ll never need a designer.",
   lead: [
@@ -144,6 +147,9 @@ export const canvaEs: BlogPost = {
   date: "2019-11-18",
   category: "SMM",
   cover: "/images/blog/canva/cover-es.webp",
+  metaTitle: "¿Canva en vez de diseñador? Pros y contras para marketing",
+  metaDescription:
+    "Dónde ahorra tiempo y dónde debilita la marca. Léelo antes de fijar el stack creativo.",
   excerpt:
     "A quién encaja Canva, qué cubre el plan gratis, dónde se queda corto frente a Photoshop y cómo mantener un estilo visual en social sin prometer que nunca harás falta un diseñador.",
   lead: [

@@ -7,6 +7,9 @@ export const domenPervogoUrovnyaEn: BlogPost = {
   date: "2021-10-12",
   category: "SEO",
   cover: "/images/blog/domen-pervogo-urovnya/cover-en.webp",
+  metaTitle: "Does the TLD decide SEO? What a top-level domain really means",
+  metaDescription:
+    "First-level domains, “.com is better” myths, and ranking impact. Primer — before you buy the name.",
   excerpt:
     "What a first-level domain (TLD) is: .ru, .com, and other zones. How name levels differ, how the zone ties to SEO and traffic, and how to choose a name.",
   lead: [
@@ -138,6 +141,9 @@ export const domenPervogoUrovnyaEs: BlogPost = {
   date: "2021-10-12",
   category: "SEO",
   cover: "/images/blog/domen-pervogo-urovnya/cover-es.webp",
+  metaTitle: "¿El TLD decide el SEO? Qué es un dominio de primer nivel de verdad",
+  metaDescription:
+    "Dominios de primer nivel, mitos del “.com mejor” e impacto en ranking. Base — antes de comprar el nombre.",
   excerpt:
     "Qué es un dominio de primer nivel (TLD): .ru, .com y otras zonas. Cómo se diferencian los niveles del nombre, qué tiene que ver la zona con SEO y tráfico, y cómo elegir el nombre.",
   lead: [

@@ -7,6 +7,9 @@ export const giperlokalnyyTargetingEn: BlogPost = {
   date: "2019-09-16",
   category: "Digital marketing",
   cover: "/images/blog/giperlokalnyy-targeting/cover-en.webp",
+  metaTitle: "Customers within a few blocks? Hyperlocal targeting: who needs it and which tool",
+  metaDescription:
+    "When radius targeting fits and how to pick the stack. Read before local ads go live.",
   excerpt:
     "Hyperlocal ads near a location: who it fits, geopolygons in ad accounts, Wi‑Fi/MAC limits and privacy — without spy schemes at competitors.",
   lead: [
@@ -151,6 +154,9 @@ export const giperlokalnyyTargetingEs: BlogPost = {
   date: "2019-09-16",
   category: "Digital marketing",
   cover: "/images/blog/giperlokalnyy-targeting/cover-es.webp",
+  metaTitle: "¿Clientes a pocas calles? Targeting hiperlocal: a quién y con qué",
+  metaDescription:
+    "Cuándo encaja el radio y cómo elegir la tool. Léelo antes de lanzar ads locales.",
   excerpt:
     "Ads hiperlocales cerca de una ubicación: a quién encaja, geopolígonos en cuentas de ads, límites de Wi‑Fi/MAC y privacidad — sin esquemas de espionaje a competidores.",
   lead: [

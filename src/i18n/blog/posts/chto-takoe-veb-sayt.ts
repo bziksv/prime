@@ -7,6 +7,9 @@ export const chtoTakoeVebSaytEn: BlogPost = {
   date: "2021-07-02",
   category: "Websites",
   cover: "/images/blog/chto-takoe-veb-sayt/cover-en.webp",
+  metaTitle: "“We need a website” — and then what? Jobs, types, and where to start",
+  metaDescription:
+    "What a site actually is: goals, types, and the build path. Read before the vendor brief.",
   excerpt:
     "What a website is in plain English: why business needs one, common types (brochure, corporate, store), how to choose a build path, and how pages work at a high level.",
   lead: [
@@ -179,6 +182,9 @@ export const chtoTakoeVebSaytEs: BlogPost = {
   date: "2021-07-02",
   category: "Websites",
   cover: "/images/blog/chto-takoe-veb-sayt/cover-es.webp",
+  metaTitle: "“Necesitamos web” — ¿y luego? Tareas, tipos y por dónde empezar",
+  metaDescription:
+    "Qué es un sitio de verdad: objetivos, tipos y camino de creación. Léelo antes del brief.",
   excerpt:
     "Qué es un sitio web en lenguaje claro: por qué lo necesita el negocio, tipos habituales (brochure, corporativo, tienda), cómo elegir vía de construcción y cómo funcionan las páginas a alto nivel.",
   lead: [

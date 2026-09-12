@@ -7,6 +7,9 @@ export const dlinaSeoTekstaEn: BlogPost = {
   date: "2020-01-09",
   category: "SEO",
   cover: "/images/blog/dlina-seo-teksta/cover-en.webp",
+  metaTitle: "Longer SEO copy always wins? How to pick the right length",
+  metaDescription:
+    "Intent and competitor cues — not a character race. Cheat sheet — before the writer brief.",
   excerpt:
     "How long SEO copy should be: a length cue from page-one competitors, when a long-read helps, why word count without value won’t move rankings, and how to stop writing “for the character quota”.",
   lead: [
@@ -231,6 +234,9 @@ export const dlinaSeoTekstaEs: BlogPost = {
   date: "2020-01-09",
   category: "SEO",
   cover: "/images/blog/dlina-seo-teksta/cover-es.webp",
+  metaTitle: "¿Más largo = mejor SEO? Cómo elegir el volumen del texto",
+  metaDescription:
+    "Intención y competencia — sin carrera de caracteres. Chuleta — antes del brief al copy.",
   excerpt:
     "Cuánto debe medir el copy SEO: una pista de longitud desde competidores de primera página, cuándo ayuda un long-read, por qué el conteo de palabras sin valor no mueve rankings y cómo dejar de escribir «por la cuota de caracteres».",
   lead: [

@@ -7,6 +7,9 @@ export const assotsiirovannyeKonversiiEn: BlogPost = {
   date: "2019-12-25",
   category: "Digital marketing",
   cover: "/images/blog/assotsiirovannye-konversii/cover-en.webp",
+  metaTitle: "Last-click lying? Read assisted conversions properly",
+  metaDescription:
+    "Why the full path to purchase matters — not only the final channel. Report explainer — save before the next agency fight.",
   excerpt:
     "What assisted conversions are, how they differ from first and last click, how not to kill helper channels, and how to read attribution in analytics without outdated menu screenshots.",
   lead: [
@@ -183,6 +186,9 @@ export const assotsiirovannyeKonversiiEs: BlogPost = {
   date: "2019-12-25",
   category: "Digital marketing",
   cover: "/images/blog/assotsiirovannye-konversii/cover-es.webp",
+  metaTitle: "¿El last-click engaña? Lee conversiones asistidas bien",
+  metaDescription:
+    "Por qué importa todo el camino a la compra — no solo el canal final. Guía de informe — guárdala antes de pelear con la agencia.",
   excerpt:
     "Qué son las conversiones asistidas, en qué se diferencian del first y last click, cómo no matar canales helpers y cómo leer atribución en analytics sin capturas de menú obsoletas.",
   lead: [

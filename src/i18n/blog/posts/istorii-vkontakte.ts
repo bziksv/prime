@@ -7,6 +7,9 @@ export const istoriiVkontakteEn: BlogPost = {
   date: "2022-02-18",
   category: "SMM",
   cover: "/images/blog/istorii-vkontakte/cover-en.webp",
+  metaTitle: "Empty VK Stories? How to post and what to fill them with",
+  metaDescription:
+    "Formats, cadence, and community-fit ideas. Checklist — before the next Stories run.",
   excerpt:
     "How to work with VK Stories: why they matter, framing a shot, publishing from phone and from a community, business ideas, and platform limits.",
   lead: [
@@ -182,6 +185,9 @@ export const istoriiVkontakteEs: BlogPost = {
   date: "2022-02-18",
   category: "SMM",
   cover: "/images/blog/istorii-vkontakte/cover-es.webp",
+  metaTitle: "¿Stories VK vacías? Cómo publicar y con qué llenarlas",
+  metaDescription:
+    "Formatos, frecuencia e ideas para la comunidad. Checklist — antes de la próxima serie.",
   excerpt:
     "Cómo trabajar con Stories de VK: por qué importan, encuadre del shot, publicar desde el teléfono y desde una comunidad, ideas de negocio y límites de la plataforma.",
   lead: [

@@ -7,6 +7,9 @@ export const oKompaniiEn: BlogPost = {
   date: "2020-06-23",
   category: "Content marketing",
   cover: "/images/blog/o-kompanii/cover-en.webp",
+  metaTitle: "About page full of fluff? What to write — and what to skip",
+  metaDescription:
+    "Facts, trust, and structure without self-praise. Checklist — rewrite the page today.",
   excerpt:
     "How to write an About page without a founder novel and empty “we’re the best”: facts, proof, tone for the audience — and when almost nobody reads the text.",
   lead: [
@@ -134,6 +137,9 @@ export const oKompaniiEs: BlogPost = {
   date: "2020-06-23",
   category: "Content marketing",
   cover: "/images/blog/o-kompanii/cover-es.webp",
+  metaTitle: "¿“Sobre nosotros” de relleno? Qué escribir y qué evitar",
+  metaDescription:
+    "Hechos, confianza y estructura sin autobombo. Checklist — reescribe la página hoy.",
   excerpt:
     "Cómo escribir una página About sin novela del fundador y «somos los mejores» vacío: hechos, prueba, tono para la audiencia — y cuándo casi nadie lee el texto.",
   lead: [

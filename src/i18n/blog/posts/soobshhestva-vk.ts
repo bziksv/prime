@@ -7,6 +7,9 @@ export const soobshhestvaVkEn: BlogPost = {
   date: "2020-11-06",
   category: "SMM",
   cover: "/images/blog/soobshhestva-vk/cover-en.webp",
+  metaTitle: "Public, group, or event? VK communities: pick the right format",
+  metaDescription:
+    "Format differences and a clean start. Checklist — before you create the community.",
   excerpt:
     "How a VK public page differs from a group and an event, when to pick which format, and how to get started — without outdated screenshots or a bot catalog.",
   lead: [
@@ -158,6 +161,9 @@ export const soobshhestvaVkEs: BlogPost = {
   date: "2020-11-06",
   category: "SMM",
   cover: "/images/blog/soobshhestva-vk/cover-es.webp",
+  metaTitle: "¿Público, grupo o evento? Comunidades VK: elige el formato correcto",
+  metaDescription:
+    "Diferencias y arranque sin lío. Checklist — antes de crear la comunidad.",
   excerpt:
     "En qué se diferencia una página pública de VK de un grupo y un evento, cuándo elegir cada formato y cómo empezar — sin capturas obsoletas ni un catálogo de bots.",
   lead: [

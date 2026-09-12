@@ -7,6 +7,9 @@ export const facebookAdsEn: BlogPost = {
   date: "2019-02-18",
   category: "Digital marketing",
   cover: "/images/blog/facebook-ads/cover-en.webp",
+  metaTitle: "Meta Ads from scratch? How Facebook advertising actually works",
+  metaDescription:
+    "Campaigns, audiences, and Ads Manager logic without myths. Primer — before your first launch.",
   excerpt:
     "How Facebook Ads / Meta Ads work: goals, audiences, pixel, and tests. An informational breakdown without “start right now” FOMO and without 2018 reach figures.",
   lead: [
@@ -199,6 +202,9 @@ export const facebookAdsEs: BlogPost = {
   date: "2019-02-18",
   category: "Digital marketing",
   cover: "/images/blog/facebook-ads/cover-es.webp",
+  metaTitle: "¿Meta Ads desde cero? Cómo funciona la publicidad en Facebook",
+  metaDescription:
+    "Campañas, audiencias y lógica del Ads Manager sin mitos. Base — antes del primer lanzamiento.",
   excerpt:
     "Cómo funcionan Facebook Ads / Meta Ads: metas, audiencias, píxel y tests. Un desglose informativo sin FOMO de «empieza ya» y sin cifras de reach de 2018.",
   lead: [

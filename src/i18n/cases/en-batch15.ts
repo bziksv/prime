@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "186",
     metricLabel: "phrases in the SEO keyword set",
+    metaTitle: "186 phrases + wholesale from search — Metallinvest",
+    metaDescription:
+      "Metal trader SEO: prep ~1 month, page one planned 2–6 months. First 2 months: ~112 visits/day, 68 orders, 7 wholesale clients. See the case.",
     summary:
       "SEO for a metal trader in a tough niche: 186 phrases, prep ~1 month, page one planned 2–6 months. First 2 months — ~112 visits/day, 68 orders, and 7 wholesale clients. New site — separate case.",
     coverAlt: "metplus-vrn.ru — steel products catalog",
@@ -137,6 +140,9 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
     period: "since 2014",
     metric: "43",
     metricLabel: "phrases in the SEO keyword set",
+    metaTitle: "43 phrases vs DIY SERPs — carved wood SEO case",
+    metaDescription:
+      "Carved stairs/panels SEO: prep ~1.5 months, page one planned 2–6 months. First 2 months — inquiries and purchases from search. See the case.",
     summary:
       "SEO for a carved stairs and panels workshop: 43 phrases against DIY articles in the SERP, prep ~1.5 months, page one planned 2–6 months. First 2 months — inquiries and purchases from search.",
     coverAlt: "Elite carved oak staircase in an interior",
@@ -258,6 +264,9 @@ export const caseTranslationsEnBatch15: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~60",
     metricLabel: "new students per month",
+    metaTitle: "~60 new students/month — training center SEO",
+    metaDescription:
+      "SEO + Bitrix site: 35 phrases in education rivalry, prep ~1.5 months, page one planned 2–6 months, ~60 enrollments/month. See the case.",
     summary:
       "SEO and a new Bitrix site for a training center: 35 phrases in a competitive education niche, prep ~1.5 months, page one planned 2–6 months. About 60 course enrollments monthly.",
     coverAlt: "Classes at the Central Black Earth Training Center",

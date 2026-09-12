@@ -97,9 +97,9 @@ export type AdsContent = {
 
 const adsRu: AdsContent = {
   path: "/kontekstnaya-reklama/",
-  metaTitle: "Контекстная реклама — ПРАЙМ",
+  metaTitle: "Контекст жрёт бюджет без заявок? Пересоберите кампании — ПРАЙМ",
   metaDescription:
-    "Контекстная реклама в Яндекс.Директе и Google Ads: стратегия, минус-слова, UTM, ставки. Ведение от 6 000 ₽ — по медиабюджету, не процент от пополнения. Два отдельных счёта.",
+    "Запросите ведение: стратегия, минус-слова, UTM и ставки. Фикс от 6 000 ₽ по медиабюджету — не % от пополнения. Два отдельных счёта.",
   serviceName: "Контекстная реклама",
   serviceType: "Контекстная реклама",
   breadcrumbHome: "Главная",
@@ -195,9 +195,9 @@ const adsRu: AdsContent = {
 
 const adsEn: AdsContent = {
   path: "/en/ads/",
-  metaTitle: "Google Ads — PRIME",
+  metaTitle: "Ads spend climbing, leads flat? Fix the account — PRIME",
   metaDescription:
-    "Google Ads management: strategy, negatives, UTM tracking, and bids. Fixed management fee from $70/mo by media budget — not a percent of spend. Agency fee and ad spend on separate invoices.",
+    "Get Google Ads management: negatives, UTMs, bids. Flat fee from $70/mo by media budget — not a cut of spend. Agency and media on separate invoices.",
   serviceName: "Google Ads",
   serviceType: "Google Ads management",
   breadcrumbHome: "Home",
@@ -444,9 +444,9 @@ const adsEn: AdsContent = {
 
 const adsEs: AdsContent = {
   path: "/es/ads/",
-  metaTitle: "Google Ads — PRIME",
+  metaTitle: "¿Ads caros y pocos leads? Reordena la cuenta — PRIME",
   metaDescription:
-    "Gestión de Google Ads: estrategia, negativas, seguimiento UTM y pujas. Tarifa fija de gestión desde $70/mes según presupuesto — no un porcentaje del gasto. Honorarios de agencia y gasto en anuncios, en facturas separadas.",
+    "Pide gestión de Google Ads: negativas, UTM y pujas. Tarifa fija desde $70/mes según presupuesto — no un % del gasto. Facturas separadas.",
   serviceName: "Google Ads",
   serviceType: "Gestión de Google Ads",
   breadcrumbHome: "Inicio",

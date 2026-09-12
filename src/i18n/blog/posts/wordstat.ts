@@ -7,6 +7,9 @@ export const wordstatEn: BlogPost = {
   date: "2018-04-06",
   category: "SEO",
   cover: "/images/blog/wordstat/cover-en.webp",
+  metaTitle: "Keywords by gut feel? Yandex Wordstat: what it is and how to use it",
+  metaDescription:
+    "Frequency, operators, and traps. Cheat sheet — before you build the keyword set.",
   excerpt:
     "Wordstat is Yandex query-stats: why it matters for keyword research, how to read volume, operators, regions, and seasonality — without treating a big number as a ranking promise.",
   lead: [
@@ -179,6 +182,9 @@ export const wordstatEs: BlogPost = {
   date: "2018-04-06",
   category: "SEO",
   cover: "/images/blog/wordstat/cover-es.webp",
+  metaTitle: "¿Semántica a ojo? Yandex Wordstat: qué es y cómo usarlo",
+  metaDescription:
+    "Frecuencia, operadores y trampas. Chuleta — antes de armar el núcleo.",
   excerpt:
     "Wordstat es la estadística de consultas de Yandex: por qué importa para la investigación de keywords, cómo leer el volumen, operadores, regiones y estacionalidad — sin tratar un número grande como promesa de ranking.",
   lead: [

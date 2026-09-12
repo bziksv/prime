@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     period: "since 2021 · ongoing",
     metric: "LCP 2.1s",
     metricLabel: "mobile homepage · PageSpeed field",
+    metaTitle: "Mobile LCP 2.1s — Almamed store performance case",
+    metaDescription:
+      "Webasyst shop since 2021: catalog/checkout UX, homepage trust blocks, then 2026 speed — search, N+1, cache, CWV. See the case.",
     summary:
       "Since 2021 we’ve run the Webasyst store: catalog UX and path to order, homepage upgrades, then a large 2026 speed pool — search, N+1, cache, and Core Web Vitals.",
     coverAlt: "almamed.su homepage — live view",
@@ -163,6 +166,9 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     period: "since 2015 · ongoing",
     metric: "10+ yrs",
     metricLabel: "together · since 2015",
+    metaTitle: "10+ years on one storefront — Polimer rebuild",
+    metaDescription:
+      "Since 2015: search traffic and leads; in 2021 a major Bitrix catalog rebuild, then ongoing care. See the case — or inquire.",
     summary:
       "We’ve worked with Polimer since 2015: first traffic and inquiries from search, in 2021 a large Bitrix catalog upgrade, then ongoing storefront support.",
     coverAlt: "polimer-vrn.ru homepage — live view",
@@ -316,6 +322,9 @@ export const caseTranslationsEnBatch4: Record<string, Partial<CaseStudy>> = {
     period: "2016 · SEO → 2023 · Bitrix",
     metric: "473",
     metricLabel: "phrases in the SEO core",
+    metaTitle: "473 SEO phrases + Bitrix migrate — TorgMag case",
+    metaDescription:
+      "SEO since 2016 after a failed prior studio. In 2023 — custom CMS → Bitrix: menu, orders, payment, delivery. See the case.",
     summary:
       "Since 2016 — SEO after a failed previous studio. In 2023 — migration from a custom CMS to Bitrix: menu, orders, payment, and delivery.",
     coverAlt: "torgmagvrn.ru homepage — live view",

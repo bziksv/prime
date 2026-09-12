@@ -7,6 +7,9 @@ export const redirektEn: BlogPost = {
   date: "2021-08-24",
   category: "SEO",
   cover: "/images/blog/redirekt/cover-en.webp",
+  metaTitle: "Redirect “just in case” hurting SEO? 301 vs 302: when to use which",
+  metaDescription:
+    "Types, chains, and common mistakes. Cheat sheet — before you edit production.",
   excerpt:
     "What redirects are, how 301 differs from 302/307, when to consolidate www and HTTPS, how to avoid chains, and when canonical beats a redirect.",
   lead: [
@@ -155,6 +158,9 @@ export const redirektEs: BlogPost = {
   date: "2021-08-24",
   category: "SEO",
   cover: "/images/blog/redirekt/cover-es.webp",
+  metaTitle: "¿Redirect “por si acaso” daña el SEO? 301 vs 302: cuándo usar cada uno",
+  metaDescription:
+    "Tipos, cadenas y errores típicos. Chuleta — antes de tocar prod.",
   excerpt:
     "Qué son los redirects, en qué se diferencia 301 de 302/307, cuándo unificar www y HTTPS, cómo evitar cadenas y cuándo canonical gana a un redirect.",
   lead: [

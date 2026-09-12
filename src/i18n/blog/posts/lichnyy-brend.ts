@@ -7,6 +7,9 @@ export const lichnyyBrendEn: BlogPost = {
   date: "2021-08-27",
   category: "SMM",
   cover: "/images/blog/lichnyy-brend/cover-en.webp",
+  metaTitle: "Profile live, brand missing? Personal branding on social: why and how",
+  metaDescription:
+    "Positioning, content, and boundaries without posing. Checklist — before the next “about me” post.",
   excerpt:
     "What a personal brand is, who it helps sell services and expertise, how to pick a niche, channel, and content mix — without cross-posting to every network at once.",
   lead: [
@@ -171,6 +174,9 @@ export const lichnyyBrendEs: BlogPost = {
   date: "2021-08-27",
   category: "SMM",
   cover: "/images/blog/lichnyy-brend/cover-es.webp",
+  metaTitle: "¿Perfil sí, marca no? Marca personal en social: para qué y cómo",
+  metaDescription:
+    "Posicionamiento, contenido y límites sin postureo. Checklist — antes del próximo post “sobre mí”.",
   excerpt:
     "Qué es una marca personal, a quién ayuda a vender servicios y expertise, cómo elegir nicho, canal y mix de contenido — sin cross-posting a todas las redes a la vez.",
   lead: [

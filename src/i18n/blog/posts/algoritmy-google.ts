@@ -7,6 +7,9 @@ export const algoritmyGoogleEn: BlogPost = {
   date: "2018-09-20",
   category: "SEO",
   cover: "/images/blog/algoritmy-google/cover-en.webp",
+  metaTitle: "Scared of the next Google update? Grow without chasing penalties",
+  metaDescription:
+    "Panda, Penguin, Hummingbird, mobile-first, RankBrain in plain English. Stability checklist — audit before you panic.",
   excerpt:
     "Why Google updates search and what Panda, Penguin, Hummingbird, mobile-first, and RankBrain meant for sites: content quality, links, query meaning, and UX — without outdated uniqueness norms or filter-bypass tricks.",
   lead: [
@@ -149,6 +152,9 @@ export const algoritmyGoogleEs: BlogPost = {
   date: "2018-09-20",
   category: "SEO",
   cover: "/images/blog/algoritmy-google/cover-es.webp",
+  metaTitle: "¿Miedo al próximo update de Google? Crece sin ir a por sanciones",
+  metaDescription:
+    "Panda, Penguin, Hummingbird, mobile-first y RankBrain en claro. Checklist de estabilidad — audita antes del pánico.",
   excerpt:
     "Por qué Google actualiza la búsqueda y qué significaron Panda, Penguin, Hummingbird, mobile-first y RankBrain para los sitios: calidad de contenido, enlaces, sentido de la consulta y UX — sin normas de unicidad obsoletas ni trucos para saltar filtros.",
   lead: [

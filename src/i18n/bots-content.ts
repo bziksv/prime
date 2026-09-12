@@ -98,9 +98,9 @@ export type BotsContent = {
 
 const botsRu: BotsContent = {
   path: "/razrabotka-botov-dlya-messendzherov/",
-  metaTitle: "Разработка ботов для мессенджеров — ПРАЙМ",
+  metaTitle: "Клиент пишет в Telegram — а отвечает тишина? Бот от ПРАЙМ",
   metaDescription:
-    "Разработка ботов для Telegram и мессенджеров: сценарии, меню, уведомления, запись и связка с сайтом или CRM. Без спама и серых схем.",
+    "Закажите сценарий: меню, запись, уведомления и связка с сайтом/CRM. Только официальные API — без спама и серых схем.",
   serviceName: "Разработка ботов для мессенджеров",
   serviceType: "Разработка чат-ботов",
   breadcrumbHome: "Главная",
@@ -210,9 +210,9 @@ const botsRu: BotsContent = {
 
 const botsEn: BotsContent = {
   path: "/en/bots/",
-  metaTitle: "Chatbots — PRIME",
+  metaTitle: "Customers chat on Telegram — and nobody answers? — PRIME",
   metaDescription:
-    "Telegram and messenger chatbots: menus, alerts, bookings, and login — wired to your site or CRM. Official APIs only. No spam, no gray-area shortcuts.",
+    "Commission a bot: menus, bookings, alerts, CRM wiring. Official APIs only — no spam, no gray-area shortcuts.",
   serviceName: "Chatbots",
   serviceType: "Chatbot development",
   breadcrumbHome: "Home",
@@ -449,9 +449,9 @@ const botsEn: BotsContent = {
 
 const botsEs: BotsContent = {
   path: "/es/bots/",
-  metaTitle: "Chatbots — PRIME",
+  metaTitle: "¿Te escriben en Telegram y nadie contesta? Bot de PRIME",
   metaDescription:
-    "Chatbots para Telegram y otras apps de mensajería: menús, avisos, reservas y acceso — conectados a tu sitio o CRM. Solo APIs oficiales. Sin spam ni trucos de zona gris.",
+    "Encarga el flujo: menús, reservas, avisos y enlace a CRM. Solo APIs oficiales — sin spam ni atajos grises.",
   serviceName: "Chatbots",
   serviceType: "Desarrollo de chatbots",
   breadcrumbHome: "Inicio",

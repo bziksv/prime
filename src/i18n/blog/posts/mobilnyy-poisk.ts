@@ -7,6 +7,9 @@ export const mobilnyyPoiskEn: BlogPost = {
   date: "2018-08-14",
   category: "SEO",
   cover: "/images/blog/mobilnyy-poisk/cover-en.webp",
+  metaTitle: "Desktop ranks, mobile slips? Mobile search SEO: SERP, responsive, speed",
+  metaDescription:
+    "What to check on phones before traffic drops. Checklist — audit the site today.",
   excerpt:
     "How the mobile SERP differs from desktop, why check ranks and UX on a phone, responsive vs m-site, and what to do with speed after the Turbo/AMP hype faded.",
   lead: [
@@ -243,6 +246,9 @@ export const mobilnyyPoiskEs: BlogPost = {
   date: "2018-08-14",
   category: "SEO",
   cover: "/images/blog/mobilnyy-poisk/cover-es.webp",
+  metaTitle: "¿Desktop en TOP y móvil cae? Búsqueda móvil: SERP, responsive y velocidad",
+  metaDescription:
+    "Qué revisar en el móvil antes de perder tráfico. Checklist — audita la web hoy.",
   excerpt:
     "Cómo difiere la SERP móvil de la desktop, por qué revisar rankings y UX en el teléfono, responsive vs m-site, y qué hacer con la velocidad tras el hype de Turbo/AMP.",
   lead: [

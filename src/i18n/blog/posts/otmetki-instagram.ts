@@ -7,6 +7,9 @@ export const otmetkiInstagramEn: BlogPost = {
   date: "2021-06-25",
   category: "SMM",
   cover: "/images/blog/otmetki-instagram/cover-en.webp",
+  metaTitle: "Tags annoying followers? Instagram mentions: rules, mistakes, and value",
+  metaDescription:
+    "When tagging helps — and when it’s spam. Cheat sheet — before the next collab.",
   excerpt:
     "Why tag accounts in Instagram Stories and posts, which limits and mistakes get in the way, and how to use tags for collaborations — without outdated click-path tutorials.",
   lead: [
@@ -142,6 +145,9 @@ export const otmetkiInstagramEs: BlogPost = {
   date: "2021-06-25",
   category: "SMM",
   cover: "/images/blog/otmetki-instagram/cover-es.webp",
+  metaTitle: "¿Las menciones irritan? Tags de Instagram: reglas, errores y utilidad",
+  metaDescription:
+    "Cuándo etiquetar ayuda — y cuándo es spam. Chuleta — antes del próximo collab.",
   excerpt:
     "Por qué etiquetar cuentas en Stories y posts de Instagram, qué límites y errores estorban, y cómo usar tags en colaboraciones — sin tutoriales de clics obsoletos.",
   lead: [

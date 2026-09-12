@@ -7,6 +7,9 @@ export const kod200En: BlogPost = {
   date: "2021-01-29",
   category: "SEO",
   cover: "/images/blog/kod-200/cover-en.webp",
+  metaTitle: "Page loads but status feels off? What 200 OK actually means",
+  metaDescription:
+    "For sites and indexation: when 200 is fine — and when it hides a problem. Primer — save it.",
   excerpt:
     "What HTTP 200 OK means, how it relates to indexing, why soft 404 behind a 200 is dangerous, and how to check that important URLs really return success.",
   lead: [
@@ -198,6 +201,9 @@ export const kod200Es: BlogPost = {
   date: "2021-01-29",
   category: "SEO",
   cover: "/images/blog/kod-200/cover-es.webp",
+  metaTitle: "¿La página carga pero el status raro? Qué significa 200 OK",
+  metaDescription:
+    "Para web e indexación: cuándo 200 es normal — y cuándo oculta un problema. Base — guárdala.",
   excerpt:
     "Qué significa HTTP 200 OK, cómo se relaciona con la indexación, por qué un soft 404 detrás de un 200 es peligroso y cómo comprobar que las URLs importantes realmente devuelven éxito.",
   lead: [

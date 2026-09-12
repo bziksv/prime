@@ -7,6 +7,9 @@ export const triggernyeRassylkiEn: BlogPost = {
   date: "2019-02-05",
   category: "Email marketing",
   cover: "/images/blog/triggernye-rassylki/cover-en.webp",
+  metaTitle: "Calendar blasts feeling stale? Trigger emails: what they are and how to launch",
+  metaDescription:
+    "Events, flows, and tone without spam. Checklist — before ESP automation.",
   excerpt:
     "How trigger messages differ from a regular newsletter: welcome, abandoned cart, order, review, back-in-stock, and list win-back — with consent and without spam.",
   lead: [
@@ -169,6 +172,9 @@ export const triggernyeRassylkiEs: BlogPost = {
   date: "2019-02-05",
   category: "Email marketing",
   cover: "/images/blog/triggernye-rassylki/cover-es.webp",
+  metaTitle: "¿Mailings de calendario agotados? Emails trigger: qué son y cómo lanzarlos",
+  metaDescription:
+    "Eventos, flujos y tono sin spam. Checklist — antes de automatizar en el ESP.",
   excerpt:
     "En qué se diferencian los mensajes trigger de un newsletter habitual: welcome, carrito abandonado, pedido, review, back-in-stock y win-back de lista — con consentimiento y sin spam.",
   lead: [

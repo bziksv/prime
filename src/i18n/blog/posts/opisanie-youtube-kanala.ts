@@ -7,6 +7,9 @@ export const opisanieYoutubeKanalaEn: BlogPost = {
   date: "2021-12-10",
   category: "SMM",
   cover: "/images/blog/opisanie-youtube-kanala/cover-en.webp",
+  metaTitle: "Empty channel About? YouTube description: what to write and where it goes",
+  metaDescription:
+    "Keywords, links, and tone. Checklist — fill it before the next upload.",
   excerpt:
     "How to write a YouTube channel description: opening lines, keywords, links, common mistakes, and how to update the text in Studio.",
   lead: [
@@ -182,6 +185,9 @@ export const opisanieYoutubeKanalaEs: BlogPost = {
   date: "2021-12-10",
   category: "SMM",
   cover: "/images/blog/opisanie-youtube-kanala/cover-es.webp",
+  metaTitle: "¿About del canal vacío? Descripción de YouTube: qué escribir y dónde",
+  metaDescription:
+    "Keywords, enlaces y tono. Checklist — rellénalo antes del próximo vídeo.",
   excerpt:
     "Cómo escribir la descripción de un canal de YouTube: primeras líneas, keywords, enlaces, errores habituales y cómo actualizar el texto en Studio.",
   lead: [

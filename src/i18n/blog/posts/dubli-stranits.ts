@@ -7,6 +7,9 @@ export const dubliStranitsEn: BlogPost = {
   date: "2021-01-11",
   category: "SEO",
   cover: "/images/blog/dubli-stranits/cover-en.webp",
+  metaTitle: "Duplicate URLs confusing search? Why they hurt and how to clean them",
+  metaDescription:
+    "Causes, canonicals, redirects, and fix order. Checklist — crawl before index chaos grows.",
   excerpt:
     "What counts as page duplicates, exact vs near-duplicates, where they come from on CMS and stores, what they do in search, and how to find and merge URLs.",
   lead: [
@@ -249,6 +252,9 @@ export const dubliStranitsEs: BlogPost = {
   date: "2021-01-11",
   category: "SEO",
   cover: "/images/blog/dubli-stranits/cover-es.webp",
+  metaTitle: "¿URLs duplicadas confunden? Por qué dañan y cómo limpiarlas",
+  metaDescription:
+    "Causas, canonical, redirects y orden de fixes. Checklist — rastrea antes del caos de indexación.",
   excerpt:
     "Qué cuenta como duplicado de página, exactos vs near-duplicates, de dónde salen en CMS y tiendas, qué hacen en la búsqueda y cómo encontrar y unificar URLs.",
   lead: [

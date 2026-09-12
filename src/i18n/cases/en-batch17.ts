@@ -15,6 +15,9 @@ export const caseTranslationsEnBatch17: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~90",
     metricLabel: "yard inquiries per month",
+    metaTitle: "~90 yard inquiries/month — Veles lumber SEO",
+    metaDescription:
+      "Lumber yard SEO in a tough niche: site from our brief, 30 phrases, prep ~55 days, page one planned 2–6 months, ~90 leads/month. See the case.",
     summary:
       "SEO for Veles lumber yard: site from scratch to our specs, 30 phrases in a tough niche (“board,” “timber”), prep ~55 days, page one planned 2–6 months. About 90 yard inquiries monthly.",
     coverAlt: "Lumber warehouse — boards and timber",
@@ -144,6 +147,9 @@ export const caseTranslationsEnBatch17: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "×4",
     metricLabel: "ad traffic growth",
+    metaTitle: "4× ad traffic — EHK forged products ads case",
+    metaDescription:
+      "Yandex Direct for an artistic forging shop: live in 2 days, traffic ×4, ~100 inquiries. Site vrn-ehk.ru — see the case.",
     summary:
       "Google Ads for EHK artistic wrought-iron store: launch in 2 days, traffic ×4, leading ad slots at low CPC, about 100 inquiries. Site — vrn-ehk.ru.",
     coverAlt: "EHK wrought-iron products — artistic forging",
@@ -269,6 +275,9 @@ export const caseTranslationsEnBatch17: Record<string, Partial<CaseStudy>> = {
     period: "since 2014",
     metric: "100+",
     metricLabel: "phrases on page one of search",
+    metaTitle: "100+ phrases on page one — Jeep Voronezh SEO",
+    metaDescription:
+      "SEO + redesign: 417 tech issues fixed, 100+ phrases, prep ~42 days, page one planned 2–6 months. Plus ads — ~24 salon leads/month.",
     summary:
       "SEO and site refresh for a Jeep dealer: 417 tech bugs cleaned, new design to brand guidelines, 100+ phrases, prep ~42 days, page one planned 2–6 months. Plus Google Ads — about 24 showroom inquiries per month.",
     coverAlt: "Jeep — dealer model lineup in Voronezh",

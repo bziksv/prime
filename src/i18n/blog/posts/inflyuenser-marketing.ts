@@ -7,6 +7,9 @@ export const inflyuenserMarketingEn: BlogPost = {
   date: "2019-06-11",
   category: "SMM",
   cover: "/images/blog/inflyuenser-marketing/cover-en.webp",
+  metaTitle: "Influencers — hype or channel? When the tool actually works",
+  metaDescription:
+    "Formats, KPIs, and red flags before you pay. Breakdown — save before the creator brief.",
   excerpt:
     "When creator ads work, how micro differs from mega, how to measure results, and why “just a trend” without audience checks burns budget.",
   lead: [
@@ -174,6 +177,9 @@ export const inflyuenserMarketingEs: BlogPost = {
   date: "2019-06-11",
   category: "SMM",
   cover: "/images/blog/inflyuenser-marketing/cover-es.webp",
+  metaTitle: "¿Influencers: hype o canal? Cuándo la herramienta sí funciona",
+  metaDescription:
+    "Formatos, KPIs y red flags antes de pagar. Análisis — guárdalo antes del brief al creador.",
   excerpt:
     "Cuándo funcionan los anuncios con creadores, en qué se diferencia micro de mega, cómo medir resultados y por qué «solo porque está de moda» sin chequear audiencia quema presupuesto.",
   lead: [

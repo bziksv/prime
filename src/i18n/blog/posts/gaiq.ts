@@ -7,6 +7,9 @@ export const gaiqEn: BlogPost = {
   date: "2021-04-08",
   category: "Digital marketing",
   cover: "/images/blog/gaiq/cover-en.webp",
+  metaTitle: "Looking for GAIQ? What happened to Analytics certification — and what replaced it",
+  metaDescription:
+    "Exam history and today’s Google Skillshop path. Cheat sheet — before you plan training.",
   excerpt:
     "What GAIQ (Google Analytics Individual Qualification) was, why old “70 questions” guides are outdated, and where to look for current Google analytics courses and certificates.",
   lead: [
@@ -165,6 +168,9 @@ export const gaiqEs: BlogPost = {
   date: "2021-04-08",
   category: "Marketing digital",
   cover: "/images/blog/gaiq/cover-es.webp",
+  metaTitle: "¿Buscas GAIQ? Qué pasó con la certificación Analytics y qué la sustituyó",
+  metaDescription:
+    "Historia del examen y el camino actual en Skillshop. Chuleta — antes de planear formación.",
   excerpt:
     "Qué era GAIQ (Google Analytics Individual Qualification), por qué las guías antiguas de «70 preguntas» están obsoletas y dónde buscar cursos y certificados actuales de analítica de Google.",
   lead: [

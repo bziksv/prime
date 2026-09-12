@@ -7,6 +7,9 @@ export const minusSlovaDirektEn: BlogPost = {
   date: "2018-10-25",
   category: "Paid search",
   cover: "/images/blog/minus-slova-direkt/cover-en.webp",
+  metaTitle: "Budget on junk queries? Yandex Direct negatives: cut non-target demand",
+  metaDescription:
+    "How to build lists, levels, and common mistakes. Checklist — clean campaigns today.",
   excerpt:
     "How to set negative keywords and phrases in Yandex Direct: add levels, word-form operators, cross-negatives, and caution in the Display Network — without blindly copying “universal lists” from the web.",
   lead: [
@@ -165,6 +168,9 @@ export const minusSlovaDirektEs: BlogPost = {
   date: "2018-10-25",
   category: "Paid search",
   cover: "/images/blog/minus-slova-direkt/cover-es.webp",
+  metaTitle: "¿Presupuesto en queries basura? Negativas en Direct: corta demanda no objetivo",
+  metaDescription:
+    "Cómo armar listas, niveles y errores típicos. Checklist — limpia campañas hoy.",
   excerpt:
     "Cómo configurar keywords y frases negativas en Yandex Direct: niveles de alta, operadores de formas, cross-negatives y precaución en Display Network — sin copiar a ciegas «listas universales» de la web.",
   lead: [

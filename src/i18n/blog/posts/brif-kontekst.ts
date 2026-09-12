@@ -7,6 +7,9 @@ export const brifKontekstEs: BlogPost = {
   date: "2017-05-19",
   category: "Paid search",
   cover: "/images/blog/brif-kontekst/cover-es.webp",
+  metaTitle: "¿Brief de ads a ojo? Qué incluir antes de lanzar",
+  metaDescription:
+    "Objetivos, oferta, geo, límites y datos — sin huecos. Plantilla — rellena antes del kickoff.",
   excerpt:
     "Cómo escribir un brief para Direct y Google Ads: objetivos, USP, dolores, presupuesto, plazos de KPI, audiencia, geo, límites creativos — para que contratista y cliente miren el mismo resultado.",
   lead: [
@@ -137,6 +140,9 @@ export const brifKontekstEn: BlogPost = {
   date: "2017-05-19",
   category: "Paid search",
   cover: "/images/blog/brif-kontekst/cover-en.webp",
+  metaTitle: "Ads brief on a napkin? What to include before you launch",
+  metaDescription:
+    "Goals, offer, geo, constraints, and data — no empty fields. Template — fill it before the kickoff.",
   excerpt:
     "How to write a brief for Direct and Google Ads: goals, USP, pain points, budget, KPI timelines, audience, geo, creative limits — so contractor and client look at the same result.",
   lead: [

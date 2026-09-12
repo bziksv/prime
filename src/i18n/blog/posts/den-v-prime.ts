@@ -7,6 +7,9 @@ export const denVPrimeEn: BlogPost = {
   date: "2016-11-25",
   category: "Digital marketing",
   cover: "/images/blog/den-v-prime/cover-en.webp",
+  metaTitle: "What does an SEO day look like? One day at PRIME, no gloss",
+  metaDescription:
+    "Tasks, pace, and what actually eats an SEO’s time. Peek inside — before you join a team.",
   excerpt:
     "A light look from the inside: what an ordinary day in a digital agency looks like — the commute, SEO and paid-search tasks, “new” projects, and a living team. An atmosphere snapshot, not today’s headcount.",
   lead: [
@@ -105,6 +108,9 @@ export const denVPrimeEs: BlogPost = {
   date: "2016-11-25",
   category: "Digital marketing",
   cover: "/images/blog/den-v-prime/cover-es.webp",
+  metaTitle: "¿Cómo es un día de SEO? Un día en PRIME, sin barniz",
+  metaDescription:
+    "Tareas, ritmo y qué se come el tiempo de verdad. Mira dentro — antes de unirte al equipo.",
   excerpt:
     "Una mirada ligera desde dentro: cómo es un día ordinario en una agencia digital — el trayecto, tareas de SEO y paid search, proyectos «nuevos» y un equipo vivo. Un snapshot de atmósfera, no la plantilla de hoy.",
   lead: [

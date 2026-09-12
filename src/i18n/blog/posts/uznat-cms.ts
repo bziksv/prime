@@ -7,6 +7,9 @@ export const uznatCmsEn: BlogPost = {
   date: "2020-08-24",
   category: "SEO",
   cover: "/images/blog/uznat-cms/cover-en.webp",
+  metaTitle: "Don’t know the CMS? How to detect it: code, clues, and tools",
+  metaDescription:
+    "Fast methods without hacking. Cheat sheet — before a competitor audit.",
   excerpt:
     "How to identify a site engine from HTML, meta generator, paths, cookies, and online detectors — and what to do if the CMS is hidden or custom.",
   lead: [
@@ -212,6 +215,9 @@ export const uznatCmsEs: BlogPost = {
   date: "2020-08-24",
   category: "SEO",
   cover: "/images/blog/uznat-cms/cover-es.webp",
+  metaTitle: "¿No sabes el CMS? Cómo detectarlo: código, pistas y tools",
+  metaDescription:
+    "Métodos rápidos sin hackeo. Chuleta — antes de auditar al competidor.",
   excerpt:
     "Cómo identificar el motor de un sitio por el HTML, meta generator, rutas, cookies y detectores online — y qué hacer si el CMS está oculto o es a medida.",
   lead: [

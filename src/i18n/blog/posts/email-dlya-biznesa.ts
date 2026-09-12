@@ -7,6 +7,9 @@ export const emailDlyaBiznesaEs: BlogPost = {
   date: "2019-09-12",
   category: "Email marketing",
   cover: "/images/blog/email-dlya-biznesa/cover-es.webp",
+  metaTitle: "¿Email “no es para nosotros”? A qué negocios sí les hace falta",
+  metaDescription:
+    "Cuándo el mailing rentabiliza — y cuándo gana otro canal. Léelo antes de comprar un ESP.",
   excerpt:
     "Quién necesita email: servicio vs producto, B2B y B2C, el rol en distintas etapas de crecimiento y por qué importan las buyer personas — sin una receta única para todos.",
   lead: [
@@ -126,6 +129,9 @@ export const emailDlyaBiznesaEn: BlogPost = {
   date: "2019-09-12",
   category: "Email marketing",
   cover: "/images/blog/email-dlya-biznesa/cover-en.webp",
+  metaTitle: "Email “not for us”? Which businesses actually need the channel",
+  metaDescription:
+    "When newsletters pay off — and when other channels win. Read before you buy an ESP.",
   excerpt:
     "Who needs email: service vs product, B2B and B2C, the role at different growth stages, and why buyer personas matter — without one recipe for everyone.",
   lead: [

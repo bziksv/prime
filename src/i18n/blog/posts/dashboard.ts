@@ -7,6 +7,9 @@ export const dashboardEn: BlogPost = {
   date: "2021-11-13",
   category: "Digital marketing",
   cover: "/images/blog/dashboard/cover-en.webp",
+  metaTitle: "Excel reports a mess? Why business needs a dashboard — and how to start",
+  metaDescription:
+    "What it is, which metrics belong, and how not to ship a pretty empty box. Primer — before the analytics brief.",
   excerpt:
     "What a dashboard is: why pull metrics into one panel, who uses it, what types exist, and where to start — from spreadsheets to BI.",
   lead: [
@@ -166,6 +169,9 @@ export const dashboardEs: BlogPost = {
   date: "2021-11-13",
   category: "Digital marketing",
   cover: "/images/blog/dashboard/cover-es.webp",
+  metaTitle: "¿Informes Excel un lío? Por qué el negocio necesita dashboard — y cómo empezar",
+  metaDescription:
+    "Qué es, qué métricas meter y cómo no hacer un “bonito vacío”. Base — antes del brief de analítica.",
   excerpt:
     "Qué es un dashboard: por qué juntar métricas en un solo panel, quién lo usa, qué tipos existen y por dónde empezar — de hojas de cálculo a BI.",
   lead: [

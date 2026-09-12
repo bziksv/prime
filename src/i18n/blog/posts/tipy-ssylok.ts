@@ -7,6 +7,9 @@ export const tipySsylokEn: BlogPost = {
   date: "2018-11-13",
   category: "SEO",
   cover: "/images/blog/tipy-ssylok/cover-en.webp",
+  metaTitle: "All links look the same? Types and where to earn them without spam",
+  metaDescription:
+    "Dofollow, nofollow, guest posts, and more. Map — before the link-building plan.",
   excerpt:
     "What backlinks look like and where they come from: natural mentions, media, content, partnerships, communities, directories, dofollow/nofollow, permanent vs temporary — without link farms and bulk spam.",
   lead: [
@@ -174,6 +177,9 @@ export const tipySsylokEs: BlogPost = {
   date: "2018-11-13",
   category: "SEO",
   cover: "/images/blog/tipy-ssylok/cover-es.webp",
+  metaTitle: "¿Todos los enlaces iguales? Tipos y dónde conseguirlos sin spam",
+  metaDescription:
+    "Dofollow, nofollow, guest posts y más. Mapa — antes del plan de link building.",
   excerpt:
     "Cómo se ven los backlinks y de dónde salen: menciones naturales, medios, contenido, partnerships, comunidades, directorios, dofollow/nofollow, permanentes vs temporales — sin link farms ni spam masivo.",
   lead: [

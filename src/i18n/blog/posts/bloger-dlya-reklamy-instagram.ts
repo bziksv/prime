@@ -7,6 +7,9 @@ export const blogerDlyaReklamyInstagramEn: BlogPost = {
   date: "2022-02-01",
   category: "SMM",
   cover: "/images/blog/bloger-dlya-reklamy-instagram/cover-en.webp",
+  metaTitle: "Creator just for show? How to find and vet Instagram ads partners",
+  metaDescription:
+    "Search, reach, audience fit, and red flags before you pay. Vetting checklist — save it.",
   excerpt:
     "How to pick a creator for ads: why integrations, where to look, how to check the audience, and what to avoid. A checklist for the client.",
   lead: [
@@ -191,6 +194,9 @@ export const blogerDlyaReklamyInstagramEs: BlogPost = {
   date: "2022-02-01",
   category: "SMM",
   cover: "/images/blog/bloger-dlya-reklamy-instagram/cover-es.webp",
+  metaTitle: "¿Creador “de postureo”? Cómo encontrar y vetar para ads",
+  metaDescription:
+    "Búsqueda, alcance, audiencia y red flags antes de pagar. Checklist de vetting — guárdalo.",
   excerpt:
     "Cómo elegir un creator para ads: por qué las integraciones, dónde buscar, cómo revisar la audiencia y qué evitar. Un checklist para el cliente.",
   lead: [

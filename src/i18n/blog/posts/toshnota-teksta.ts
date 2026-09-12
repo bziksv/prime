@@ -7,6 +7,9 @@ export const toshnotaTekstaEn: BlogPost = {
   date: "2020-07-30",
   category: "SEO",
   cover: "/images/blog/toshnota-teksta/cover-en.webp",
+  metaTitle: "Copy nauseous with keywords? Keyword density without tool dogma",
+  metaDescription:
+    "How to read scores and edit with judgment. Cheat sheet — before SEO copy proofing.",
   excerpt:
     "What classic and academic text nausea mean, how keyword density is counted, which tools check it, and why a “normal %” is a brief guide — not a ranking law.",
   lead: [
@@ -246,6 +249,9 @@ export const toshnotaTekstaEs: BlogPost = {
   date: "2020-07-30",
   category: "SEO",
   cover: "/images/blog/toshnota-teksta/cover-es.webp",
+  metaTitle: "¿Texto “náuseas” de keywords? Densidad sin dogmatismo de tools",
+  metaDescription:
+    "Cómo leer indicadores y editar con criterio. Chuleta — antes de la revisión SEO.",
   excerpt:
     "Qué significan la náusea clásica y la académica, cómo se cuenta la densidad de keywords, qué herramientas la revisan y por qué un «% normal» es una guía de brief — no una ley de ranking.",
   lead: [

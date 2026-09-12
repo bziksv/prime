@@ -7,6 +7,9 @@ export const videokontentEn: BlogPost = {
   date: "2019-12-20",
   category: "Content marketing",
   cover: "/images/blog/videokontent/cover-en.webp",
+  metaTitle: "Video just for show? Formats and types for marketing that fit the job",
+  metaDescription:
+    "Short, long, live — by goal. Map — before the production plan.",
   excerpt:
     "Types of marketing video: review, how-to, testimonial, webinar, teaser, and more — plus script, shoot, and placement without the “80% of traffic will be video” cult or 2019 price lists.",
   lead: [
@@ -151,6 +154,9 @@ export const videokontentEs: BlogPost = {
   date: "2019-12-20",
   category: "Content marketing",
   cover: "/images/blog/videokontent/cover-es.webp",
+  metaTitle: "¿Vídeo de postureo? Formatos y tipos de contenido marketing que encajan",
+  metaDescription:
+    "Corto, largo, live — según objetivo. Mapa — antes del plan de producción.",
   excerpt:
     "Tipos de vídeo de marketing: review, how-to, testimonial, webinar, teaser y más — más guion, rodaje y colocación sin el culto a «el 80% del tráfico será vídeo» ni tarifas de 2019.",
   lead: [

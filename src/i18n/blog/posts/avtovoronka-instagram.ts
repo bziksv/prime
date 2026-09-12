@@ -7,6 +7,9 @@ export const avtovoronkaInstagramEn: BlogPost = {
   date: "2020-04-15",
   category: "Content marketing",
   cover: "/images/blog/avtovoronka-instagram/cover-en.webp",
+  metaTitle: "Direct silent, leads dry? Instagram autofunnel by scenario",
+  metaDescription:
+    "Flow design, rule boundaries, and what to automate carefully. Checklist — before you ship a bot.",
   excerpt:
     "How to build an Instagram autofunnel: profile, lead magnet, touch chain, and Direct — without cold spam, grey bots, or “conversion will grow by itself.”",
   lead: [
@@ -160,6 +163,9 @@ export const avtovoronkaInstagramEs: BlogPost = {
   date: "2020-04-15",
   category: "Content marketing",
   cover: "/images/blog/avtovoronka-instagram/cover-es.webp",
+  metaTitle: "¿Direct en silencio y sin leads? Autofunnel de Instagram por escenario",
+  metaDescription:
+    "Diseño del flujo, límites de reglas y qué automatizar con cuidado. Checklist — antes de lanzar el bot.",
   excerpt:
     "Cómo armar un autofunnel en Instagram: perfil, lead magnet, cadena de toques y Direct — sin spam frío, bots grises ni «la conversión crecerá sola».",
   lead: [

@@ -7,6 +7,9 @@ export const pinterestEn: BlogPost = {
   date: "2020-08-04",
   category: "SMM",
   cover: "/images/blog/pinterest/cover-en.webp",
+  metaTitle: "Pinterest “just for recipes”? Why brands and personal boards use it",
+  metaDescription:
+    "Format, audience, and funnel entry points. Primer — before you launch a profile.",
   excerpt:
     "What Pinterest is: pins, boards, repins, how it differs from Instagram, and how to use it for ideas and traffic — without outdated demo stats or sales guarantees.",
   lead: [
@@ -135,6 +138,9 @@ export const pinterestEs: BlogPost = {
   date: "2020-08-04",
   category: "SMM",
   cover: "/images/blog/pinterest/cover-es.webp",
+  metaTitle: "¿Pinterest “solo recetas”? Para qué sirve a negocios y tableros personales",
+  metaDescription:
+    "Formato, audiencia y entradas al embudo. Base — antes de lanzar el perfil.",
   excerpt:
     "Qué es Pinterest: pins, boards, repins, en qué se diferencia de Instagram y cómo usarlo para ideas y tráfico — sin stats demo obsoletas ni garantías de ventas.",
   lead: [

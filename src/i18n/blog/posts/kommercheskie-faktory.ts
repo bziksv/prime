@@ -7,6 +7,9 @@ export const kommercheskieFaktoryEn: BlogPost = {
   date: "2019-06-20",
   category: "SEO",
   cover: "/images/blog/kommercheskie-faktory/cover-en.webp",
+  metaTitle: "Rankings without trust? Commercial SEO factors that boost confidence",
+  metaDescription:
+    "Contacts, pricing, terms, and trust signals. Checklist — before you audit product/category pages.",
   excerpt:
     "Contacts, assortment, purchase terms, “about the company,” and map/directory services — a practical commercial-factors checklist without the myth that a checkbox equals page one.",
   lead: [
@@ -241,6 +244,9 @@ export const kommercheskieFaktoryEs: BlogPost = {
   date: "2019-06-20",
   category: "SEO",
   cover: "/images/blog/kommercheskie-faktory/cover-es.webp",
+  metaTitle: "¿Posiciones sin confianza? Factores comerciales SEO que refuerzan la conversión",
+  metaDescription:
+    "Contactos, precios, condiciones y señales de confianza. Checklist — antes de auditar fichas.",
   excerpt:
     "Contactos, surtido, condiciones de compra, «sobre la empresa» y servicios de mapas/directorios — un checklist práctico de factores comerciales sin el mito de que un checkbox equivale a primera página.",
   lead: [

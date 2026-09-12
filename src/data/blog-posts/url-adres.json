@@ -4,6 +4,8 @@
   "date": "2021-08-13",
   "category": "SEO",
   "cover": "/images/blog/url-adres/cover.webp",
+  "metaTitle": "URL «как получится»? Адрес сайта: структура и влияние на SEO",
+  "metaDescription": "Читаемость, параметры и редиректы. Шпаргалка — до смены ЧПУ.",
   "excerpt": "Что такое URL, из каких частей состоит адрес страницы, как писать читаемые ЧПУ и насколько путь влияет на SEO — без мифа «ключ в URL = ТОП».",
   "lead": [
     "URL (Uniform Resource Locator) — адрес ресурса в сети: страница, картинка, файл. В адресной строке браузер показывает схему, хост и путь; по ним и люди, и роботы понимают, куда попали.",
@@ -115,11 +117,23 @@
       "tables": [
         {
           "caption": "Примеры",
-          "headers": ["Плохо", "Лучше"],
+          "headers": [
+            "Плохо",
+            "Лучше"
+          ],
           "rows": [
-            ["`/page.php?id=8841`", "`/blog/url-adres/`"],
-            ["`/SEO_USLUGI_MOSKVA_DESHEVO`", "`/uslugi/seo/`"],
-            ["`/a/b/c/d/e/f/g/`", "`/katalog/kategoriya/tovar/`"]
+            [
+              "`/page.php?id=8841`",
+              "`/blog/url-adres/`"
+            ],
+            [
+              "`/SEO_USLUGI_MOSKVA_DESHEVO`",
+              "`/uslugi/seo/`"
+            ],
+            [
+              "`/a/b/c/d/e/f/g/`",
+              "`/katalog/kategoriya/tovar/`"
+            ]
           ]
         }
       ],

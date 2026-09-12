@@ -7,6 +7,9 @@ export const googleOtzyvyKlientovEn: BlogPost = {
   date: "2019-08-09",
   category: "E-commerce",
   cover: "/images/blog/google-otzyvy-klientov/cover-en.webp",
+  metaTitle: "Reviews won’t appear by magic? Google Customer Reviews for stores",
+  metaDescription:
+    "How the program works, requirements, and pitfalls. Read before you connect the profile.",
   excerpt:
     "What Google Customer Reviews is: a post-purchase survey, seller rating in ads, and product reviews. How to connect via Merchant Center and what to avoid — without outdated thresholds and CTR guarantees.",
   lead: [
@@ -138,6 +141,9 @@ export const googleOtzyvyKlientovEs: BlogPost = {
   date: "2019-08-09",
   category: "E-commerce",
   cover: "/images/blog/google-otzyvy-klientov/cover-es.webp",
+  metaTitle: "¿Las reseñas “aparecen solas”? Google Customer Reviews para tiendas",
+  metaDescription:
+    "Cómo funciona el programa, requisitos y trampas. Léelo antes de conectar el perfil.",
   excerpt:
     "Qué es Google Customer Reviews: una encuesta post-compra, rating del vendedor en ads y reviews de producto. Cómo conectar vía Merchant Center y qué evitar — sin umbrales caducados ni garantías de CTR.",
   lead: [

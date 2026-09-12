@@ -7,6 +7,9 @@ export const statistikaGoogleProdazhiEn: BlogPost = {
   date: "2020-07-30",
   category: "Digital marketing",
   cover: "/images/blog/statistika-google-prodazhi/cover-en.webp",
+  metaTitle: "Sales by gut feel? Google Keyword Planner, Trends, and Analytics for revenue",
+  metaDescription:
+    "Which reports to open before hypotheses. Checklist — check the tools today.",
   excerpt:
     "How to use Keyword Planner, Google Trends, and Analytics to gauge demand, seasonality, and channel performance — for SEO, ads, and sales forecasting.",
   lead: [
@@ -252,6 +255,9 @@ export const statistikaGoogleProdazhiEs: BlogPost = {
   date: "2020-07-30",
   category: "Digital marketing",
   cover: "/images/blog/statistika-google-prodazhi/cover-es.webp",
+  metaTitle: "¿Ventas a ojo? Google: Keyword Planner, Trends y Analytics para ingresos",
+  metaDescription:
+    "Qué informes mirar antes de hipótesis. Checklist — abre las tools hoy.",
   excerpt:
     "Cómo usar Keyword Planner, Google Trends y Analytics para medir demanda, estacionalidad y rendimiento de canal — para SEO, ads y previsión de ventas.",
   lead: [

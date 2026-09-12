@@ -7,6 +7,9 @@ export const pikselVkEn: BlogPost = {
   date: "2021-06-15",
   category: "SMM",
   cover: "/images/blog/piksel-vk/cover-en.webp",
+  metaTitle: "VK retargeting empty? Pixel: install and build audiences",
+  metaDescription:
+    "Code, events, and hit checks. Checklist — before remarketing goes live.",
   excerpt:
     "What the VK Ads pixel is, why it matters for retargeting, how to install it on a site, and how to build action-based audiences — without outdated account click-paths.",
   lead: [
@@ -120,6 +123,9 @@ export const pikselVkEs: BlogPost = {
   date: "2021-06-15",
   category: "SMM",
   cover: "/images/blog/piksel-vk/cover-es.webp",
+  metaTitle: "¿Retargeting VK vacío? Píxel: instalación y audiencias",
+  metaDescription:
+    "Código, eventos y verificación de hits. Checklist — antes de lanzar remarketing.",
   excerpt:
     "Qué es el píxel de VK Ads, por qué importa para retargeting, cómo instalarlo en el sitio y cómo armar audiencias por acciones — sin rutas de clics antiguas del gabinete.",
   lead: [

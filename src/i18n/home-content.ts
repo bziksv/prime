@@ -148,9 +148,9 @@ const industryImages = {
 } as const;
 
 const homeRu: HomeContent = {
-  metaTitle: "ПРАЙМ — интернет-маркетинг",
+  metaTitle: "Нужны заявки из поиска, а не «отчёты для галочки»? — ПРАЙМ",
   metaDescription:
-    "ПРАЙМ — интернет-маркетинг для бизнеса по всей России. SEO с оплатой по факту, контекст, разработка сайтов и аналитика.",
+    "Оставьте заявку: SEO с оплатой по факту, Google Ads/Директ, сайты и аналитика. Разберём нишу и скажем, что реально даст рост.",
   skipToContent: "К содержанию",
   navAria: "Навигация сайта",
   brandName: "ПРАЙМ",
@@ -355,9 +355,9 @@ const homeRu: HomeContent = {
 };
 
 const homeEn: HomeContent = {
-  metaTitle: "PRIME — digital marketing agency",
+  metaTitle: "Want leads from search — not vanity reports? — PRIME",
   metaDescription:
-    "PRIME helps businesses grow online: SEO you pay for when keywords rank on page one, Google Ads, conversion-focused websites, and analytics that tie spend to revenue.",
+    "Talk to us: pay-for-page-one SEO, Google Ads, conversion sites, and analytics. We’ll map your niche and what actually moves revenue.",
   skipToContent: "Skip to content",
   navAria: "Site navigation",
   brandName: "PRIME",
@@ -562,9 +562,9 @@ const homeEn: HomeContent = {
 };
 
 const homeEs: HomeContent = {
-  metaTitle: "PRIME — agencia de marketing digital",
+  metaTitle: "¿Quieres leads desde Google, no informes de vanidad? — PRIME",
   metaDescription:
-    "PRIME ayuda a empresas a crecer en internet: SEO que pagas cuando las keywords están en la primera página de Google, Google Ads, webs orientadas a conversión y analítica que conecta gasto con ingresos.",
+    "Escríbenos: SEO con pago por primera página, Google Ads, webs que convierten y analítica. Revisamos tu nicho y qué sí mueve ventas.",
   skipToContent: "Saltar al contenido",
   navAria: "Navegación del sitio",
   brandName: "PRIME",

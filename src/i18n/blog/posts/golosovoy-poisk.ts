@@ -7,6 +7,9 @@ export const golosovoyPoiskEn: BlogPost = {
   date: "2020-08-01",
   category: "SEO",
   cover: "/images/blog/golosovoy-poisk/cover-en.webp",
+  metaTitle: "Voice search skipping your site? Optimize for spoken queries",
+  metaDescription:
+    "Conversational keywords, FAQs, and snippets without myths. Checklist — before content edits.",
   excerpt:
     "How to prep a site for voice queries: conversational long-tail, FAQ and short answers, mobile speed, HTTPS, local search — without a cult of “separate SEO” or page-one guarantees.",
   lead: [
@@ -281,6 +284,9 @@ export const golosovoyPoiskEs: BlogPost = {
   date: "2020-08-01",
   category: "SEO",
   cover: "/images/blog/golosovoy-poisk/cover-es.webp",
+  metaTitle: "¿La búsqueda por voz te ignora? Optimiza para consultas habladas",
+  metaDescription:
+    "Keywords conversacionales, FAQ y snippets sin mitos. Checklist — antes de editar contenido.",
   excerpt:
     "Cómo preparar un sitio para queries de voz: long-tail conversacional, FAQ y respuestas cortas, velocidad móvil, HTTPS, búsqueda local — sin culto al «SEO aparte» ni garantías de primera página.",
   lead: [

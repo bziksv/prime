@@ -7,6 +7,9 @@ export const bitrixAdminEn: BlogPost = {
   date: "2017-11-09",
   category: "Digital marketing",
   cover: "/images/blog/bitrix-admin/cover-en.webp",
+  metaTitle: "Locked out of Bitrix? Enter admin and restore access",
+  metaDescription:
+    "Login paths, resets, and common access traps. Cheat sheet — save before a production panic.",
   excerpt:
     "Signing in at `/bitrix/admin`, resetting the password by email, and cache/cookie glitches — without keeping a weak password and without confusing it with the public-site toolbar.",
   lead: [
@@ -168,6 +171,9 @@ export const bitrixAdminEs: BlogPost = {
   date: "2017-11-09",
   category: "Digital marketing",
   cover: "/images/blog/bitrix-admin/cover-es.webp",
+  metaTitle: "¿Bloqueado en Bitrix? Entra al admin y recupera acceso",
+  metaDescription:
+    "Rutas de login, resets y trampas típicas. Chuleta — guárdala antes del pánico en prod.",
   excerpt:
     "Entrar en `/bitrix/admin`, restablecer la contraseña por email y fallos de caché/cookies — sin mantener una contraseña débil y sin confundirlo con la barra del sitio público.",
   lead: [

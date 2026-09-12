@@ -7,6 +7,9 @@ export const videoStoriesInstagramEn: BlogPost = {
   date: "2020-10-08",
   category: "SMM",
   cover: "/images/blog/video-stories-instagram/cover-en.webp",
+  metaTitle: "Stories video looking muddy? How to publish without killing quality",
+  metaDescription:
+    "Format, compression, and length. Cheat sheet — before the next series.",
   excerpt:
     "How to add video to Instagram Stories, save your own clips, prep a 9:16 file, and what’s wrong with third-party downloaders of other people’s Stories.",
   lead: [
@@ -156,6 +159,9 @@ export const videoStoriesInstagramEs: BlogPost = {
   date: "2020-10-08",
   category: "SMM",
   cover: "/images/blog/video-stories-instagram/cover-es.webp",
+  metaTitle: "¿Vídeo en Stories se ve borroso? Cómo publicar sin matar la calidad",
+  metaDescription:
+    "Formato, compresión y duración. Chuleta — antes de la próxima serie.",
   excerpt:
     "Cómo añadir vídeo a Instagram Stories, guardar tus propios clips, preparar un archivo 9:16 y qué falla con downloaders de terceros de Stories ajenas.",
   lead: [

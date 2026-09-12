@@ -7,6 +7,9 @@ export const startInternetMagazinaEn: BlogPost = {
   date: "2020-11-10",
   category: "E-commerce",
   cover: "/images/blog/start-internet-magazina/cover-en.webp",
+  metaTitle: "Want an online store yesterday? Where to start learning and launching ecommerce",
+  metaDescription:
+    "Niche, stack, and MVP without chaos. Roadmap — before the build brief.",
   excerpt:
     "A knowledge checklist before launching an online store: product and unit economics, storefront, payment and logistics, marketing and SEO — without “passive million with no effort” promises.",
   lead: [
@@ -164,6 +167,9 @@ export const startInternetMagazinaEs: BlogPost = {
   date: "2020-11-10",
   category: "E-commerce",
   cover: "/images/blog/start-internet-magazina/cover-es.webp",
+  metaTitle: "¿Tienda “para ayer”? Por dónde empezar a estudiar y lanzar ecom",
+  metaDescription:
+    "Nicho, stack y MVP sin caos. Hoja de ruta — antes del brief de desarrollo.",
   excerpt:
     "Checklist de conocimientos antes de lanzar una tienda online: producto y unit economics, escaparate, pago y logística, marketing y SEO — sin promesas de «millón pasivo sin esfuerzo».",
   lead: [

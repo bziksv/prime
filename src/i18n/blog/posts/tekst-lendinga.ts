@@ -7,6 +7,9 @@ export const tekstLendingaEn: BlogPost = {
   date: "2021-06-07",
   category: "Content marketing",
   cover: "/images/blog/tekst-lendinga/cover-en.webp",
+  metaTitle: "Pretty landing, zero leads? Copy: structure, offer, and CTA",
+  metaDescription:
+    "Blocks without fluff or weak buttons. Checklist — before ads go live.",
   excerpt:
     "How to write landing page copy: offer, benefit blocks, proof, form, and CTA — without keyword stuffing in every alt and the myth of “keywords in the domain.”",
   lead: [
@@ -197,6 +200,9 @@ export const tekstLendingaEs: BlogPost = {
   date: "2021-06-07",
   category: "Content marketing",
   cover: "/images/blog/tekst-lendinga/cover-es.webp",
+  metaTitle: "¿Landing bonito y cero leads? Texto: estructura, oferta y CTA",
+  metaDescription:
+    "Bloques sin relleno ni botones flojos. Checklist — antes de lanzar ads.",
   excerpt:
     "Cómo escribir copy de landing: oferta, bloques de beneficio, prueba, formulario y CTA — sin keyword stuffing en cada alt ni el mito de las «keywords en el dominio».",
   lead: [

@@ -15,6 +15,9 @@ export const caseTranslationsEnBatch16: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~103",
     metricLabel: "showroom inquiries per month",
+    metaTitle: "~103 dealer leads/month — Volvo Black Earth SEO",
+    metaDescription:
+      "Bitrix site + SEO (87 phrases) with paid support: prep ~2.5 months, page one planned 2–6 months, ~103 salon inquiries/month. See the case.",
     summary:
       "New Bitrix site + SEO (87 phrases) and Google Ads/social for a Volvo dealer: prep ~2.5 months, page one planned 2–6 months, about 103 showroom inquiries monthly. Belgorod — separate case.",
     coverAlt: "Volvo XC90 — dealer model lineup",
@@ -140,6 +143,9 @@ export const caseTranslationsEnBatch16: Record<string, Partial<CaseStudy>> = {
     period: "2015",
     metric: "6",
     metricLabel: "lease contracts in 2 months",
+    metaTitle: "6 lease deals in 2 months — office center ads",
+    metaDescription:
+      "Yandex Direct + Google Ads: live in 2 days, ~₽12k budget. In 2 months — 14 calls and 6 leases; vacant units filled. See the case.",
     summary:
       "Google Ads for an office center: launch in 2 days, budget about $200. In two months — 14 calls and 6 leases; all vacant space filled.",
     coverAlt: "Office business center — facade",
@@ -251,6 +257,9 @@ export const caseTranslationsEnBatch16: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~40",
     metricLabel: "company inquiries per month",
+    metaTitle: "~40 inquiries/month — MilkFor brand SEO case",
+    metaDescription:
+      "SEO with a site from scratch: 45 phrases, prep ~42 days, page one planned 2–6 months. Regional to national demand. See the case.",
     summary:
       "SEO for a milk-filter maker: site from scratch (specs and build oversight), 45 phrases, prep ~42 days, page one planned 2–6 months. From regional to nationwide demand — about 40 inquiries per month.",
     coverAlt: "MilkFor filtration equipment",

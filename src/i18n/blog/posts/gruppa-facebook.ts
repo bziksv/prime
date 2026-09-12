@@ -7,6 +7,9 @@ export const gruppaFacebookEn: BlogPost = {
   date: "2020-12-03",
   category: "SMM",
   cover: "/images/blog/gruppa-facebook/cover-en.webp",
+  metaTitle: "Group or Page? Facebook for business: where to start",
+  metaDescription:
+    "Format differences, setup, and first steps. Checklist — before you launch the community.",
   excerpt:
     "How to approach a company presence on Facebook: Page vs community, content, moderation, and promotion — an informational breakdown without urging you to use the platform.",
   lead: [
@@ -127,6 +130,9 @@ export const gruppaFacebookEs: BlogPost = {
   date: "2020-12-03",
   category: "SMM",
   cover: "/images/blog/gruppa-facebook/cover-es.webp",
+  metaTitle: "¿Grupo o Página? Facebook para negocio: por dónde empezar",
+  metaDescription:
+    "Diferencias, configuración y primeros pasos. Checklist — antes de lanzar la comunidad.",
   excerpt:
     "Cómo abordar la presencia de empresa en Facebook: Page vs comunidad, contenido, moderación y promoción — un desglose informativo sin empujar al uso de la plataforma.",
   lead: [

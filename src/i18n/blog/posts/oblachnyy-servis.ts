@@ -7,6 +7,9 @@ export const oblachnyyServisEn: BlogPost = {
   date: "2021-04-09",
   category: "Hosting",
   cover: "/images/blog/oblachnyy-servis/cover-en.webp",
+  metaTitle: "Everything “to the cloud”? Service types, pros, and security without illusions",
+  metaDescription:
+    "Models, risks, and selection criteria. Primer — before you migrate data.",
   excerpt:
     "What cloud storage and cloud services are, how IaaS/PaaS/SaaS differ, benefits for business, and data risks.",
   lead: [
@@ -160,6 +163,9 @@ export const oblachnyyServisEs: BlogPost = {
   date: "2021-04-09",
   category: "Hosting",
   cover: "/images/blog/oblachnyy-servis/cover-es.webp",
+  metaTitle: "¿Todo “a la nube”? Tipos de servicio, pros y seguridad sin ilusiones",
+  metaDescription:
+    "Modelos, riesgos y criterios de elección. Base — antes de migrar datos.",
   excerpt:
     "Qué son el almacenamiento y los servicios en la nube, cómo difieren IaaS/PaaS/SaaS, beneficios para el negocio y riesgos de datos.",
   lead: [

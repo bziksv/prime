@@ -7,6 +7,9 @@ export const yandeksVebmasterEn: BlogPost = {
   date: "2020-01-23",
   category: "SEO",
   cover: "/images/blog/yandeks-vebmaster/cover-en.webp",
+  metaTitle: "Guessing at Yandex indexation? Webmaster: connect and read the reports",
+  metaDescription:
+    "Add the site, diagnostics, and errors. Checklist — connect the property today.",
   excerpt:
     "Why Yandex Webmaster matters, how to verify a site, which sections to watch (overview, diagnostics, index, queries, links, tools), and how not to confuse reports with a ranking switch.",
   lead: [
@@ -293,6 +296,9 @@ export const yandeksVebmasterEs: BlogPost = {
   date: "2020-01-23",
   category: "SEO",
   cover: "/images/blog/yandeks-vebmaster/cover-es.webp",
+  metaTitle: "¿Indexación Yandex a ojo? Webmaster: conecta y mira los informes",
+  metaDescription:
+    "Alta del sitio, diagnóstico y errores. Checklist — conecta la propiedad hoy.",
   excerpt:
     "Por qué importa Yandex Webmaster, cómo verificar un sitio, qué secciones mirar (overview, diagnostics, índice, consultas, enlaces, tools) y cómo no confundir informes con un interruptor de ranking.",
   lead: [

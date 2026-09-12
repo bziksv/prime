@@ -7,6 +7,9 @@ export const ideiStoriesInstagramEn: BlogPost = {
   date: "2018-11-07",
   category: "SMM",
   cover: "/images/blog/idei-stories-instagram/cover-en.webp",
+  metaTitle: "Stories die in 2 seconds? Formats that hold attention",
+  metaDescription:
+    "Ideas beyond “good morning” every day. Checklist — before the next Instagram series.",
   excerpt:
     "Instagram Stories ideas: intro, team, behind the scenes, product, polls, education, reviews, and teasers — without other people’s “reach ×3 guarantees” or outdated template catalogs.",
   lead: [
@@ -148,6 +151,9 @@ export const ideiStoriesInstagramEs: BlogPost = {
   date: "2018-11-07",
   category: "SMM",
   cover: "/images/blog/idei-stories-instagram/cover-es.webp",
+  metaTitle: "¿Stories mueren en 2 segundos? Formatos que retienen atención",
+  metaDescription:
+    "Ideas más allá del “buenos días” diario. Checklist — antes de la próxima serie en Instagram.",
   excerpt:
     "Ideas para Stories de Instagram: intro, equipo, detrás de cámaras, producto, encuestas, educación, reviews y teasers — sin «garantías de reach ×3» ajenas ni catálogos de plantillas obsoletas.",
   lead: [

@@ -7,6 +7,9 @@ export const glavnayaInternetMagazinaEn: BlogPost = {
   date: "2019-10-23",
   category: "E-commerce",
   cover: "/images/blog/glavnaya-internet-magazina/cover-en.webp",
+  metaTitle: "Store homepage just a pretty showcase? Lay it out to sell",
+  metaDescription:
+    "Blocks, offers, and a clear path into the catalog. Checklist — before you redesign the first screen.",
   excerpt:
     "Online store homepage structure: header, menu, showcase and slider, short copy, trust, footer — without feature overload and without the company story on the whole first screen.",
   lead: [
@@ -164,6 +167,9 @@ export const glavnayaInternetMagazinaEs: BlogPost = {
   date: "2019-10-23",
   category: "E-commerce",
   cover: "/images/blog/glavnaya-internet-magazina/cover-es.webp",
+  metaTitle: "¿Home de tienda solo escaparate? Diséñala para vender",
+  metaDescription:
+    "Bloques, ofertas y camino claro al catálogo. Checklist — antes de rediseñar el first screen.",
   excerpt:
     "Estructura de la homepage de una tienda online: header, menú, escaparate y slider, copy corto, trust, footer — sin sobrecarga de features y sin la historia de la empresa en toda la primera pantalla.",
   lead: [

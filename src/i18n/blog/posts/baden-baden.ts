@@ -7,6 +7,9 @@ export const badenBadenEn: BlogPost = {
   date: "2017-04-27",
   category: "SEO",
   cover: "/images/blog/baden-baden/cover-en.webp",
+  metaTitle: "Copy at risk of spam filters? Baden-Baden lessons for clean text",
+  metaDescription:
+    "What Yandex’s filter meant for content — and how to write useful pages, not stuffed ones. Editing checklist — save it.",
   excerpt:
     "What the Baden-Baden algorithm did: fighting over-optimized text, how to write useful content, and how “LSI” differs from a synonym cult — next to filters and Turgenev.",
   lead: [
@@ -140,6 +143,9 @@ export const badenBadenEs: BlogPost = {
   date: "2017-04-27",
   category: "SEO",
   cover: "/images/blog/baden-baden/cover-es.webp",
+  metaTitle: "¿Textos en riesgo de filtro? Lecciones Baden-Baden sin relleno",
+  metaDescription:
+    "Qué significó el filtro de Yandex y cómo escribir útil, no denso de keywords. Checklist de edición — guárdalo.",
   excerpt:
     "Qué hizo el algoritmo Baden-Baden: combatir texto sobre-optimizado, cómo escribir contenido útil, y en qué se diferencia el «LSI» de un culto a sinónimos — junto a filtros y Turgenev.",
   lead: [

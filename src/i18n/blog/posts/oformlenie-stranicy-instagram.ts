@@ -7,6 +7,9 @@ export const oformlenieStranicyInstagramEn: BlogPost = {
   date: "2022-03-10",
   category: "SMM",
   cover: "/images/blog/oformlenie-stranicy-instagram/cover-en.webp",
+  metaTitle: "Profile looking like a mashup? Instagram page design: visual, bio, style",
+  metaDescription:
+    "A coherent look without perfectionism. Checklist — before you redesign the grid.",
   excerpt:
     "How to plan your profile visuals: bio, avatar, a consistent feed style, posts, and short video — without clinging to outdated UI labels.",
   lead: [
@@ -188,6 +191,9 @@ export const oformlenieStranicyInstagramEs: BlogPost = {
   date: "2022-03-10",
   category: "SMM",
   cover: "/images/blog/oformlenie-stranicy-instagram/cover-es.webp",
+  metaTitle: "¿Perfil tipo revoltijo? Diseño de Instagram: visual, bio y estilo",
+  metaDescription:
+    "Aspecto coherente sin perfeccionismo. Checklist — antes de rediseñar el feed.",
   excerpt:
     "Cómo planificar los visuales del perfil: bio, avatar, un estilo de feed consistente, posts y vídeo corto — sin aferrarte a etiquetas de UI obsoletas.",
   lead: [

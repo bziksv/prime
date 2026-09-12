@@ -7,6 +7,9 @@ export const dekorativnyyShriftInstagramEn: BlogPost = {
   date: "2021-11-22",
   category: "SMM",
   cover: "/images/blog/dekorativnyy-shrift-instagram/cover-en.webp",
+  metaTitle: "Fancy bio font, zero readability? Decorative type on Instagram, wisely",
+  metaDescription:
+    "Where it works, where it breaks a11y and search. Cheat sheet — before you restyle the profile.",
   excerpt:
     "How to get “pretty” text in the Instagram* bio and on images: Unicode styles, editors, non-Latin scripts, readability, and risks — without a catalog of outdated apps.",
   lead: [
@@ -198,6 +201,9 @@ export const dekorativnyyShriftInstagramEs: BlogPost = {
   date: "2021-11-22",
   category: "SMM",
   cover: "/images/blog/dekorativnyy-shrift-instagram/cover-es.webp",
+  metaTitle: "¿Fuente “bonita” en bio y cero lectura? Decoración en Instagram con juicio",
+  metaDescription:
+    "Dónde encaja, dónde rompe accesibilidad y búsqueda. Chuleta — antes de cambiar la tipografía.",
   excerpt:
     "Cómo lograr texto «bonito» en la bio de Instagram* y en imágenes: estilos Unicode, editores, escrituras no latinas, legibilidad y riesgos — sin un catálogo de apps obsoletas.",
   lead: [

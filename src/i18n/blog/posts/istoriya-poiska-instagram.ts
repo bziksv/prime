@@ -7,6 +7,9 @@ export const istoriyaPoiskaInstagramEn: BlogPost = {
   date: "2021-07-07",
   category: "SMM",
   cover: "/images/blog/istoriya-poiska-instagram/cover-en.webp",
+  metaTitle: "Awkward suggestions in search? Instagram search history: view and clear",
+  metaDescription:
+    "Where to find it and how to reset safely. Cheat sheet — one minute today.",
   excerpt:
     "What Instagram saves in search history, why clear it, how to remove recent queries, and what clearing does not delete — without outdated button screenshots.",
   lead: [
@@ -181,6 +184,9 @@ export const istoriyaPoiskaInstagramEs: BlogPost = {
   date: "2021-07-07",
   category: "SMM",
   cover: "/images/blog/istoriya-poiska-instagram/cover-es.webp",
+  metaTitle: "¿Sugerencias incómodas? Historial de búsqueda de Instagram: ver y borrar",
+  metaDescription:
+    "Dónde está y cómo resetear sin sustos. Chuleta — en un minuto hoy.",
   excerpt:
     "Qué guarda Instagram en el historial de búsqueda, por qué borrarlo, cómo quitar queries recientes y qué no borra el clear — sin capturas de botones obsoletas.",
   lead: [

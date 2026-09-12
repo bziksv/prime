@@ -7,6 +7,9 @@ export const longridEn: BlogPost = {
   date: "2019-12-02",
   category: "Content marketing",
   cover: "/images/blog/longrid/cover-en.webp",
+  metaTitle: "Article as a wall of text? Longreads: what they are and how to make them readable",
+  metaDescription:
+    "Structure, visuals, and pace without fluff. Checklist — before the big-piece brief.",
   excerpt:
     "A longread isn’t a wall of copy for volume’s sake — it’s a deep story with structure and layout. How to write, design, and update without ranking and virality myths.",
   lead: [
@@ -194,6 +197,9 @@ export const longridEs: BlogPost = {
   date: "2019-12-02",
   category: "Content marketing",
   cover: "/images/blog/longrid/cover-es.webp",
+  metaTitle: "¿Artículo-sábana? Longread: qué es y cómo hacerlo legible",
+  metaDescription:
+    "Estructura, visual y ritmo sin relleno. Checklist — antes del brief de pieza larga.",
   excerpt:
     "Un longread no es un muro de copy por volumen — es una historia profunda con estructura y layout. Cómo escribir, diseñar y actualizar sin mitos de ranking ni viralidad.",
   lead: [

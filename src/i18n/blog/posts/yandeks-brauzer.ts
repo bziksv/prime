@@ -7,6 +7,9 @@ export const yandeksBrauzerEn: BlogPost = {
   date: "2018-03-19",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-brauzer/cover-en.webp",
+  metaTitle: "Yandex Browser from a random site? How to install it safely",
+  metaDescription:
+    "Official source and checks. Cheat sheet — before you download.",
   excerpt:
     "Install Yandex Browser from the official site, move bookmarks and passwords, and fix common Windows errors — without third-party “free downloaders” or outdated wizard click-paths.",
   lead: [
@@ -179,6 +182,9 @@ export const yandeksBrauzerEs: BlogPost = {
   date: "2018-03-19",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-brauzer/cover-es.webp",
+  metaTitle: "¿Yandex Browser de una web rara? Cómo instalarlo con seguridad",
+  metaDescription:
+    "Fuente oficial y comprobación. Chuleta — antes de descargar.",
   excerpt:
     "Instala Yandex Browser desde el sitio oficial, mueve favoritos y contraseñas, y arregla errores habituales de Windows — sin «descargadores gratis» de terceros ni rutas de wizard obsoletas.",
   lead: [

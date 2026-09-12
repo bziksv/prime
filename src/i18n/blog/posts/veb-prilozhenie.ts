@@ -7,6 +7,9 @@ export const vebPrilozhenieEn: BlogPost = {
   date: "2020-09-22",
   category: "Digital marketing",
   cover: "/images/blog/veb-prilozhenie/cover-en.webp",
+  metaTitle: "Website or web app? How they differ and when business needs which",
+  metaDescription:
+    "Use cases, complexity, and stack choice. Breakdown — before the build brief.",
   excerpt:
     "What a web app is, how it differs from a showcase site, how the browser–server chain works, and when business needs an account, cart, or SPA — not only a landing page.",
   lead: [
@@ -123,6 +126,9 @@ export const vebPrilozhenieEs: BlogPost = {
   date: "2020-09-22",
   category: "Digital marketing",
   cover: "/images/blog/veb-prilozhenie/cover-es.webp",
+  metaTitle: "¿Sitio o web app? En qué se diferencian y cuándo hace falta cada uno",
+  metaDescription:
+    "Casos de uso, complejidad y stack. Análisis — antes del brief de desarrollo.",
   excerpt:
     "Qué es una web app, en qué se diferencia de un sitio escaparate, cómo funciona la cadena browser–servidor, y cuándo el negocio necesita cuenta, carrito o SPA — no solo una landing.",
   lead: [

@@ -7,6 +7,9 @@ export const ssylkiNaForumahEn: BlogPost = {
   date: "2021-05-24",
   category: "SEO",
   cover: "/images/blog/ssylki-na-forumah/cover-en.webp",
+  metaTitle: "Forum links “for SEO”? When they help — and when they hurt",
+  metaDescription:
+    "Venue quality and spam risk. Breakdown — before mass seeding.",
   excerpt:
     "How to join forum discussions without spam: picking a board, useful answers, natural links, and the risks of mass posting.",
   lead: [
@@ -191,6 +194,9 @@ export const ssylkiNaForumahEs: BlogPost = {
   date: "2021-05-24",
   category: "SEO",
   cover: "/images/blog/ssylki-na-forumah/cover-es.webp",
+  metaTitle: "¿Enlaces de foros “por SEO”? Cuándo ayudan — y cuándo dañan",
+  metaDescription:
+    "Calidad de la plaza y riesgo de spam. Análisis — antes del sembrado masivo.",
   excerpt:
     "Cómo participar en debates de foros sin spam: elegir el tablero, respuestas útiles, enlaces naturales y riesgos del posting masivo.",
   lead: [

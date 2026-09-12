@@ -7,6 +7,9 @@ export const kontentMarketingMetrikaEn: BlogPost = {
   date: "2018-10-15",
   category: "Content marketing",
   cover: "/images/blog/kontent-marketing-metrika/cover-en.webp",
+  metaTitle: "Content invisible in Yandex Metrica? Which reports to watch for articles",
+  metaDescription:
+    "Sources, pages, and goals without self-deception. Checklist — open the dashboard today.",
   excerpt:
     "How to analyze content marketing in Yandex Metrica: visits and engagement, maps, sources, goals and conversions — without bounce cults and one-off spikes after publish.",
   lead: [
@@ -196,6 +199,9 @@ export const kontentMarketingMetrikaEs: BlogPost = {
   date: "2018-10-15",
   category: "Content marketing",
   cover: "/images/blog/kontent-marketing-metrika/cover-es.webp",
+  metaTitle: "¿Contenido invisible en Métrica? Qué informes mirar por materiales",
+  metaDescription:
+    "Fuentes, páginas y objetivos sin autoengaño. Checklist — abre el panel hoy.",
   excerpt:
     "Cómo analizar content marketing en Yandex Metrica: visitas y engagement, mapas, fuentes, metas y conversiones — sin culto al bounce ni picos sueltos tras publicar.",
   lead: [

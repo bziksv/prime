@@ -7,6 +7,9 @@ export const seoOshibkiEn: BlogPost = {
   date: "2019-08-19",
   category: "SEO",
   cover: "/images/blog/seo-oshibki/cover-en.webp",
+  metaTitle: "Rankings stuck after “doing everything”? The most common on-site SEO mistakes",
+  metaDescription:
+    "Tech, content, and links without surprises. Checklist — run an audit today.",
   excerpt:
     "Typical misses in titles and descriptions, headings, links, markup, and HTTPS — how to find them and what to fix first, without a “page one in a week” fantasy.",
   lead: [
@@ -259,6 +262,9 @@ export const seoOshibkiEs: BlogPost = {
   date: "2019-08-19",
   category: "SEO",
   cover: "/images/blog/seo-oshibki/cover-es.webp",
+  metaTitle: "¿Posiciones planas tras “hacerlo todo”? Errores SEO más frecuentes en la web",
+  metaDescription:
+    "Técnica, contenido y enlaces sin sustos. Checklist — audita hoy.",
   excerpt:
     "Fallos típicos en titles y descriptions, headings, enlaces, markup y HTTPS — cómo encontrarlos y qué arreglar primero, sin la fantasía de «primera página en una semana».",
   lead: [

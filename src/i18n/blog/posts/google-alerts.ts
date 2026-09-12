@@ -7,6 +7,9 @@ export const googleAlertsEn: BlogPost = {
   date: "2019-06-03",
   category: "Digital marketing",
   cover: "/images/blog/google-alerts/cover-en.webp",
+  metaTitle: "Still catching mentions by hand? Google Alerts for topics and brand",
+  metaDescription:
+    "Set alerts without inbox spam. Cheat sheet — ten minutes today.",
   excerpt:
     "What Google Alerts is: email alerts for Google search queries. How to set it up, what brand and content tasks it covers, and where the limits are — without “speed up SEO” promises or dead social networks.",
   lead: [
@@ -179,6 +182,9 @@ export const googleAlertsEs: BlogPost = {
   date: "2019-06-03",
   category: "Digital marketing",
   cover: "/images/blog/google-alerts/cover-es.webp",
+  metaTitle: "¿Menciones a mano? Google Alerts para temas y marca",
+  metaDescription:
+    "Configura alertas sin spam en el correo. Chuleta — en 10 minutos hoy.",
   excerpt:
     "Qué es Google Alerts: avisos por email para queries de búsqueda de Google. Cómo configurarlo, qué tareas de marca y contenido cubre y dónde están los límites — sin promesas de «acelerar SEO» ni redes sociales muertas.",
   lead: [

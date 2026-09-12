@@ -7,6 +7,9 @@ export const vebArhivEn: BlogPost = {
   date: "2020-09-17",
   category: "Digital marketing",
   cover: "/images/blog/veb-arhiv/cover-en.webp",
+  metaTitle: "Page gone — but you need it? Web archives and Wayback Machine: why they matter",
+  metaDescription:
+    "When to open a copy and what to do next. Cheat sheet — before you escalate.",
   excerpt:
     "How Internet Archive / Wayback Machine works: find an old page version, understand snapshot gaps, restore your content legally, and limit archiving via robots — without schemes to “steal texts from other domains.”",
   lead: [
@@ -116,6 +119,9 @@ export const vebArhivEs: BlogPost = {
   date: "2020-09-17",
   category: "Digital marketing",
   cover: "/images/blog/veb-arhiv/cover-es.webp",
+  metaTitle: "¿Página desaparecida y la necesitabas? Archivo web y Wayback: para qué",
+  metaDescription:
+    "Cuándo abrir una copia y qué hacer. Chuleta — antes de escalar el incidente.",
   excerpt:
     "Cómo funciona Internet Archive / Wayback Machine: hallar una versión vieja de página, entender huecos de snapshot, recuperar tu contenido con legalidad y limitar el archivado vía robots — sin esquemas para «robar textos de otros dominios».",
   lead: [

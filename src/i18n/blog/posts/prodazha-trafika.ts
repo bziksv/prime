@@ -7,6 +7,9 @@ export const prodazhaTrafikaEn: BlogPost = {
   date: "2021-11-06",
   category: "Digital marketing",
   cover: "/images/blog/prodazha-trafika/cover-en.webp",
+  metaTitle: "Traffic up, revenue flat? Selling traffic: how to monetize visits",
+  metaDescription:
+    "Models, risks, and audience quality. Breakdown — before the advertiser deal.",
   excerpt:
     "What selling traffic means: CPC, CPM, CPA, search/display ads, teasers, banners, and direct advertisers. How to find buyers without killing UX.",
   lead: [
@@ -127,6 +130,9 @@ export const prodazhaTrafikaEs: BlogPost = {
   date: "2021-11-06",
   category: "Digital marketing",
   cover: "/images/blog/prodazha-trafika/cover-es.webp",
+  metaTitle: "¿Tráfico sí, dinero no? Venta de tráfico: cómo monetizar visitas",
+  metaDescription:
+    "Modelos, riesgos y calidad de audiencia. Análisis — antes del acuerdo con el anunciante.",
   excerpt:
     "Qué significa vender tráfico: CPC, CPM, CPA, anuncios de búsqueda/display, teasers, banners y anunciantes directos. Cómo encontrar compradores sin matar la UX.",
   lead: [

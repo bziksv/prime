@@ -8,6 +8,9 @@ export const videoObzorTovaraEn: BlogPost = {
   date: "2019-12-21",
   category: "Content marketing",
   cover: "/images/blog/video-obzor-tovara/cover-en.webp",
+  metaTitle: "PDP without video losing out? Product review videos: shoot and where to publish",
+  metaDescription:
+    "Script, light, and channels. Checklist — before a SKU series shoot.",
   excerpt:
     "Why a product video belongs on the SKU page, which review types work, how to shoot without a studio, and where to publish — without the “people remember 90% from video” myth or “sales ×N” promises.",
   lead: [
@@ -140,6 +143,9 @@ export const videoObzorTovaraEs: BlogPost = {
   date: "2019-12-21",
   category: "Content marketing",
   cover: "/images/blog/video-obzor-tovara/cover-es.webp",
+  metaTitle: "¿Ficha sin vídeo pierde? Review de producto: cómo grabar y dónde publicar",
+  metaDescription:
+    "Guion, luz y canales. Checklist — antes de grabar una serie de SKU.",
   excerpt:
     "Por qué un vídeo de producto debe estar en la ficha del SKU, qué tipos de review funcionan, cómo grabar sin estudio y dónde publicar — sin el mito de «la gente recuerda el 90% del vídeo» ni promesas de «ventas ×N».",
   lead: [

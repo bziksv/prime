@@ -7,6 +7,9 @@ export const sohranitFotoInstagramEn: BlogPost = {
   date: "2020-11-17",
   category: "SMM",
   cover: "/images/blog/sohranit-foto-instagram/cover-en.webp",
+  metaTitle: "Can’t download Instagram photos? Save them to phone and computer",
+  metaDescription:
+    "Practical methods without shady sites. Cheat sheet — one minute.",
   excerpt:
     "How to download your own or permitted Instagram photos: in-app save, browser, iPhone and Android quirks, and Direct — plus copyright basics and why shady “downloaders” are risky.",
   lead: [
@@ -210,6 +213,9 @@ export const sohranitFotoInstagramEs: BlogPost = {
   date: "2020-11-17",
   category: "SMM",
   cover: "/images/blog/sohranit-foto-instagram/cover-es.webp",
+  metaTitle: "¿No puedes descargar fotos de Instagram? Guárdalas en el móvil y el PC",
+  metaDescription:
+    "Métodos prácticos sin webs dudosas. Chuleta — en un minuto.",
   excerpt:
     "Cómo descargar fotos propias o permitidas de Instagram: guardar en la app, navegador, rarezas de iPhone y Android, y Direct — más básicos de copyright y por qué los «downloaders» dudosos son arriesgados.",
   lead: [

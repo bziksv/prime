@@ -7,6 +7,9 @@ export const neskolkoStoriesInstagramEn: BlogPost = {
   date: "2020-09-02",
   category: "SMM",
   cover: "/images/blog/neskolko-stories-instagram/cover-en.webp",
+  metaTitle: "Stories dumping in a heap? Publish a series in order without chaos",
+  metaDescription:
+    "Sequence, drafts, and pace. Checklist — before the next Stories run.",
   excerpt:
     "How to add several Instagram Stories at once: picking from the gallery, splitting a long video, frame order, and typical upload fails — without a catalog of gray emulators.",
   lead: [
@@ -153,6 +156,9 @@ export const neskolkoStoriesInstagramEs: BlogPost = {
   date: "2020-09-02",
   category: "SMM",
   cover: "/images/blog/neskolko-stories-instagram/cover-es.webp",
+  metaTitle: "¿Stories a montones? Publica una serie en orden sin caos",
+  metaDescription:
+    "Orden, borradores y ritmo. Checklist — antes de la próxima serie.",
   excerpt:
     "Cómo añadir varias Instagram Stories a la vez: elegir de la galería, partir un vídeo largo, orden de frames y fallos típicos de upload — sin un catálogo de emuladores grises.",
   lead: [

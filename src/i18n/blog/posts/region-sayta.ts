@@ -7,6 +7,9 @@ export const regionSaytaEn: BlogPost = {
   date: "2017-07-04",
   category: "SEO",
   cover: "/images/blog/region-sayta/cover-en.webp",
+  metaTitle: "Wrong region in Yandex? How to assign the right geo to a site",
+  metaDescription:
+    "Webmaster, contacts, and common mistakes. Checklist — before local SEO.",
   excerpt:
     "How Yandex reads a site’s region: on-site signals, Webmaster, and a Business/Maps listing — without Yandex.Catalog or fake addresses.",
   lead: [
@@ -186,6 +189,9 @@ export const regionSaytaEs: BlogPost = {
   date: "2017-07-04",
   category: "SEO",
   cover: "/images/blog/region-sayta/cover-es.webp",
+  metaTitle: "¿Región incorrecta en Yandex? Cómo asignar el geo correcto al sitio",
+  metaDescription:
+    "Webmaster, contactos y errores típicos. Checklist — antes del SEO local.",
   excerpt:
     "Cómo Yandex lee la región de un sitio: señales on-site, Webmaster y un listing de Business/Maps — sin Yandex.Catalog ni direcciones falsas.",
   lead: [

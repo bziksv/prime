@@ -7,6 +7,9 @@ export const uderzhaniePodpischikovEs: BlogPost = {
   date: "2018-05-25",
   category: "Email marketing",
   cover: "/images/blog/uderzhanie-podpischikov/cover-es.webp",
+  metaTitle: "¿Bajas tras cada envío? Cómo retener suscriptores de email",
+  metaDescription:
+    "Frecuencia, segmentos y valor sin spam. Checklist — antes del próximo digest.",
   excerpt:
     "Por qué la gente deja una lista y cómo bajar las bajas: maquetación móvil, timing de envío, frecuencia, página de baja con encuesta y alternativas, ofertas de win-back — sin aferrarte a una base muerta.",
   lead: [
@@ -139,6 +142,9 @@ export const uderzhaniePodpischikovEn: BlogPost = {
   date: "2018-05-25",
   category: "Email marketing",
   cover: "/images/blog/uderzhanie-podpischikov/cover-en.webp",
+  metaTitle: "Unsubscribes after every send? How to retain email subscribers",
+  metaDescription:
+    "Cadence, segments, and value without spam. Checklist — before the next digest.",
   excerpt:
     "Why people leave a list and how to cut unsubscribes: mobile layout, send timing, frequency, an unsubscribe page with a survey and alternatives, win-back offers — without clinging to a dead base.",
   lead: [

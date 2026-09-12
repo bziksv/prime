@@ -7,6 +7,9 @@ export const socsetiISeoEn: BlogPost = {
   date: "2019-11-11",
   category: "SEO",
   cover: "/images/blog/socseti-i-seo/cover-en.webp",
+  metaTitle: "Social “boosts SEO”? Direct vs indirect effects — without myths",
+  metaDescription:
+    "What actually overlaps with rankings. Breakdown — before the planning debate.",
   excerpt:
     "How social actually helps a website: traffic, brand, on-site behavior, and link previews — and why likes alone do not move rankings.",
   lead: [
@@ -196,6 +199,9 @@ export const socsetiISeoEs: BlogPost = {
   date: "2019-11-11",
   category: "SEO",
   cover: "/images/blog/socseti-i-seo/cover-es.webp",
+  metaTitle: "¿Social “sube el SEO”? Efecto directo vs indirecto — sin mitos",
+  metaDescription:
+    "Qué se solapa de verdad con el ranking. Análisis — antes de la discusión en planning.",
   excerpt:
     "Cómo las redes ayudan de verdad a un sitio: tráfico, marca, comportamiento on-site y previews de enlaces — y por qué los likes solos no mueven rankings.",
   lead: [

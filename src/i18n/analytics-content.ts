@@ -105,9 +105,9 @@ export type AnalyticsContent = {
 
 const analyticsRu: AnalyticsContent = {
   path: "/skvoznaya-analitika/",
-  metaTitle: "Сквозная аналитика — ПРАЙМ",
+  metaTitle: "Не видно, какой канал продаёт? Сошьём сквозную аналитику",
   metaDescription:
-    "Сквозная аналитика Roistat: реклама → сайт → CRM. Коллтрекинг, формы, email. Видно, какой канал даёт заявки и продажи. Интеграция и настройка.",
+    "Подключите Roistat: реклама → сайт → CRM, коллтрекинг и формы. Увидите заявки и деньги по каналам — с настройкой под ключ.",
   serviceName: "Сквозная аналитика",
   serviceType: "Сквозная аналитика",
   breadcrumbHome: "Главная",
@@ -191,9 +191,9 @@ const analyticsRu: AnalyticsContent = {
 
 const analyticsEn: AnalyticsContent = {
   path: "/en/analytics/",
-  metaTitle: "Marketing analytics — PRIME",
+  metaTitle: "Can’t tell which channel sells? Wire end-to-end analytics",
   metaDescription:
-    "Marketing analytics with Roistat: Google Ads → site → CRM. Call tracking, forms, email. See which channel drives leads and revenue. Setup and integration included.",
+    "Get Roistat set up: Google Ads → site → CRM, call tracking and forms. See leads and revenue by channel — setup included.",
   serviceName: "Marketing analytics",
   serviceType: "Marketing analytics",
   breadcrumbHome: "Home",
@@ -424,9 +424,9 @@ const analyticsEn: AnalyticsContent = {
 
 const analyticsEs: AnalyticsContent = {
   path: "/es/analytics/",
-  metaTitle: "Analítica de marketing — PRIME",
+  metaTitle: "¿No sabes qué canal vende? Montamos analítica de punta a punta",
   metaDescription:
-    "Analítica de marketing con Roistat: Google Ads → sitio → CRM. Seguimiento de llamadas, formularios y email. Descubre qué canal genera clientes potenciales e ingresos. Configuración e integración incluidas.",
+    "Configura Roistat: Google Ads → web → CRM, llamadas y formularios. Verás leads e ingresos por canal — con setup incluido.",
   serviceName: "Analítica de marketing",
   serviceType: "Analítica de marketing",
   breadcrumbHome: "Inicio",

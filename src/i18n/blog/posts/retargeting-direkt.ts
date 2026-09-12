@@ -7,6 +7,9 @@ export const retargetingDirektEn: BlogPost = {
   date: "2019-07-03",
   category: "Paid search",
   cover: "/images/blog/retargeting-direkt/cover-en.webp",
+  metaTitle: "Yandex Direct retargeting to “everyone”? Segments, placements, and ads that fit",
+  metaDescription:
+    "How to build audiences without spam. Checklist — before the campaign goes live.",
   excerpt:
     "How to optimize retargeting in Direct: Metrika goals and segments, Yandex Audiences, reading stats by display conditions and creatives — without rigid CTR and bounce thresholds from 2019 guides.",
   lead: [
@@ -195,6 +198,9 @@ export const retargetingDirektEs: BlogPost = {
   date: "2019-07-03",
   category: "Paid search",
   cover: "/images/blog/retargeting-direkt/cover-es.webp",
+  metaTitle: "¿Retargeting Direct “a todos”? Segmentos, plazas y anuncios con sentido",
+  metaDescription:
+    "Cómo armar audiencias sin spam. Checklist — antes de lanzar la campaña.",
   excerpt:
     "Cómo optimizar el retargeting en Direct: metas y segmentos de Metrika, Yandex Audiences, lectura de stats por condiciones de display y creatividades — sin umbrales rígidos de CTR y rebote de guías de 2019.",
   lead: [

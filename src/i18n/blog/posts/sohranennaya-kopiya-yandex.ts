@@ -7,6 +7,9 @@ export const sohranennayaKopiyaYandexEn: BlogPost = {
   date: "2022-01-11",
   category: "SEO",
   cover: "/images/blog/sohranennaya-kopiya-yandex/cover-en.webp",
+  metaTitle: "Need the “cached” page? Yandex saved copy: why it exists and how to open it",
+  metaDescription:
+    "When to look and what it means for SEO. Cheat sheet — before indexation diagnostics.",
   excerpt:
     "What Yandex cache is, how to open a saved copy, why it may be missing, and whether that matters for SEO.",
   lead: [
@@ -138,6 +141,9 @@ export const sohranennayaKopiyaYandexEs: BlogPost = {
   date: "2022-01-11",
   category: "SEO",
   cover: "/images/blog/sohranennaya-kopiya-yandex/cover-es.webp",
+  metaTitle: "¿Necesitas la página “en caché”? Copia guardada de Yandex: para qué y cómo abrirla",
+  metaDescription:
+    "Cuándo mirarla y qué implica para SEO. Chuleta — antes del diagnóstico de indexación.",
   excerpt:
     "Qué es la caché de Yandex, cómo abrir una copia guardada, por qué puede faltar y si eso importa para el SEO.",
   lead: [

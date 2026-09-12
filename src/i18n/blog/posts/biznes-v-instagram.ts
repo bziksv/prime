@@ -7,6 +7,9 @@ export const biznesVInstagramEn: BlogPost = {
   date: "2021-06-17",
   category: "SMM",
   cover: "/images/blog/biznes-v-instagram/cover-en.webp",
+  metaTitle: "Running Instagram ad-hoc? Grow the project with a system",
+  metaDescription:
+    "Content, offer, and metrics without reach myths. Starter plan — save it.",
   excerpt:
     "What makes promoting a business on Instagram different: visual focus, niches, content, and conversation — without a catalog of outdated SMM tools or the “30 hashtags” myth.",
   lead: [
@@ -131,6 +134,9 @@ export const biznesVInstagramEs: BlogPost = {
   date: "2021-06-17",
   category: "SMM",
   cover: "/images/blog/biznes-v-instagram/cover-es.webp",
+  metaTitle: "¿Instagram a ojo? Desarrolla el proyecto con sistema",
+  metaDescription:
+    "Contenido, oferta y métricas sin mitos de alcance. Plan de arranque — guárdalo.",
   excerpt:
     "En qué se diferencia promover un negocio en Instagram: foco visual, nichos, contenido y conversación — sin un catálogo de herramientas SMM obsoletas ni el mito de «30 hashtags».",
   lead: [

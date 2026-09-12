@@ -7,6 +7,9 @@ export const onlaynObuchenieEn: BlogPost = {
   date: "2019-10-10",
   category: "Digital marketing",
   cover: "/images/blog/onlayn-obuchenie/cover-en.webp",
+  metaTitle: "Employee training as Zoom chaos? How to run online learning properly",
+  metaDescription:
+    "Goals, platform, and knowledge checks. Checklist — before you launch the program.",
   excerpt:
     "How to move corporate training online: adapting materials, preparing the speaker, engagement, feedback, and a hybrid with in-person sessions — without a series of boring webinars.",
   lead: [
@@ -142,6 +145,9 @@ export const onlaynObuchenieEs: BlogPost = {
   date: "2019-10-10",
   category: "Digital marketing",
   cover: "/images/blog/onlayn-obuchenie/cover-es.webp",
+  metaTitle: "¿Formación en caos de Zoom? Cómo organizar el aprendizaje online",
+  metaDescription:
+    "Objetivos, plataforma y control de aprendizaje. Checklist — antes de lanzar el programa.",
   excerpt:
     "Cómo pasar la formación corporativa a online: adaptar materiales, preparar al ponente, engagement, feedback e híbrido con sesiones presenciales — sin una serie de webinars aburridos.",
   lead: [

@@ -7,6 +7,9 @@ export const yumoneyEn: BlogPost = {
   date: "2021-04-30",
   category: "Digital marketing",
   cover: "/images/blog/yumoney/cover-en.webp",
+  metaTitle: "YooMoney “just a wallet”? What it is and how to use it without confusion",
+  metaDescription:
+    "Accounts, transfers, and limits. Primer — before linking to a store/services.",
   excerpt:
     "YooMoney (formerly Yandex.Money / Yandex.Wallet): an e-wallet for payments and transfers, ID levels, funding and withdrawals — without outdated screenshots or mixing it up with YooKassa.",
   lead: [
@@ -160,6 +163,9 @@ export const yumoneyEs: BlogPost = {
   date: "2021-04-30",
   category: "Marketing digital",
   cover: "/images/blog/yumoney/cover-es.webp",
+  metaTitle: "¿YooMoney “solo una cartera”? Qué es y cómo usarla sin lío",
+  metaDescription:
+    "Cuentas, transferencias y límites. Base — antes de ligarla a tienda/servicios.",
   excerpt:
     "YooMoney (antes Yandex.Money / Yandex.Wallet): monedero electrónico para pagos y transferencias, niveles de identificación, ingreso y retiros — sin capturas obsoletas ni confundirlo con YooKassa.",
   lead: [

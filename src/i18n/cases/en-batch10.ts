@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch10: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~90",
     metricLabel: "calls per month from the web",
+    metaTitle: "~90 calls in Lyubertsy — Svetlyachok SEO case",
+    metaDescription:
+      "Private kids’ center: 23 local phrases, page one planned 2–6 months, ~90 calls/month plus enrollments from search. See the case — or inquire.",
     summary:
       "SEO for a private children’s center in Lyubertsy: local Moscow-region search, 23 phrases, page one planned over 2–6 months, about 90 calls per month — plus new enrollments from search.",
     coverAlt: "Svetlyachok children’s center play area",
@@ -134,6 +137,9 @@ export const caseTranslationsEnBatch10: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~200",
     metricLabel: "calls per month from the web",
+    metaTitle: "~200 calls for a dealer-based shop — Fortuna-auto",
+    metaDescription:
+      "Belgorod service on Volvo/Subaru base: 135 phrases, page one planned 2–6 months, ~200 calls/month. Structure from scratch — see the case.",
     summary:
       "SEO for an auto service at Volvo and Subaru dealers in Belgorod: structure from scratch, 135 phrases, page one planned over 2–6 months, about 200 calls per month. Paid search is a separate case.",
     coverAlt: "Fortuna-avto — auto service in Belgorod",
@@ -263,6 +269,9 @@ export const caseTranslationsEnBatch10: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~200",
     metricLabel: "calls per month from the web",
+    metaTitle: "~200 calls + ~6k visits — HimOptTorg SEO case",
+    metaDescription:
+      "Chemicals/coatings wholesale: 90 phrases, page one, ~200 calls/month and ~6,000 visits. Buy-intent catalog SEO — see the case or inquire.",
     summary:
       "SEO for a chemicals and coatings wholesaler in the Black Earth region: 90 phrases, prep ~1 month, page one planned 2–6 months, about 200 calls per month and about 6,000 visits monthly — a B2B catalog for “buy” queries.",
     coverAlt: "himopttorg.ru catalog — coatings, chemicals, rubber goods",

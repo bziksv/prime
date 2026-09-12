@@ -8,6 +8,9 @@ export const spamVkEn: BlogPost = {
   date: "2020-11-24",
   category: "SMM",
   cover: "/images/blog/spam-vk/cover-en.webp",
+  metaTitle: "VK spam flooding the feed? How to report it — and what to do if hacked",
+  metaDescription:
+    "Reports, protection, and first moves. Cheat sheet — before account panic.",
   excerpt:
     "What counts as spam in VK messages and communities, why mass blasts are risky, how to report, and what to do if your page messages people without you — without a catalog of gray bulk-mail tools.",
   lead: [
@@ -165,6 +168,9 @@ export const spamVkEs: BlogPost = {
   date: "2020-11-24",
   category: "SMM",
   cover: "/images/blog/spam-vk/cover-es.webp",
+  metaTitle: "¿Spam VK inunda el feed? Cómo reportar y qué hacer si te hackean",
+  metaDescription:
+    "Reportes, protección y primeros pasos. Chuleta — antes del pánico en la cuenta.",
   excerpt:
     "Qué cuenta como spam en mensajes y comunidades de VK, por qué los blasts masivos son arriesgados, cómo reportar y qué hacer si tu página escribe a gente sin ti — sin un catálogo de herramientas grises de bulk-mail.",
   lead: [

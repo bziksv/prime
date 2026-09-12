@@ -7,6 +7,9 @@ export const yandeksDialogiEn: BlogPost = {
   date: "2018-08-15",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-dialogi/cover-en.webp",
+  metaTitle: "Search visitors messaging — no reply? Yandex Dialogs: company chat from search",
+  metaDescription:
+    "How to connect without losing the lead. Checklist — before you enable it on the profile.",
   excerpt:
     "How business chat works in the Yandex ecosystem: contact from search and the snippet, the operator’s role, and API — without promising an eternal “Alice button forever.”",
   lead: [
@@ -161,6 +164,9 @@ export const yandeksDialogiEs: BlogPost = {
   date: "2018-08-15",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-dialogi/cover-es.webp",
+  metaTitle: "¿Escriben desde la búsqueda y no hay respuesta? Diálogos Yandex: chat con la empresa",
+  metaDescription:
+    "Cómo conectar sin perder el lead. Checklist — antes de activarlo en la ficha.",
   excerpt:
     "Cómo funciona el chat de negocio en el ecosistema Yandex: contacto desde la búsqueda y el snippet, el rol del operador y la API — sin prometer un eterno «botón de Alice para siempre».",
   lead: [

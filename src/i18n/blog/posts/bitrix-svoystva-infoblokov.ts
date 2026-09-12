@@ -7,6 +7,9 @@ export const bitrixSvoystvaInfoblokovEn: BlogPost = {
   date: "2017-12-12",
   category: "Websites",
   cover: "/images/blog/bitrix-svoystva-infoblokov/cover-en.webp",
+  metaTitle: "Infoblock properties not showing? Bitrix output, step by step",
+  metaDescription:
+    "How to render properties in the template without guesswork. Checklist — before the next catalog tweak.",
   excerpt:
     "How to show an infoblock element’s properties in a Bitrix component template: DISPLAY_PROPERTIES, string/list/file/link types — without blindly pasting outdated snippets.",
   lead: [
@@ -158,6 +161,9 @@ export const bitrixSvoystvaInfoblokovEs: BlogPost = {
   date: "2017-12-12",
   category: "Websites",
   cover: "/images/blog/bitrix-svoystva-infoblokov/cover-es.webp",
+  metaTitle: "¿Propiedades de infoblocks no salen? Salida en Bitrix, paso a paso",
+  metaDescription:
+    "Cómo pintar propiedades en la plantilla sin adivinar. Checklist — antes del próximo cambio de catálogo.",
   excerpt:
     "Cómo mostrar las propiedades de un elemento de infoblock en una plantilla de componente Bitrix: DISPLAY_PROPERTIES, tipos string/list/file/link — sin pegar a ciegas snippets obsoletos.",
   lead: [

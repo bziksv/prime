@@ -7,6 +7,9 @@ export const internetPortalEn: BlogPost = {
   date: "2021-02-02",
   category: "Digital marketing",
   cover: "/images/blog/internet-portal/cover-en.webp",
+  metaTitle: "Site or portal? Structure, types, and where the formats diverge",
+  metaDescription:
+    "When you need a portal vs a landing/storefront. Breakdown — before the build brief.",
   excerpt:
     "What an internet portal is, how it differs from a regular site, how structure and types break down — and when a business needs a portal versus a services site.",
   lead: [
@@ -221,6 +224,9 @@ export const internetPortalEs: BlogPost = {
   date: "2021-02-02",
   category: "Digital marketing",
   cover: "/images/blog/internet-portal/cover-es.webp",
+  metaTitle: "¿Sitio o portal? Estructura, tipos y dónde divergen los formatos",
+  metaDescription:
+    "Cuándo hace falta un portal frente a landing/vitrina. Análisis — antes del brief de desarrollo.",
   excerpt:
     "Qué es un portal de internet, cómo se diferencia de un sitio normal, cómo se parten estructura y tipos — y cuándo un negocio necesita un portal frente a un sitio de servicios.",
   lead: [

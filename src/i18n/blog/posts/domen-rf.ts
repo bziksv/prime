@@ -7,6 +7,9 @@ export const domenRfEn: BlogPost = {
   date: "2021-05-31",
   category: "SEO",
   cover: "/images/blog/domen-rf/cover-en.webp",
+  metaTitle: ".рф or not? Zone quirks and promotion without surprises",
+  metaDescription:
+    "Cyrillic URLs, SEO nuances, and when the zone fits. Read before you register the domain.",
   excerpt:
     "What the .рф zone is, why use a Cyrillic domain, which technical nuances remain, and how to promote the site without the myth that “.рф doesn’t rank.”",
   lead: [
@@ -168,6 +171,9 @@ export const domenRfEs: BlogPost = {
   date: "2021-05-31",
   category: "SEO",
   cover: "/images/blog/domen-rf/cover-es.webp",
+  metaTitle: "¿.рф sí o no? Particularidades de la zona y promoción sin sorpresas",
+  metaDescription:
+    "URLs cirílicas, matices SEO y cuándo encaja. Léelo antes de registrar el dominio.",
   excerpt:
     "Qué es la zona .рф, por qué usar un dominio cirílico, qué matices técnicos quedan y cómo promocionar el sitio sin el mito de que «.рф no rankea».",
   lead: [

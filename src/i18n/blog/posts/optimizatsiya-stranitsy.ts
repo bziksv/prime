@@ -7,6 +7,9 @@ export const optimizatsiyaStranitsyEn: BlogPost = {
   date: "2021-08-02",
   category: "SEO",
   cover: "/images/blog/optimizatsiya-stranitsy/cover-en.webp",
+  metaTitle: "Optimizing a page by guesswork? On-page checklist for one keyword",
+  metaDescription:
+    "Title, H1, copy, and internal links without stuffing. Run the list before publish.",
   excerpt:
     "Tune a landing page for one query: copy, title and H1, meta description, internal links, click depth, URL, and images — without stuffing or the myth that every paragraph needs the keyword.",
   lead: [
@@ -152,6 +155,9 @@ export const optimizatsiyaStranitsyEs: BlogPost = {
   date: "2021-08-02",
   category: "SEO",
   cover: "/images/blog/optimizatsiya-stranitsy/cover-es.webp",
+  metaTitle: "¿On-page a ojo? Checklist de página para una keyword",
+  metaDescription:
+    "Title, H1, texto e interlinking sin stuffing. Pasa la lista antes de publicar.",
   excerpt:
     "Afinar un landing para una query: copy, title y H1, meta description, enlaces internos, profundidad de clic, URL e imágenes — sin stuffing ni el mito de que cada párrafo necesita la keyword.",
   lead: [

@@ -7,6 +7,9 @@ export const oformlenieEmailEs: BlogPost = {
   date: "2019-07-30",
   category: "Email marketing",
   cover: "/images/blog/oformlenie-email/cover-es.webp",
+  metaTitle: "¿El mail se lee en 3 segundos? Diseño de newsletter: jerarquía y estilo",
+  metaDescription:
+    "Titular, bloques y CTA sin ruido visual. Checklist — antes del próximo digest.",
   excerpt:
     "Cómo diseñar un email: errores habituales, ancho y módulos, jerarquía visual, imágenes, estilo de marca y checklist previo al envío — junto a la maquetación HTML técnica.",
   lead: [
@@ -126,6 +129,9 @@ export const oformlenieEmailEn: BlogPost = {
   date: "2019-07-30",
   category: "Email marketing",
   cover: "/images/blog/oformlenie-email/cover-en.webp",
+  metaTitle: "Emails get 3 seconds? Newsletter design: hierarchy and style",
+  metaDescription:
+    "Headline, blocks, and CTA without visual noise. Checklist — before the next digest.",
   excerpt:
     "How to design an email: common mistakes, width and modules, visual hierarchy, images, brand style, and a pre-send checklist — next to technical HTML layout.",
   lead: [

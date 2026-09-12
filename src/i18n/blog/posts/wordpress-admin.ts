@@ -7,6 +7,9 @@ export const wordpressAdminEn: BlogPost = {
   date: "2018-03-23",
   category: "Digital marketing",
   cover: "/images/blog/wordpress-admin/cover-en.webp",
+  metaTitle: "Locked out of wp-admin? Enter WordPress admin and restore access",
+  metaDescription:
+    "Login paths, resets, and common traps. Cheat sheet — before production panic.",
   excerpt:
     "Signing into wp-admin and wp-login.php, email password recovery, reset via hosting, and typical cache-related failures — without advice to keep the login admin.",
   lead: [
@@ -185,6 +188,9 @@ export const wordpressAdminEs: BlogPost = {
   date: "2018-03-23",
   category: "Digital marketing",
   cover: "/images/blog/wordpress-admin/cover-es.webp",
+  metaTitle: "¿Bloqueado en wp-admin? Entra al admin de WordPress y recupera acceso",
+  metaDescription:
+    "Rutas de login, resets y trampas típicas. Chuleta — antes del pánico en prod.",
   excerpt:
     "Entrar a wp-admin y wp-login.php, recuperación de contraseña por email, reset vía hosting y fallos típicos de caché — sin consejo de quedarte con el login admin.",
   lead: [

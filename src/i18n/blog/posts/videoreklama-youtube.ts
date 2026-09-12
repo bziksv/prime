@@ -7,6 +7,9 @@ export const videoreklamaYoutubeEn: BlogPost = {
   date: "2021-01-28",
   category: "Paid search",
   cover: "/images/blog/videoreklama-youtube/cover-en.webp",
+  metaTitle: "YouTube Ads “too expensive”? Whether to run video ads — and when",
+  metaDescription:
+    "Formats, goals, and KPIs. Breakdown — before a budget test.",
   excerpt:
     "When YouTube video ads pay off, which formats exist, and how to judge audience fit and budget — without “most effective on the internet” hype or stale price quotes.",
   lead: [
@@ -205,6 +208,9 @@ export const videoreklamaYoutubeEs: BlogPost = {
   date: "2021-01-28",
   category: "Paid search",
   cover: "/images/blog/videoreklama-youtube/cover-es.webp",
+  metaTitle: "¿YouTube Ads “caras”? Si conviene lanzar videoads — y cuándo",
+  metaDescription:
+    "Formatos, objetivos y KPIs. Análisis — antes de testear presupuesto.",
   excerpt:
     "Cuándo compensan los ads de vídeo en YouTube, qué formatos existen y cómo juzgar encaje de audiencia y presupuesto — sin hype de «lo más efectivo de internet» ni cotizaciones de precio obsoletas.",
   lead: [

@@ -7,6 +7,9 @@ export const klyuchiYandeksDirektEn: BlogPost = {
   date: "2020-12-02",
   category: "Paid search",
   cover: "/images/blog/klyuchi-yandeks-direkt/cover-en.webp",
+  metaTitle: "Thousands of keywords “just in case”? How many Yandex Direct phrases you need",
+  metaDescription:
+    "Core size, structure, and when more is worse. Cheat sheet — before you bloat the campaign.",
   excerpt:
     "How to size keyword coverage for Search and the Yandex Advertising Network (YAN) in Direct: campaign goal, assortment, ad-group limits, and profitability — without a “universal keyword count” or mixing it up with SEO.",
   lead: [
@@ -153,6 +156,9 @@ export const klyuchiYandeksDirektEs: BlogPost = {
   date: "2020-12-02",
   category: "Paid search",
   cover: "/images/blog/klyuchi-yandeks-direkt/cover-es.webp",
+  metaTitle: "¿Miles de keywords “por si acaso”? Cuántas frases hace falta en Direct",
+  metaDescription:
+    "Tamaño del núcleo, estructura y cuándo más es peor. Chuleta — antes de hinchar la campaña.",
   excerpt:
     "Cómo dimensionar la cobertura de keywords para Búsqueda y la Red Publicitaria de Yandex (YAN) en Direct: objetivo de campaña, surtido, límites de grupos de anuncios y rentabilidad — sin un «conteo universal de keywords» ni mezclarlo con SEO.",
   lead: [

@@ -7,6 +7,9 @@ export const bystreePisatStatiEn: BlogPost = {
   date: "2019-12-18",
   category: "Content marketing",
   cover: "/images/blog/bystree-pisat-stati/cover-en.webp",
+  metaTitle: "Articles take forever? Draft faster without tanking quality",
+  metaDescription:
+    "Process, outline, and edits — no filler for word count. Pace checklist — save before the next deadline.",
   excerpt:
     "How to speed up article writing: work mode, outline, draft without mid-flight edits, breaks, and touch typing — without racing to “more orders at any cost.”",
   lead: [
@@ -120,6 +123,9 @@ export const bystreePisatStatiEs: BlogPost = {
   date: "2019-12-18",
   category: "Content marketing",
   cover: "/images/blog/bystree-pisat-stati/cover-es.webp",
+  metaTitle: "¿Artículos eternos? Redacta más rápido sin perder calidad",
+  metaDescription:
+    "Proceso, esquema y edición — sin relleno por volumen. Checklist de ritmo — guárdalo antes del deadline.",
   excerpt:
     "Cómo acelerar la escritura de artículos: modo de trabajo, outline, borrador sin edits a mitad, pausas y mecanografía — sin la carrera de «más pedidos a cualquier precio».",
   lead: [

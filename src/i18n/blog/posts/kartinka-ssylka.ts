@@ -7,6 +7,9 @@ export const kartinkaSsylkaEn: BlogPost = {
   date: "2021-09-14",
   category: "SEO",
   cover: "/images/blog/kartinka-ssylka/cover-en.webp",
+  metaTitle: "Image won’t click? Make a picture a link without hacks",
+  metaDescription:
+    "HTML, accessibility, and common mistakes. Cheat sheet — before the next banner edit.",
   excerpt:
     "How to wrap an image in a link in HTML and an editor, why alt matters, why your own files beat hotlinking, and how not to kill page speed with banners.",
   lead: [
@@ -153,6 +156,9 @@ export const kartinkaSsylkaEs: BlogPost = {
   date: "2021-09-14",
   category: "SEO",
   cover: "/images/blog/kartinka-ssylka/cover-es.webp",
+  metaTitle: "¿La imagen no se clica? Hazla enlace sin apaños",
+  metaDescription:
+    "HTML, a11y y errores típicos. Chuleta — antes del próximo cambio de banner.",
   excerpt:
     "Cómo envolver una imagen en un enlace en HTML y en un editor, por qué importa el alt, por qué tus propios archivos ganan al hotlinking, y cómo no matar la velocidad de la página con banners.",
   lead: [

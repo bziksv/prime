@@ -7,6 +7,9 @@ export const sotssetiDlyaBiznesaEn: BlogPost = {
   date: "2017-03-06",
   category: "SMM",
   cover: "/images/blog/sotsseti-dlya-biznesa/cover-en.webp",
+  metaTitle: "Social “doesn’t sell”? Trust, service, and leads — why the channel matters",
+  metaDescription:
+    "Funnel roles without reach illusions. Breakdown — before you kill SMM.",
   excerpt:
     "Why a company needs a social page: how a live channel tips the choice between similar sellers, how sales work differs from brand image, and how to start without a full-time SMM hire.",
   lead: [
@@ -174,6 +177,9 @@ export const sotssetiDlyaBiznesaEs: BlogPost = {
   date: "2017-03-06",
   category: "SMM",
   cover: "/images/blog/sotsseti-dlya-biznesa/cover-es.webp",
+  metaTitle: "¿Social “no vende”? Confianza, servicio y leads — por qué hace falta el canal",
+  metaDescription:
+    "Roles en el embudo sin ilusiones de alcance. Análisis — antes de matar el SMM.",
   excerpt:
     "Por qué una empresa necesita una página social: cómo un canal vivo inclina la elección entre vendedores parecidos, cómo difiere el trabajo de ventas de la imagen de marca, y cómo empezar sin un SMM a tiempo completo.",
   lead: [

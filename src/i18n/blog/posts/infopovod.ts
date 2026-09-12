@@ -7,6 +7,9 @@ export const infopovodEn: BlogPost = {
   date: "2020-03-12",
   category: "Digital marketing",
   cover: "/images/blog/infopovod/cover-en.webp",
+  metaTitle: "Forcing a brand into the news? Newsjacking: what it is and how to use it",
+  metaDescription:
+    "How to ride the moment without cringe or risk. Cheat sheet — before the next PR push.",
   excerpt:
     "What a news hook is: planned and unplanned, newsjacking, research, collaborations, anniversaries, and contests — how to create hooks without empty hype.",
   lead: [
@@ -174,6 +177,9 @@ export const infopovodEs: BlogPost = {
   date: "2020-03-12",
   category: "Marketing digital",
   cover: "/images/blog/infopovod/cover-es.webp",
+  metaTitle: "¿Forzar la marca en la noticia? Infopovod: qué es y cómo usarlo",
+  metaDescription:
+    "Cómo pillar el momento sin cringe ni riesgo. Chuleta — antes del próximo lanzamiento PR.",
   excerpt:
     "Qué es un gancho de noticia: planificado e improvisado, newsjacking, investigación, colaboraciones, aniversarios y concursos — cómo crear ganchos sin hype vacío.",
   lead: [

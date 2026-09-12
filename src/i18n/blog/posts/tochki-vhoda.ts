@@ -7,6 +7,9 @@ export const tochkiVhodaEn: BlogPost = {
   date: "2020-01-20",
   category: "SEO",
   cover: "/images/blog/tochki-vhoda/cover-en.webp",
+  metaTitle: "Competitors capturing demand? Entry points: how to find them and why",
+  metaDescription:
+    "Channel and keyword recon. Checklist — before the counter-strategy.",
   excerpt:
     "What an entry point is, why to study competitors’ search landings, how to export queries and expand your keyword core — without copying someone else’s site.",
   lead: [
@@ -247,6 +250,9 @@ export const tochkiVhodaEs: BlogPost = {
   date: "2020-01-20",
   category: "SEO",
   cover: "/images/blog/tochki-vhoda/cover-es.webp",
+  metaTitle: "¿La competencia se lleva la demanda? Puntos de entrada: cómo encontrarlos y para qué",
+  metaDescription:
+    "Reconocimiento de canales y semántica. Checklist — antes de la contraestrategia.",
   excerpt:
     "Qué es un punto de entrada, por qué estudiar las landings de búsqueda de los competidores, cómo exportar consultas y ampliar el núcleo de keywords — sin copiar el sitio ajeno.",
   lead: [

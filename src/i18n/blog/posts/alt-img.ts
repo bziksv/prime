@@ -7,6 +7,9 @@ export const altImgEn: BlogPost = {
   date: "2020-08-27",
   category: "SEO",
   cover: "/images/blog/alt-img/cover-en.webp",
+  metaTitle: "Images missing alt? Fix SEO and accessibility copy",
+  metaDescription:
+    "How alt differs from img title, when title is noise, and how to write without stuffing. Checklist — audit product shots.",
   excerpt:
     "How alt differs from title on an img tag, why alt matters for accessibility and image search, when title is almost unnecessary, and which mistakes hurt SEO and UX.",
   lead: [
@@ -214,6 +217,9 @@ export const altImgEs: BlogPost = {
   date: "2020-08-27",
   category: "SEO",
   cover: "/images/blog/alt-img/cover-es.webp",
+  metaTitle: "¿Imágenes sin alt? Arregla SEO y accesibilidad",
+  metaDescription:
+    "En qué difiere alt de title en img, cuándo title sobra y cómo escribir sin spam. Checklist — audita el catálogo.",
   excerpt:
     "En qué se diferencia alt de title en una etiqueta img, por qué alt importa para accesibilidad y búsqueda de imágenes, cuándo title casi no hace falta y qué errores duelen al SEO y a la UX.",
   lead: [

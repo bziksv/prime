@@ -7,6 +7,9 @@ export const heshtegiInstagramEn: BlogPost = {
   date: "2018-10-05",
   category: "SMM",
   cover: "/images/blog/heshtegi-instagram/cover-en.webp",
+  metaTitle: "30 hashtags “for luck”? Hashtags and geotags without Instagram spam",
+  metaDescription:
+    "How to help reach without looking like a bot. Cheat sheet — before the next post.",
   excerpt:
     "How to choose hashtags and location tags for an Instagram business profile: niche, brand tag, place on the map — without the myth that 30 tags win discovery or outdated 2018 formulas.",
   lead: [
@@ -154,6 +157,9 @@ export const heshtegiInstagramEs: BlogPost = {
   date: "2018-10-05",
   category: "SMM",
   cover: "/images/blog/heshtegi-instagram/cover-es.webp",
+  metaTitle: "¿30 hashtags “por suerte”? Hashtags y geotags sin spam en Instagram",
+  metaDescription:
+    "Cómo ayudar al alcance sin parecer bot. Chuleta — antes del próximo post.",
   excerpt:
     "Cómo elegir hashtags y etiquetas de ubicación para un perfil de negocio en Instagram: nicho, tag de marca, punto en el mapa — sin el mito de que 30 tags ganan discovery ni fórmulas obsoletas de 2018.",
   lead: [

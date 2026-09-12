@@ -24,7 +24,9 @@ const featured = blogPosts[0];
 const showMigrateDashboard = import.meta.env.DEV;
 const migration = showMigrateDashboard ? getBlogMigrationProgress() : null;
 
-const blogDescription = `Блог ПРАЙМ: ${blogPosts.length} статей про SEO, семантику, контекст, SMM и интернет-маркетинг — практика агентства.`;
+const blogDescription =
+  "Читайте практику агентства: SEO, Ads, SMM и маркетинг без «секретов ТОП». Сохраните блог — статьи обновляем под живые проекты.";
+const blogTitle = "Маркетинг без воды: статьи агентства — читайте блог ПРАЙМ";
 const blogOgImage = (featured?.cover || "").split("?")[0] || undefined;
 const crumbsLd = breadcrumbJsonLd(
   [
@@ -44,9 +46,9 @@ const crumbsLd = breadcrumbJsonLd(
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={blogDescription} />
-    <title>Блог — ПРАЙМ</title>
+    <title>{blogTitle}</title>
     <SiteSeo
-      title="Блог — ПРАЙМ"
+      title={blogTitle}
       description={blogDescription}
       path="/blog/"
       image={blogOgImage}

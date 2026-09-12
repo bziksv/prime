@@ -7,6 +7,9 @@ export const kogortnyyAnalizEn: BlogPost = {
   date: "2019-12-23",
   category: "Analytics",
   cover: "/images/blog/kogortnyy-analiz/cover-en.webp",
+  metaTitle: "Averages lying to you? Cohort analysis: what it is and why it matters",
+  metaDescription:
+    "How to slice users by time and read retention. Primer — before the growth report.",
   excerpt:
     "What a cohort is and how it differs from a segment: retention, LTV, channel ROI, and reading A/B over time — in Analytics/GA4 and spreadsheets, without promising “automatic magic.”",
   lead: [
@@ -153,6 +156,9 @@ export const kogortnyyAnalizEs: BlogPost = {
   date: "2019-12-23",
   category: "Analytics",
   cover: "/images/blog/kogortnyy-analiz/cover-es.webp",
+  metaTitle: "¿Los promedios mienten? Análisis de cohortes: qué es y para qué",
+  metaDescription:
+    "Cómo cortar usuarios por tiempo y leer retención. Base — antes del informe de growth.",
   excerpt:
     "Qué es una cohorte y en qué se diferencia de un segmento: retención, LTV, ROI por canal y lectura de A/B en el tiempo — en Analytics/GA4 y hojas, sin prometer «magia automática».",
   lead: [

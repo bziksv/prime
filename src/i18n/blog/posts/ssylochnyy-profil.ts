@@ -7,6 +7,9 @@ export const ssylochnyyProfilEn: BlogPost = {
   date: "2020-10-23",
   category: "SEO",
   cover: "/images/blog/ssylochnyy-profil/cover-en.webp",
+  metaTitle: "No time for backlinks? Link profile analysis in half an hour",
+  metaDescription:
+    "What to check first and red flags. Checklist — before link building or an audit.",
   excerpt:
     "How to quickly assess backlinks for a page and domain: referring domains, anchors, toxicity, trends, and competitor comparison — without “page one in a week” magic.",
   lead: [
@@ -220,6 +223,9 @@ export const ssylochnyyProfilEs: BlogPost = {
   date: "2020-10-23",
   category: "SEO",
   cover: "/images/blog/ssylochnyy-profil/cover-es.webp",
+  metaTitle: "¿Sin tiempo para backlinks? Análisis del perfil de enlaces en media hora",
+  metaDescription:
+    "Qué mirar primero y red flags. Checklist — antes del link building o auditoría.",
   excerpt:
     "Cómo evaluar rápido backlinks de una página y un dominio: referring domains, anchors, toxicidad, tendencias y comparación con competidores — sin magia de «primera página en una semana».",
   lead: [

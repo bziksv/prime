@@ -7,6 +7,9 @@ export const parolInstagramEn: BlogPost = {
   date: "2021-11-09",
   category: "SMM",
   cover: "/images/blog/parol-instagram/cover-en.webp",
+  metaTitle: "Locked out of Instagram? Reset and change the password — get back in",
+  metaDescription:
+    "Recovery steps and common blocks. Cheat sheet — before you panic.",
   excerpt:
     "When to change an Instagram password, how to recover login via email, SMS, and support, what to do if you’re hacked, and how to harden account security.",
   lead: [
@@ -156,6 +159,9 @@ export const parolInstagramEs: BlogPost = {
   date: "2021-11-09",
   category: "SMM",
   cover: "/images/blog/parol-instagram/cover-es.webp",
+  metaTitle: "¿Bloqueado en Instagram? Restablece y cambia la contraseña — entra de nuevo",
+  metaDescription:
+    "Pasos de recuperación y bloqueos típicos. Chuleta — antes del pánico.",
   excerpt:
     "Cuándo cambiar la contraseña de Instagram, cómo recuperar el login vía email, SMS y soporte, qué hacer si te hackean y cómo endurecer la seguridad de la cuenta.",
   lead: [

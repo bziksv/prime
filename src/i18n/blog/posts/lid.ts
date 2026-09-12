@@ -7,6 +7,9 @@ export const lidEn: BlogPost = {
   date: "2021-08-30",
   category: "Digital marketing",
   cover: "/images/blog/lid/cover-en.webp",
+  metaTitle: "Any contact = a lead? What a lead is: quality and funnel without self-deception",
+  metaDescription:
+    "Definitions, stages, and metrics. Primer — before marketing vs sales arguments.",
   excerpt:
     "A lead in marketing is a potential customer with a contact and interest: how it differs from audience and traffic, cold/warm/hot, capture channels, CPL, and why buying someone else’s lists is a mistake.",
   lead: [
@@ -204,6 +207,9 @@ export const lidEs: BlogPost = {
   date: "2021-08-30",
   category: "Digital marketing",
   cover: "/images/blog/lid/cover-es.webp",
+  metaTitle: "¿Cualquier contacto = lead? Qué es un lead: calidad y embudo sin autoengaño",
+  metaDescription:
+    "Definiciones, etapas y métricas. Base — antes de la pelea marketing vs ventas.",
   excerpt:
     "Un lead en marketing es un cliente potencial con contacto e interés: en qué se diferencia de audiencia y tráfico, frío/tibio/caliente, canales de captación, CPL y por qué comprar listas ajenas es un error.",
   lead: [

@@ -7,6 +7,9 @@ export const ohvatInstagramEn: BlogPost = {
   date: "2021-01-26",
   category: "SMM",
   cover: "/images/blog/ohvat-instagram/cover-en.webp",
+  metaTitle: "Mixing reach and impressions? What they mean on Instagram — and the difference",
+  metaDescription:
+    "Metrics without self-deception and what to grow. Primer — before the SMM report.",
   excerpt:
     "What Instagram reach is: unique accounts vs impressions, why reach drops, and how to grow with legitimate methods — without bots and a catalog of gray-hat services.",
   lead: [
@@ -184,6 +187,9 @@ export const ohvatInstagramEs: BlogPost = {
   date: "2021-01-26",
   category: "SMM",
   cover: "/images/blog/ohvat-instagram/cover-es.webp",
+  metaTitle: "¿Mezclas alcance e impresiones? Qué son en Instagram y en qué difieren",
+  metaDescription:
+    "Métricas sin autoengaño y qué sí se puede crecer. Base — antes del informe SMM.",
   excerpt:
     "Qué es el alcance de Instagram: cuentas únicas vs impresiones, por qué cae el alcance y cómo crecer con métodos legítimos — sin bots ni un catálogo de servicios gray-hat.",
   lead: [

@@ -88,7 +88,8 @@ if (post.faq?.length) {
   });
 }
 
-const pageTitle = `${post.title} — ${ui.pageTitleSuffix}`;
+const pageTitle = post.metaTitle ?? `${post.title} — ${ui.pageTitleSuffix}`;
+const pageDescription = post.metaDescription ?? post.excerpt;
 const coverPath = post.cover.split("?")[0] || post.cover;
 
 const postJsonPath = join(process.cwd(), "src/data/blog-posts", `${post.slug}.json`);
@@ -101,7 +102,7 @@ const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   headline: post.title,
-  description: post.excerpt,
+  description: pageDescription,
   image: new URL(coverPath, Astro.site ?? "https://prime-ltd.su").href,
   datePublished: post.date,
   dateModified,
@@ -156,11 +157,11 @@ const crumbsLd = breadcrumbJsonLd(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content={post.excerpt} />
+    <meta name="description" content={pageDescription} />
     <title>{pageTitle}</title>
     <SiteSeo
       title={pageTitle}
-      description={post.excerpt}
+      description={pageDescription}
       path={postPath}
       image={coverPath}
       type="article"

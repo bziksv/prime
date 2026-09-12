@@ -170,9 +170,9 @@ export type WebContent = {
 
 const webRu: WebContent = {
   path: "/razrabotka-saytov/",
-  metaTitle: "Разработка сайтов — ПРАЙМ",
+  metaTitle: "Сайт красивый, а заявок мало? Собираем под продажи — ПРАЙМ",
   metaDescription:
-    "Разработка сайтов: лендинг, мультилендинг, визитка, корпоратив и магазин. Bitrix, Webasyst, WordPress, Next.js, Astro, Laravel, Vue, Node.js, 1С — быстрее и дешевле кастома с нуля.",
+    "Закажите разработку: лендинг, корпоратив или магазин на WordPress, Next.js, Astro, Laravel. Быстрее и дешевле кастома «с нуля».",
   serviceName: "Разработка сайтов",
   serviceType: "Разработка сайтов",
   breadcrumbHome: "Главная",
@@ -336,9 +336,9 @@ const webRu: WebContent = {
 
 const webEn: WebContent = {
   path: "/en/web/",
-  metaTitle: "Websites — PRIME",
+  metaTitle: "Pretty site, thin pipeline? We build for leads — PRIME",
   metaDescription:
-    "Websites that convert: landing pages, brochure sites, corporate sites, and stores. WordPress, Next.js, Astro, Laravel, Vue, Node.js — shipped faster and leaner than a from-scratch build.",
+    "Commission a landing, corporate site, or store on WordPress, Next.js, Astro, or Laravel — faster and leaner than a from-scratch custom build.",
   serviceName: "Websites",
   serviceType: "Web development",
   breadcrumbHome: "Home",
@@ -704,9 +704,9 @@ const webEn: WebContent = {
 
 const webEs: WebContent = {
   path: "/es/web/",
-  metaTitle: "Sitios web — PRIME",
+  metaTitle: "¿Web bonita y pocos leads? La montamos para vender — PRIME",
   metaDescription:
-    "Sitios web que convierten: landing pages, sitios corporativos, catálogos y tiendas online. WordPress, Next.js, Astro, Laravel, Vue, Node.js — más rápido y económico que un desarrollo a medida desde cero.",
+    "Encarga landing, corporativo o tienda en WordPress, Next.js, Astro o Laravel — más rápido y económico que un custom desde cero.",
   serviceName: "Sitios web",
   serviceType: "Desarrollo web",
   breadcrumbHome: "Inicio",

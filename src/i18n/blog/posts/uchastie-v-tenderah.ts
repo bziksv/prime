@@ -7,6 +7,9 @@ export const uchastieVTenderahEn: BlogPost = {
   date: "2019-08-22",
   category: "Digital marketing",
   cover: "/images/blog/uchastie-v-tenderah/cover-en.webp",
+  metaTitle: "Bidding just for show? Why agencies join tenders — types and when to stop",
+  metaDescription:
+    "Upsides, risks, and walk-away criteria. Breakdown — before you submit.",
   excerpt:
     "Why a marketing agency should join procurements, which formats exist, what to check in the docs, and signs of a “show” tender — without promising an easy win.",
   lead: [
@@ -150,6 +153,9 @@ export const uchastieVTenderahEs: BlogPost = {
   date: "2019-08-22",
   category: "Digital marketing",
   cover: "/images/blog/uchastie-v-tenderah/cover-es.webp",
+  metaTitle: "¿Licitación de postureo? Para qué a la agencia, tipos y cuándo parar",
+  metaDescription:
+    "Pros, riesgos y criterios de no-go. Análisis — antes de presentar.",
   excerpt:
     "Por qué una agencia de marketing debería sumarse a compras, qué formatos existen, qué revisar en la documentación y señales de una licitación «de escaparate» — sin prometer una victoria fácil.",
   lead: [

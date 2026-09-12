@@ -85,9 +85,9 @@ export type OrmContent = {
 
 const ormRu: OrmContent = {
   path: "/upravlenie-reputaciej/",
-  metaTitle: "Управление репутацией — ПРАЙМ",
+  metaTitle: "Негатив в картах съедает заявки? Вернём доверие — ПРАЙМ",
   metaDescription:
-    "Управление репутацией: аудит, стратегия, мониторинг негатива и формирование позитивного имиджа на Яндекс и Google Картах и отзовиках. Без накрутки отзывов.",
+    "Закажите ORM: аудит, мониторинг негатива и живые отзывы на Картах/отзовиках. Без накрутки — только рабочая стратегия.",
   serviceName: "Управление репутацией",
   serviceType: "Управление репутацией",
   breadcrumbHome: "Главная",
@@ -187,9 +187,9 @@ const ormRu: OrmContent = {
 
 const ormEn: OrmContent = {
   path: "/en/reputation/",
-  metaTitle: "Online reputation — PRIME",
+  metaTitle: "Bad Maps reviews killing leads? Take trust back — PRIME",
   metaDescription:
-    "Online reputation: audit, strategy, negative-review monitoring, and genuine positive social proof on Google Maps, Business Profile, and review sites. No fake reviews.",
+    "Start reputation work: audit, negative monitoring, and genuine reviews on Google Maps and review sites. No fake reviews — strategy only.",
   serviceName: "Online reputation",
   serviceType: "Online reputation management",
   breadcrumbHome: "Home",
@@ -401,9 +401,9 @@ const ormEn: OrmContent = {
 
 const ormEs: OrmContent = {
   path: "/es/reputation/",
-  metaTitle: "Reputación online — PRIME",
+  metaTitle: "¿Reseñas malas en Maps matan leads? Recupera confianza — PRIME",
   metaDescription:
-    "Reputación online: auditoría, estrategia, monitorización de reseñas negativas y prueba social positiva genuina en Google Maps, Business Profile y sitios de reseñas. Sin reseñas falsas.",
+    "Empieza ORM: auditoría, monitorización de negativo y reseñas reales en Google Maps. Sin reseñas falsas — solo estrategia.",
   serviceName: "Reputación online",
   serviceType: "Gestión de reputación online",
   breadcrumbHome: "Inicio",

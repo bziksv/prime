@@ -7,6 +7,9 @@ export const chatTelegramEs: BlogPost = {
   date: "2020-11-16",
   category: "SMM",
   cover: "/images/blog/chat-telegram/cover-es.webp",
+  metaTitle: "¿Necesitas grupo en Telegram? Crea el chat sin lío de ajustes",
+  metaDescription:
+    "Pasos, permisos y errores típicos. Chuleta — guárdala antes de lanzar el chat del equipo.",
   excerpt:
     "Cómo crear un grupo de Telegram: en qué se diferencia de un canal y un bot, enlaces públicos vs privados, fijar chats, encuestas y setups de negocio — sin mitos obsoletos de límites de miembros.",
   lead: [
@@ -207,6 +210,9 @@ export const chatTelegramEn: BlogPost = {
   date: "2020-11-16",
   category: "SMM",
   cover: "/images/blog/chat-telegram/cover-en.webp",
+  metaTitle: "Need a Telegram group? Create a chat without settings chaos",
+  metaDescription:
+    "Setup steps, permissions, and common mistakes. Cheat sheet — save before you launch the team chat.",
   excerpt:
     "How to create a Telegram group: how it differs from a channel and a bot, public vs private links, pinning chats, polls, and business setups — without outdated member-limit myths.",
   lead: [

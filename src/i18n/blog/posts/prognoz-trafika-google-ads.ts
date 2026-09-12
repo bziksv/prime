@@ -7,6 +7,9 @@ export const prognozTrafikaGoogleAdsEn: BlogPost = {
   date: "2019-07-10",
   category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika-google-ads/cover-en.webp",
+  metaTitle: "Ads traffic forecast from thin air? How to estimate Google Search campaigns",
+  metaDescription:
+    "Tools, assumptions, and buffer. Checklist — before budget approval.",
   excerpt:
     "How to estimate search demand and budget in Google Ads: gathering keywords in Keyword Planner, cleaning, CTR/CPC by groups, and a budget formula — without the illusion of an exact media plan.",
   lead: [
@@ -119,6 +122,9 @@ export const prognozTrafikaGoogleAdsEs: BlogPost = {
   date: "2019-07-10",
   category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika-google-ads/cover-es.webp",
+  metaTitle: "¿Pronóstico Ads a ojo? Cómo estimar tráfico de campañas Search de Google",
+  metaDescription:
+    "Tools, supuestos y colchón. Checklist — antes de aprobar el presupuesto.",
   excerpt:
     "Cómo estimar demanda de búsqueda y presupuesto en Google Ads: reunir keywords en Keyword Planner, limpiar, CTR/CPC por grupos y una fórmula de presupuesto — sin la ilusión de un media plan exacto.",
   lead: [

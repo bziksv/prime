@@ -7,6 +7,9 @@ export const ishodnyyKodEn: BlogPost = {
   date: "2021-07-09",
   category: "SEO",
   cover: "/images/blog/ishodnyy-kod/cover-en.webp",
+  metaTitle: "Bugs from nowhere? Page source: why look and how to open it",
+  metaDescription:
+    "View HTML, common finds, and when to call a developer. Cheat sheet — before the next mystery bug.",
   excerpt:
     "What page source is, how View Source differs from DevTools, and how to check meta, styles, and scripts — without a full front-end course.",
   lead: [
@@ -161,6 +164,9 @@ export const ishodnyyKodEs: BlogPost = {
   date: "2021-07-09",
   category: "SEO",
   cover: "/images/blog/ishodnyy-kod/cover-es.webp",
+  metaTitle: "¿Bugs de la nada? Código fuente: para qué mirarlo y cómo abrirlo",
+  metaDescription:
+    "Ver HTML, hallazgos típicos y cuándo llamar al dev. Chuleta — antes del próximo bug misterioso.",
   excerpt:
     "Qué es el código fuente de una página, en qué se diferencia View Source de DevTools, y cómo revisar meta, estilos y scripts — sin un curso completo de front-end.",
   lead: [

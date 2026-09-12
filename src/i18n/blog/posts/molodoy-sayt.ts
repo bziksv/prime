@@ -7,6 +7,9 @@ export const molodoySaytEn: BlogPost = {
   date: "2021-03-04",
   category: "SEO",
   cover: "/images/blog/molodoy-sayt/cover-en.webp",
+  metaTitle: "Site is a month old — expecting TOP? How to promote a young site without illusions",
+  metaDescription:
+    "Early priorities and realistic timelines. Plan — before the first client report.",
   excerpt:
     "Where to start SEO for a new site: tech, content, commercial factors, and realistic timelines — without behavioral gaming or “bypass competitor” secrets.",
   lead: [
@@ -262,6 +265,9 @@ export const molodoySaytEs: BlogPost = {
   date: "2021-03-04",
   category: "SEO",
   cover: "/images/blog/molodoy-sayt/cover-es.webp",
+  metaTitle: "¿Sitio de un mes y esperan TOP? Cómo promocionar un site joven sin ilusiones",
+  metaDescription:
+    "Prioridades al inicio y plazos realistas. Plan — antes del primer informe al cliente.",
   excerpt:
     "Por dónde empezar el SEO de un sitio nuevo: técnica, contenido, factores comerciales y plazos realistas — sin gaming de comportamiento ni secretos para «saltarse al competidor».",
   lead: [

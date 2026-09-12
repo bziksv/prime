@@ -7,6 +7,9 @@ export const storiesInstagramInkognitoEn: BlogPost = {
   date: "2021-10-05",
   category: "SMM",
   cover: "/images/blog/stories-instagram-inkognito/cover-en.webp",
+  metaTitle: "Anonymous Instagram Stories viewers — real? Third-party risks and privacy",
+  metaDescription:
+    "What apps promise and how they can hurt the account. Read before you install.",
   excerpt:
     "Why people look for anonymous Stories viewing on Instagram, what’s dangerous about bots and third-party apps, how to protect your Stories, and which legitimate business scenarios exist.",
   lead: [
@@ -183,6 +186,9 @@ export const storiesInstagramInkognitoEs: BlogPost = {
   date: "2021-10-05",
   category: "SMM",
   cover: "/images/blog/stories-instagram-inkognito/cover-es.webp",
+  metaTitle: "¿Ver Stories “incógnito” es real? Riesgos de apps de terceros y privacidad",
+  metaDescription:
+    "Qué prometen y cómo pueden dañar la cuenta. Léelo antes de instalar.",
   excerpt:
     "Por qué la gente busca ver Stories de Instagram en anónimo, qué hay de peligroso en bots y apps de terceros, cómo proteger tus Stories y qué escenarios legítimos hay para negocio.",
   lead: [

@@ -7,6 +7,9 @@ export const kloakingEn: BlogPost = {
   date: "2019-07-09",
   category: "SEO",
   cover: "/images/blog/kloaking/cover-en.webp",
+  metaTitle: "Different content for bots and people? Cloaking in SEO: why it’s risky",
+  metaDescription:
+    "What counts as deception, the penalties, and how not to trip into it. Read before “clever” schemes.",
   excerpt:
     "Cloaking is showing different content to bots and people. Why it’s used, what it costs you, and how to check your site isn’t masked — including after a breach.",
   lead: [
@@ -229,6 +232,9 @@ export const kloakingEs: BlogPost = {
   date: "2019-07-09",
   category: "SEO",
   cover: "/images/blog/kloaking/cover-es.webp",
+  metaTitle: "¿Contenido distinto a bots y humanos? Cloaking SEO: por qué es riesgo",
+  metaDescription:
+    "Qué cuenta como engaño, sanciones y cómo no caer por accidente. Léelo antes de “trucos”.",
   excerpt:
     "Cloaking es mostrar contenido distinto a bots y a personas. Por qué se usa, qué te cuesta y cómo revisar que tu sitio no esté enmascarado — también tras un breach.",
   lead: [

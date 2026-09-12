@@ -7,6 +7,9 @@ export const vrednyeSovetyRukovoditelyamEn: BlogPost = {
   date: "2019-07-01",
   category: "Digital marketing",
   cover: "/images/blog/vrednye-sovety-rukovoditelyam/cover-en.webp",
+  metaTitle: "“Motivating” the team into burnout? Bad advice for managers — antipatterns",
+  metaDescription:
+    "What breaks culture and how not to repeat. Breakdown — before the next 1:1.",
   excerpt:
     "An ironic look at toxic leadership in digital: always being right, status flexing, empty meetings, manipulation, and neglecting your best people — plus what to do instead.",
   lead: [
@@ -114,6 +117,9 @@ export const vrednyeSovetyRukovoditelyamEs: BlogPost = {
   date: "2019-07-01",
   category: "Digital marketing",
   cover: "/images/blog/vrednye-sovety-rukovoditelyam/cover-es.webp",
+  metaTitle: "¿“Motivar” hasta el burnout? Consejos tóxicos para managers — antipatrones",
+  metaDescription:
+    "Qué rompe la cultura y cómo no repetir. Análisis — antes del próximo 1:1.",
   excerpt:
     "Una mirada irónica al liderazgo tóxico en digital: tener siempre la razón, flex de estatus, reuniones vacías, manipulación y descuido de tu mejor gente — más qué hacer en su lugar.",
   lead: [

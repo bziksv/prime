@@ -7,6 +7,9 @@ export const sekretnyyChatTelegramEn: BlogPost = {
   date: "2020-08-05",
   category: "SMM",
   cover: "/images/blog/sekretnyy-chat-telegram/cover-en.webp",
+  metaTitle: "Sensitive chat in a normal thread? Telegram Secret Chat: how to enable",
+  metaDescription:
+    "Differences, timer, and limits. Cheat sheet — one minute.",
   excerpt:
     "What a Telegram secret chat is: end-to-end, delete timer, forwarding and screenshot limits — without the myth of “absolute invulnerability.”",
   lead: [
@@ -148,6 +151,9 @@ export const sekretnyyChatTelegramEs: BlogPost = {
   date: "2020-08-05",
   category: "SMM",
   cover: "/images/blog/sekretnyy-chat-telegram/cover-es.webp",
+  metaTitle: "¿Chat sensible en un hilo normal? Chat secreto de Telegram: cómo activarlo",
+  metaDescription:
+    "Diferencias, temporizador y límites. Chuleta — en un minuto.",
   excerpt:
     "Qué es un chat secreto de Telegram: end-to-end, timer de borrado, límites de forwarding y capturas — sin el mito de la «invulnerabilidad absoluta».",
   lead: [

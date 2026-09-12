@@ -4,6 +4,8 @@
   "date": "2020-08-17",
   "category": "SEO",
   "cover": "/images/blog/google-search-console/cover.webp",
+  "metaTitle": "Индексация «на глаз»? Search Console: зачем вебмастеру и с чего начать",
+  "metaDescription": "Покрытие, запросы и ошибки без паники. База — подключите свойство сегодня.",
   "excerpt": "Что такое Google Search Console (бывший Webmaster Tools): как подтвердить сайт, зачем sitemap, отчёты об индексе, ошибках и запросах — без культа «кнопки ТОП».",
   "lead": [
     "Google Search Console (раньше — Google Webmaster Tools) — бесплатная панель для связи сайта с поиском Google: индексация, ошибки обхода, поисковые запросы, sitemap и проверки URL.",

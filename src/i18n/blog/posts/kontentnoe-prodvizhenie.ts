@@ -7,6 +7,9 @@ export const kontentnoeProdvizhenieEn: BlogPost = {
   date: "2018-08-17",
   category: "Content marketing",
   cover: "/images/blog/kontentnoe-prodvizhenie/cover-en.webp",
+  metaTitle: "Content live, traffic flat? 8 tips for content-led site promotion",
+  metaDescription:
+    "Practical moves — not “just write more.” Checklist — run before next quarter.",
   excerpt:
     "Promote a site with content: originality without a uniqueness-% fetish, a real topic and audience, keywords without stuffing, usefulness, updates, a blog, and what LSI actually means — without “page one from one article” promises.",
   lead: [
@@ -156,6 +159,9 @@ export const kontentnoeProdvizhenieEs: BlogPost = {
   date: "2018-08-17",
   category: "Content marketing",
   cover: "/images/blog/kontentnoe-prodvizhenie/cover-es.webp",
+  metaTitle: "¿Contenido sí, tráfico no? 8 tips de promoción de contenidos",
+  metaDescription:
+    "Práctica — no “escribe más”. Checklist — pásalo antes del próximo trimestre.",
   excerpt:
     "Promociona un sitio con contenido: originalidad sin fetichismo del % de unicidad, tema y audiencia reales, keywords sin stuffing, utilidad, updates, un blog y qué significa LSI de verdad — sin promesas de «primera página con un solo artículo».",
   lead: [

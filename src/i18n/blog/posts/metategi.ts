@@ -7,6 +7,9 @@ export const metategiEn: BlogPost = {
   date: "2021-03-18",
   category: "SEO",
   cover: "/images/blog/metategi/cover-en.webp",
+  metaTitle: "Stop cloning your H1 into the title tag — meta guide | PRIME",
+  metaDescription:
+    "See why title and description win clicks, how robots blocks indexing, and why keywords won’t save you. Checklist inside — audit your pages today.",
   excerpt:
     "What HTML meta tags are: why title and description matter, how robots control indexing, why keywords barely help — without ranking “secrets” or outdated character limits.",
   lead: [
@@ -180,6 +183,9 @@ export const metategiEs: BlogPost = {
   date: "2021-03-18",
   category: "SEO",
   cover: "/images/blog/metategi/cover-es.webp",
+  metaTitle: "Deja de copiar el H1 al title — guía de meta tags | PRIME",
+  metaDescription:
+    "Descubre por qué title y description ganan clics, cómo robots corta el índice y por qué keywords no te salvan. Checklist dentro — audita tu web hoy.",
   excerpt:
     "Qué son los meta tags HTML: por qué importan title y description, cómo robots controlan la indexación, por qué keywords casi no ayudan — sin «secretos» de ranking ni límites de caracteres desfasados.",
   lead: [

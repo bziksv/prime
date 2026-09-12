@@ -7,6 +7,9 @@ export const googlePartnerEn: BlogPost = {
   date: "2020-02-07",
   category: "Paid search",
   cover: "/images/blog/google-partner/cover-en.webp",
+  metaTitle: "Want the Google Partner badge? How to earn partner status",
+  metaDescription:
+    "Certifications, spend, and criteria without myths. Checklist — before the agency applies.",
   excerpt:
     "What Google Partner and Premier Partner status give agencies: Skillshop certification, account spend and performance, why the badge matters — without outdated dollar thresholds as law.",
   lead: [
@@ -160,6 +163,9 @@ export const googlePartnerEs: BlogPost = {
   date: "2020-02-07",
   category: "Búsqueda de pago",
   cover: "/images/blog/google-partner/cover-es.webp",
+  metaTitle: "¿Quieres el badge Google Partner? Cómo obtener el estatus",
+  metaDescription:
+    "Certificaciones, spend y criterios sin mitos. Checklist — antes de que la agencia solicite.",
   excerpt:
     "Qué dan a las agencias los estatus Google Partner y Premier Partner: certificación Skillshop, spend y rendimiento de cuentas, por qué importa el badge — sin umbrales en dólares obsoletos como ley.",
   lead: [

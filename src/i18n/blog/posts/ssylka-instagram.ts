@@ -7,6 +7,9 @@ export const ssylkaInstagramEn: BlogPost = {
   date: "2021-04-08",
   category: "SMM",
   cover: "/images/blog/ssylka-instagram/cover-en.webp",
+  metaTitle: "Can’t copy the profile link? Grab an Instagram URL in a second",
+  metaDescription:
+    "Mobile and browser without confusion. Cheat sheet — one minute.",
   excerpt:
     "How to get an Instagram profile URL: from the browser, from the app, and manually by username — where to paste the link and what it doesn’t guarantee.",
   lead: [
@@ -148,6 +151,9 @@ export const ssylkaInstagramEs: BlogPost = {
   date: "2021-04-08",
   category: "SMM",
   cover: "/images/blog/ssylka-instagram/cover-es.webp",
+  metaTitle: "¿No puedes copiar el enlace del perfil? Consigue la URL de Instagram en un segundo",
+  metaDescription:
+    "Móvil y navegador sin lío. Chuleta — en un minuto.",
   excerpt:
     "Cómo obtener la URL del perfil de Instagram: desde el navegador, desde la app y a mano por username — dónde pegar el enlace y qué no garantiza.",
   lead: [

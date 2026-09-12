@@ -7,6 +7,9 @@ export const pochtaDlyaDomenaEn: BlogPost = {
   date: "2018-04-17",
   category: "Digital marketing",
   cover: "/images/blog/pochta-dlya-domena/cover-en.webp",
+  metaTitle: "Still emailing from @gmail? Domain email: why and how to set it up",
+  metaDescription:
+    "DNS, providers, and common mistakes. Checklist — before the team migrates.",
   excerpt:
     "Corporate email on your own domain: why `name@firma.ru`, how MX records work, choosing Yandex 360 / Google / Mail, and basic security — without outdated “1000 free mailboxes” limits.",
   lead: [
@@ -176,6 +179,9 @@ export const pochtaDlyaDomenaEs: BlogPost = {
   date: "2018-04-17",
   category: "Digital marketing",
   cover: "/images/blog/pochta-dlya-domena/cover-es.webp",
+  metaTitle: "¿Sigues con @gmail? Correo del dominio: para qué y cómo conectarlo",
+  metaDescription:
+    "DNS, proveedores y errores típicos. Checklist — antes de migrar al equipo.",
   excerpt:
     "Email corporativo en tu propio dominio: por qué `nombre@firma.ru`, cómo funcionan los registros MX, elegir Yandex 360 / Google / Mail y seguridad básica — sin límites desfasados de «1000 buzones gratis».",
   lead: [

@@ -7,6 +7,9 @@ export const oshibkiSmmEn: BlogPost = {
   date: "2020-03-13",
   category: "SMM",
   cover: "/images/blog/oshibki-smm/cover-en.webp",
+  metaTitle: "Posting with no result? Social mistakes that most often kill performance",
+  metaDescription:
+    "Content, cadence, and metrics without self-deception. Breakdown — before you switch vendors.",
   excerpt:
     "Typical SMM mistakes: no strategy or audience, boring content, spam and pushiness, saving on everything, ignoring ads, and toxic moderation — without the myth that “social signals = rankings.”",
   lead: [
@@ -143,6 +146,9 @@ export const oshibkiSmmEs: BlogPost = {
   date: "2020-03-13",
   category: "SMM",
   cover: "/images/blog/oshibki-smm/cover-es.webp",
+  metaTitle: "¿Publicas y no hay resultado? Errores SMM que más rompen el canal",
+  metaDescription:
+    "Contenido, frecuencia y métricas sin autoengaño. Análisis — antes de cambiar de proveedor.",
   excerpt:
     "Errores típicos de SMM: sin estrategia ni audiencia, contenido aburrido, spam y insistencia, ahorrar en todo, ignorar ads y moderación tóxica — sin el mito de que «las señales sociales = posiciones».",
   lead: [

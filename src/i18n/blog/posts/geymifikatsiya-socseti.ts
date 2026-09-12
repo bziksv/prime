@@ -7,6 +7,9 @@ export const geymifikatsiyaSocsetiEn: BlogPost = {
   date: "2020-10-02",
   category: "SMM",
   cover: "/images/blog/geymifikatsiya-socseti/cover-en.webp",
+  metaTitle: "Like+share giveaways burned out? Social gamification without freebies",
+  metaDescription:
+    "Engagement mechanics that last longer than a contest. Ideas — save before the content plan.",
   excerpt:
     "What gamification means in SMM: why game mechanics help a brand, which formats work, and how to launch without a race for likes and a crowd of prize hunters.",
   lead: [
@@ -153,6 +156,9 @@ export const geymifikatsiyaSocsetiEs: BlogPost = {
   date: "2020-10-02",
   category: "SMM",
   cover: "/images/blog/geymifikatsiya-socseti/cover-es.webp",
+  metaTitle: "¿Sorteos like+share agotados? Gamificación social sin chollo",
+  metaDescription:
+    "Mecánicas de engagement que duran más que un concurso. Ideas — guárdalas antes del plan de contenido.",
   excerpt:
     "Qué significa gamificación en SMM: por qué las mecánicas de juego ayudan a una marca, qué formatos funcionan y cómo lanzar sin una carrera de likes y una muchedumbre de cazadores de premios.",
   lead: [

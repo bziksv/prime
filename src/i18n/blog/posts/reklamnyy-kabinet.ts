@@ -7,6 +7,9 @@ export const reklamnyyKabinetEn: BlogPost = {
   date: "2021-04-16",
   category: "Paid search",
   cover: "/images/blog/reklamnyy-kabinet/cover-en.webp",
+  metaTitle: "Ads Manager confusing? What an ad account is and where to start",
+  metaDescription:
+    "Structure, access, and first launch. Primer — before handing the account to a vendor.",
   excerpt:
     "What an ad account is, which entities almost always exist (campaign, budget, audience, stats), and how to approach a launch in Yandex Direct and social ad accounts.",
   lead: [
@@ -178,6 +181,9 @@ export const reklamnyyKabinetEs: BlogPost = {
   date: "2021-04-16",
   category: "Paid search",
   cover: "/images/blog/reklamnyy-kabinet/cover-es.webp",
+  metaTitle: "¿El Ads Manager confunde? Qué es una cuenta de ads y por dónde empezar",
+  metaDescription:
+    "Estructura, accesos y primer lanzamiento. Base — antes de pasar la cuenta al proveedor.",
   excerpt:
     "Qué es una cuenta de ads, qué entidades casi siempre existen (campaña, presupuesto, audiencia, stats) y cómo plantear un lanzamiento en Yandex Direct y cuentas de ads social.",
   lead: [

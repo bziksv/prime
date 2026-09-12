@@ -7,6 +7,9 @@ export const menedzherInternetMagazinaEn: BlogPost = {
   date: "2021-08-20",
   category: "E-commerce",
   cover: "/images/blog/menedzher-internet-magazina/cover-en.webp",
+  metaTitle: "Store “runs itself”? Ecommerce manager: duties, skills, and growth",
+  metaDescription:
+    "Ownership areas and career path. Primer — before the offer or hire.",
   excerpt:
     "What an online store manager does: orders, consultations, delivery, reports. Which skills matter, what pay depends on, and where the career can go.",
   lead: [
@@ -150,6 +153,9 @@ export const menedzherInternetMagazinaEs: BlogPost = {
   date: "2021-08-20",
   category: "E-commerce",
   cover: "/images/blog/menedzher-internet-magazina/cover-es.webp",
+  metaTitle: "¿La tienda “se mueve sola”? Manager ecom: deberes, skills y crecimiento",
+  metaDescription:
+    "Áreas de ownership y carrera. Base — antes de la oferta o contratación.",
   excerpt:
     "Qué hace un manager de tienda online: pedidos, consultas, entrega, informes. Qué skills importan, de qué depende el sueldo y hacia dónde puede ir la carrera.",
   lead: [

@@ -7,6 +7,9 @@ export const oblozhkaVkEn: BlogPost = {
   date: "2021-07-16",
   category: "SMM",
   cover: "/images/blog/oblozhka-vk/cover-en.webp",
+  metaTitle: "VK cover “whatever fits”? Idea, layout, and upload without bad crops",
+  metaDescription:
+    "Sizes, safe zone, and message. Checklist — before the next community header swap.",
   excerpt:
     "How to design a VK public or group cover: meaning and offer, safe zone, image rights, Canva/Figma, and upload in settings — without outdated pixel grids.",
   lead: [
@@ -194,6 +197,9 @@ export const oblozhkaVkEs: BlogPost = {
   date: "2021-07-16",
   category: "SMM",
   cover: "/images/blog/oblozhka-vk/cover-es.webp",
+  metaTitle: "¿Portada VK “como salga”? Idea, layout y subida sin crops torcidos",
+  metaDescription:
+    "Tamaños, safe zone y mensaje. Checklist — antes del próximo cambio de cabecera.",
   excerpt:
     "Cómo diseñar el cover de un público o grupo de VK: sentido y oferta, safe zone, derechos de imagen, Canva/Figma y subida en ajustes — sin grids de píxeles obsoletos.",
   lead: [

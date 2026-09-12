@@ -7,6 +7,9 @@ export const vebServerEn: BlogPost = {
   date: "2021-12-30",
   category: "Hosting",
   cover: "/images/blog/veb-server/cover-en.webp",
+  metaTitle: "Server “just hosting”? Apache, Nginx, and IIS: what they are and how they differ",
+  metaDescription:
+    "Their role in the request chain without confusion. Primer — before talking to ops.",
   excerpt:
     "What a web server is in plain words: browser request, page response, hosting role, HTTPS, Apache/Nginx/IIS, and local stacks for development.",
   lead: [
@@ -175,6 +178,9 @@ export const vebServerEs: BlogPost = {
   date: "2021-12-30",
   category: "Hosting",
   cover: "/images/blog/veb-server/cover-es.webp",
+  metaTitle: "¿Servidor “solo hosting”? Apache, Nginx e IIS: qué son y en qué difieren",
+  metaDescription:
+    "Su rol en la cadena de petición sin lío. Base — antes de hablar con ops.",
   excerpt:
     "Qué es un servidor web en palabras claras: petición del navegador, respuesta de página, rol del hosting, HTTPS, Apache/Nginx/IIS y stacks locales para desarrollo.",
   lead: [

@@ -7,6 +7,9 @@ export const dlinaTitleEn: BlogPost = {
   date: "2020-11-23",
   category: "SEO",
   cover: "/images/blog/dlina-title/cover-en.webp",
+  metaTitle: "Title truncated in the SERP? Size it for the snippet",
+  metaDescription:
+    "Limits, previews, and common mistakes. Checklist — review titles before publish.",
   excerpt:
     "What makes the SERP headline, why pixels matter more than “exactly 70 characters,” how to write a Title without truncating meaning, and how it differs from H1.",
   lead: [
@@ -217,6 +220,9 @@ export const dlinaTitleEs: BlogPost = {
   date: "2020-11-23",
   category: "SEO",
   cover: "/images/blog/dlina-title/cover-es.webp",
+  metaTitle: "¿Title cortado en el SERP? Ajústalo al snippet",
+  metaDescription:
+    "Límites, previews y errores típicos. Checklist — revisa títulos antes de publicar.",
   excerpt:
     "De qué se hace el titular de la SERP, por qué los píxeles pesan más que «exactamente 70 caracteres», cómo escribir un Title sin truncar el sentido y en qué se diferencia del H1.",
   lead: [

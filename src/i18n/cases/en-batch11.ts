@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~110",
     metricLabel: "calls per month from the web",
+    metaTitle: "~110 legal calls from search — Argument SEO case",
+    metaDescription:
+      "Voronezh law firm SEO: 37 phrases, page one planned 2–6 months, ~110 calls/month on key practices. Full case — or request a plan.",
     summary:
       "SEO for a Voronezh law firm: 37 phrases, page one planned over 2–6 months, about 110 calls per month — pushed competitors out of the SERP on key practices. New site — separate case.",
     coverAlt: "argument-uk.ru — book a consult and services",
@@ -141,6 +144,9 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~100",
     metricLabel: "calls per month from the web",
+    metaTitle: "~100 calls for a candy shop — Skazka SEO case",
+    metaDescription:
+      "Downtown Voronezh sweets: 39 phrases, page one planned 2–6 months, ~100 calls/month — candy, gift tins, tea/coffee. See the case.",
     summary:
       "SEO for a candy store in central Voronezh: 39 phrases, page one planned over 2–6 months, about 100 calls per month — candy, New Year tins, and a tea/coffee counter.",
     coverAlt: "Candy, New Year tins, and tea — Skazka assortment",
@@ -269,6 +275,9 @@ export const caseTranslationsEnBatch11: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~100",
     metricLabel: "calls per month from the web",
+    metaTitle: "~100 calls for custom curtains — Barokko SEO",
+    metaDescription:
+      "Curtain studio SEO: 70 phrases, page one planned 2–6 months, ~100 calls/month — sewing, showrooms, rods. Live on barokko36.ru — see the case.",
     summary:
       "SEO for a curtain design studio: 70 phrases, page one planned over 2–6 months, about 100 calls per month — high-intent queries for custom sewing, showrooms, and rods in Voronezh. Site live on barokko36.ru.",
     coverAlt: "barokko36.ru homepage — custom curtains turnkey",

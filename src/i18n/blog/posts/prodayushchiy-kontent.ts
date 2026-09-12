@@ -7,6 +7,9 @@ export const prodayushchiyKontentEn: BlogPost = {
   date: "2020-04-06",
   category: "Content marketing",
   cover: "/images/blog/prodayushchiy-kontent/cover-en.webp",
+  metaTitle: "Social only earning likes? Sales content: types, examples, and a plan",
+  metaDescription:
+    "Funnel formats without cringe. Checklist — before the next content calendar.",
   excerpt:
     "What selling content in social media is: goals, B2C and B2B, post types, and how to build a plan without endless “buy now” and outdated % from old reviews.",
   lead: [
@@ -165,6 +168,9 @@ export const prodayushchiyKontentEs: BlogPost = {
   date: "2020-04-06",
   category: "Content marketing",
   cover: "/images/blog/prodayushchiy-kontent/cover-es.webp",
+  metaTitle: "¿En social solo likes? Contenido de venta: tipos, ejemplos y plan",
+  metaDescription:
+    "Formatos de embudo sin cringe. Checklist — antes del próximo plan de contenido.",
   excerpt:
     "Qué es el contenido de venta en redes: objetivos, B2C y B2B, tipos de post y cómo armar un plan sin un «compra ya» infinito ni % obsoletos de reviews antiguas.",
   lead: [

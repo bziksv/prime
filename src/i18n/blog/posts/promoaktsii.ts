@@ -7,6 +7,9 @@ export const promoaktsiiEn: BlogPost = {
   date: "2019-06-28",
   category: "Digital marketing",
   cover: "/images/blog/promoaktsii/cover-en.webp",
+  metaTitle: "“−50% off” stopped working? Promotions: why run them and which mechanics win",
+  metaDescription:
+    "Formats, terms, and measuring lift. Checklist — before the seasonal campaign.",
   excerpt:
     "Retail and online promotions: discounts, gift-with-purchase, loyalty, and giveaways — why business runs them, what shoppers prefer, and where privacy and the law set limits.",
   lead: [
@@ -136,6 +139,9 @@ export const promoaktsiiEs: BlogPost = {
   date: "2019-06-28",
   category: "Digital marketing",
   cover: "/images/blog/promoaktsii/cover-es.webp",
+  metaTitle: "¿El “−50%” ya no engancha? Promos: para qué y qué mecánicas funcionan",
+  metaDescription:
+    "Formatos, condiciones y medición. Checklist — antes de la campaña de temporada.",
   excerpt:
     "Promociones en retail y online: descuentos, regalo con compra, loyalty y sorteos — por qué el negocio las corre, qué prefieren los compradores y dónde la privacidad y la ley ponen límites.",
   lead: [

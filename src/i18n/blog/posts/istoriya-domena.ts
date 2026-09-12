@@ -7,6 +7,9 @@ export const istoriyaDomenaEn: BlogPost = {
   date: "2019-05-27",
   category: "SEO",
   cover: "/images/blog/istoriya-domena/cover-en.webp",
+  metaTitle: "Cheap domain with “history”? Check the past before you buy",
+  metaDescription:
+    "Sanctions, backlinks, and spam traces. Checklist — before you pay the registrar.",
   excerpt:
     "How to vet a drop or used domain before purchase: Wayback Machine, past topics, backlink profile, filters, and search visibility — without the myth that an old domain means a fast climb in results.",
   lead: [
@@ -195,6 +198,9 @@ export const istoriyaDomenaEs: BlogPost = {
   date: "2019-05-27",
   category: "SEO",
   cover: "/images/blog/istoriya-domena/cover-es.webp",
+  metaTitle: "¿Dominio barato “con historia”? Revisa el pasado antes de comprar",
+  metaDescription:
+    "Sanciones, backlinks y rastros de spam. Checklist — antes de pagar al registrador.",
   excerpt:
     "Cómo vetar un drop o dominio usado antes de comprar: Wayback Machine, temas pasados, perfil de backlinks, filtros y visibilidad en búsqueda — sin el mito de que un dominio viejo = subida rápida en resultados.",
   lead: [

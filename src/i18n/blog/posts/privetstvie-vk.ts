@@ -7,6 +7,9 @@ export const privetstvieVkEn: BlogPost = {
   date: "2020-12-30",
   category: "SMM",
   cover: "/images/blog/privetstvie-vk/cover-en.webp",
+  metaTitle: "VK guests unanswered? Community greetings: how to welcome people",
+  metaDescription:
+    "Templates, triggers, and tone. Checklist — set it before the next join spike.",
   excerpt:
     "A VK group greeting: why use a widget or a message to newcomers, what to write, and how not to annoy — without hype for one app or promises of “instant growth.”",
   lead: [
@@ -164,6 +167,9 @@ export const privetstvieVkEs: BlogPost = {
   date: "2020-12-30",
   category: "SMM",
   cover: "/images/blog/privetstvie-vk/cover-es.webp",
+  metaTitle: "¿Invitados VK sin respuesta? Saludo en la comunidad: cómo recibirlos",
+  metaDescription:
+    "Plantillas, triggers y tono. Checklist — configúralo antes del próximo pico de altas.",
   excerpt:
     "Un saludo de grupo VK: por qué usar un widget o un mensaje a newcomers, qué escribir y cómo no molestar — sin hype por una app ni promesas de «crecimiento instantáneo».",
   lead: [

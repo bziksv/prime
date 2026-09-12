@@ -7,6 +7,9 @@ export const skvoznayaAnalitikaEn: BlogPost = {
   date: "2019-11-12",
   category: "Digital marketing",
   cover: "/images/blog/skvoznaya-analitika/cover-en.webp",
+  metaTitle: "End-to-end analytics stuck? Implementation problems and how around them",
+  metaDescription:
+    "Data, CRM, and attribution without chaos. Checklist — before the next integration stage.",
   excerpt:
     "Why end-to-end analytics matters, when it pays off, and which mistakes break ROMI: CRM without discipline, incomplete channels, borrowed attribution, and rushing setup.",
   lead: [
@@ -194,6 +197,9 @@ export const skvoznayaAnalitikaEs: BlogPost = {
   date: "2019-11-12",
   category: "Digital marketing",
   cover: "/images/blog/skvoznaya-analitika/cover-es.webp",
+  metaTitle: "¿Analítica de punta a punta atascada? Problemas de implantación y cómo sortearlos",
+  metaDescription:
+    "Datos, CRM y atribución sin caos. Checklist — antes de la siguiente fase de integración.",
   excerpt:
     "Por qué importa la analytics end-to-end, cuándo renta y qué errores rompen el ROMI: CRM sin disciplina, canales incompletos, atribución prestada y setup a la carrera.",
   lead: [

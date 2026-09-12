@@ -7,6 +7,9 @@ export const modxLocalEn: BlogPost = {
   date: "2018-02-14",
   category: "Websites",
   cover: "/images/blog/modx-local/cover-en.webp",
+  metaTitle: "MODX only on production? Install Revolution on a local server",
+  metaDescription:
+    "Stack, steps, and common mistakes. Checklist — spin up a staging box before edits.",
   excerpt:
     "How to install MODX Revolution locally: the package, virtual host, MySQL database, and setup wizard — using OSPanel/Open Server as an example, without outdated “no more than 5000 pages” limits.",
   lead: [
@@ -164,6 +167,9 @@ export const modxLocalEs: BlogPost = {
   date: "2018-02-14",
   category: "Websites",
   cover: "/images/blog/modx-local/cover-es.webp",
+  metaTitle: "¿MODX solo en prod? Instala Revolution en servidor local",
+  metaDescription:
+    "Stack, pasos y errores típicos. Checklist — levanta el entorno antes de editar.",
   excerpt:
     "Cómo instalar MODX Revolution en local: el paquete, el virtual host, la base MySQL y el asistente de setup — con OSPanel/Open Server de ejemplo, sin límites obsoletos de «no más de 5000 páginas».",
   lead: [

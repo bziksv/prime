@@ -7,6 +7,9 @@ export const adminkaSaytaEn: BlogPost = {
   date: "2020-09-01",
   category: "Digital marketing",
   cover: "/images/blog/adminka-sayta/cover-en.webp",
+  metaTitle: "Still editing via FTP and pain? You need a real admin panel",
+  metaDescription:
+    "What a CMS console actually buys you vs hand-edited HTML — and which access risks to check. Checklist inside.",
   excerpt:
     "What an admin panel and CMS are, how a managed site differs from hand-edited HTML, and what to watch with access, roles, and security.",
   lead: [
@@ -132,6 +135,9 @@ export const adminkaSaytaEs: BlogPost = {
   date: "2020-09-01",
   category: "Digital marketing",
   cover: "/images/blog/adminka-sayta/cover-es.webp",
+  metaTitle: "¿Editas por FTP y sufres? Necesitas una admin de verdad",
+  metaDescription:
+    "Qué aporta un CMS frente a HTML a mano y qué revisar en accesos. Checklist dentro.",
   excerpt:
     "Qué son un panel de admin y un CMS, en qué se diferencia un sitio gestionado del HTML editado a mano, y qué vigilar con accesos, roles y seguridad.",
   lead: [

@@ -7,6 +7,9 @@ export const arhivInstagramEn: BlogPost = {
   date: "2020-09-28",
   category: "SMM",
   cover: "/images/blog/arhiv-instagram/cover-en.webp",
+  metaTitle: "Embarrassed by a post but won’t delete? Instagram archive, clear",
+  metaDescription:
+    "How archive differs from delete and Stories, how to hide and restore. Cheat sheet — save it (note Meta product status in your market).",
   excerpt:
     "Why the Instagram post archive exists, how it differs from deletion and the Stories archive, how to hide a post and show it again — without outdated screenshots.",
   lead: [
@@ -136,6 +139,9 @@ export const arhivInstagramEs: BlogPost = {
   date: "2020-09-28",
   category: "SMM",
   cover: "/images/blog/arhiv-instagram/cover-es.webp",
+  metaTitle: "¿El post da vergüenza pero no lo borras? Archivo de Instagram claro",
+  metaDescription:
+    "En qué difiere de borrar y de Stories, cómo ocultar y restaurar. Chuleta — guárdala (nota el estatus de Meta en tu mercado).",
   excerpt:
     "Para qué existe el archivo de posts de Instagram, en qué se diferencia del borrado y del archive de Stories, cómo ocultar un post y mostrarlo otra vez — sin capturas obsoletas.",
   lead: [

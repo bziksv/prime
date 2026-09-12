@@ -7,6 +7,9 @@ export const strategiiGoogleAdsEn: BlogPost = {
   date: "2018-12-25",
   category: "Paid search",
   cover: "/images/blog/strategii-google-ads/cover-en.webp",
+  metaTitle: "Smart bidding on and praying? Google Ads strategies: pick by campaign goal",
+  metaDescription:
+    "When Maximize and Target CPA/ROAS fit. Checklist — before you switch bidding.",
   excerpt:
     "How to choose Smart Bidding in Google Ads — clicks, conversions, CPA, ROAS — without a 2018 button catalog or the myth that automation always spends better.",
   lead: [
@@ -166,6 +169,9 @@ export const strategiiGoogleAdsEs: BlogPost = {
   date: "2018-12-25",
   category: "Paid search",
   cover: "/images/blog/strategii-google-ads/cover-es.webp",
+  metaTitle: "¿Smart bidding y a rezar? Estrategias Google Ads: elige por objetivo",
+  metaDescription:
+    "Cuándo encajan Maximize y Target CPA/ROAS. Checklist — antes de cambiar la puja.",
   excerpt:
     "Cómo elegir Smart Bidding en Google Ads — clics, conversiones, CPA, ROAS — sin un catálogo de botones de 2018 ni el mito de que la automatización siempre gasta mejor.",
   lead: [

@@ -7,6 +7,9 @@ export const kommercheskoePredlozhenieEn: BlogPost = {
   date: "2019-03-26",
   category: "Digital marketing",
   cover: "/images/blog/kommercheskoe-predlozhenie/cover-en.webp",
+  metaTitle: "Proposal as a wall of text? How to write a commercial offer: types and offer",
+  metaDescription:
+    "Structure, value, and common mistakes. Mental template — before the next client send.",
   excerpt:
     "A commercial proposal (sales pitch): cold, warm, and hot; a basic letter structure; headline, benefit, price, objections, and CTA — without spam clichés or pressure.",
   lead: [
@@ -127,6 +130,9 @@ export const kommercheskoePredlozhenieEs: BlogPost = {
   date: "2019-03-26",
   category: "Digital marketing",
   cover: "/images/blog/kommercheskoe-predlozhenie/cover-es.webp",
+  metaTitle: "¿Propuesta en sábana? Cómo hacer una oferta comercial: tipos y offer",
+  metaDescription:
+    "Estructura, valor y errores típicos. Plantilla mental — antes del próximo envío al cliente.",
   excerpt:
     "Una propuesta comercial (sales pitch): fría, tibia y caliente; estructura básica de la carta; titular, beneficio, precio, objeciones y CTA — sin clichés de spam ni presión.",
   lead: [

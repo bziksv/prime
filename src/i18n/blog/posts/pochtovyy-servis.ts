@@ -7,6 +7,9 @@ export const pochtovyyServisEn: BlogPost = {
   date: "2021-07-06",
   category: "Digital marketing",
   cover: "/images/blog/pochtovyy-servis/cover-en.webp",
+  metaTitle: "Any inbox will do? How to choose email — permanent and temporary",
+  metaDescription:
+    "Criteria for business and disposable addresses. Cheat sheet — before you sign up accounts.",
   excerpt:
     "How a permanent email differs from a disposable one, what to check in Gmail, Yandex, Mail, and Outlook, how to harden security, and when temporary mail makes sense.",
   lead: [
@@ -140,6 +143,9 @@ export const pochtovyyServisEs: BlogPost = {
   date: "2021-07-06",
   category: "Digital marketing",
   cover: "/images/blog/pochtovyy-servis/cover-es.webp",
+  metaTitle: "¿Cualquier buzón vale? Cómo elegir correo — permanente y temporal",
+  metaDescription:
+    "Criterios para negocio y direcciones desechables. Chuleta — antes de crear cuentas.",
   excerpt:
     "En qué se diferencia un email permanente de uno desechable, qué revisar en Gmail, Yandex, Mail y Outlook, cómo endurecer la seguridad y cuándo tiene sentido el correo temporal.",
   lead: [

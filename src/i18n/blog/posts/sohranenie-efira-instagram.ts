@@ -7,6 +7,9 @@ export const sohranenieEfiraInstagramEn: BlogPost = {
   date: "2020-07-10",
   category: "SMM",
   cover: "/images/blog/sohranenie-efira-instagram/cover-en.webp",
+  metaTitle: "Live vanished after the stream? How to save Instagram Live and the limits",
+  metaDescription:
+    "Your recordings and platform limits. Cheat sheet — before the next live.",
   excerpt:
     "What happens to Live after you end it, how to save your broadcast to the device and the feed, why IGTV is outdated, and why “downloaders” for other people’s streams are risky.",
   lead: [
@@ -152,6 +155,9 @@ export const sohranenieEfiraInstagramEs: BlogPost = {
   date: "2020-07-10",
   category: "SMM",
   cover: "/images/blog/sohranenie-efira-instagram/cover-es.webp",
+  metaTitle: "¿El directo desapareció? Cómo guardar Instagram Live y los límites",
+  metaDescription:
+    "Tus grabaciones y límites de la plataforma. Chuleta — antes del próximo directo.",
   excerpt:
     "Qué pasa con el Live tras terminarlo, cómo guardar tu emisión en el dispositivo y el feed, por qué IGTV está obsoleto y por qué los «downloaders» de streams ajenos son arriesgados.",
   lead: [

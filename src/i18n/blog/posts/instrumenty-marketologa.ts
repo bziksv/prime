@@ -7,6 +7,9 @@ export const instrumentyMarketologaEs: BlogPost = {
   date: "2019-12-19",
   category: "Digital marketing",
   cover: "/images/blog/instrumenty-marketologa/cover-es.webp",
+  metaTitle: "¿Stack hinchado y sin presupuesto? Tools gratis de marketing: por dónde empezar",
+  metaDescription:
+    "Mínimo por tarea — sin zoo de SaaS. Selección — guárdala antes de auditar el stack.",
   excerpt:
     "Qué servicios gratis (o freemium) cubren el trabajo del marketer: research de competidores, planificación de posts, encuestas, email, monitorización de menciones y tareas — sin prometer gratis para siempre.",
   lead: [
@@ -123,6 +126,9 @@ export const instrumentyMarketologaEn: BlogPost = {
   date: "2019-12-19",
   category: "Digital marketing",
   cover: "/images/blog/instrumenty-marketologa/cover-en.webp",
+  metaTitle: "Tool stack bloated, budget thin? Free marketer tools — where to start",
+  metaDescription:
+    "A lean minimum by job — no SaaS zoo. Shortlist — save before you audit the stack.",
   excerpt:
     "Which free (or freemium) services cover marketer jobs: competitor research, post planning, surveys, email, mention monitoring, and tasks — without promising free forever.",
   lead: [

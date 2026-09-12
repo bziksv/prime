@@ -7,6 +7,9 @@ export const httpZagolovkiEn: BlogPost = {
   date: "2020-01-13",
   category: "SEO",
   cover: "/images/blog/http-zagolovki/cover-en.webp",
+  metaTitle: "Site wide open? HTTP security headers: what to turn on",
+  metaDescription:
+    "CSP, HSTS, and more — without breaking the layout. Checklist — before you verify in production.",
   excerpt:
     "Which HTTP headers strengthen site security: HSTS, CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy — how to check and where to set them without breaking the layout.",
   lead: [
@@ -154,6 +157,9 @@ export const httpZagolovkiEs: BlogPost = {
   date: "2020-01-13",
   category: "SEO",
   cover: "/images/blog/http-zagolovki/cover-es.webp",
+  metaTitle: "¿Sitio abierto a ataques? Cabeceras HTTP de seguridad: qué activar",
+  metaDescription:
+    "CSP, HSTS y más — sin romper el layout. Checklist — antes de verificar en prod.",
   excerpt:
     "Qué headers HTTP refuerzan la seguridad del sitio: HSTS, CSP, X-Frame-Options, Referrer-Policy, Permissions-Policy — cómo comprobarlos y dónde fijarlos sin romper el layout.",
   lead: [

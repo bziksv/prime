@@ -7,6 +7,9 @@ export const viralnyyOhvatVkEn: BlogPost = {
   date: "2021-08-17",
   category: "SMM",
   cover: "/images/blog/viralnyy-ohvat-vk/cover-en.webp",
+  metaTitle: "VK reach stuck to followers? Viral reach: what it is and how to grow it",
+  metaDescription:
+    "Algorithm signals without fake engagement. Checklist — before the next public post.",
   excerpt:
     "What viral reach means in VK stats, how it differs from follower reach, which formats get reposted more, and how to amplify distribution carefully.",
   lead: [
@@ -148,6 +151,9 @@ export const viralnyyOhvatVkEs: BlogPost = {
   date: "2021-08-17",
   category: "SMM",
   cover: "/images/blog/viralnyy-ohvat-vk/cover-es.webp",
+  metaTitle: "¿Alcance VK solo a seguidores? Alcance viral: qué es y cómo crecerlo",
+  metaDescription:
+    "Señales del algoritmo sin engagement falso. Checklist — antes del próximo post del público.",
   excerpt:
     "Qué significa el alcance viral en las stats de VK, en qué se diferencia del alcance de seguidores, qué formatos se repostean más y cómo amplificar la distribución con cuidado.",
   lead: [

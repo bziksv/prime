@@ -7,6 +7,9 @@ export const proksiServerEn: BlogPost = {
   date: "2018-04-25",
   category: "Digital marketing",
   cover: "/images/blog/proksi-server/cover-en.webp",
+  metaTitle: "Proxy “for anonymity only”? What it is and why teams actually use it",
+  metaDescription:
+    "Use cases, types, and risks. Primer — before you add it to the stack.",
   excerpt:
     "What a proxy server is in plain words: how the middleman between client and site works, forward vs reverse, cache and corporate gateway — without ban-bypass guides or shady IP lists.",
   lead: [
@@ -156,6 +159,9 @@ export const proksiServerEs: BlogPost = {
   date: "2018-04-25",
   category: "Digital marketing",
   cover: "/images/blog/proksi-server/cover-es.webp",
+  metaTitle: "¿Proxy “solo por anonimato”? Qué es y para qué sirve de verdad",
+  metaDescription:
+    "Casos de uso, tipos y riesgos. Base — antes de meterlo en el stack.",
   excerpt:
     "Qué es un servidor proxy en palabras simples: cómo funciona el intermediario entre cliente y sitio, forward vs reverse, caché y gateway corporativo — sin guías de saltar bans ni listas dudosas de IP.",
   lead: [

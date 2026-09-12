@@ -7,6 +7,9 @@ export const whatsappVInstagramEn: BlogPost = {
   date: "2021-11-02",
   category: "SMM",
   cover: "/images/blog/whatsapp-v-instagram/cover-en.webp",
+  metaTitle: "WhatsApp from Instagram not clicking? wa.me link and profile header",
+  metaDescription:
+    "How to add the jump without hacks. Checklist — before the next lead touch.",
   excerpt:
     "How to move a client from Instagram* to WhatsApp*: a wa.me link in the bio, greeting text, business-profile buttons, and a multi-link — without a catalog of outdated link-in-bio tools.",
   lead: [
@@ -199,6 +202,9 @@ export const whatsappVInstagramEs: BlogPost = {
   date: "2021-11-02",
   category: "SMM",
   cover: "/images/blog/whatsapp-v-instagram/cover-es.webp",
+  metaTitle: "¿WhatsApp desde Instagram no clica? Enlace wa.me y cabecera del perfil",
+  metaDescription:
+    "Cómo añadir el salto sin apaños. Checklist — antes del próximo toque de leads.",
   excerpt:
     "Cómo pasar un cliente de Instagram* a WhatsApp*: un enlace wa.me en la bio, texto de saludo, botones del perfil business y un multi-link — sin un catálogo de tools link-in-bio obsoletas.",
   lead: [

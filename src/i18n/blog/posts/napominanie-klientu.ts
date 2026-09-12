@@ -7,6 +7,9 @@ export const napominanieKlientuEn: BlogPost = {
   date: "2020-11-12",
   category: "Digital marketing",
   cover: "/images/blog/napominanie-klientu/cover-en.webp",
+  metaTitle: "Client went quiet? Soft reminders: channels and good reasons to ping",
+  metaDescription:
+    "Email, messengers, and touches without spam. Cheat sheet — before the next follow-up.",
   excerpt:
     "How to softly win attention back: useful push, email and triggers, abandoned cart, holidays, and review requests — with consent and without “you haven’t visited in a while” spam.",
   lead: [
@@ -146,6 +149,9 @@ export const napominanieKlientuEs: BlogPost = {
   date: "2020-11-12",
   category: "Marketing digital",
   cover: "/images/blog/napominanie-klientu/cover-es.webp",
+  metaTitle: "¿El cliente “olvidó”? Recordatorios suaves: canales y motivos",
+  metaDescription:
+    "Email, mensajería y toques sin spam. Chuleta — antes del próximo follow-up.",
   excerpt:
     "Cómo recuperar la atención con suavidad: push útil, email y triggers, carrito abandonado, fiestas y pedidos de reseña — con consentimiento y sin spam de «hace tiempo que no nos visitas».",
   lead: [

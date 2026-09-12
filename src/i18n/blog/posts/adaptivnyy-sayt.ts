@@ -7,6 +7,9 @@ export const adaptivnyySaytEn: BlogPost = {
   date: "2020-12-08",
   category: "SEO",
   cover: "/images/blog/adaptivnyy-sayt/cover-en.webp",
+  metaTitle: "Mobile traffic up, layout broken? Fix responsive design",
+  metaDescription:
+    "See how responsive differs from a separate m-site — and why SEO/UX care. Checklist inside — audit your template today.",
   excerpt:
     "What a responsive site is, how it differs from a separate mobile version, why it matters for SEO and UX, the build stages, and how to test across screens.",
   lead: [
@@ -237,6 +240,9 @@ export const adaptivnyySaytEs: BlogPost = {
   date: "2020-12-08",
   category: "SEO",
   cover: "/images/blog/adaptivnyy-sayt/cover-es.webp",
+  metaTitle: "¿Tráfico móvil alto y la web se rompe? Hazla responsive",
+  metaDescription:
+    "Entiende en qué se diferencia de un m-site y por qué importa SEO/UX. Checklist dentro — revisa tu plantilla hoy.",
   excerpt:
     "Qué es un sitio responsive, en qué se diferencia de una versión móvil aparte, por qué importa para SEO y UX, las etapas de construcción y cómo probarlo en distintas pantallas.",
   lead: [

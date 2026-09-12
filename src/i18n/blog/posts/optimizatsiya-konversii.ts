@@ -7,6 +7,9 @@ export const optimizatsiyaKonversiiEn: BlogPost = {
   date: "2021-09-13",
   category: "Digital marketing",
   cover: "/images/blog/optimizatsiya-konversii/cover-en.webp",
+  metaTitle: "Traffic up, leads flat? CRO: how to measure and what to test",
+  metaDescription:
+    "Metrics, hypotheses, and test priority. Checklist — before the next A/B.",
   excerpt:
     "What conversion rate is, how to calculate it, how to work the funnel, and which hypotheses to test — forms, CTAs, speed, trust — without myths about “average internet conversion.”",
   lead: [
@@ -164,6 +167,9 @@ export const optimizatsiyaKonversiiEs: BlogPost = {
   date: "2021-09-13",
   category: "Digital marketing",
   cover: "/images/blog/optimizatsiya-konversii/cover-es.webp",
+  metaTitle: "¿Tráfico sí, leads no? CRO: cómo medir y qué testear",
+  metaDescription:
+    "Métricas, hipótesis y prioridad de tests. Checklist — antes del próximo A/B.",
   excerpt:
     "Qué es la tasa de conversión, cómo calcularla, cómo trabajar el funnel y qué hipótesis probar — formularios, CTAs, velocidad, confianza — sin mitos sobre la «conversión media de internet».",
   lead: [

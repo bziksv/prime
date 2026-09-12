@@ -7,6 +7,9 @@ export const omnikanalnyyKontentMarketingEn: BlogPost = {
   date: "2019-09-06",
   category: "Digital marketing",
   cover: "/images/blog/omnikanalnyy-kontent-marketing/cover-en.webp",
+  metaTitle: "Channels living in silos? Omnichannel content: multi vs omni + 5 steps",
+  metaDescription:
+    "How to connect messages without copy-paste spam. Plan — before the next campaign.",
   excerpt:
     "How omnichannel differs from multichannel, why a unified experience across site, app, and offline matters, and five steps so content doesn’t fall apart across channels.",
   lead: [
@@ -142,6 +145,9 @@ export const omnikanalnyyKontentMarketingEs: BlogPost = {
   date: "2019-09-06",
   category: "Digital marketing",
   cover: "/images/blog/omnikanalnyy-kontent-marketing/cover-es.webp",
+  metaTitle: "¿Canales en silos? Contenido omnichannel: multi vs omni + 5 pasos",
+  metaDescription:
+    "Cómo conectar mensajes sin spam de copy-paste. Plan — antes de la próxima campaña.",
   excerpt:
     "En qué se diferencia lo omnicanal de lo multicanal, por qué importa una experiencia unificada entre sitio, app y offline, y cinco pasos para que el contenido no se deshaga entre canales.",
   lead: [

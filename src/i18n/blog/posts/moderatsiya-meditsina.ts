@@ -7,6 +7,9 @@ export const moderatsiyaMeditsinaEs: BlogPost = {
   date: "2019-09-13",
   category: "Paid search",
   cover: "/images/blog/moderatsiya-meditsina/cover-es.webp",
+  metaTitle: "¿Ads de salud bloqueados? Moderación de publicidad en nichos médicos",
+  metaDescription:
+    "Límites, documentos y formulaciones. Chuleta — antes de lanzar la campaña.",
   excerpt:
     "Cómo pasar la revisión de Yandex Direct y Google Ads en salud: qué suele prohibirse y permitirse, matices de redes vs Search, copy sin banderas rojas y qué hacer si te rechazan — según las políticas actuales de las plataformas.",
   lead: [
@@ -161,6 +164,9 @@ export const moderatsiyaMeditsinaEn: BlogPost = {
   date: "2019-09-13",
   category: "Paid search",
   cover: "/images/blog/moderatsiya-meditsina/cover-en.webp",
+  metaTitle: "Healthcare ads blocked? Moderating contextual ads in medical niches",
+  metaDescription:
+    "Limits, documents, and wording. Cheat sheet — before the campaign launch.",
   excerpt:
     "How to pass Yandex Direct and Google Ads review in healthcare: what’s usually banned and allowed, network vs Search nuances, copy without red flags, and what to do when rejected — based on current platform policies.",
   lead: [

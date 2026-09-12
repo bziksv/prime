@@ -7,6 +7,9 @@ export const podozritelnyyTrafikGoogleEn: BlogPost = {
   date: "2022-01-28",
   category: "SEO",
   cover: "/images/blog/podozritelnyy-trafik-google/cover-en.webp",
+  metaTitle: "“Invalid / suspicious traffic” in Google? Causes and calm next steps",
+  metaDescription:
+    "Signals, checks, and budget protection. Checklist — open the report today.",
   excerpt:
     "Captcha and Google’s unusual-traffic warning from your network: typical causes and a calm step-by-step check — without panic.",
   lead: [
@@ -132,6 +135,9 @@ export const podozritelnyyTrafikGoogleEs: BlogPost = {
   date: "2022-01-28",
   category: "SEO",
   cover: "/images/blog/podozritelnyy-trafik-google/cover-es.webp",
+  metaTitle: "¿Tráfico “sospechoso” en Google? Causas y qué hacer sin pánico",
+  metaDescription:
+    "Señales, comprobación y protección de presupuesto. Checklist — abre el informe hoy.",
   excerpt:
     "Captcha y el aviso de Google de tráfico inusual desde tu red: causas típicas y un chequeo paso a paso en calma — sin pánico.",
   lead: [

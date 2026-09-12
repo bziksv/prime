@@ -7,6 +7,9 @@ export const ssylkiVInstagramEn: BlogPost = {
   date: "2020-01-20",
   category: "SMM",
   cover: "/images/blog/ssylki-v-instagram/cover-en.webp",
+  metaTitle: "Where to put links on Instagram? Bio, Stories, Direct, and profile buttons",
+  metaDescription:
+    "Limits and working CTA slots. Checklist — before the next traffic push.",
   excerpt:
     "Where to put links on Instagram: bio and link-in-bio, post captions, Stories stickers, Direct, and contact buttons — without outdated IGTV tips or a catalog of shady tools.",
   lead: [
@@ -141,6 +144,9 @@ export const ssylkiVInstagramEs: BlogPost = {
   date: "2020-01-20",
   category: "SMM",
   cover: "/images/blog/ssylki-v-instagram/cover-es.webp",
+  metaTitle: "¿Dónde poner enlaces en Instagram? Bio, Stories, Direct y botones",
+  metaDescription:
+    "Límites y huecos de CTA que sí funcionan. Checklist — antes del próximo empujón de tráfico.",
   excerpt:
     "Dónde poner enlaces en Instagram: bio y link-in-bio, captions de posts, stickers de Stories, Direct y botones de contacto — sin tips obsoletos de IGTV ni un catálogo de herramientas grises.",
   lead: [

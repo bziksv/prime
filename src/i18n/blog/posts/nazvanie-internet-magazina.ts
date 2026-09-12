@@ -7,6 +7,9 @@ export const nazvanieInternetMagazinaEn: BlogPost = {
   date: "2020-03-27",
   category: "Digital marketing",
   cover: "/images/blog/nazvanie-internet-magazina/cover-en.webp",
+  metaTitle: "Store name like everyone else? How to invent a name people remember",
+  metaDescription:
+    "Criteria, domain checks, and common traps. Checklist — before you register the brand.",
   excerpt:
     "How to pick a name for an online store: audience and assortment, domain, sound, uniqueness, and conflict checks — without promising that “the name = rankings.”",
   lead: [
@@ -233,6 +236,9 @@ export const nazvanieInternetMagazinaEs: BlogPost = {
   date: "2020-03-27",
   category: "Marketing digital",
   cover: "/images/blog/nazvanie-internet-magazina/cover-es.webp",
+  metaTitle: "¿Nombre de tienda como todos? Cómo inventar uno memorable",
+  metaDescription:
+    "Criterios, dominio y trampas típicas. Checklist — antes de registrar la marca.",
   excerpt:
     "Cómo elegir un nombre para una tienda online: audiencia y surtido, dominio, sonido, unicidad y chequeos de conflicto — sin prometer que «el nombre = rankings».",
   lead: [

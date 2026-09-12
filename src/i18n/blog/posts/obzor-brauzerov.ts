@@ -7,6 +7,9 @@ export const obzorBrauzerovEn: BlogPost = {
   date: "2018-02-14",
   category: "Digital marketing",
   cover: "/images/blog/obzor-brauzerov/cover-en.webp",
+  metaTitle: "Browser by habit? How to pick one for the job, not the logo",
+  metaDescription:
+    "Speed, privacy, extensions, and compatibility. Cheat sheet — before you switch your stack.",
   excerpt:
     "Chrome, Firefox, Edge, Opera, Vivaldi, and Yandex Browser: what to watch when choosing — extensions, privacy, ecosystem — without 2018 rankings and a single “champion.”",
   lead: [
@@ -171,6 +174,9 @@ export const obzorBrauzerovEs: BlogPost = {
   date: "2018-02-14",
   category: "Digital marketing",
   cover: "/images/blog/obzor-brauzerov/cover-es.webp",
+  metaTitle: "¿Navegador por costumbre? Cómo elegir por tareas, no por logo",
+  metaDescription:
+    "Velocidad, privacidad, extensiones y compatibilidad. Chuleta — antes de cambiar el stack.",
   excerpt:
     "Chrome, Firefox, Edge, Opera, Vivaldi y Yandex Browser: qué mirar al elegir — extensiones, privacidad, ecosistema — sin tablas de 2018 ni un «campeón» único.",
   lead: [

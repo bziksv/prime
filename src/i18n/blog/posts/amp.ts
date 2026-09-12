@@ -7,6 +7,9 @@ export const ampEn: BlogPost = {
   date: "2020-03-13",
   category: "SEO",
   cover: "/images/blog/amp/cover-en.webp",
+  metaTitle: "Is AMP still “required”? Decide if you need it now",
+  metaDescription:
+    "What Google’s fast mobile format was, cache trade-offs, and when a plain fast page wins. Save before a refactor.",
   excerpt:
     "What AMP is: stripped-down HTML for fast mobile SERP delivery, pros and cons of Google’s cache, why the format stopped being a must-have, and where to put effort instead — your own responsive site.",
   lead: [
@@ -137,6 +140,9 @@ export const ampEs: BlogPost = {
   date: "2020-03-13",
   category: "SEO",
   cover: "/images/blog/amp/cover-es.webp",
+  metaTitle: "¿AMP sigue siendo “obligatorio”? Decide si lo necesitas",
+  metaDescription:
+    "Qué fue el formato móvil rápido de Google, pros/contras de caché y cuándo gana una web rápida normal. Guarda antes del refactor.",
   excerpt:
     "Qué es AMP: HTML reducido para entrega rápida en la SERP móvil, pros y contras de la caché de Google, por qué el formato dejó de ser obligatorio y dónde poner el esfuerzo — tu propio sitio responsive.",
   lead: [

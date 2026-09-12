@@ -13,6 +13,9 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     period: "2020–2021",
     metric: "from scratch",
     metricLabel: "services site and inquiries",
+    metaTitle: "Law firm site from scratch — Argument web case",
+    metaDescription:
+      "Sticky header with booking, modals, B2B/B2C services, trust on the homepage, mobile-first. See the case — or inquire.",
     summary:
       "A site from scratch for a law firm: sticky header with booking, modal forms, services for companies and individuals, trust on the homepage, and a solid phone experience.",
     coverAlt: "argument-uk.ru homepage",
@@ -141,6 +144,9 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "+30%",
     metricLabel: "visits after launch",
+    metaTitle: "+30% traffic after migrate — Mir Uvlecheniy store",
+    metaDescription:
+      "MODX → Webasyst: real cart and cabinet, catalog, responsive, SEO-filter ready — on a modest budget. See the case.",
     summary:
       "Store migration from MODX to Webasyst: full cart and account, usable catalog, responsive layout, and SEO-filter groundwork — on a modest budget.",
     coverAlt: "hobbi36.ru homepage — live view",
@@ -272,6 +278,9 @@ export const caseTranslationsEnBatch5: Record<string, Partial<CaseStudy>> = {
     period: "2020",
     metric: "on-domain",
     metricLabel: "landing inside the dealer site",
+    metaTitle: "Nissan promo inside the dealer domain — Motor Land",
+    metaDescription:
+      "Landing on the dealer site: official header/footer, offers, in-stock, test-drive booking — no orphan one-pager. See the case.",
     summary:
       "A Nissan promo landing on the dealer domain: header and footer like the official site, offers, in-stock cars, and test-drive booking — without a one-pager on a random URL.",
     coverAlt: "Nissan Qashqai landing — Motor Land",

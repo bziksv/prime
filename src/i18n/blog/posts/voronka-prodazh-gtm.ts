@@ -7,6 +7,9 @@ export const voronkaProdazhGtmEn: BlogPost = {
   date: "2019-07-16",
   category: "Digital marketing",
   cover: "/images/blog/voronka-prodazh-gtm/cover-en.webp",
+  metaTitle: "Checkout a black box? Sales funnel via GTM: events and drop-offs",
+  metaDescription:
+    "How to tag steps and find breaks. Checklist — before ecommerce optimization.",
   excerpt:
     "How to tag an ecommerce funnel with Google Tag Manager and watch drop-offs in GA4: catalog → cart → checkout → order, using events instead of outdated Universal Analytics “virtual pages.”",
   lead: [
@@ -211,6 +214,9 @@ export const voronkaProdazhGtmEs: BlogPost = {
   date: "2019-07-16",
   category: "Digital marketing",
   cover: "/images/blog/voronka-prodazh-gtm/cover-es.webp",
+  metaTitle: "¿Checkout caja negra? Embudo vía GTM: eventos y cuellos de botella",
+  metaDescription:
+    "Cómo marcar pasos y hallar roturas. Checklist — antes de optimizar ecom.",
   excerpt:
     "Cómo etiquetar un funnel ecommerce con Google Tag Manager y ver drop-offs en GA4: catálogo → carrito → checkout → pedido, con eventos en vez de «páginas virtuales» caducadas de Universal Analytics.",
   lead: [

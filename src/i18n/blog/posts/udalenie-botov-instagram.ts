@@ -7,6 +7,9 @@ export const udalenieBotovInstagramEn: BlogPost = {
   date: "2020-02-06",
   category: "SMM",
   cover: "/images/blog/udalenie-botov-instagram/cover-en.webp",
+  metaTitle: "Bot followers wrecking metrics? Remove them without hurting the account",
+  metaDescription:
+    "How to clean the audience and what to avoid. Checklist — before mass unfollows.",
   excerpt:
     "Why clean bots on Instagram, how to spot a dead audience, why a sharp mass purge hits reach, and what’s dangerous about third-party “auto-cleaners” that ask for your login.",
   lead: [
@@ -158,6 +161,9 @@ export const udalenieBotovInstagramEs: BlogPost = {
   date: "2020-02-06",
   category: "SMM",
   cover: "/images/blog/udalenie-botov-instagram/cover-es.webp",
+  metaTitle: "¿Bots en seguidores rompen métricas? Quítalos sin dañar la cuenta",
+  metaDescription:
+    "Cómo limpiar la audiencia y qué evitar. Checklist — antes de unfollows masivos.",
   excerpt:
     "Por qué limpiar bots en Instagram, cómo detectar una audiencia muerta, por qué una purga masiva brusca golpea el alcance y qué hay de peligroso en los «auto-cleaners» de terceros que piden tu login.",
   lead: [

@@ -7,6 +7,9 @@ export const analitikaKontentMarketingaEn: BlogPost = {
   date: "2021-01-15",
   category: "Digital marketing",
   cover: "/images/blog/analitika-kontent-marketinga/cover-en.webp",
+  metaTitle: "Content for vanity? Metrics that prove it works",
+  metaDescription:
+    "Reach, retention, shares, leads, and editorial ops — how to read them honestly. Report checklist — save it.",
   excerpt:
     "How to evaluate content marketing: reach, retention, shares, leads, and editorial ops metrics — without obsessing over likes or confusing this with installing a counter.",
   lead: [
@@ -225,6 +228,9 @@ export const analitikaKontentMarketingaEs: BlogPost = {
   date: "2021-01-15",
   category: "Digital marketing",
   cover: "/images/blog/analitika-kontent-marketinga/cover-es.webp",
+  metaTitle: "¿Contenido de postureo? Métricas que demuestran valor",
+  metaDescription:
+    "Alcance, retención, shares, leads y ops editoriales — léelas sin autoengaño. Checklist de informe — guárdalo.",
   excerpt:
     "Cómo evaluar el content marketing: reach, retención, shares, leads y métricas de ops editorial — sin obsesionarte con likes ni confundir esto con instalar un contador.",
   lead: [

@@ -7,6 +7,9 @@ export const zarabotokGruppyVkEn: BlogPost = {
   date: "2020-09-11",
   category: "SMM",
   cover: "/images/blog/zarabotok-gruppy-vk/cover-en.webp",
+  metaTitle: "VK public “prints money alone”? Ads and affiliates — without illusions",
+  metaDescription:
+    "What actually pays and where the ceiling is. Read before you fund growth.",
   excerpt:
     "How to monetize a VK community: commercial posts, affiliates, marketplaces, and direct advertisers — what drives price and what to avoid.",
   lead: [
@@ -155,6 +158,9 @@ export const zarabotokGruppyVkEs: BlogPost = {
   date: "2020-09-11",
   category: "SMM",
   cover: "/images/blog/zarabotok-gruppy-vk/cover-es.webp",
+  metaTitle: "¿Público VK “imprime dinero solo”? Ads y afiliados — sin ilusiones",
+  metaDescription:
+    "Qué renta de verdad y dónde está el techo. Léelo antes de invertir en crecimiento.",
   excerpt:
     "Cómo monetizar una comunidad VK: posts comerciales, affiliates, marketplaces y anunciantes directos — qué mueve el precio y qué evitar.",
   lead: [

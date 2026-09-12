@@ -7,6 +7,9 @@ export const pinterestSkachatEn: BlogPost = {
   date: "2021-06-14",
   category: "SMM",
   cover: "/images/blog/pinterest-skachat/cover-en.webp",
+  metaTitle: "Can’t download a Pinterest image? Save it to phone and computer",
+  metaDescription:
+    "Practical methods without shady apps. Cheat sheet — one minute.",
   excerpt:
     "How to legally save an image from Pinterest to a device: built-in download, the app, and idea boards — with a reminder about copyright.",
   lead: [
@@ -87,6 +90,9 @@ export const pinterestSkachatEs: BlogPost = {
   date: "2021-06-14",
   category: "SMM",
   cover: "/images/blog/pinterest-skachat/cover-es.webp",
+  metaTitle: "¿No puedes descargar de Pinterest? Guárdala en el móvil y el PC",
+  metaDescription:
+    "Métodos prácticos sin apps dudosas. Chuleta — en un minuto.",
   excerpt:
     "Cómo guardar legalmente una imagen de Pinterest en un dispositivo: descarga integrada, la app y tableros de ideas — con un recordatorio sobre derechos de autor.",
   lead: [

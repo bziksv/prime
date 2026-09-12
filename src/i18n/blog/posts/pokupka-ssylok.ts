@@ -7,6 +7,9 @@ export const pokupkaSsylokEn: BlogPost = {
   date: "2021-02-05",
   category: "SEO",
   cover: "/images/blog/pokupka-ssylok/cover-en.webp",
+  metaTitle: "Buying links in cheap bulk? Risks and quality criteria",
+  metaDescription:
+    "What to check and where spam starts. Breakdown — before you pay for link building.",
   excerpt:
     "When paid placements make sense, what risks come with exchange “packs,” and how to judge a donor — without how-tos for a link blast.",
   lead: [
@@ -252,6 +255,9 @@ export const pokupkaSsylokEs: BlogPost = {
   date: "2021-02-05",
   category: "SEO",
   cover: "/images/blog/pokupka-ssylok/cover-es.webp",
+  metaTitle: "¿Enlaces baratos a granel? Compra: riesgos y criterios de calidad",
+  metaDescription:
+    "Qué revisar y dónde empieza el spam. Análisis — antes de pagar link building.",
   excerpt:
     "Cuándo tienen sentido los placements de pago, qué riesgos traen los «packs» de exchanges y cómo juzgar un donor — sin guías para un bombardeo de enlaces.",
   lead: [

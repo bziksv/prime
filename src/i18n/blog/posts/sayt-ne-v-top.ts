@@ -7,6 +7,9 @@ export const saytNeVTopEn: BlogPost = {
   date: "2020-01-31",
   category: "SEO",
   cover: "/images/blog/sayt-ne-v-top/cover-en.webp",
+  metaTitle: "Not in the TOP — “blame the algorithm”? 10 common reasons",
+  metaDescription:
+    "Tech, content, links, and commercial factors. Diagnostics checklist — run it today.",
   excerpt:
     "Ten reasons pages miss page one: age, filters, content, tech, UX, security, hosting, domain, code, and the instant-results myth — with prep timelines separate from ranking growth.",
   lead: [
@@ -291,6 +294,9 @@ export const saytNeVTopEs: BlogPost = {
   date: "2020-01-31",
   category: "SEO",
   cover: "/images/blog/sayt-ne-v-top/cover-es.webp",
+  metaTitle: "¿Fuera del TOP — “culpa del algoritmo”? 10 causas frecuentes",
+  metaDescription:
+    "Técnica, contenido, enlaces y factores comerciales. Checklist de diagnóstico — pásalo hoy.",
   excerpt:
     "Diez motivos por los que las páginas no llegan a la primera página: antigüedad, filtros, contenido, técnica, UX, seguridad, hosting, dominio, código y el mito de resultados instantáneos — con plazos de preparación separados del crecimiento de rankings.",
   lead: [

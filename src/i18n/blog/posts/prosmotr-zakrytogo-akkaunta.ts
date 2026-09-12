@@ -7,6 +7,9 @@ export const prosmotrZakrytogoAkkauntaEn: BlogPost = {
   date: "2020-07-13",
   category: "SMM",
   cover: "/images/blog/prosmotr-zakrytogo-akkaunta/cover-en.webp",
+  metaTitle: "Want to “hack” a private Instagram? Legal ways to view — and what to skip",
+  metaDescription:
+    "What’s allowed by platform rules — and what to avoid. Cheat sheet, no shady tools.",
   excerpt:
     "What you actually see on a private Instagram profile, why “hacks” and third-party apps are a trap, and why the only built-in path to the feed is a follow request.",
   lead: [
@@ -144,6 +147,9 @@ export const prosmotrZakrytogoAkkauntaEs: BlogPost = {
   date: "2020-07-13",
   category: "SMM",
   cover: "/images/blog/prosmotr-zakrytogo-akkaunta/cover-es.webp",
+  metaTitle: "¿“Hackear” un Instagram privado? Solo opciones legales de visualización",
+  metaDescription:
+    "Qué permite la plataforma — y qué evitar. Chuleta sin servicios grises.",
   excerpt:
     "Qué ves de verdad en un perfil privado de Instagram, por qué los «hacks» y apps de terceros son una trampa, y por qué el único camino built-in al feed es un follow request.",
   lead: [

@@ -7,6 +7,9 @@ export const gostevoyPostEn: BlogPost = {
   date: "2019-04-11",
   category: "Content marketing",
   cover: "/images/blog/gostevoy-post/cover-en.webp",
+  metaTitle: "Guest post just for a link? How to pick a publishing site",
+  metaDescription:
+    "Quality criteria, risks, and a writer brief. Checklist — before you pay for placement.",
   excerpt:
     "How to find and evaluate sites for guest articles: audience, traffic, engagement, and link profile — without free page-one promises or link spam.",
   lead: [
@@ -134,6 +137,9 @@ export const gostevoyPostEs: BlogPost = {
   date: "2019-04-11",
   category: "Content marketing",
   cover: "/images/blog/gostevoy-post/cover-es.webp",
+  metaTitle: "¿Guest post solo por el enlace? Cómo elegir la plaza de publicación",
+  metaDescription:
+    "Criterios de calidad, riesgos y brief al autor. Checklist — antes de pagar el placement.",
   excerpt:
     "Cómo encontrar y evaluar sitios para artículos guest: audiencia, tráfico, engagement y perfil de enlaces — sin promesas gratis de primera página ni spam de links.",
   lead: [

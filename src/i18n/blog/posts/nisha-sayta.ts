@@ -7,6 +7,9 @@ export const nishaSaytaEn: BlogPost = {
   date: "2021-02-03",
   category: "Digital marketing",
   cover: "/images/blog/nisha-sayta/cover-en.webp",
+  metaTitle: "Niche by gut feel? How to pick a site topic that can actually work",
+  metaDescription:
+    "Demand, competition, and resources. Checklist — before domain and build.",
   excerpt:
     "How to pick a site topic: demand, margin, competition, and expertise — without “profitable niches 2021” lists from outdated roundups.",
   lead: [
@@ -165,6 +168,9 @@ export const nishaSaytaEs: BlogPost = {
   date: "2021-02-03",
   category: "Digital marketing",
   cover: "/images/blog/nisha-sayta/cover-es.webp",
+  metaTitle: "¿Nicho a ojo? Cómo elegir temática de web que sí pueda funcionar",
+  metaDescription:
+    "Demanda, competencia y recursos. Checklist — antes del dominio y el desarrollo.",
   excerpt:
     "Cómo elegir el tema de un sitio: demanda, margen, competencia y expertise — sin listas de «nichos rentables 2021» de roundups obsoletos.",
   lead: [

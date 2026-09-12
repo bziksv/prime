@@ -7,6 +7,9 @@ export const vebStranitsaEn: BlogPost = {
   date: "2021-01-26",
   category: "SEO",
   cover: "/images/blog/veb-stranitsa/cover-en.webp",
+  metaTitle: "“Page won’t open”? Web pages and common browser errors",
+  metaDescription:
+    "What the message means and where to start. Cheat sheet — before escalating to engineering.",
   excerpt:
     "What a webpage is, why it needs its own URL, how to save a local copy, and what “outdated,” “slowing down the browser,” “unavailable,” and “moved” usually mean.",
   lead: [
@@ -203,6 +206,9 @@ export const vebStranitsaEs: BlogPost = {
   date: "2021-01-26",
   category: "SEO",
   cover: "/images/blog/veb-stranitsa/cover-es.webp",
+  metaTitle: "¿“La página no abre”? Página web y errores frecuentes del navegador",
+  metaDescription:
+    "Qué significa el mensaje y por dónde empezar. Chuleta — antes de escalar al dev.",
   excerpt:
     "Qué es una página web, por qué necesita su propia URL, cómo guardar una copia local y qué suelen significar «desactualizada», «ralentiza el navegador», «no disponible» y «se ha movido».",
   lead: [

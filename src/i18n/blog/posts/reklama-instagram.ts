@@ -7,6 +7,9 @@ export const reklamaInstagramEn: BlogPost = {
   date: "2021-11-19",
   category: "SMM",
   cover: "/images/blog/reklama-instagram/cover-en.webp",
+  metaTitle: "Instagram Ads by gut feel? Formats, budget, and how to measure results",
+  metaDescription:
+    "Ad types and KPIs without self-deception. Checklist — before the first launch.",
   excerpt:
     "Instagram ad types: paid targeting, creators, and paid placements — what drives price, which “free” growth tricks are risky, and how to track real results.",
   lead: [
@@ -169,6 +172,9 @@ export const reklamaInstagramEs: BlogPost = {
   date: "2021-11-19",
   category: "SMM",
   cover: "/images/blog/reklama-instagram/cover-es.webp",
+  metaTitle: "¿Instagram Ads a ojo? Formatos, presupuesto y cómo medir el resultado",
+  metaDescription:
+    "Tipos de anuncio y KPIs sin autoengaño. Checklist — antes del primer lanzamiento.",
   excerpt:
     "Tipos de ads en Instagram: targeting de pago, creators y colocaciones de pago — qué impulsa el precio, qué trucos de crecimiento «gratis» son arriesgados y cómo trackear resultados reales.",
   lead: [

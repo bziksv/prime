@@ -123,9 +123,9 @@ export type TrafficContent = {
 
 const trafficRu: TrafficContent = {
   path: "/prodvizhenie-sayta-po-trafiku/",
-  metaTitle: "Продвижение по трафику — ПРАЙМ",
+  metaTitle: "Платите только за клики из поиска — без «воздуха» в отчёте",
   metaDescription:
-    "Продвижение сайта по трафику: оплата за переходы из поиска по списку фраз. Регионы от 3 ₽, Москва и СПб от 5 ₽ за переход. Базовый трафик до старта не учитывается.",
+    "Узнайте ставку: регионы от 3 ₽, Москва и СПб от 5 ₽ за переход по списку фраз. Базовый трафик до старта не биллится.",
   serviceName: "Продвижение по трафику",
   serviceType: "Продвижение сайта по трафику",
   breadcrumbHome: "Главная",
@@ -215,9 +215,9 @@ const trafficRu: TrafficContent = {
 
 const trafficEn: TrafficContent = {
   path: "/en/traffic/",
-  metaTitle: "Pay-per-visit SEO — PRIME",
+  metaTitle: "Only pay for real Google visits — skip vanity SEO fluff",
   metaDescription:
-    "Pay-per-visit SEO: pay for Google Search visits from an agreed keyword list. Local markets from ~$0.09/visit, competitive metros from ~$0.18. Pre-launch baseline traffic isn’t billed.",
+    "Ask for a rate card: local from ~$0.09/visit, competitive metros from ~$0.18 on an agreed keyword list. Pre-launch baseline isn’t billed.",
   serviceName: "Pay-per-visit SEO",
   serviceType: "Pay-per-visit SEO",
   breadcrumbHome: "Home",
@@ -448,9 +448,9 @@ const trafficEn: TrafficContent = {
 
 const trafficEs: TrafficContent = {
   path: "/es/traffic/",
-  metaTitle: "SEO por tráfico — PRIME",
+  metaTitle: "Paga solo visitas reales de Google — sin SEO de postureo",
   metaDescription:
-    "SEO por tráfico: pagas por las visitas desde Google Search según una lista de palabras clave acordada. Mercados locales desde ~$0.09/visita, metrópolis competitivas desde ~$0.18. El tráfico base antes de empezar no se factura.",
+    "Pide tarifas: locales desde ~$0.09/visita, metros competitivos desde ~$0.18 sobre keywords acordadas. El tráfico base previo no se factura.",
   serviceName: "SEO por tráfico",
   serviceType: "SEO por tráfico",
   breadcrumbHome: "Inicio",

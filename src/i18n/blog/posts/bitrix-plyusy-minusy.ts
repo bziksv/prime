@@ -7,6 +7,9 @@ export const bitrixPlyusyMinusyEn: BlogPost = {
   date: "2017-04-06",
   category: "Digital marketing",
   cover: "/images/blog/bitrix-plyusy-minusy/cover-en.webp",
+  metaTitle: "Bitrix for everything? Pros and cons without the sales pitch",
+  metaDescription:
+    "Where the CMS shines, where it’s heavy/costly, and when to look elsewhere. Save before you pick a platform.",
   excerpt:
     "Pros and cons of 1C-Bitrix: ecosystem, security, licenses, hosting, and speed — who the platform fits, without 2017 share rankings and the myth that Bitrix alone ranks you.",
   lead: [
@@ -202,6 +205,9 @@ export const bitrixPlyusyMinusyEs: BlogPost = {
   date: "2017-04-06",
   category: "Digital marketing",
   cover: "/images/blog/bitrix-plyusy-minusy/cover-es.webp",
+  metaTitle: "¿Bitrix para todo? Pros y contras sin humo comercial",
+  metaDescription:
+    "Dónde brilla el CMS, dónde pesa/cuesta y cuándo mirar alternativas. Guarda antes de elegir plataforma.",
   excerpt:
     "Pros y contras de 1C-Bitrix: ecosistema, seguridad, licencias, hosting y velocidad — a quién encaja la plataforma, sin rankings de cuota de 2017 ni el mito de que Bitrix solo te posiciona.",
   lead: [

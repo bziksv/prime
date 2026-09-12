@@ -7,6 +7,9 @@ export const ga4En: BlogPost = {
   date: "2020-10-16",
   category: "Digital marketing",
   cover: "/images/blog/ga4/cover-en.webp",
+  metaTitle: "Still thinking in Universal? What changed in Google Analytics 4",
+  metaDescription:
+    "From sessions to events: model, reports, and a calm migration. Primer — before you move goals.",
   excerpt:
     "How GA4 differs from Universal Analytics: event model, site and app in one property, enhanced measurements, audiences, and explorations. No UA nostalgia and no 2020 button screenshots.",
   lead: [
@@ -107,6 +110,9 @@ export const ga4Es: BlogPost = {
   date: "2020-10-16",
   category: "Digital marketing",
   cover: "/images/blog/ga4/cover-es.webp",
+  metaTitle: "¿Sigues en Universal? Qué cambió en Google Analytics 4",
+  metaDescription:
+    "De sesiones a eventos: modelo, informes y migración sin pánico. Base — antes de mover objetivos.",
   excerpt:
     "En qué se diferencia GA4 de Universal Analytics: modelo de eventos, sitio y app en una property, enhanced measurements, audiencias y explorations. Sin nostalgia de UA ni capturas de botones de 2020.",
   lead: [

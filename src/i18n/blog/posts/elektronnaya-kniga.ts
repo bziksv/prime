@@ -7,6 +7,9 @@ export const elektronnayaKnigaEn: BlogPost = {
   date: "2019-03-07",
   category: "Digital marketing",
   cover: "/images/blog/elektronnaya-kniga/cover-en.webp",
+  metaTitle: "Lead magnet stuck? An ebook for your audience without a designer",
+  metaDescription:
+    "Structure, format, and a fast ship path. Checklist — before the next webinar or email blast.",
   excerpt:
     "An ebook as a lead magnet and proof of expertise: PDF vs ePub, building in Word or a builder, how to distribute — without promising “zero cost and a masterpiece in an hour.”",
   lead: [
@@ -126,6 +129,9 @@ export const elektronnayaKnigaEs: BlogPost = {
   date: "2019-03-07",
   category: "Digital marketing",
   cover: "/images/blog/elektronnaya-kniga/cover-es.webp",
+  metaTitle: "¿Lead magnet atascado? Ebook para tu audiencia sin diseñador",
+  metaDescription:
+    "Estructura, formato y salida rápida. Checklist — antes del próximo webinar o mailing.",
   excerpt:
     "Un ebook como lead magnet y prueba de expertise: PDF vs ePub, armarlo en Word o un builder, cómo distribuirlo — sin prometer «coste cero y una obra maestra en una hora».",
   lead: [

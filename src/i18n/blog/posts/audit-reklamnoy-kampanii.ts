@@ -7,6 +7,9 @@ export const auditReklamnoyKampaniiEn: BlogPost = {
   date: "2019-07-08",
   category: "Paid search",
   cover: "/images/blog/audit-reklamnoy-kampanii/cover-en.webp",
+  metaTitle: "Ads “look fine,” cash doesn’t? Campaign audit stages",
+  metaDescription:
+    "Why audit, what to check in keywords, creatives, and analytics. Checklist — run it before the next top-up.",
   excerpt:
     "A paid search audit: when to order it, technical and analytical stages, ongoing optimization, and how to hand results to the client without a “doctor’s prescription.”",
   lead: [
@@ -137,6 +140,9 @@ export const auditReklamnoyKampaniiEs: BlogPost = {
   date: "2019-07-08",
   category: "Paid search",
   cover: "/images/blog/audit-reklamnoy-kampanii/cover-es.webp",
+  metaTitle: "¿Ads “parecen ok” y no hay caja? Etapas de auditoría",
+  metaDescription:
+    "Para qué auditar y qué mirar en keywords, creatividades y analítica. Checklist — antes del próximo ingreso.",
   excerpt:
     "Una auditoría de paid search: cuándo pedirla, etapas técnicas y analíticas, optimización continua y cómo entregar resultados al cliente sin «receta de médico».",
   lead: [

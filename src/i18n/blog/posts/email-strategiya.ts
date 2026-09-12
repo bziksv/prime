@@ -7,6 +7,9 @@ export const emailStrategiyaEs: BlogPost = {
   date: "2019-12-13",
   category: "Email marketing",
   cover: "/images/blog/email-strategiya/cover-es.webp",
+  metaTitle: "¿Emails sin estrategia? De investigación a lanzar flujos",
+  metaDescription:
+    "Mapa: research → ofertas → automatizaciones. Plan — guárdalo para el próximo trimestre.",
   excerpt:
     "Cómo armar una estrategia de email: auditoría de lista y métricas, producto y audiencia, competidores, plan de emails y segmentos, plantillas, tests y crecimiento de volumen — sin el mito de que el newsletter se vende solo.",
   lead: [
@@ -135,6 +138,9 @@ export const emailStrategiyaEn: BlogPost = {
   date: "2019-12-13",
   category: "Email marketing",
   cover: "/images/blog/email-strategiya/cover-en.webp",
+  metaTitle: "Emails with no strategy? From audience research to launch flows",
+  metaDescription:
+    "Map: research → offers → automations. Plan — save it for the next quarter.",
   excerpt:
     "How to build an email strategy: list and metrics audit, product and audience, competitors, email and segment plan, templates, tests, and volume growth — without the myth that the newsletter sells itself.",
   lead: [

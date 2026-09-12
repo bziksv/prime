@@ -7,6 +7,9 @@ export const adultTrafikEn: BlogPost = {
   date: "2020-09-24",
   category: "Digital marketing",
   cover: "/images/blog/adult-trafik/cover-en.webp",
+  metaTitle: "Adult traffic sounds easy money? Read the risks first",
+  metaDescription:
+    "What 18+ means in marketing, how the niche differs, and where payments/moderation break. Read before testing budget.",
   excerpt:
     "Adult traffic means visits in the 18+ / erotic and porn niche. What the term means in marketing, how the niche differs from ordinary SEO, and why we skip grey schemes and workarounds around the law.",
   lead: [
@@ -124,6 +127,9 @@ export const adultTrafikEs: BlogPost = {
   date: "2020-09-24",
   category: "Marketing digital",
   cover: "/images/blog/adult-trafik/cover-es.webp",
+  metaTitle: "¿Adult traffic suena a dinero fácil? Primero los riesgos",
+  metaDescription:
+    "Qué significa 18+ en marketing, cómo difiere el nicho y dónde fallan pagos/moderación. Lee antes de probar presupuesto.",
   excerpt:
     "Tráfico adult son visitas en el nicho 18+ / erótica y pornografía. Qué significa el término en marketing, en qué se diferencia el nicho del SEO ordinario y por qué saltamos esquemas grises y apaños alrededor de la ley.",
   lead: [

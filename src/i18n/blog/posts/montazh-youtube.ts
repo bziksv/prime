@@ -7,6 +7,9 @@ export const montazhYoutubeEn: BlogPost = {
   date: "2020-08-18",
   category: "SMM",
   cover: "/images/blog/montazh-youtube/cover-en.webp",
+  metaTitle: "Footage raw after the shoot? YouTube editing: where to start and which tool",
+  metaDescription:
+    "Pace, titles, and a lean stack. Checklist — before the next upload.",
   excerpt:
     "How to edit videos for YouTube: the job of editing, a basic pipeline, editor classes (beginner / pro / mobile / online), and what matters more than software — rhythm, audio, and matching the thumbnail.",
   lead: [
@@ -119,6 +122,9 @@ export const montazhYoutubeEs: BlogPost = {
   date: "2020-08-18",
   category: "SMM",
   cover: "/images/blog/montazh-youtube/cover-es.webp",
+  metaTitle: "¿Material crudo tras la grabación? Montaje YouTube: por dónde empezar y qué tool",
+  metaDescription:
+    "Ritmo, títulos y stack mínimo. Checklist — antes de la próxima subida.",
   excerpt:
     "Cómo editar vídeos para YouTube: el trabajo del montaje, un pipeline básico, clases de editores (principiante / pro / móvil / online) y qué importa más que el software — ritmo, audio y encaje con el thumbnail.",
   lead: [

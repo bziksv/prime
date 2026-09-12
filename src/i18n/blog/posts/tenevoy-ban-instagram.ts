@@ -7,6 +7,9 @@ export const tenevoyBanInstagramEn: BlogPost = {
   date: "2021-06-23",
   category: "SMM",
   cover: "/images/blog/tenevoy-ban-instagram/cover-en.webp",
+  metaTitle: "Reach vanished — shadowban? Myths, symptoms, and what to do",
+  metaDescription:
+    "How to tell it from the algorithm and where to start. Checklist — before Insights panic.",
   excerpt:
     "What people call an Instagram shadow ban: when posts barely show under hashtags and in recommendations, how that differs from a full block, and how to lower risk without shady schemes.",
   lead: [
@@ -177,6 +180,9 @@ export const tenevoyBanInstagramEs: BlogPost = {
   date: "2021-06-23",
   category: "SMM",
   cover: "/images/blog/tenevoy-ban-instagram/cover-es.webp",
+  metaTitle: "¿Alcance desapareció — shadowban? Mitos, síntomas y qué hacer",
+  metaDescription:
+    "Cómo distinguirlo del algoritmo y por dónde empezar. Checklist — antes del pánico en Insights.",
   excerpt:
     "Qué llama la gente shadow ban en Instagram: cuando los posts casi no aparecen bajo hashtags ni en recomendaciones, en qué se diferencia de un bloqueo completo y cómo bajar el riesgo sin esquemas dudosos.",
   lead: [

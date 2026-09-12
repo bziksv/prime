@@ -7,6 +7,9 @@ export const magnetSsylkaEn: BlogPost = {
   date: "2020-08-06",
   category: "Websites",
   cover: "/images/blog/magnet-ssylka/cover-en.webp",
+  metaTitle: "“Magnet link” confusing? What a magnet URI is and how it works",
+  metaDescription:
+    "Format, use cases, and how it differs from a normal URL. Primer — before email/QR use.",
   excerpt:
     "What a magnet URI is: a file hash instead of a normal URL, xt/dn/tr parameters, how it differs from a .torrent, and download risks. No pirate-tracker catalogs.",
   lead: [
@@ -122,6 +125,9 @@ export const magnetSsylkaEs: BlogPost = {
   date: "2020-08-06",
   category: "Websites",
   cover: "/images/blog/magnet-ssylka/cover-es.webp",
+  metaTitle: "¿“Magnet link” confunde? Qué es y cómo funciona",
+  metaDescription:
+    "Formato, casos de uso y diferencia con una URL normal. Base — antes de usarlo en mailing/QR.",
   excerpt:
     "Qué es una magnet URI: un hash de archivo en vez de una URL normal, parámetros xt/dn/tr, cómo difiere de un .torrent y riesgos de descarga. Sin catálogos de trackers piratas.",
   lead: [

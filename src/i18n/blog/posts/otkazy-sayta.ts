@@ -7,6 +7,9 @@ export const otkazySaytaEn: BlogPost = {
   date: "2020-09-17",
   category: "SEO",
   cover: "/images/blog/otkazy-sayta/cover-en.webp",
+  metaTitle: "High bounce, “empty” traffic? Why visitors leave and how to keep them",
+  metaDescription:
+    "Bounce causes and quick UX fixes. Checklist — open analytics today.",
   excerpt:
     "What bounce rate means, which numbers are normal for different site types, main leave reasons, and what to fix first — speed, navigation, content.",
   lead: [
@@ -217,6 +220,9 @@ export const otkazySaytaEs: BlogPost = {
   date: "2020-09-17",
   category: "SEO",
   cover: "/images/blog/otkazy-sayta/cover-es.webp",
+  metaTitle: "¿Rebote alto y tráfico “vacío”? Por qué se van y cómo retener",
+  metaDescription:
+    "Causas de bounce y fixes UX rápidos. Checklist — abre analítica hoy.",
   excerpt:
     "Qué significa el bounce rate, qué números son normales según el tipo de sitio, motivos principales de salida y qué arreglar primero — velocidad, navegación, contenido.",
   lead: [

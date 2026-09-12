@@ -7,6 +7,9 @@ export const kopiraytingEn: BlogPost = {
   date: "2021-11-30",
   category: "Content marketing",
   cover: "/images/blog/kopirayting/cover-en.webp",
+  metaTitle: "Need “just some text”? Copywriting: types, jobs, and how to pick a writer",
+  metaDescription:
+    "SEO, sales, expertise — and selection criteria. Cheat sheet — before the freelancer brief.",
   excerpt:
     "What copywriting is: informational and selling texts, LSI, landings, SMM, writer requirements, pay, and tips for clients.",
   lead: [
@@ -181,6 +184,9 @@ export const kopiraytingEs: BlogPost = {
   date: "2021-11-30",
   category: "Content marketing",
   cover: "/images/blog/kopirayting/cover-es.webp",
+  metaTitle: "¿Necesitas “solo texto”? Copywriting: tipos, tareas y cómo elegir autor",
+  metaDescription:
+    "SEO, ventas, expertise — y criterios de selección. Chuleta — antes del brief al freelance.",
   excerpt:
     "Qué es el copywriting: textos informativos y de venta, LSI, landings, SMM, requisitos del redactor, pago y tips para clientes.",
   lead: [

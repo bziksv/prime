@@ -7,6 +7,9 @@ export const performanceMarketingEn: BlogPost = {
   date: "2019-08-05",
   category: "Digital marketing",
   cover: "/images/blog/performance-marketing/cover-en.webp",
+  metaTitle: "Mixing performance and brand? What it is and how it works in practice",
+  metaDescription:
+    "KPIs, channels, and how it differs from branding. Primer — before the planning debate.",
   excerpt:
     "Performance marketing is about measurable funnel results: leads, sales, CPA, and ROAS. How it differs from branding, which channels fit, and why data and an agency matter.",
   lead: [
@@ -149,6 +152,9 @@ export const performanceMarketingEs: BlogPost = {
   date: "2019-08-05",
   category: "Digital marketing",
   cover: "/images/blog/performance-marketing/cover-es.webp",
+  metaTitle: "¿Mezclas performance y marca? Qué es y cómo funciona en la práctica",
+  metaDescription:
+    "KPIs, canales y diferencia con branding. Base — antes de la discusión en planning.",
   excerpt:
     "El performance marketing va de resultados medibles del embudo: leads, ventas, CPA y ROAS. En qué se diferencia del branding, qué canales encajan y por qué importan los datos y una agencia.",
   lead: [

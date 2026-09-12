@@ -7,6 +7,9 @@ export const vnutrennyayaPerelinkovkaEn: BlogPost = {
   date: "2020-01-15",
   category: "SEO",
   cover: "/images/blog/vnutrennyaya-perelinkovka/cover-en.webp",
+  metaTitle: "Pages as islands? Internal linking: anchors, schemes, and practice",
+  metaDescription:
+    "Connect sections without stuffing. Checklist — before a structure audit.",
   excerpt:
     "Why internal linking matters, how keyword anchors differ from generic ones, automation vs. manual work, typical patterns for head/mid/long-tail keywords, and mistakes that hurt more than they help.",
   lead: [
@@ -218,6 +221,9 @@ export const vnutrennyayaPerelinkovkaEs: BlogPost = {
   date: "2020-01-15",
   category: "SEO",
   cover: "/images/blog/vnutrennyaya-perelinkovka/cover-es.webp",
+  metaTitle: "¿Páginas-isla? Interlinking interno: anclas, esquemas y práctica",
+  metaDescription:
+    "Conecta secciones sin stuffing. Checklist — antes de auditar la estructura.",
   excerpt:
     "Por qué importa el enlazado interno, cómo se diferencian las anclas de keyword de las genéricas, automatización vs. trabajo manual, patrones típicos para head/mid/long-tail y errores que restan más de lo que suman.",
   lead: [

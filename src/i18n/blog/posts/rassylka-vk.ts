@@ -7,6 +7,9 @@ export const rassylkaVkEn: BlogPost = {
   date: "2021-08-17",
   category: "SMM",
   cover: "/images/blog/rassylka-vk/cover-en.webp",
+  metaTitle: "Bulk VK messages = ban risk? Messaging legally without spam",
+  metaDescription:
+    "Consent, limits, and scenarios. Checklist — before a mass send.",
   excerpt:
     "Why VK community broadcasts help, how to set up opt-in via official widgets, how to write copy, and why mass friend spam and third-party tools lead to blocks.",
   lead: [
@@ -143,6 +146,9 @@ export const rassylkaVkEs: BlogPost = {
   date: "2021-08-17",
   category: "SMM",
   cover: "/images/blog/rassylka-vk/cover-es.webp",
+  metaTitle: "¿Mensajes VK masivos = ban? Mailing: cómo hacerlo legalmente",
+  metaDescription:
+    "Consentimiento, límites y escenarios sin spam. Checklist — antes del envío masivo.",
   excerpt:
     "Por qué ayudan los broadcasts de comunidad en VK, cómo montar el opt-in con widgets oficiales, cómo escribir el copy y por qué el spam masivo a amigos y las herramientas de terceros llevan a bloques.",
   lead: [

@@ -7,6 +7,9 @@ export const formatyIzobrazheniyRsyaEs: BlogPost = {
   date: "2017-05-15",
   category: "Paid search",
   cover: "/images/blog/formaty-izobrazheniy-rsya/cover-es.webp",
+  metaTitle: "¿Creativo rechazado en RSYa? Formatos de imagen sin reenvíos",
+  metaDescription:
+    "Tamaños, requisitos y rechazos típicos. Chuleta para diseño — guárdala antes de subir.",
   excerpt:
     "Por qué la Red publicitaria de Yandex necesita varios tamaños de imagen y anuncios gráficos: cobertura de publishers, formatos panorámicos, cómo no cortar el alcance con una campaña aparte y cómo etiquetar tamaños en UTM.",
   lead: [
@@ -126,6 +129,9 @@ export const formatyIzobrazheniyRsyaEn: BlogPost = {
   date: "2017-05-15",
   category: "Paid search",
   cover: "/images/blog/formaty-izobrazheniy-rsya/cover-en.webp",
+  metaTitle: "Yandex Display creative rejected? Image formats without resubmits",
+  metaDescription:
+    "Sizes, requirements, and common refusals. Designer cheat sheet — save before upload.",
   excerpt:
     "Why the Yandex Advertising Network needs several image sizes and graphic ads: publisher coverage, widescreen formats, how not to cut reach with a separate campaign, and how to tag sizes in UTMs.",
   lead: [

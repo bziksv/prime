@@ -32,6 +32,10 @@ export type CaseStudy = {
   metric: string;
   metricLabel: string;
   summary: string;
+  /** SERP/OG title — must differ from H1 (`title`); CTA-oriented */
+  metaTitle?: string;
+  /** SERP/OG description — click motive */
+  metaDescription?: string;
   cover: string;
   coverAlt: string;
   services: string[];
@@ -109,6 +113,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016–2021",
     metric: "~120",
     metricLabel: "звонков в месяц из поиска",
+    metaTitle: "~120 звонков из поиска: кейс КабельМонтаж — смотрите",
+    metaDescription:
+      "B2B-электромонтаж: 30 фраз, ТОП планово 2–6 мес., ≈120 звонков в месяц. Разбор SEO-кейса — и заявка, если нужен такой поток.",
     summary:
       "B2B-электромонтаж: коммерческое ядро из 30 фраз, ТОП за 2–6 мес. и ≈120 звонков в месяц из поиска. Сотрудничество — примерно до 2021: дальше компания закрылась, не выдержав конкуренции.",
     cover: "/images/cases/kabelmontazh/cover.webp",
@@ -233,6 +240,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~120",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~120 звонков вместо листовок: кейс ВоронежВторМа",
+    metaDescription:
+      "SEO пункта приёма вторсырья: 57 фраз, ТОП-10, ≈120 звонков в месяц и визиты на пункт. Смотрите кейс — или оставьте заявку.",
     summary:
       "SEO для пункта приёма вторсырья: вместо листовок — поиск. 57 фраз, ТОП-10, ≈120 звонков в месяц и визиты на пункт сдачи.",
     cover: "/images/cases/vtorma/cover.webp",
@@ -368,6 +378,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~170",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~170 звонков из поиска — и урок модели: Rc-Revolt",
+    metaDescription:
+      "SEO RC-магазина: 68 фраз, ТОП 2–6 мес., ≈170 звонков/мес. Поток был — бизнес не выдержал модель. Разбор кейса внутри.",
     summary:
       "SEO интернет-магазина RC-моделей: 68 фраз, ТОП за 2–6 мес. и ≈170 звонков в месяц. Поток из поиска был — бизнес не просчитал финансовую модель и оказался убыточным.",
     cover: "/images/cases/rc-revolt/cover.webp",
@@ -509,6 +522,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~90",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~90 звонков в Люберцах: SEO «Светлячок» — смотрите",
+    metaDescription:
+      "Частный детский центр: 23 локальные фразы, ТОП 2–6 мес., ≈90 звонков/мес и записи из поиска. Разбор кейса — заявка рядом.",
     summary:
       "SEO частного детского центра в Люберцах: локальная выдача МО, 23 фразы, ТОП за 2–6 мес. и ≈90 звонков в месяц — плюс новые записи детей из поиска.",
     cover: "/images/cases/det-zentr/cover.webp",
@@ -633,6 +649,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~200",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~200 звонков автосервису: кейс Фортуна-авто",
+    metaDescription:
+      "SEO на базе Volvo/Subaru в Белгороде: 135 фраз, ТОП 2–6 мес., ≈200 звонков/мес. Структура с нуля — смотрите разбор.",
     summary:
       "SEO автосервиса на базе дилеров Volvo и Subaru в Белгороде: структура с нуля, 135 фраз, ТОП за 2–6 мес. и ≈200 звонков в месяц. Контекст — отдельный кейс.",
     cover: "/images/cases/bel-kuzov/cover.webp",
@@ -766,6 +785,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~200",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~200 звонков и 6000 визитов: кейс ХимОптТорг",
+    metaDescription:
+      "B2B-химия и ЛКМ: 90 фраз, ТОП-10, ≈200 звонков/мес. Каталог под «купить» — смотрите SEO-кейс или оставьте заявку.",
     summary:
       "SEO оптовика химии и ЛКМ в Черноземье: 90 фраз, ТОП-10, ≈200 звонков в месяц и порядка 6000 визитов ежемесячно — B2B-каталог под запросы «купить».",
     cover: "/images/cases/himopttorg/home.webp",
@@ -898,6 +920,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~110",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~110 юрзвонков из поиска: кейс «Аргумент»",
+    metaDescription:
+      "SEO юрфирмы в Воронеже: 37 фраз, ТОП 2–6 мес., ≈110 звонков/мес по ключевым практикам. Разбор внутри — заявка рядом.",
     summary:
       "SEO юридической компании в Воронеже: 37 фраз, ТОП за 2–6 мес. и ≈110 звонков в месяц — вытеснили конкурентов из выдачи по ключевым практикам. Новый сайт — отдельный кейс.",
     cover: "/images/cases/argument-seo/home.webp",
@@ -1030,6 +1055,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~100",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~100 звонков сладкому магазину: кейс «Сказка»",
+    metaDescription:
+      "SEO в центре Воронежа: 39 фраз, ТОП 2–6 мес., ≈100 звонков/мес — конфеты, наборы, чай/кофе. Смотрите кейс.",
     summary:
       "SEO магазина сладостей в центре Воронежа: 39 фраз, ТОП за 2–6 мес. и ≈100 звонков в месяц — конфеты, новогодние наборы в жестяных коробках и отдел чая/кофе.",
     cover: "/images/cases/skazka/assortment.webp",
@@ -1163,6 +1191,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~100",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~100 звонков на пошив штор: кейс «Барокко»",
+    metaDescription:
+      "SEO студии штор: 70 фраз, ТОП 2–6 мес., ≈100 звонков/мес — пошив, салоны, карнизы. Сайт barokko36.ru — разбор внутри.",
     summary:
       "SEO дизайн-студии штор: 70 фраз, ТОП за 2–6 мес. и ≈100 звонков в месяц — горячие запросы на пошив, салоны и карнизы в Воронеже. Сайт живёт на barokko36.ru.",
     cover: "/images/cases/barokko/cover.webp",
@@ -1295,6 +1326,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~400",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~400 звонков на б/у авто: кейс Respect",
+    metaDescription:
+      "SEO салона с пробегом: 162 фразы, ТОП-10, ≈400 звонков/мес — оценка, кредит, покупка. Смотрите кейс или оставьте заявку.",
     summary:
       "SEO салона б/у авто на базе Мотор Ленд: 162 фразы, ТОП-10, ≈400 звонков в месяц — поток на оценку, кредит и покупку с пробегом в Воронеже.",
     cover: "/images/cases/respect/cover.webp",
@@ -1417,6 +1451,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~100",
     metricLabel: "звонков в месяц из интернета",
+    metaTitle: "~100 звонков хобби-магазину: кейс «Мир Увлечений»",
+    metaDescription:
+      "SEO ИМ: 54 фразы, ТОП-10, ≈100 звонков/мес — луки, нумизматика, металлоискатели. Смотрите кейс или оставьте заявку.",
     summary:
       "SEO интернет-магазина хобби: 54 фразы, ТОП-10, ≈100 звонков в месяц — луки, нумизматика, металлоискатели. Обновление магазина — отдельный кейс.",
     cover: "/images/cases/hobby36/cover.webp",
@@ -1545,6 +1582,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~112",
     metricLabel: "визитов в салон в месяц из поиска",
+    metaTitle: "~112 визитов в салон Volvo: кейс Белгород",
+    metaDescription:
+      "SEO дилера Volvo: 96 фраз, ТОП планово 2–6 мес., ≈112 визитов в салон/мес. Премиум-ниша — смотрите разбор.",
     summary:
       "SEO официального дилера Volvo в Белгороде: 96 фраз, ТОП за 2–6 мес. и ≈112 визитов в салон ежемесячно — дилерские и модельные запросы в премиум-нише.",
     cover: "/images/cases/volvo-belgorod/cover.webp",
@@ -1673,6 +1713,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016",
     metric: "~240",
     metricLabel: "визитов в салон в месяц из поиска",
+    metaTitle: "~240 визитов в салон Chery: кейс Воронеж",
+    metaDescription:
+      "SEO Chery в масс-маркете: 98 фраз, подготовка ~1 мес., ТОП ближе к 3–6 мес., ≈240 визитов/мес. Разбор внутри.",
     summary:
       "SEO салона Chery в Воронеже: 98 фраз, запуск за месяц, выход в ТОП ближе к 3–6 месяцам — ≈240 визитов в салон ежемесячно в жёсткой конкуренции масс-маркета.",
     cover: "/images/cases/mychery/cover.webp",
@@ -1801,6 +1844,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2014",
     metric: "3–5",
     metricLabel: "клиентов в месяц из поиска",
+    metaTitle: "3–5 клиентов/мес на спецтехнику: кейс ГринСтрой",
+    metaDescription:
+      "SEO аренды в Воронеже: 68 фраз, подготовка ~1 мес., ТОП ближе к 3–6 мес. — земляные, демонтаж, траншеи. Смотрите кейс.",
     summary:
       "SEO аренды спецтехники в Воронеже: 68 фраз, запуск за месяц, выход в ТОП ближе к 3–6 месяцам — земляные работы, демонтаж, траншеи, вывоз грунта.",
     cover: "/images/cases/greenstroy36/cover.webp",
@@ -1928,6 +1974,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~300",
     metricLabel: "клиентов в месяц из поиска",
+    metaTitle: "~300 клиентов сервису Samsung: кейс Инженер-сервис",
+    metaDescription:
+      "SEO авторизованного ремонта: 135 фраз, ТОП по холодильникам и стиралкам, ≈300 клиентов/мес. Смотрите кейс или заявку.",
     summary:
       "SEO авторизованного сервиса: 135 фраз, ТОП по ремонту холодильников и стиральных машин, ≈300 клиентов в месяц из интернета.",
     cover: "/images/cases/remont/cover.webp",
@@ -2044,6 +2093,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2014",
     metric: "~50",
     metricLabel: "клиентов в месяц из поиска",
+    metaTitle: "~50 клиентов детскому центру: кейс «Клякса»",
+    metaDescription:
+      "SEO центра развития: 20 фраз, ТОП по логопеду и психологу в Воронеже, ≈50 клиентов/мес. Разбор — и заявка рядом.",
     summary:
       "SEO центра развития детей: 20 целевых фраз, ТОП по логопеду и психологу в Воронеже, ≈50 клиентов в месяц — занятия и запись детей.",
     cover: "/images/cases/klyaksa/cover.webp",
@@ -2161,6 +2213,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~200",
     metricLabel: "клиентов в месяц из поиска",
+    metaTitle: "~200 клиентов брендовому сервису: Samsung Плаза",
+    metaDescription:
+      "SEO только под бренд: 34 фразы, ТОП по ремонту смартфонов и сервис-центру, ≈200 клиентов/мес. Смотрите кейс.",
     summary:
       "SEO авторизованного сервиса Samsung: 34 фразы только под бренд, ТОП по ремонту смартфонов и сервис-центру, ≈200 клиентов в месяц.",
     cover: "/images/cases/samsungvrn/cover.webp",
@@ -2278,6 +2333,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~500",
     metricLabel: "продаж в месяц из поиска",
+    metaTitle: "~500 продаж декоративным ЛКМ: кейс Тициана",
+    metaDescription:
+      "SEO премиум-красок без масс-маркета: 77 фраз, ТОП по декоративным ЛКМ в Воронеже, ≈500 продаж/мес. Разбор внутри.",
     summary:
       "SEO премиальных красок и штукатурки: 77 фраз без масс-маркета, ТОП по декоративным ЛКМ в Воронеже, ≈500 продаж в месяц.",
     cover: "/images/cases/ticiana/cover.webp",
@@ -2395,6 +2453,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "186",
     metricLabel: "фраз в ядре SEO",
+    metaTitle: "186 фраз и опт из поиска: кейс Металлинвест",
+    metaDescription:
+      "SEO металлотрейдера: подготовка ~1 мес., ТОП 2–6 мес. За 2 мес. — ~112 визитов/сутки, 68 заказов, 7 оптовиков. Смотрите.",
     summary:
       "SEO металлотрейдера в жёсткой нише: 186 фраз, подготовка ~1 мес., ТОП планово 2–6 мес. За первые 2 месяца — ~112 визитов/сутки, 68 заказов и 7 оптовых клиентов. Новый сайт — отдельный кейс.",
     cover: "/images/cases/metallinvest-seo/cover.webp",
@@ -2523,6 +2584,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2014",
     metric: "43",
     metricLabel: "фразы в ядре SEO",
+    metaTitle: "43 фразы против DIY: кейс резных изделий",
+    metaDescription:
+      "SEO мастерской лестниц и панелей: подготовка ~1,5 мес., ТОП 2–6 мес. За 2 мес. — обращения и покупки из поиска. Смотрите.",
     summary:
       "SEO мастерской резных лестниц и панелей: 43 фразы против DIY-статей в выдаче, подготовка ~1,5 мес., ТОП планово 2–6 мес. За первые 2 месяца — обращения и покупки из поиска.",
     cover: "/images/cases/derevyannyie-izdeliya/cover.webp",
@@ -2648,6 +2712,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2014",
     metric: "3000+",
     metricLabel: "фраз в ТОП",
+    metaTitle: "3000+ фраз в ТОП: кейс ИМ «Полимер» — смотрите",
+    metaDescription:
+      "SEO сантехники с 2014: старт с 393 фраз, подготовка ~1,5 мес., ТОП 2–6 мес. Сейчас 3000+ в ТОП. Разбор — или заявка.",
     summary:
       "SEO магазина сантехники Полимер с 2014: старт с ядра 393 фразы, подготовка ~1,5 мес., ТОП планово 2–6 мес. Сейчас в ТОП уже 3000+ фраз. За первые 2 месяца — заказы и оплаты из поиска. Доработка витрины — отдельный кейс.",
     cover: "/images/cases/polimer-seo/cover.webp",
@@ -2782,6 +2849,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~60",
     metricLabel: "новых студентов в месяц",
+    metaTitle: "~60 студентов/мес из поиска: кейс учебного центра",
+    metaDescription:
+      "SEO + сайт на Битрикс: 35 фраз в нише образования, подготовка ~1,5 мес., ТОП 2–6 мес., ≈60 записей/мес. Смотрите кейс.",
     summary:
       "SEO и новый сайт на Битрикс для учебного центра: 35 фраз в конкурентной нише образования, подготовка ~1,5 мес., ТОП планово 2–6 мес. ≈60 записей на обучение ежемесячно.",
     cover: "/images/cases/uc-vrn/cover.webp",
@@ -2910,6 +2980,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~103",
     metricLabel: "обращений в салон в месяц",
+    metaTitle: "~103 обращения в салон Volvo: кейс Черноземье",
+    metaDescription:
+      "Сайт на Битрикс + SEO (87 фраз) и реклама: подготовка ~2,5 мес., ТОП 2–6 мес., ≈103 обращения/мес. Разбор внутри.",
     summary:
       "Новый сайт на Битрикс + SEO (87 фраз) и связка с контекстом/таргетом для дилера Volvo: подготовка ~2,5 мес., ТОП планово 2–6 мес., ≈103 обращения в салон ежемесячно. Белгород — отдельный кейс.",
     cover: "/images/cases/volvo-chernozeme/cover.webp",
@@ -3039,6 +3112,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2015",
     metric: "6",
     metricLabel: "договоров на аренду за 2 мес.",
+    metaTitle: "6 договоров аренды за 2 мес.: кейс офисного центра",
+    metaDescription:
+      "Директ и Google Ads: запуск за 2 дня, бюджет ≈12 тыс. ₽. За 2 месяца — 14 звонков и 6 договоров, все площади сданы. Смотрите.",
     summary:
       "Яндекс.Директ и Google Ads для офисного центра: запуск за 2 дня, бюджет ≈12 тыс. ₽. За два месяца — 14 звонков и 6 договоров; сданы все свободные помещения.",
     cover: "/images/cases/ofisy/cover.webp",
@@ -3154,6 +3230,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~40",
     metricLabel: "обращений в компанию в месяц",
+    metaTitle: "~40 обращений/мес бренду фильтров: кейс MilkFor",
+    metaDescription:
+      "SEO с сайта с нуля: 45 фраз, подготовка ~42 дня, ТОП 2–6 мес. Регион → федеральный спрос. Смотрите кейс или заявку.",
     summary:
       "SEO производителя фильтров для молока: сайт с нуля (ТЗ и контроль разработки), 45 фраз, подготовка ~42 дня, ТОП планово 2–6 мес. Выход с региона на федеральный спрос — ≈40 обращений в месяц.",
     cover: "/images/cases/milk-for/cover.webp",
@@ -3283,6 +3362,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~90",
     metricLabel: "обращений на базу в месяц",
+    metaTitle: "~90 обращений на базу: кейс пиломатериалов «Велес»",
+    metaDescription:
+      "SEO в нише «доска/брус»: сайт по нашему ТЗ, 30 фраз, подготовка ~55 дней, ТОП 2–6 мес., ≈90 обращений/мес. Смотрите.",
     summary:
       "SEO базы пиломатериалов «Велес»: сайт с нуля по нашему ТЗ, 30 фраз в жёсткой нише («доска», «брус»), подготовка ~55 дней, ТОП планово 2–6 мес. ≈90 обращений на базу ежемесячно.",
     cover: "/images/cases/pilomaterialov/cover.webp",
@@ -3416,6 +3498,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "×4",
     metricLabel: "рост посещаемости с рекламы",
+    metaTitle: "×4 трафик с Директа: кейс ковки ЭХК — смотрите",
+    metaDescription:
+      "Яндекс.Директ для ИМ художественной ковки: запуск за 2 дня, трафик ×4, ≈100 обращений. Сайт vrn-ehk.ru — разбор внутри.",
     summary:
       "Яндекс.Директ для интернет-магазина художественной ковки ЭХК: запуск за 2 дня, трафик ×4, спецразмещение по низкой цене клика, ≈100 обращений. Сайт — vrn-ehk.ru.",
     cover: "/images/cases/ehk-kovanyie/cover.webp",
@@ -3546,6 +3631,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2014",
     metric: "100+",
     metricLabel: "фраз в ТОП-10 Яндекса",
+    metaTitle: "100+ фраз в ТОП-10: кейс дилера Jeep Воронеж",
+    metaDescription:
+      "SEO + редизайн: 417 техошибок сняты, 100+ фраз, подготовка ~42 дня, ТОП 2–6 мес. Плюс контекст — ≈24 обращения/мес.",
     summary:
       "SEO и обновление сайта дилера Jeep: 417 техошибок вычищены, новый дизайн по брендбуку, 100+ фраз, подготовка ~42 дня, ТОП планово 2–6 мес. Плюс контекст — ≈24 обращения в салон в месяц.",
     cover: "/images/cases/jeep/cover.webp",
@@ -3676,6 +3764,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~90",
     metricLabel: "обращений в салон в месяц",
+    metaTitle: "~90 обращений в салон Nissan: кейс Мотор Ленд",
+    metaDescription:
+      "SEO + контекст нового салона: старт ~11 дней, 150+ фраз (141 в ТОП-10), ТОП планово 2–6 мес., ≈90 обращений/мес. Смотрите.",
     summary:
       "SEO и контекст для нового салона Nissan Мотор Ленд: старт за ~11 дней, 150+ фраз (141 в ТОП-10), ТОП планово 2–6 мес. ≈90 обращений в салон ежемесячно. Лендинг 2020 — отдельный кейс.",
     cover: "/images/cases/motor-lend-nissan/cover.webp",
@@ -3812,6 +3903,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сопровождение · Bitrix",
     metric: "15 000+",
     metricLabel: "товаров в каталоге",
+    metaTitle: "15 000+ SKU на Битрикс: кейс доработки VILMED",
+    metaDescription:
+      "ИМ медтехники: умный поиск, UX каталога, SEO-фильтры, 1С, композит/Brotli и безопасность. Live vilmed.ru — смотрите кейс.",
     summary:
       "Ведём крупный ИМ медтехники на 1С-Битрикс: плавающая шапка и умный поиск, UX каталога и карточки, SEO-фильтры, 1С, композит/Brotli и вычистка шеллов. Live — vilmed.ru.",
     cover: "/images/cases/vilmed/cover.webp",
@@ -3937,6 +4031,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сопровождение · Bitrix · 2026",
     metric: "55 000+",
     metricLabel: "товаров в каталоге",
+    metaTitle: "55 000+ SKU и ребрендинг: кейс КосмаМед — смотрите",
+    metaDescription:
+      "ИМ медтехники на Битрикс: МедМаркет→КосмаМед, 301, скорость, МойСклад/1С/СДЭК. Live kosmamed.ru — разбор или заявка.",
     summary:
       "Ведём крупный ИМ медтехники на 1С-Битрикс: ребрендинг МедМаркет→КосмаМед, миграция домена с 301, скорость (без RAND, композит, WebP), МойСклад/1С/СДЭК. Live — kosmamed.ru.",
     cover: "/images/cases/kosmamed/cover.webp",
@@ -4062,6 +4159,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сопровождение · Bitrix · с 2021",
     metric: "~1 900",
     metricLabel: "товаров в каталоге",
+    metaTitle: "~1 900 SKU офтальмооборудования: кейс Офтальмаг",
+    metaDescription:
+      "ИМ на Битрикс: Heine/KaWe/Riester, «запросить цену», город и ЛК с ЧПУ. Live oftalmag.ru — смотрите кейс.",
     summary:
       "Ведём ИМ офтальмооборудования на 1С-Битрикс (enext): каталог Heine/KaWe/Riester, «запросить цену», выбор города, личный кабинет ЧПУ. Live — oftalmag.ru.",
     cover: "/images/cases/oftalmag/cover.webp",
@@ -4187,6 +4287,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сопровождение · Bitrix · с 2014",
     metric: "~1 000",
     metricLabel: "позиций + офферы 1С",
+    metaTitle: "~1 000 позиций + офферы 1С: кейс Металлинвест Профиль",
+    metaDescription:
+      "ИМ кровли и фасадов на Битрикс: каталог из 1С, калькулятор забора, RAL, прайсы. Live metprof-vrn.ru — смотрите.",
     summary:
       "Ведём ИМ кровли и фасадов на 1С-Битрикс: каталог металлочерепицы и профнастила из 1С, калькулятор забора, корзина, RAL, прайсы. Live — metprof-vrn.ru. Сестринский бренд к Металлинвест (metplus-vrn.ru).",
     cover: "/images/cases/metprof/cover.webp",
@@ -4312,6 +4415,9 @@ export const caseStudies: CaseStudy[] = [
     period: "продукт · Next.js + Laravel · с 2023",
     metric: "19",
     metricLabel: "модулей в одном кабинете",
+    metaTitle: "19 SEO-модулей вместо Excel: кейс Титло — смотрите",
+    metaDescription:
+      "Как собрали SaaS на Next.js + Laravel с демо модулей и миграцией с Битрикса. Разбор кейса — и заявка, если нужен такой продукт.",
     summary:
       "Собрали продукт Титло: маркетинг на Next.js (titlo.ru) и кабинет на Laravel (cabinet.titlo.ru) — 19 SEO-модулей, мигра, тарифы, миграция с Битрикса. Live — titlo.ru.",
     cover: "/images/cases/titlo/cover.webp",
@@ -4437,6 +4543,9 @@ export const caseStudies: CaseStudy[] = [
     period: "продукт · Node.js · сопровождение",
     metric: "60k+",
     metricLabel: "URL в очереди парсинга",
+    metaTitle: "60k+ URL в парсинге цен: кейс Датагон — смотрите",
+    metaDescription:
+      "Внутренний сервис: цены конкурентов, синк Bitrix/Webasyst, сопоставление SKU и выгрузка в МойСклад. Live p.datagon.ru.",
     summary:
       "Внутренний веб-сервис Датагон: парсинг цен конкурентов, синхронизация каталога из Bitrix/Webasyst, умное сопоставление SKU и выгрузка в МойСклад. Live — p.datagon.ru.",
     cover: "/images/cases/datagon/cover.webp",
@@ -4562,6 +4671,9 @@ export const caseStudies: CaseStudy[] = [
     period: "продукт · Laravel · сопровождение",
     metric: "53k+",
     metricLabel: "товаров в каталоге",
+    metaTitle: "53k+ SKU и закупки: кейс оцифровки склада ЛагерПлюс",
+    metaDescription:
+      "Веб вокруг МойСклад: дашборд, реестр, упущенная выгода, товары к закупке, поставщики. Live lagerplus.ru — смотрите.",
     summary:
       "Веб-система ЛагерПлюс: остатки и закупки вокруг МойСклад — дашборд, реестр SKU, «упущенная выгода», товары к закупке, поставщики. Live — lagerplus.ru.",
     cover: "/images/cases/lagerplus/cover.webp",
@@ -4687,6 +4799,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сопровождение · Bitrix",
     metric: "~1 600",
     metricLabel: "товаров в каталоге",
+    metaTitle: "~1 600 SKU ЛОР-оборудования: кейс Лормаг — смотрите",
+    metaDescription:
+      "ИМ на Битрикс: каталог, ЧПУ кабинета, реестр картинок, git-деплой. Live lormag.ru — разбор или заявка.",
     summary:
       "Ведём ИМ ЛОР-оборудования на 1С-Битрикс (enext): каталог ~1 600 SKU, ЧПУ личного кабинета, реестр картинок, git-деплой. Live — lormag.ru.",
     cover: "/images/cases/lormag/cover.webp",
@@ -4812,6 +4927,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сопровождение · Bitrix",
     metric: "~470",
     metricLabel: "товаров в каталоге",
+    metaTitle: "~470 медплакатов в каталоге: кейс Медплакаты",
+    metaDescription:
+      "ИМ на Битрикс: каталог, слайдер и главная, фикс PHP 8, версионирование CSS/JS. Live medplakaty.ru — смотрите.",
     summary:
       "Ведём ИМ медицинских и обучающих плакатов на 1С-Битрикс: каталог ~470 SKU, слайдер и главная, фикс PHP 8, версионирование CSS/JS. Live — medplakaty.ru.",
     cover: "/images/cases/medplakaty/cover.webp",
@@ -4937,6 +5055,9 @@ export const caseStudies: CaseStudy[] = [
     period: "сайт · PHP/Smarty · сопровождение",
     metric: "калькулятор",
     metricLabel: "объёма и стоимости м³",
+    metaTitle: "Калькулятор м³ и прайс: сайт базы «Велес» — смотрите",
+    metaDescription:
+      "Собрали doskivrn.ru: каталог доски/бруса, прайс, онлайн-калькулятор объёма и заявка менеджеру. SEO — отдельный кейс.",
     summary:
       "Собрали сайт базы «Велес» (doskivrn.ru): каталог доски и бруса, прайс, онлайн-калькулятор м³ и заявка менеджеру. SEO той же базы — кейс pilomaterialov.",
     cover: "/images/cases/doskivrn/cover.webp",
@@ -5062,6 +5183,9 @@ export const caseStudies: CaseStudy[] = [
     period: "свой продукт · beta",
     metric: "16–64",
     metricLabel: "игрока в сетке турнира",
+    metaTitle: "Турниры 16–64 игрока: кейс платформы billiard.guru",
+    metaDescription:
+      "Сервис для клубов: живые сетки, рейтинг, вход через Telegram, брони столов. Открытая beta — billiard.guru. Смотрите.",
     summary:
       "Собрали billiard.guru — сервис для клубов и игроков: турниры с живыми сетками, рейтинг, вход через Telegram, брони столов. Сейчас в открытой beta — billiard.guru.",
     cover: "/images/cases/billiard-guru/cover.webp",
@@ -5186,6 +5310,9 @@ export const caseStudies: CaseStudy[] = [
     period: "свой продукт · beta",
     metric: "TG",
     metricLabel: "бот · меню · пуши · брони",
+    metaTitle: "TG-бот: меню, пуши, брони — кейс @BilliardGuruBot",
+    metaDescription:
+      "Бот для billiard.guru: вход и подтверждение, меню игрока, уведомления о матчах, брони и «Покатать» без приложения.",
     summary:
       "Собрали Telegram-бота @BilliardGuruBot для платформы billiard.guru: вход и подтверждение, меню игрока, уведомления о матчах, брони и «Покатать» — без отдельного приложения.",
     cover: "/images/cases/billiard-guru-bot/cover.webp",
@@ -5315,6 +5442,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "~120",
     metricLabel: "звонков в месяц из поиска",
+    metaTitle: "~120 звонков кузовному цеху: кейс Мотор Ленд",
+    metaDescription:
+      "SEO фирменного цеха: 101 фраза, ТОП планово 2–6 мес., ≈120 звонков/мес + доработка сайта под продвижение. Смотрите кейс.",
     summary:
       "SEO фирменного кузовного цеха Мотор Ленд: 101 фраза, ТОП за 2–6 мес. и ≈120 звонков в месяц — плюс доработка сайта: вычистили косяки разработчиков и внедрили то, без чего продвижение не держалось.",
     cover: "/images/cases/motorland-kuzov/cover.webp",
@@ -5442,6 +5572,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2016",
     metric: "×4",
     metricLabel: "рост трафика с рекламы",
+    metaTitle: "×4 трафик с рекламы: кейс Фортуна-авто — смотрите",
+    metaDescription:
+      "После SEO — Директ и Google Ads: запуск за 2 дня, трафик ×4, CTR поиска ~14%, ≈100 обращений в сервис. Разбор внутри.",
     summary:
       "После SEO подключили Яндекс.Директ и Google Ads: запуск за 2 дня, трафик ×4, CTR поиска ~14%, ≈100 обращений в сервис.",
     cover: "/images/cases/fortuna-avto/cover.webp",
@@ -5569,6 +5702,9 @@ export const caseStudies: CaseStudy[] = [
     period: "1,5 месяца",
     metric: "1,5 мес.",
     metricLabel: "от нуля до запуска",
+    metaTitle: "Сайт с нуля за 1,5 мес.: кейс Инсортекс — смотрите",
+    metaDescription:
+      "B2B-сайт поставщика сортировочного оборудования: структура, каталог, кастомные блоки и задел под SEO. Разбор или заявка.",
     summary:
       "Свежий сайт с нуля для поставщика сортировочного оборудования: B2B-структура, каталог, кастомные блоки и задел под SEO.",
     cover: "/images/cases/insortex/main-1.webp",
@@ -5686,6 +5822,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2020–2021",
     metric: "с нуля",
     metricLabel: "сайт услуг и заявок",
+    metaTitle: "Сайт юрфирмы с нуля: кейс «Аргумент» — смотрите",
+    metaDescription:
+      "Плавающая шапка с записью, модалки, услуги для ЮЛ и ФЛ, доверие на главной и удобство с телефона. Разбор внутри.",
     summary:
       "Сайт с нуля для юридической компании: плавающая шапка с записью, модальные формы, услуги для ЮЛ и ФЛ, доверие на главной и удобство с телефона.",
     cover: "/images/cases/argument/main.webp",
@@ -5818,6 +5957,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2020",
     metric: "+30%",
     metricLabel: "к посещаемости после запуска",
+    metaTitle: "+30% трафика после переноса: кейс «Мир Увлечений»",
+    metaDescription:
+      "MODX → Webasyst: корзина и кабинет, каталог, адаптив и задел под SEO-фильтр — в скромный бюджет. Смотрите кейс.",
     summary:
       "Перенос магазина с MODX на Webasyst: полноценная корзина и кабинет, удобный каталог, адаптив и задел под SEO-фильтр — в скромный бюджет.",
     cover: "/images/cases/hobbi36/cover.webp",
@@ -5953,6 +6095,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2020",
     metric: "1С → сайт",
     metricLabel: "от синхронизации к полному редизайну",
+    metaTitle: "1С → полный редизайн: кейс сайта Металлинвест",
+    metaDescription:
+      "Сначала починили выгрузку из 1С, затем обновили каталог, фильтры, корзину, адаптив и SEO-задел. Смотрите разбор.",
     summary:
       "Сначала починили выгрузку из 1С, затем обновили весь сайт металлотрейдера: структура каталога, фильтры, корзина, адаптив и задел под SEO.",
     cover: "/images/cases/metallinvest/cover.webp",
@@ -6089,6 +6234,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2020",
     metric: "в домене",
     metricLabel: "лендинг внутри сайта дилера",
+    metaTitle: "Лендинг Nissan в домене дилера: кейс Мотор Ленд",
+    metaDescription:
+      "Промо на сайте дилера: шапка/подвал как у официала, акции, склад и запись на тест-драйв — без «чужого» лендинга.",
     summary:
       "Промо-лендинг Nissan на домене дилера: шапка и подвал как у официального сайта, акции, склад в наличии и запись на тест-драйв без «чужого» одностраничника.",
     cover: "/images/cases/nissan-landing/cover.webp",
@@ -6220,6 +6368,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2020",
     metric: "Bitrix",
     metricLabel: "магазин + МойСклад",
+    metaTitle: "Bitrix + МойСклад: кейс ИМ KaWe — смотрите",
+    metaDescription:
+      "Магазин немецкой медтехники: понятный каталог, корзина в два клика, синк с МойСклад и админка для владельца. Разбор внутри.",
     summary:
       "Интернет-магазин немецкой медтехники KaWe на Битрикс: понятный каталог, корзина в два клика, синхронизация с МойСклад и админка, с которой справляется владелец.",
     cover: "/images/cases/kawe/cover.webp",
@@ -6350,6 +6501,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2020",
     metric: ">4 мин",
     metricLabel: "среднее время на сайте",
+    metaTitle: ">4 мин на сайте: кейс диспетчера kargo24.su",
+    metaDescription:
+      "Аренда спецтехники и грузового транспорта: свой UI, адаптив и ЛК с оплатой — без посредника-диспетчера. Смотрите.",
     summary:
       "Диспетчерский сервис аренды спецтехники и грузового транспорта: нишевая площадка, свой UI, адаптив и личный кабинет с оплатой — без посредника-диспетчера.",
     cover: "/images/cases/kargo24/cover.webp",
@@ -6480,6 +6634,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2021 · по сей день",
     metric: "LCP 2.1 с",
     metricLabel: "мобильная главная · PageSpeed field",
+    metaTitle: "LCP 2.1 с на мобиле: кейс доработки Альмамед",
+    metaDescription:
+      "С 2021 ведём Webasyst-магазин: UX каталога и заказа, главная, затем скорость 2026 — поиск, N+1, кэш, CWV. Смотрите.",
     summary:
       "С 2021 ведём магазин на Webasyst: UX каталога и пути к заказу, доработка главной (баннер, блоки доверия), затем большой пул скорости 2026 — поиск, N+1, кэш и Core Web Vitals.",
     cover: "/images/cases/almamed/2026-home.webp",
@@ -6632,6 +6789,9 @@ export const caseStudies: CaseStudy[] = [
     period: "с 2015 · по сей день",
     metric: "10+ лет",
     metricLabel: "вместе · с 2015",
+    metaTitle: "10+ лет с витриной: кейс доработки «Полимер»",
+    metaDescription:
+      "С 2015 — трафик и заявки из поиска; в 2021 большая доработка каталога на Битрикс, дальше сопровождение. Смотрите кейс или заявку.",
     summary:
       "С 2015 ведём Полимер: сначала трафик и заявки из поиска, в 2021 — большая доработка каталога на Битрикс, дальше сопровождение витрины.",
     cover: "/images/cases/polimer/cover.webp",
@@ -6789,6 +6949,9 @@ export const caseStudies: CaseStudy[] = [
     period: "2016 · SEO → 2023 · Битрикс",
     metric: "473",
     metricLabel: "фразы в SEO-ядре",
+    metaTitle: "473 фразы и переезд на Битрикс: кейс «ТоргМаг»",
+    metaDescription:
+      "С 2016 — SEO после провала прошлой студии. В 2023 — с самописной CMS на Битрикс: меню, заказы, оплата и доставка. Смотрите.",
     summary:
       "С 2016 — SEO после провала прошлой студии. В 2023 — переезд с самописной CMS на Битрикс: меню, заказы, оплата и доставка.",
     cover: "/images/cases/torgmag/cover.webp",

@@ -7,6 +7,9 @@ export const htaccess301En: BlogPost = {
   date: "2021-04-16",
   category: "SEO",
   cover: "/images/blog/htaccess-301/cover-en.webp",
+  metaTitle: "Redirects breaking the site? 301s in .htaccess: common rules, safely",
+  metaDescription:
+    "Syntax, typical cases, and how not to loop URLs. Cheat sheet — before you edit production.",
   excerpt:
     "Practical permanent 301 examples in Apache .htaccess: https, www, trailing slash, page and domain moves — plus when a redirect isn’t needed.",
   lead: [
@@ -174,6 +177,9 @@ export const htaccess301Es: BlogPost = {
   date: "2021-04-16",
   category: "SEO",
   cover: "/images/blog/htaccess-301/cover-es.webp",
+  metaTitle: "¿Redirects rompen la web? 301 en .htaccess: reglas frecuentes sin sustos",
+  metaDescription:
+    "Sintaxis, casos típicos y cómo no ciclar URLs. Chuleta — antes de tocar prod.",
   excerpt:
     "Ejemplos prácticos de 301 permanentes en Apache .htaccess: https, www, trailing slash, mudanzas de página y dominio — más cuándo no hace falta un redirect.",
   lead: [

@@ -7,6 +7,9 @@ export const instagramDirectEn: BlogPost = {
   date: "2021-12-24",
   category: "SMM",
   cover: "/images/blog/instagram-direct/cover-en.webp",
+  metaTitle: "Mass “hi there” in Direct? Instagram greetings without the spam feel",
+  metaDescription:
+    "How to open and reply without annoying people. Cheat sheet — before the next outreach.",
   excerpt:
     "Auto-replies and chat in Instagram Direct: why they matter, which setups work, and why cold mass DMs and bots put the account at risk — without a roundup of shady tools.",
   lead: [
@@ -202,6 +205,9 @@ export const instagramDirectEs: BlogPost = {
   date: "2021-12-24",
   category: "SMM",
   cover: "/images/blog/instagram-direct/cover-es.webp",
+  metaTitle: "¿“Hola” masivo en Direct? Saludos en Instagram sin spam",
+  metaDescription:
+    "Cómo escribir primero y responder sin irritar. Chuleta — antes del próximo contacto.",
   excerpt:
     "Auto-respuestas y chat en Instagram Direct: por qué importan, qué setups funcionan y por qué los DMs masivos fríos y los bots ponen la cuenta en riesgo — sin un roundup de herramientas dudosas.",
   lead: [

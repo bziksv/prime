@@ -7,6 +7,9 @@ export const ssylkiTelegramEn: BlogPost = {
   date: "2020-09-15",
   category: "SMM",
   cover: "/images/blog/ssylki-telegram/cover-en.webp",
+  metaTitle: "Can’t find the Telegram link? Profile, channel, chat, and invite",
+  metaDescription:
+    "How to copy them and how the types differ. Cheat sheet — one minute.",
   excerpt:
     "How to create and share links to a Telegram profile, channel, and chat: t.me, usernames, invite links, in-message hyperlinks, and opening URLs in the app.",
   lead: [
@@ -207,6 +210,9 @@ export const ssylkiTelegramEs: BlogPost = {
   date: "2020-09-15",
   category: "SMM",
   cover: "/images/blog/ssylki-telegram/cover-es.webp",
+  metaTitle: "¿No encuentras el enlace de Telegram? Perfil, canal, chat e invitación",
+  metaDescription:
+    "Cómo copiarlos y en qué difieren. Chuleta — en un minuto.",
   excerpt:
     "Cómo crear y compartir enlaces a un perfil, canal y chat de Telegram: t.me, usernames, invites, hiperenlaces en mensajes y abrir URLs en la app.",
   lead: [

@@ -7,6 +7,9 @@ export const tsvetInternetMagazinaEn: BlogPost = {
   date: "2018-05-16",
   category: "Digital marketing",
   cover: "/images/blog/tsvet-internet-magazina/cover-en.webp",
+  metaTitle: "Store colors “because trendy”? A palette that doesn’t kill conversion",
+  metaDescription:
+    "Contrast, brand, and trust. Checklist — before you lock the UI kit.",
   excerpt:
     "How to pick a storefront palette: link to brand and product, audience, color wheel, CTA accent, and readability — without the myth that “color alone boosts conversion by tens of percent”.",
   lead: [
@@ -104,6 +107,9 @@ export const tsvetInternetMagazinaEs: BlogPost = {
   date: "2018-05-16",
   category: "Digital marketing",
   cover: "/images/blog/tsvet-internet-magazina/cover-es.webp",
+  metaTitle: "¿Colores de tienda “porque están de moda”? Paleta que no mate la conversión",
+  metaDescription:
+    "Contraste, marca y confianza. Checklist — antes de fijar el UI kit.",
   excerpt:
     "Cómo elegir la paleta del storefront: vínculo con marca y producto, audiencia, rueda de color, acento de CTA y legibilidad — sin el mito de que «el color solo sube la conversión decenas de por ciento».",
   lead: [

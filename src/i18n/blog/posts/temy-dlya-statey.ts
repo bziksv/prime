@@ -7,6 +7,9 @@ export const temyDlyaStateyEn: BlogPost = {
   date: "2019-06-14",
   category: "Content marketing",
   cover: "/images/blog/temy-dlya-statey/cover-en.webp",
+  metaTitle: "Content calendar empty? Article topics: how and where to find ideas",
+  metaDescription:
+    "Demand, competitors, and audience questions. Method shortlist — before planning.",
   excerpt:
     "Where to get blog topics: audience, competitors, search demand, trends, and discussion spaces — without copy-pasting others’ texts or chasing “virality.”",
   lead: [
@@ -139,6 +142,9 @@ export const temyDlyaStateyEs: BlogPost = {
   date: "2019-06-14",
   category: "Content marketing",
   cover: "/images/blog/temy-dlya-statey/cover-es.webp",
+  metaTitle: "¿Calendario vacío? Temas para artículos: cómo y dónde buscar ideas",
+  metaDescription:
+    "Demanda, competencia y preguntas de audiencia. Métodos — antes de la planning.",
   excerpt:
     "De dónde sacar temas de blog: audiencia, competidores, demanda de búsqueda, trends y espacios de discusión — sin copy-paste de textos ajenos ni perseguir «viralidad».",
   lead: [

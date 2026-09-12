@@ -7,6 +7,9 @@ export const privetstvieSaytaEn: BlogPost = {
   date: "2021-08-10",
   category: "Digital marketing",
   cover: "/images/blog/privetstvie-sayta/cover-en.webp",
+  metaTitle: "“Welcome” popups annoying? Site greetings that don’t kill conversion",
+  metaDescription:
+    "When they fit — and how not to tank UX. Checklist — before you enable the widget.",
   excerpt:
     "How to shape the first contact on the homepage: hero copy, careful popups, and chat. What builds trust and conversion — and what pushes people away in seconds.",
   lead: [
@@ -172,6 +175,9 @@ export const privetstvieSaytaEs: BlogPost = {
   date: "2021-08-10",
   category: "Digital marketing",
   cover: "/images/blog/privetstvie-sayta/cover-es.webp",
+  metaTitle: "¿Popup “Bienvenido” irrita? Saludo en la web sin matar la conversión",
+  metaDescription:
+    "Cuándo encaja y cómo no tumbar el UX. Checklist — antes de activar el widget.",
   excerpt:
     "Cómo moldear el primer contacto en la home: copy del hero, popups con cuidado y chat. Qué construye confianza y conversión — y qué espanta en segundos.",
   lead: [

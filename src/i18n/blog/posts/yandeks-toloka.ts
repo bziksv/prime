@@ -7,6 +7,9 @@ export const yandeksTolokaEn: BlogPost = {
   date: "2021-09-28",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-toloka/cover-en.webp",
+  metaTitle: "Toloka “easy money”? Tasks, roles, and realistic earnings",
+  metaDescription:
+    "No income illusions. Breakdown — before you sign up as a worker.",
   excerpt:
     "What Toloka is: crowdsourced data labeling for AI and search. Requester and worker roles, task types, rating, and why earnings-per-day figures from old guides are outdated.",
   lead: [
@@ -163,6 +166,9 @@ export const yandeksTolokaEs: BlogPost = {
   date: "2021-09-28",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-toloka/cover-es.webp",
+  metaTitle: "¿Toloka “dinero fácil”? Tareas, roles y ganancias realistas",
+  metaDescription:
+    "Sin ilusiones de ingreso. Análisis — antes de registrarte como ejecutor.",
   excerpt:
     "Qué es Toloka: etiquetado crowdsourced de datos para IA y búsqueda. Roles de requester y worker, tipos de tareas, rating y por qué las cifras de ganancias al día de guías antiguas están obsoletas.",
   lead: [

@@ -7,6 +7,9 @@ export const postFacebookEn: BlogPost = {
   date: "2020-10-27",
   category: "SMM",
   cover: "/images/blog/post-facebook/cover-en.webp",
+  metaTitle: "Facebook posts by guesswork? Formats and settings without confusion",
+  metaDescription:
+    "Post types and options. Checklist — before the next publish.",
   excerpt:
     "How to publish Facebook posts on a personal wall, in a group, and on a Page: formats, pinning, scheduling, and boosting — without outdated button screenshots.",
   lead: [
@@ -144,6 +147,9 @@ export const postFacebookEs: BlogPost = {
   date: "2020-10-27",
   category: "SMM",
   cover: "/images/blog/post-facebook/cover-es.webp",
+  metaTitle: "¿Post en Facebook a ojo? Formatos y ajustes sin lío",
+  metaDescription:
+    "Tipos de publicación y opciones. Checklist — antes de la próxima publicación.",
   excerpt:
     "Cómo publicar posts de Facebook en un muro personal, en un grupo y en una Page: formatos, pinning, scheduling y boosting — sin capturas obsoletas de botones.",
   lead: [

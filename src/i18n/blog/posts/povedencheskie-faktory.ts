@@ -7,6 +7,9 @@ export const povedencheskieFaktoryEn: BlogPost = {
   date: "2018-08-23",
   category: "Digital marketing",
   cover: "/images/blog/povedencheskie-faktory/cover-en.webp",
+  metaTitle: "Can’t fake engagement — then what? Behavioral signals without gray schemes",
+  metaDescription:
+    "What to improve legally: UX, speed, relevance. Checklist — before the tech sprint.",
   excerpt:
     "On-site and off-site behavioral signals: bounce, depth, time, snippet CTR; structure, mobile, speed, content, and session replay — without gaming schemes or ranking guarantees.",
   lead: [
@@ -135,6 +138,9 @@ export const povedencheskieFaktoryEs: BlogPost = {
   date: "2018-08-23",
   category: "Digital marketing",
   cover: "/images/blog/povedencheskie-faktory/cover-es.webp",
+  metaTitle: "¿No se puede falsificar engagement — entonces? Señales de comportamiento sin esquemas grises",
+  metaDescription:
+    "Qué mejorar legalmente: UX, velocidad, relevancia. Checklist — antes del sprint técnico.",
   excerpt:
     "Señales de comportamiento on-site y off-site: bounce, profundidad, tiempo, CTR del snippet; estructura, móvil, velocidad, contenido y session replay — sin esquemas de gaming ni garantías de ranking.",
   lead: [

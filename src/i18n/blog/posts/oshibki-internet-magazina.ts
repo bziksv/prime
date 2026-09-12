@@ -7,6 +7,9 @@ export const oshibkiInternetMagazinaEn: BlogPost = {
   date: "2019-05-16",
   category: "E-commerce",
   cover: "/images/blog/oshibki-internet-magazina/cover-en.webp",
+  metaTitle: "Audit all green — sales flat? 7 ecommerce mistakes scanners miss",
+  metaDescription:
+    "Catalog, PDPs, and UX beyond crawler checklists. Breakdown — before the next SEO audit.",
   excerpt:
     "Hidden ecommerce mistakes: duplicates on pagination and filters, a messy catalog, a useless price slider, weak photos, a region pop-up, extra modals, and illogical filters.",
   lead: [
@@ -133,6 +136,9 @@ export const oshibkiInternetMagazinaEs: BlogPost = {
   date: "2019-05-16",
   category: "E-commerce",
   cover: "/images/blog/oshibki-internet-magazina/cover-es.webp",
+  metaTitle: "¿Auditoría en verde y cero ventas? 7 errores ecom que el scanner no pilla",
+  metaDescription:
+    "Catálogo, fichas y UX fuera del checklist. Análisis — antes de la próxima auditoría SEO.",
   excerpt:
     "Errores ocultos de ecommerce: duplicados en paginación y filtros, un catálogo caótico, un slider de precio inútil, fotos débiles, un pop-up de región, modales extra y filtros ilógicos.",
   lead: [

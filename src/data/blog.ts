@@ -620,6 +620,10 @@ export type BlogPost = {
   category: string;
   cover: string;
   excerpt: string;
+  /** SERP/OG title — must differ from H1 (`title`); CTA-oriented */
+  metaTitle?: string;
+  /** SERP/OG description — click motive; may differ from excerpt */
+  metaDescription?: string;
   lead: string[];
   /** Выделенный правовой дисклеймер (Meta / Instagram / Facebook / WhatsApp и т.п.) */
   legalNotice?: BlogLegalNotice;
@@ -713,6 +717,10 @@ function sanitizePost(post: BlogPost): BlogPost {
     ...post,
     title: cleanBlogText(post.title),
     excerpt: cleanBlogText(post.excerpt),
+    metaTitle: post.metaTitle ? cleanBlogText(post.metaTitle) : undefined,
+    metaDescription: post.metaDescription
+      ? cleanBlogText(post.metaDescription)
+      : undefined,
     lead: (post.lead ?? []).map(cleanBlogText).filter(Boolean),
     legalNotice: sanitizeLegalNotice(post.legalNotice),
     faq: post.faq?.map((item) => ({

@@ -7,6 +7,9 @@ export const ideiKontentProdvizheniyaEn: BlogPost = {
   date: "2019-08-13",
   category: "Content marketing",
   cover: "/images/blog/idei-kontent-prodvizheniya/cover-en.webp",
+  metaTitle: "Content calendar empty? Ideas for content-led site promotion",
+  metaDescription:
+    "Formats tied to demand and the funnel — not posting for posting’s sake. Save before planning.",
   excerpt:
     "Content formats for organic traffic and trust: how-tos, beginner guides, research, experience, reviews, and myth-busting — without “first line of Google” promises.",
   lead: [
@@ -158,6 +161,9 @@ export const ideiKontentProdvizheniyaEs: BlogPost = {
   date: "2019-08-13",
   category: "Content marketing",
   cover: "/images/blog/idei-kontent-prodvizheniya/cover-es.webp",
+  metaTitle: "¿Calendario vacío? Ideas de promoción de contenidos para la web",
+  metaDescription:
+    "Formatos ligados a demanda y embudo — no publicar por publicar. Guarda antes de la planning.",
   excerpt:
     "Formatos de contenido para tráfico orgánico y confianza: how-tos, guías para principiantes, research, experiencia, reviews y desmontar mitos — sin promesas de «primera línea de Google».",
   lead: [

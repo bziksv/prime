@@ -7,6 +7,9 @@ export const adaptivnyyShablonDirektEn: BlogPost = {
   date: "2020-01-16",
   category: "Paid search",
   cover: "/images/blog/adaptivnyy-shablon-direkt/cover-en.webp",
+  metaTitle: "Direct creatives stretch weird? Build an adaptive template",
+  metaDescription:
+    "Learn smart-center, copy limits, and legal bits for templates. Checklist inside — fix ads before the next launch.",
   excerpt:
     "What an adaptive creative template in Yandex Direct does: fit one asset set to many block sizes, set a smart center, write short copy and legal lines — without clinging to 2019 click-paths.",
   lead: [
@@ -158,6 +161,9 @@ export const adaptivnyyShablonDirektEs: BlogPost = {
   date: "2020-01-16",
   category: "Búsqueda de pago",
   cover: "/images/blog/adaptivnyy-shablon-direkt/cover-es.webp",
+  metaTitle: "¿Creatividades de Direct se deforman? Arma una plantilla adaptable",
+  metaDescription:
+    "Entiende smart-center, textos y requisitos legales. Checklist dentro — revisa anuncios antes del próximo lanzamiento.",
   excerpt:
     "Qué hace una plantilla creativa adaptativa en Yandex Direct: encajar un set de assets a muchos tamaños de bloque, fijar un smart center, escribir copy corto y líneas legales — sin aferrarse a rutas de clics de 2019.",
   lead: [

@@ -7,6 +7,9 @@ export const menedzherParoleyEn: BlogPost = {
   date: "2018-04-06",
   category: "Digital marketing",
   cover: "/images/blog/menedzher-paroley/cover-en.webp",
+  metaTitle: "Passwords in Notes? A password manager: why you need one and how to pick",
+  metaDescription:
+    "Security, sync, and selection criteria. Checklist — move credentials this week.",
   excerpt:
     "Why a password manager matters personally and for a team: unique passwords, 2FA, selection criteria — without an outdated “best of three” listicle and 2018 prices.",
   lead: [
@@ -171,6 +174,9 @@ export const menedzherParoleyEs: BlogPost = {
   date: "2018-04-06",
   category: "Digital marketing",
   cover: "/images/blog/menedzher-paroley/cover-es.webp",
+  metaTitle: "¿Contraseñas en Notas? Gestor de passwords: para qué y cómo elegir",
+  metaDescription:
+    "Seguridad, sync y criterios. Checklist — migra accesos esta semana.",
   excerpt:
     "Por qué importa un gestor de contraseñas en lo personal y en el equipo: contraseñas únicas, 2FA, criterios de selección — sin un listicle desfasado de «los tres mejores» ni precios de 2018.",
   lead: [

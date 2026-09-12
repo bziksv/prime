@@ -7,6 +7,9 @@ export const semanticheskoeYadroEn: BlogPost = {
   date: "2022-03-01",
   category: "SEO",
   cover: "/images/blog/semanticheskoe-yadro/cover-en.webp",
+  metaTitle: "Keyword map from thin air? Build a site semantic core the right way",
+  metaDescription:
+    "Research, cleanup, and clustering without keyword sprawl. Checklist — before the copy brief.",
   excerpt:
     "How to pick keywords, classify queries, and build a semantic core — step by step for SEO.",
   lead: [
@@ -494,6 +497,9 @@ export const semanticheskoeYadroEs: BlogPost = {
   date: "2022-03-01",
   category: "SEO",
   cover: "/images/blog/semanticheskoe-yadro/cover-es.webp",
+  metaTitle: "¿Núcleo semántico a ojo? Ármalo bien para el sitio",
+  metaDescription:
+    "Recogida, limpieza y clustering sin zoo de keywords. Checklist — antes del brief de textos.",
   excerpt:
     "Cómo elegir keywords, clasificar queries y montar un núcleo semántico — paso a paso para SEO.",
   lead: [

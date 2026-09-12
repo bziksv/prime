@@ -7,6 +7,9 @@ export const skriptSaytaEn: BlogPost = {
   date: "2020-07-16",
   category: "Digital marketing",
   cover: "/images/blog/skript-sayta/cover-en.webp",
+  metaTitle: "“Site script” sounds scary? What it means and why sites need scripts",
+  metaDescription:
+    "Practical examples without jargon overload. Primer — before talking to a developer.",
   excerpt:
     "What people call a site script: client and server code, languages, typical jobs, and how to insert snippets without hurting speed and security.",
   lead: [
@@ -211,6 +214,9 @@ export const skriptSaytaEs: BlogPost = {
   date: "2020-07-16",
   category: "Digital marketing",
   cover: "/images/blog/skript-sayta/cover-es.webp",
+  metaTitle: "¿“Script del sitio” suena a miedo? Qué es y para qué sirve",
+  metaDescription:
+    "Ejemplos prácticos sin jerga de más. Base — antes de hablar con el desarrollador.",
   excerpt:
     "Qué se llama script de un sitio: código cliente y servidor, lenguajes, trabajos típicos y cómo insertar snippets sin dañar velocidad y seguridad.",
   lead: [

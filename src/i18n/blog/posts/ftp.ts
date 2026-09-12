@@ -7,6 +7,9 @@ export const ftpEn: BlogPost = {
   date: "2020-11-30",
   category: "Hosting",
   cover: "/images/blog/ftp/cover-en.webp",
+  metaTitle: "Uploading only via the host panel? FTP: what it is and how to use it",
+  metaDescription:
+    "Connect, permissions, and common mistakes without losing files. Cheat sheet — before the first deploy.",
   excerpt:
     "FTP is a protocol for moving files to hosting: why you need a client, how to connect, why FileZilla helps, and why SFTP/FTPS beat plain FTP with a password.",
   lead: [
@@ -166,6 +169,9 @@ export const ftpEs: BlogPost = {
   date: "2020-11-30",
   category: "Hosting",
   cover: "/images/blog/ftp/cover-es.webp",
+  metaTitle: "¿Subes solo por el panel del hosting? FTP: qué es y cómo usarlo",
+  metaDescription:
+    "Conexión, permisos y errores típicos sin perder archivos. Chuleta — antes de la primera subida.",
   excerpt:
     "FTP es un protocolo para mover archivos al hosting: por qué hace falta un cliente, cómo conectar, por qué FileZilla ayuda y por qué SFTP/FTPS ganan al FTP plano con contraseña.",
   lead: [

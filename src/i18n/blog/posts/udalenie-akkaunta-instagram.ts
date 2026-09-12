@@ -7,6 +7,9 @@ export const udalenieAkkauntaInstagramEn: BlogPost = {
   date: "2020-10-06",
   category: "SMM",
   cover: "/images/blog/udalenie-akkaunta-instagram/cover-en.webp",
+  metaTitle: "Delete Instagram “forever”? Personal, business, and temporary pause",
+  metaDescription:
+    "Steps, timelines, and what to keep. Cheat sheet — before you confirm deletion.",
   excerpt:
     "How temporary deactivation, switching a business profile to personal, and permanently deleting an Instagram account differ — and what you usually can’t undo.",
   lead: [
@@ -149,6 +152,9 @@ export const udalenieAkkauntaInstagramEs: BlogPost = {
   date: "2020-10-06",
   category: "SMM",
   cover: "/images/blog/udalenie-akkaunta-instagram/cover-es.webp",
+  metaTitle: "¿Borrar Instagram “para siempre”? Personal, business y pausa temporal",
+  metaDescription:
+    "Pasos, plazos y qué conservar. Chuleta — antes de confirmar el borrado.",
   excerpt:
     "En qué se diferencian la desactivación temporal, pasar un perfil business a personal y borrar para siempre una cuenta de Instagram — y qué normalmente no se puede deshacer.",
   lead: [

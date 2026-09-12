@@ -7,6 +7,9 @@ export const urlAdresEn: BlogPost = {
   date: "2021-08-13",
   category: "SEO",
   cover: "/images/blog/url-adres/cover-en.webp",
+  metaTitle: "URLs by accident? Site addresses: structure and SEO impact",
+  metaDescription:
+    "Readability, parameters, and redirects. Cheat sheet — before you change slugs.",
   excerpt:
     "What a URL is, which parts make up a page address, how to write readable slugs, and how much the path really affects SEO — without the myth “keyword in URL = page one.”",
   lead: [
@@ -177,6 +180,9 @@ export const urlAdresEs: BlogPost = {
   date: "2021-08-13",
   category: "SEO",
   cover: "/images/blog/url-adres/cover-es.webp",
+  metaTitle: "¿URLs “como salga”? Dirección del sitio: estructura e impacto SEO",
+  metaDescription:
+    "Legibilidad, parámetros y redirects. Chuleta — antes de cambiar los slugs.",
   excerpt:
     "Qué es una URL, de qué partes se compone la dirección de una página, cómo escribir slugs legibles y cuánto afecta de verdad el path al SEO — sin el mito «keyword en la URL = primera página».",
   lead: [

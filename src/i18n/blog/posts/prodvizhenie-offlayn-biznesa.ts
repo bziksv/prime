@@ -7,6 +7,9 @@ export const prodvizhenieOfflaynBiznesaEn: BlogPost = {
   date: "2019-08-29",
   category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-offlayn-biznesa/cover-en.webp",
+  metaTitle: "Offline business “not online”? Maps, reviews, hyperlocal, and visit tracking",
+  metaDescription:
+    "How to connect digital to foot traffic. Checklist — before a local campaign.",
   excerpt:
     "How to bring people to a location: map listings, reviews, hyperlocal ads and SMS, outdoor/indoor, and the online→offline link — without betting on outdated MAC radar.",
   lead: [
@@ -157,6 +160,9 @@ export const prodvizhenieOfflaynBiznesaEs: BlogPost = {
   date: "2019-08-29",
   category: "Digital marketing",
   cover: "/images/blog/prodvizhenie-offlayn-biznesa/cover-es.webp",
+  metaTitle: "¿Negocio offline “fuera de internet”? Mapas, reseñas, hiperlocal y medición de visitas",
+  metaDescription:
+    "Cómo ligar digital con visitas al local. Checklist — antes de la campaña local.",
   excerpt:
     "Cómo llevar gente a un local: fichas en mapas, reseñas, ads hiperlocales y SMS, outdoor/indoor y el enlace online→offline — sin apostar por el radar MAC anticuado.",
   lead: [

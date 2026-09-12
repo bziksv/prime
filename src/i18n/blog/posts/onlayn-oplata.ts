@@ -7,6 +7,9 @@ export const onlaynOplataEn: BlogPost = {
   date: "2021-07-08",
   category: "E-commerce",
   cover: "/images/blog/onlayn-oplata/cover-en.webp",
+  metaTitle: "Acquiring or payment aggregator? Online checkout on the site: what to pick",
+  metaDescription:
+    "Fees, setup, and risks. Checklist — before you wire payments into the landing.",
   excerpt:
     "How to accept payments on a site: card, Faster Payments (SBP), and wallets; how a gateway differs from an aggregator and a bank acquirer; what to watch on fees, security, and fiscal rules (54-FZ).",
   lead: [
@@ -139,6 +142,9 @@ export const onlaynOplataEs: BlogPost = {
   date: "2021-07-08",
   category: "E-commerce",
   cover: "/images/blog/onlayn-oplata/cover-es.webp",
+  metaTitle: "¿Adquirencia o agregador? Pago online en la web: qué elegir",
+  metaDescription:
+    "Comisiones, alta y riesgos. Checklist — antes de integrar el checkout.",
   excerpt:
     "Cómo aceptar pagos en un sitio: tarjeta, Faster Payments (SBP) y wallets; en qué se diferencia un gateway de un agregador y un adquirente bancario; qué mirar en comisiones, seguridad y reglas fiscales (54-FZ).",
   lead: [

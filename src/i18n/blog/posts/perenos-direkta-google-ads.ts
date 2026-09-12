@@ -7,6 +7,9 @@ export const perenosDirektaGoogleAdsEn: BlogPost = {
   date: "2018-09-12",
   category: "Paid search",
   cover: "/images/blog/perenos-direkta-google-ads/cover-en.webp",
+  metaTitle: "Copy-pasting Yandex Direct into Google Ads? Migrate without losing the strategy",
+  metaDescription:
+    "What transfers, what to rewrite, and common mistakes. Checklist — before migration.",
   excerpt:
     "How to move search campaigns from Yandex Direct into Google Ads: match types, negatives, ad limits, and geo — without blind Excel dumps or outdated 2018 “teleporter” tools.",
   lead: [
@@ -171,6 +174,9 @@ export const perenosDirektaGoogleAdsEs: BlogPost = {
   date: "2018-09-12",
   category: "Paid search",
   cover: "/images/blog/perenos-direkta-google-ads/cover-es.webp",
+  metaTitle: "¿Copiar Direct a Google Ads? Migra sin perder la estrategia",
+  metaDescription:
+    "Qué se traslada, qué reescribir y errores típicos. Checklist — antes de migrar.",
   excerpt:
     "Cómo pasar campañas de búsqueda de Yandex Direct a Google Ads: match types, negativos, límites de anuncios y geo — sin volcados ciegos de Excel ni herramientas «teleporter» obsoletas de 2018.",
   lead: [

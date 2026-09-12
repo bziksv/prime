@@ -7,6 +7,9 @@ export const utpEn: BlogPost = {
   date: "2020-02-03",
   category: "Digital marketing",
   cover: "/images/blog/utp/cover-en.webp",
+  metaTitle: "USP stuck on “quality and price”? Build an offer that actually differentiates",
+  metaDescription:
+    "Formula, tests, and clichés. Checklist — before you rewrite the site offer.",
   excerpt:
     "What a USP is, how it differs from a promo and a slogan, how to phrase your edge vs competitors, and how to test the line on a landing page and in ads.",
   lead: [
@@ -178,6 +181,9 @@ export const utpEs: BlogPost = {
   date: "2020-02-03",
   category: "Digital marketing",
   cover: "/images/blog/utp/cover-es.webp",
+  metaTitle: "¿USP “calidad y precio”? Arma una propuesta que sí diferencie",
+  metaDescription:
+    "Fórmula, tests y clichés. Checklist — antes de reescribir la oferta en la web.",
   excerpt:
     "Qué es una USP, en qué se diferencia de una promo y un eslogan, cómo formular tu ventaja frente a competidores y cómo probar la frase en un landing y en ads.",
   lead: [

@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     period: "2016–2021",
     metric: "~120",
     metricLabel: "calls per month from search",
+    metaTitle: "~120 search calls a month — see KabelMontazh SEO",
+    metaDescription:
+      "B2B electrical install: 30 commercial phrases, page one planned 2–6 months, ~120 calls/month. Case breakdown — or request if you need that pipeline.",
     summary:
       "B2B electrical installation: a 30-phrase commercial keyword set, page-one growth planned over 2–6 months, about 120 search calls per month. Partnership until ~2021 — then the company closed under market pressure.",
     coverAlt: "Electrical installation — cable runs",
@@ -134,6 +137,9 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~120",
     metricLabel: "calls per month from the web",
+    metaTitle: "Flyers → ~120 calls/month — VoronezhVtorma SEO case",
+    metaDescription:
+      "Recycling intake SEO: 57 phrases, page one, ~120 calls/month and drop-off visits. See the case — or request a similar plan.",
     summary:
       "SEO for a recycling intake point: search instead of flyers. 57 phrases, prep ~1 month, page one planned over 2–6 months, about 120 calls per month and visits to the drop-off point.",
     coverAlt: "vtorma-vrn.ru homepage — recycling intake",
@@ -264,6 +270,9 @@ export const caseTranslationsEnBatch9: Record<string, Partial<CaseStudy>> = {
     period: "2016",
     metric: "~170",
     metricLabel: "calls per month from the web",
+    metaTitle: "~170 web calls — and a model lesson: Rc-Revolt",
+    metaDescription:
+      "RC shop SEO: 68 phrases, rankings planned 2–6 months, ~170 calls/month. Demand was there; finances weren’t. Full case inside.",
     summary:
       "SEO for an RC-model store: 68 phrases, page one planned over 2–6 months, about 170 calls per month. Search demand was there — the business misjudged its financial model and turned unprofitable.",
     coverAlt: "Rc-Revolt — RC models: helicopter, car, boat",

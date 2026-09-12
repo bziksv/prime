@@ -7,6 +7,9 @@ export const htmlSeoEn: BlogPost = {
   date: "2020-09-28",
   category: "SEO",
   cover: "/images/blog/html-seo/cover-en.webp",
+  metaTitle: "SEO without reading HTML? Why hypertext markup still matters",
+  metaDescription:
+    "Tags, structure, and mistakes that hurt visibility. Primer — before the next code audit.",
   excerpt:
     "How HTML helps SEO: document structure, title and meta, headings, links, and code validity — without the myth that “broken HTML = a ban,” plus links to related guides.",
   lead: [
@@ -156,6 +159,9 @@ export const htmlSeoEs: BlogPost = {
   date: "2020-09-28",
   category: "SEO",
   cover: "/images/blog/html-seo/cover-es.webp",
+  metaTitle: "¿SEO sin mirar HTML? Por qué importa el marcado de hipertexto",
+  metaDescription:
+    "Tags, estructura y errores que cortan visibilidad. Base — antes de la próxima auditoría de código.",
   excerpt:
     "Cómo el HTML ayuda al SEO: estructura del documento, title y meta, headings, enlaces y validez del código — sin el mito de que «HTML roto = ban», más enlaces a guías relacionadas.",
   lead: [

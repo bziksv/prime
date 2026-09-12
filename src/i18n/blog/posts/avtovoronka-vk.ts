@@ -7,6 +7,9 @@ export const avtovoronkaVkEn: BlogPost = {
   date: "2020-04-15",
   category: "Content marketing",
   cover: "/images/blog/avtovoronka-vk/cover-en.webp",
+  metaTitle: "VK community DMs quiet? Autofunnel for sales scenarios",
+  metaDescription:
+    "How to wire community messages to a sales flow without breaking platform rules. Checklist — before you ship a bot.",
   excerpt:
     "How to build a VKontakte autofunnel: community, opt-in messaging, lead magnet, and a touch chain — without outdated service catalogs or cold spam.",
   lead: [
@@ -139,6 +142,9 @@ export const avtovoronkaVkEs: BlogPost = {
   date: "2020-04-15",
   category: "Content marketing",
   cover: "/images/blog/avtovoronka-vk/cover-es.webp",
+  metaTitle: "¿Mensajes de la comunidad VK en silencio? Autofunnel de ventas",
+  metaDescription:
+    "Cómo enlazar mensajes de comunidad a un flujo de ventas sin romper reglas. Checklist — antes de lanzar el bot.",
   excerpt:
     "Cómo armar un autofunnel en VKontakte: comunidad, mensajería con opt-in, lead magnet y cadena de toques — sin catálogos de servicios obsoletos ni spam frío.",
   lead: [

@@ -13,6 +13,9 @@ export const caseTranslationsEnBatch2: Record<string, Partial<CaseStudy>> = {
     period: "product · Laravel · ongoing",
     metric: "53k+",
     metricLabel: "SKUs in the catalog",
+    metaTitle: "53k+ SKUs + purchasing — LagerPlus warehouse case",
+    metaDescription:
+      "Web around MoySklad: dashboard, SKU registry, lost profit, buy list, suppliers. Live on lagerplus.ru — see the case.",
     summary:
       "LagerPlus is a warehouse web app on top of MoySklad inventory: dashboard, SKU registry, lost-sales view, buy lists, and suppliers. Live at lagerplus.ru.",
     coverAlt: "LagerPlus dashboard — stock, totals, and trends",
@@ -133,6 +136,9 @@ export const caseTranslationsEnBatch2: Record<string, Partial<CaseStudy>> = {
     period: "own product · beta",
     metric: "16–64",
     metricLabel: "players in a tournament bracket",
+    metaTitle: "16–64 player brackets — billiard.guru platform",
+    metaDescription:
+      "Club/player service: live brackets, rating, Telegram login, table booking. Open beta on billiard.guru — see the case.",
     summary:
       "We built billiard.guru for clubs and players: live tournament brackets, ratings, Telegram login, and table bookings. Open beta at billiard.guru.",
     coverAlt: "billiard.guru homepage — tournaments and community",
@@ -253,6 +259,9 @@ export const caseTranslationsEnBatch2: Record<string, Partial<CaseStudy>> = {
     period: "own product · beta",
     metric: "TG",
     metricLabel: "bot · menu · alerts · bookings",
+    metaTitle: "TG bot: menu, pushes, bookings — BilliardGuruBot",
+    metaDescription:
+      "Bot for billiard.guru: login/confirm, player menu, match alerts, bookings and casual play — no separate app. See the case.",
     summary:
       "We built @BilliardGuruBot for the billiard.guru platform: login and confirmation, a player menu, match alerts, table bookings, and “Find a game” — no separate app.",
     coverAlt: "billiard.guru Telegram bot — service in the messenger",

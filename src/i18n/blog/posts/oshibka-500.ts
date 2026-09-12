@@ -7,6 +7,9 @@ export const oshibka500En: BlogPost = {
   date: "2020-07-21",
   category: "SEO",
   cover: "/images/blog/oshibka-500/cover-en.webp",
+  metaTitle: "Site returned 500? Internal Server Error: what it means and how to fix",
+  metaDescription:
+    "Common causes, logs, and first moves. Cheat sheet — before you escalate to hosting.",
   excerpt:
     "What HTTP 500 means, how it differs from 502/504, typical CMS and hosting causes, and a clear diagnosis order — without “magic” fix plugins.",
   lead: [
@@ -208,6 +211,9 @@ export const oshibka500Es: BlogPost = {
   date: "2020-07-21",
   category: "SEO",
   cover: "/images/blog/oshibka-500/cover-es.webp",
+  metaTitle: "¿La web dio 500? Internal Server Error: qué significa y cómo arreglar",
+  metaDescription:
+    "Causas típicas, logs y primeros pasos. Chuleta — antes de escalar al hosting.",
   excerpt:
     "Qué significa HTTP 500, en qué se diferencia de 502/504, causas típicas de CMS y hosting, y un orden claro de diagnóstico — sin plugins «mágicos» de fix.",
   lead: [

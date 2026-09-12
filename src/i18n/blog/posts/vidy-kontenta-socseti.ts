@@ -7,6 +7,9 @@ export const vidyKontentaSocsetiEn: BlogPost = {
   date: "2019-04-01",
   category: "SMM",
   cover: "/images/blog/vidy-kontenta-socseti/cover-en.webp",
+  metaTitle: "Only photos on social? Content types and how to mix them",
+  metaDescription:
+    "Format balance without burnout. Matrix — before the content plan.",
   excerpt:
     "Informational, selling, educational, engaging, and entertainment content on social: why each type exists and how to build a mix without a rigid “one-third of the feed is sales” rule.",
   legalNotice: {
@@ -186,6 +189,9 @@ export const vidyKontentaSocsetiEs: BlogPost = {
   date: "2019-04-01",
   category: "SMM",
   cover: "/images/blog/vidy-kontenta-socseti/cover-es.webp",
+  metaTitle: "¿Solo fotos en social? Tipos de contenido y cómo mezclarlos",
+  metaDescription:
+    "Equilibrio de formatos sin burnout. Matriz — antes del plan de contenido.",
   excerpt:
     "Contenido informativo, de venta, educativo, de engagement y de entretenimiento en redes: para qué sirve cada tipo y cómo armar un mix sin la regla rígida de «un tercio del feed son ventas».",
   legalNotice: {

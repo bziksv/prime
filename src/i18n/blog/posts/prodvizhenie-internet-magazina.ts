@@ -7,6 +7,9 @@ export const prodvizhenieInternetMagazinaEn: BlogPost = {
   date: "2021-11-08",
   category: "SEO",
   cover: "/images/blog/prodvizhenie-internet-magazina/cover-en.webp",
+  metaTitle: "Store live, search sales flat? Ecommerce promotion: tech, structure, SEO",
+  metaDescription:
+    "Priorities beyond “just buy links.” Plan — before the next SEO sprint.",
   excerpt:
     "Online-store SEO: technical audit, catalog structure, internal links, keywords, title tags, product copy, and commercial trust signals.",
   lead: [
@@ -166,6 +169,9 @@ export const prodvizhenieInternetMagazinaEs: BlogPost = {
   date: "2021-11-08",
   category: "SEO",
   cover: "/images/blog/prodvizhenie-internet-magazina/cover-es.webp",
+  metaTitle: "¿Tienda viva y cero ventas de búsqueda? Promoción ecom: técnica, estructura, SEO",
+  metaDescription:
+    "Prioridades más allá de “comprar enlaces”. Plan — antes del próximo sprint SEO.",
   excerpt:
     "SEO de tienda online: auditoría técnica, estructura de catálogo, linking interno, keywords, title tags, copy de producto y señales comerciales de confianza.",
   lead: [

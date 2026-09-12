@@ -7,6 +7,9 @@ export const katalogiSaytovEn: BlogPost = {
   date: "2020-10-08",
   category: "SEO",
   cover: "/images/blog/katalogi-saytov/cover-en.webp",
+  metaTitle: "Directories like it’s 2010? Site listings: what still works",
+  metaDescription:
+    "Where there’s value, where there’s risk, and how not to farm spam links. Read before mass signup.",
   excerpt:
     "When directory and listing registration brings traffic and mentions — and when it is spam; how to fill a profile, which platforms to pick, and what to avoid.",
   lead: [
@@ -214,6 +217,9 @@ export const katalogiSaytovEs: BlogPost = {
   date: "2020-10-08",
   category: "SEO",
   cover: "/images/blog/katalogi-saytov/cover-es.webp",
+  metaTitle: "¿Directorios como en 2010? Altas en catálogos: qué aún funciona",
+  metaDescription:
+    "Dónde hay valor, dónde hay riesgo y cómo no acumular spam links. Léelo antes de altas masivas.",
   excerpt:
     "Cuándo el registro en directorios y listings trae tráfico y menciones — y cuándo es spam; cómo rellenar un perfil, qué plataformas elegir y qué evitar.",
   lead: [

@@ -7,6 +7,9 @@ export const kategoriiInternetMagazinaEn: BlogPost = {
   date: "2021-07-05",
   category: "SEO",
   cover: "/images/blog/kategorii-internet-magazina/cover-en.webp",
+  metaTitle: "Too many categories? Ecommerce SEO: when to create new sections",
+  metaDescription:
+    "Intent, cannibalization, and structure. Checklist — before the next catalog change.",
   excerpt:
     "Why categories capture demand, when to create a new section, how to check demand and competitors, what content to write, and how to avoid cannibalization and crawl gaps.",
   lead: [
@@ -157,6 +160,9 @@ export const kategoriiInternetMagazinaEs: BlogPost = {
   date: "2021-07-05",
   category: "SEO",
   cover: "/images/blog/kategorii-internet-magazina/cover-es.webp",
+  metaTitle: "¿Demasiadas categorías? SEO de tienda: cuándo crear nuevas secciones",
+  metaDescription:
+    "Intención, canibalización y estructura. Checklist — antes del próximo cambio de catálogo.",
   excerpt:
     "Por qué las categorías capturan demanda, cuándo crear una sección nueva, cómo revisar demanda y competidores, qué contenido escribir y cómo evitar canibalización y huecos de crawl.",
   lead: [

@@ -14,6 +14,9 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     period: "since 2014",
     metric: "~50",
     metricLabel: "clients per month from search",
+    metaTitle: "~50 clients for a kids’ center — Klyaksa SEO",
+    metaDescription:
+      "Child development SEO: 20 phrases, page one for speech therapist and psychologist in Voronezh, ~50 clients/month. See the case.",
     summary:
       "SEO for a children’s development center: 20 target phrases, prep ~1 month, page one planned 2–6 months on speech therapy and psychology in Voronezh, about 50 clients per month — classes and enrollments.",
     coverAlt: "Klyaksa — children’s development and therapy center",
@@ -127,6 +130,9 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~200",
     metricLabel: "clients per month from search",
+    metaTitle: "~200 clients for brand service — Samsung Plaza",
+    metaDescription:
+      "Brand-only SEO: 34 phrases, page one for smartphone repair and service center, ~200 clients/month. See the case — or inquire.",
     summary:
       "SEO for authorized Samsung service: 34 brand-only phrases, prep ~1 month, page one planned 2–6 months on smartphone repair and service center, about 200 clients per month.",
     coverAlt: "Samsung Service Plaza Voronezh",
@@ -240,6 +246,9 @@ export const caseTranslationsEnBatch14: Record<string, Partial<CaseStudy>> = {
     period: "since 2016",
     metric: "~500",
     metricLabel: "sales per month from search",
+    metaTitle: "~500 sales/month — Ticiana premium coatings SEO",
+    metaDescription:
+      "Premium paints/plaster SEO without mass-market: 77 phrases, page one for decorative coatings in Voronezh, ~500 sales/month. See the case.",
     summary:
       "SEO for premium paints and plaster: 77 phrases without mass-market noise, prep ~1.5 months, page one planned 2–6 months on decorative coatings in Voronezh, about 500 sales per month.",
     coverAlt: "TICIANA — premium paints and decorative finishes",

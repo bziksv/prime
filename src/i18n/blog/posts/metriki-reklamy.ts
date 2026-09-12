@@ -7,6 +7,9 @@ export const metrikiReklamyEn: BlogPost = {
   date: "2019-10-15",
   category: "Digital marketing",
   cover: "/images/blog/metriki-reklamy/cover-en.webp",
+  metaTitle: "Campaign “seems fine”? Ad metrics: what to watch that actually matters",
+  metaDescription:
+    "CTR, CPA, ROMI, and average traps. Cheat sheet — before the next report.",
   excerpt:
     "Which metrics to watch by funnel stage: CTR and CPC at the entrance, on-site behavior, CPA/CPO/CR at conversion, average order value and LTV — without judging ads by clicks alone.",
   lead: [
@@ -160,6 +163,9 @@ export const metrikiReklamyEs: BlogPost = {
   date: "2019-10-15",
   category: "Digital marketing",
   cover: "/images/blog/metriki-reklamy/cover-es.webp",
+  metaTitle: "¿Campaña “parece ir bien”? Métricas de ads: qué mirar de verdad",
+  metaDescription:
+    "CTR, CPA, ROMI y trampas de promedios. Chuleta — antes del próximo informe.",
   excerpt:
     "Qué métricas mirar por etapa del funnel: CTR y CPC a la entrada, comportamiento on-site, CPA/CPO/CR en la conversión, ticket medio y LTV — sin juzgar ads solo por clics.",
   lead: [

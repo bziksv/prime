@@ -7,6 +7,9 @@ export const googleAssessoryEn: BlogPost = {
   date: "2018-08-27",
   category: "SEO",
   cover: "/images/blog/google-assessory/cover-en.webp",
+  metaTitle: "Worried about raters? How Google assessors judge site quality",
+  metaDescription:
+    "E-E-A-T, YMYL, and quality signals without panic. Read before you rewrite expert content.",
   excerpt:
     "Quality Rater Guidelines: why quality raters exist, why their score isn’t a ranking, page purpose, E-E-A-T, YMYL, author reputation, and what breaks trust — without the myth that a rater personally boosted your rankings.",
   lead: [
@@ -127,6 +130,9 @@ export const googleAssessoryEs: BlogPost = {
   date: "2018-08-27",
   category: "SEO",
   cover: "/images/blog/google-assessory/cover-es.webp",
+  metaTitle: "¿Miedo a los evaluadores? Cómo Google valora la calidad del sitio",
+  metaDescription:
+    "E-E-A-T, YMYL y señales de calidad sin pánico. Léelo antes de reescribir contenido experto.",
   excerpt:
     "Quality Rater Guidelines: por qué existen los quality raters, por qué su score no es un ranking, propósito de la página, E-E-A-T, YMYL, reputación del autor y qué rompe la trust — sin el mito de que un rater te impulsó personalmente en los resultados.",
   lead: [

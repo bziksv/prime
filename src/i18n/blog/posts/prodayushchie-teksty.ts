@@ -7,6 +7,9 @@ export const prodayushchieTekstyEn: BlogPost = {
   date: "2021-10-15",
   category: "SEO",
   cover: "/images/blog/prodayushchie-teksty/cover-en.webp",
+  metaTitle: "Pretty copy, zero sales? Sales writing: principles and structure",
+  metaDescription:
+    "Offer, proof, and CTA without fluff. Checklist — before the writer brief.",
   excerpt:
     "How to write sales copy: audience and product, tone, headline, intro, arguments, price, and a CTA without clichés.",
   lead: [
@@ -149,6 +152,9 @@ export const prodayushchieTekstyEs: BlogPost = {
   date: "2021-10-15",
   category: "SEO",
   cover: "/images/blog/prodayushchie-teksty/cover-es.webp",
+  metaTitle: "¿Copy bonito y cero ventas? Textos de venta: principios y estructura",
+  metaDescription:
+    "Oferta, prueba y CTA sin relleno. Checklist — antes del brief al copy.",
   excerpt:
     "Cómo escribir textos de venta: audiencia y producto, tono, titular, intro, argumentos, precio y un CTA sin clichés.",
   lead: [

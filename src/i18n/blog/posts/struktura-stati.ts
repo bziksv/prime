@@ -7,6 +7,9 @@ export const strukturaStatiEn: BlogPost = {
   date: "2019-11-20",
   category: "Content marketing",
   cover: "/images/blog/struktura-stati/cover-en.webp",
+  metaTitle: "Article as a wall of text? Sound structure: H2s, blocks, and readability",
+  metaDescription:
+    "A frame without fluff or stuffing. Checklist — before handoff to layout.",
   excerpt:
     "Build article logic with H1–H3, blocks, and lists — and know when a short piece can skip subheads. No “keywords in H2 = rankings” promises.",
   lead: [
@@ -176,6 +179,9 @@ export const strukturaStatiEs: BlogPost = {
   date: "2019-11-20",
   category: "Content marketing",
   cover: "/images/blog/struktura-stati/cover-es.webp",
+  metaTitle: "¿Artículo-sábana? Estructura clara: H2, bloques y legibilidad",
+  metaDescription:
+    "Marco sin relleno ni stuffing. Checklist — antes de pasar a maquetación.",
   excerpt:
     "Arma la lógica del artículo con H1–H3, bloques y listas — y sabe cuándo una pieza corta puede saltarse subtítulos. Sin promesas de «keywords en H2 = rankings».",
   lead: [

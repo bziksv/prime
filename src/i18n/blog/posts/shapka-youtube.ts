@@ -7,6 +7,9 @@ export const shapkaYoutubeEn: BlogPost = {
   date: "2021-05-31",
   category: "SMM",
   cover: "/images/blog/shapka-youtube/cover-en.webp",
+  metaTitle: "YouTube banner cropped wrong? Size, style, and how to change it safely",
+  metaDescription:
+    "Safe zone and common mistakes. Cheat sheet — before you upload the channel art.",
   excerpt:
     "Why a channel needs a banner, which safe zones matter on TV and phone, how to pick a style, and how to update branding in YouTube Studio.",
   lead: [
@@ -186,6 +189,9 @@ export const shapkaYoutubeEs: BlogPost = {
   date: "2021-05-31",
   category: "SMM",
   cover: "/images/blog/shapka-youtube/cover-es.webp",
+  metaTitle: "¿Banner de YouTube mal recortado? Tamaño, estilo y cómo cambiarlo sin sustos",
+  metaDescription:
+    "Safe zone y errores típicos. Chuleta — antes de subir el arte del canal.",
   excerpt:
     "Por qué un canal necesita un banner, qué zonas seguras importan en TV y móvil, cómo elegir estilo y cómo actualizar el branding en YouTube Studio.",
   lead: [

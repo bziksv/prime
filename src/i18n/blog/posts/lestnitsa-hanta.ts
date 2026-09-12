@@ -7,6 +7,9 @@ export const lestnitsaHantaEn: BlogPost = {
   date: "2020-01-24",
   category: "Digital marketing",
   cover: "/images/blog/lestnitsa-hanta/cover-en.webp",
+  metaTitle: "Prospect “not ready yet”? Eugene Schwartz’s 5 levels of awareness",
+  metaDescription:
+    "How to speak at each stage without pushing. Copywriter cheat sheet — save it.",
   excerpt:
     "How the awareness ladder works: from “doesn’t know the problem” to ready to buy — and what to say at each step in ads and on the landing page.",
   lead: [
@@ -175,6 +178,9 @@ export const lestnitsaHantaEs: BlogPost = {
   date: "2020-01-24",
   category: "Digital marketing",
   cover: "/images/blog/lestnitsa-hanta/cover-es.webp",
+  metaTitle: "¿El cliente “aún no está listo”? Escalera de Hunt: 5 niveles de conciencia",
+  metaDescription:
+    "Cómo hablar en cada etapa sin presión. Chuleta para copy — guárdala.",
   excerpt:
     "Cómo funciona la escalera de awareness: de «no conoce el problema» a listo para comprar — y qué decir en cada paso en ads y en el landing.",
   lead: [

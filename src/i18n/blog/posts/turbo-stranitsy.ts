@@ -7,6 +7,9 @@ export const turboStranitsyEn: BlogPost = {
   date: "2018-08-21",
   category: "SEO",
   cover: "/images/blog/turbo-stranitsy/cover-en.webp",
+  metaTitle: "Yandex Turbo shut down — what’s next? Auto-recs and a post-Turbo plan",
+  metaDescription:
+    "Migration, mobile speed, and SEO. Checklist — before traffic slips.",
   excerpt:
     "What Turbo pages and the auto recommendations feed were, why the tech was retired, and what to rely on for mobile UX and monetization now — your own responsive site.",
   lead: [
@@ -197,6 +200,9 @@ export const turboStranitsyEs: BlogPost = {
   date: "2018-08-21",
   category: "SEO",
   cover: "/images/blog/turbo-stranitsy/cover-es.webp",
+  metaTitle: "¿Turbo apagado — y ahora? Auto-recomendaciones y plan post-Yandex",
+  metaDescription:
+    "Migración, velocidad móvil y SEO. Checklist — antes de perder tráfico.",
   excerpt:
     "Qué eran las páginas Turbo y el feed automático de recomendaciones, por qué se retiró la tecnología y en qué apoyarte ahora para UX móvil y monetización — tu propio sitio responsive.",
   lead: [

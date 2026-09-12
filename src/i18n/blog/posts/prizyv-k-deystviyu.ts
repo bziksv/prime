@@ -7,6 +7,9 @@ export const prizyvKDeystviyuEn: BlogPost = {
   date: "2019-08-21",
   category: "Content marketing",
   cover: "/images/blog/prizyv-k-deystviyu/cover-en.webp",
+  metaTitle: "“Learn more” CTA going nowhere? How to write a call to action that works",
+  metaDescription:
+    "Formulas, tone, and placement. Cheat sheet — before you rewrite the buttons.",
   excerpt:
     "Calls to action on a site: page goal, button copy, benefit, placement, and A/B — without fake scarcity and a swarm of pushy popups.",
   lead: [
@@ -158,6 +161,9 @@ export const prizyvKDeystviyuEs: BlogPost = {
   date: "2019-08-21",
   category: "Content marketing",
   cover: "/images/blog/prizyv-k-deystviyu/cover-es.webp",
+  metaTitle: "¿CTA “Más info” no lleva a nada? Cómo escribir un call to action que funcione",
+  metaDescription:
+    "Fórmulas, tono y ubicación. Chuleta — antes de reescribir los botones.",
   excerpt:
     "Calls to action en un sitio: objetivo de la página, copy del botón, beneficio, colocación y A/B — sin escasez falsa ni un enjambre de popups insistentes.",
   lead: [

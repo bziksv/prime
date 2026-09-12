@@ -7,6 +7,9 @@ export const serfingSaytovEn: BlogPost = {
   date: "2021-09-24",
   category: "Digital marketing",
   cover: "/images/blog/serfing-saytov/cover-en.webp",
+  metaTitle: "Making money “surfing sites”? What it is and why it’s a weak play",
+  metaDescription:
+    "Risks, traffic quality, and better alternatives. Breakdown — before you fund click farms.",
   excerpt:
     "What paid website surfing is, how much it really pays, why auto-surfing is bad for SEO, and how fake visits hurt analytics and promotion.",
   lead: [
@@ -180,6 +183,9 @@ export const serfingSaytovEs: BlogPost = {
   date: "2021-09-24",
   category: "Digital marketing",
   cover: "/images/blog/serfing-saytov/cover-es.webp",
+  metaTitle: "¿Ganar con “surfing” de webs? Qué es y por qué es un juego flojo",
+  metaDescription:
+    "Riesgos, calidad de tráfico y alternativas. Análisis — antes de meter dinero en click farms.",
   excerpt:
     "Qué es el surfing de pago de sitios, cuánto paga de verdad, por qué el auto-surfing es malo para SEO y cómo las visitas falsas dañan la analítica y la promoción.",
   lead: [

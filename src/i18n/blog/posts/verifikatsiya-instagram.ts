@@ -7,6 +7,9 @@ export const verifikatsiyaInstagramEn: BlogPost = {
   date: "2019-12-10",
   category: "SMM",
   cover: "/images/blog/verifikatsiya-instagram/cover-en.webp",
+  metaTitle: "Blue check for everyone? Instagram verification and Meta Verified, practical",
+  metaDescription:
+    "Who it fits and what to expect. Breakdown — before you pay for a badge.",
   excerpt:
     "What Instagram verification gives you, how the classic badge differs from Meta Verified, what requirements look like, and why buying a “turnkey check” is a scam.",
   lead: [
@@ -146,6 +149,9 @@ export const verifikatsiyaInstagramEs: BlogPost = {
   date: "2019-12-10",
   category: "SMM",
   cover: "/images/blog/verifikatsiya-instagram/cover-es.webp",
+  metaTitle: "¿Check azul para todos? Verificación Instagram y Meta Verified, práctico",
+  metaDescription:
+    "A quién le encaja y qué esperar. Análisis — antes de pagar la suscripción.",
   excerpt:
     "Qué te da la verificación de Instagram, en qué se diferencia el badge clásico de Meta Verified, cómo se ven los requisitos y por qué comprar un «check llave en mano» es un scam.",
   lead: [

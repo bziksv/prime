@@ -7,6 +7,9 @@ export const poiskovyeSistemyEn: BlogPost = {
   date: "2020-06-26",
   category: "SEO",
   cover: "/images/blog/poiskovye-sistemy/cover-en.webp",
+  metaTitle: "Only Google and Yandex? Search engines people forget about",
+  metaDescription:
+    "A map of players and when they matter for SEO/ads. Primer — before a channel audit.",
   excerpt:
     "Which search engines exist beyond Google and Yandex: Bing, DuckDuckGo, historic Rambler and Mail, Baidu. Why that matters for SEO in Russia-facing markets — without outdated market-share figures.",
   lead: [
@@ -153,6 +156,9 @@ export const poiskovyeSistemyEs: BlogPost = {
   date: "2020-06-26",
   category: "SEO",
   cover: "/images/blog/poiskovye-sistemy/cover-es.webp",
+  metaTitle: "¿Solo Google y Yandex? Buscadores que se olvidan",
+  metaDescription:
+    "Mapa de jugadores y cuándo importan para SEO/ads. Base — antes de auditar canales.",
   excerpt:
     "Qué buscadores existen más allá de Google y Yandex: Bing, DuckDuckGo, históricos Rambler y Mail, Baidu. Por qué importa para SEO en mercados orientados a Rusia — sin cifras de cuota de mercado obsoletas.",
   lead: [

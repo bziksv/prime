@@ -7,6 +7,9 @@ export const tekstyUzkayaTematikaEn: BlogPost = {
   date: "2020-01-14",
   category: "Content marketing",
   cover: "/images/blog/teksty-uzkaya-tematika/cover-en.webp",
+  metaTitle: "Narrow niche, “nothing to write”? How to craft copy without fluff or fiction",
+  metaDescription:
+    "Expertise, sources, and structure. Checklist — before the writer brief.",
   excerpt:
     "Copy for a narrow niche: beginner-friendly language, current facts, expertise, and structure — illustrated with travel and transferable to any tight topic.",
   lead: [
@@ -145,6 +148,9 @@ export const tekstyUzkayaTematikaEs: BlogPost = {
   date: "2020-01-14",
   category: "Content marketing",
   cover: "/images/blog/teksty-uzkaya-tematika/cover-es.webp",
+  metaTitle: "¿Nicho estrecho y “nada que escribir”? Cómo hacer textos sin relleno ni inventos",
+  metaDescription:
+    "Expertise, fuentes y estructura. Checklist — antes del brief al copy.",
   excerpt:
     "Copy para un nicho estrecho: lenguaje amable con principiantes, hechos al día, expertise y estructura — ilustrado con travel y transferible a cualquier tema cerrado.",
   lead: [

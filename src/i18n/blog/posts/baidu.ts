@@ -7,6 +7,9 @@ export const baiduEn: BlogPost = {
   date: "2020-09-03",
   category: "SEO",
   cover: "/images/blog/baidu/cover-en.webp",
+  metaTitle: "China without Baidu? Start with registration and core tools",
+  metaDescription:
+    "Main dashboards, signup path, and how it differs from Google. Save the map before first launch.",
   excerpt:
     "When you need Baidu, how Chinese search differs from Google and Yandex, which ecosystem services matter for SEO, and how to approach registration without grey schemes.",
   lead: [
@@ -206,6 +209,9 @@ export const baiduEs: BlogPost = {
   date: "2020-09-03",
   category: "SEO",
   cover: "/images/blog/baidu/cover-es.webp",
+  metaTitle: "¿China sin Baidu? Empieza por registro y servicios clave",
+  metaDescription:
+    "Paneles principales, alta y diferencias con Google. Guarda el mapa antes del primer lanzamiento.",
   excerpt:
     "Cuándo hace falta Baidu, en qué se diferencia la búsqueda china de Google y Yandex, qué servicios del ecosistema importan para SEO y cómo encarar el registro sin esquemas grises.",
   lead: [

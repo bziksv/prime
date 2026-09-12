@@ -7,6 +7,9 @@ export const korporativnyyBlogEn: BlogPost = {
   date: "2019-08-14",
   category: "Content marketing",
   cover: "/images/blog/korporativnyy-blog/cover-en.webp",
+  metaTitle: "Company blog on life support? Why a corporate blog — and how to start",
+  metaDescription:
+    "Goals, topics, and cadence without fake-media theater. Starter checklist — save it.",
   excerpt:
     "A corporate blog as a business tool: goals instead of “like everyone else,” a plan, budget, value for the audience, and choosing in-house vs agency.",
   lead: [
@@ -143,6 +146,9 @@ export const korporativnyyBlogEs: BlogPost = {
   date: "2019-08-14",
   category: "Content marketing",
   cover: "/images/blog/korporativnyy-blog/cover-es.webp",
+  metaTitle: "¿Blog de empresa zombi? Para qué sirve y por dónde empezar",
+  metaDescription:
+    "Objetivos, temas y ritmo sin fingir ser medio. Checklist de arranque — guárdalo.",
   excerpt:
     "Un blog corporativo como herramienta de negocio: metas en vez de «como todo el mundo», un plan, presupuesto, valor para la audiencia y elegir in-house vs agencia.",
   lead: [

@@ -7,6 +7,9 @@ export const effektivnostSeoEn: BlogPost = {
   date: "2019-07-03",
   category: "SEO",
   cover: "/images/blog/effektivnost-seo/cover-en.webp",
+  metaTitle: "SEO “works / doesn’t”? KPIs and reporting without self-deception",
+  metaDescription:
+    "Which metrics matter, how to read trends, and what not to mix. Mental template — before the client report.",
   excerpt:
     "Organic, brand/non-brand, ranks, and economics: which KPIs to watch, how to compare periods, and how not to confuse site prep with instant page-one rankings.",
   lead: [
@@ -236,6 +239,9 @@ export const effektivnostSeoEs: BlogPost = {
   date: "2019-07-03",
   category: "SEO",
   cover: "/images/blog/effektivnost-seo/cover-es.webp",
+  metaTitle: "¿SEO “va / no va”? KPIs e informes sin autoengaño",
+  metaDescription:
+    "Qué métricas mirar, cómo leer la dinámica y qué no mezclar. Plantilla mental — antes del informe al cliente.",
   excerpt:
     "Orgánico, brand/non-brand, ranks y economía: qué KPIs mirar, cómo comparar periodos y cómo no confundir la prep del sitio con rankings inmediatos en primera página.",
   lead: [

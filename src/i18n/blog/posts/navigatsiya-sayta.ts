@@ -7,6 +7,9 @@ export const navigatsiyaSaytaEn: BlogPost = {
   date: "2020-10-30",
   category: "SEO",
   cover: "/images/blog/navigatsiya-sayta/cover-en.webp",
+  metaTitle: "Menu confusing users? Site navigation: types, requirements, conversion impact",
+  metaDescription:
+    "Structure, UX, and SEO extras. Checklist — before you redesign the header.",
   excerpt:
     "What usable navigation means: menus, breadcrumbs, footer, catalog filters. How to keep users from getting lost — and how navigation ties to SEO and leads.",
   lead: [
@@ -227,6 +230,9 @@ export const navigatsiyaSaytaEs: BlogPost = {
   date: "2020-10-30",
   category: "SEO",
   cover: "/images/blog/navigatsiya-sayta/cover-es.webp",
+  metaTitle: "¿El menú confunde? Navegación web: tipos, requisitos e impacto en conversión",
+  metaDescription:
+    "Estructura, UX y extras SEO. Checklist — antes de rediseñar la cabecera.",
   excerpt:
     "Qué significa una navegación usable: menús, breadcrumbs, footer, filtros de catálogo. Cómo evitar que el usuario se pierda — y cómo la navegación se ata al SEO y a los leads.",
   lead: [

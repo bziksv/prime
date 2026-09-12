@@ -7,6 +7,9 @@ export const jsonEn: BlogPost = {
   date: "2020-03-26",
   category: "Websites",
   cover: "/images/blog/json/cover-en.webp",
+  metaTitle: "JSON looks like gibberish? What it is, how to open it, where it’s used",
+  metaDescription:
+    "Structure, tools, and common web cases. Primer — before your first API/feed edit.",
   excerpt:
     "What JSON is: a text format for data exchange, object and array syntax, Ajax, parse vs eval safety, and how to open a .json file.",
   lead: [
@@ -160,6 +163,9 @@ export const jsonEs: BlogPost = {
   date: "2020-03-26",
   category: "Sitios web",
   cover: "/images/blog/json/cover-es.webp",
+  metaTitle: "¿JSON parece jeroglíficos? Qué es, cómo abrirlo y dónde se usa",
+  metaDescription:
+    "Estructura, tools y casos web típicos. Base — antes de tu primer cambio de API/feed.",
   excerpt:
     "Qué es JSON: un formato de texto para intercambio de datos, sintaxis de objetos y arrays, Ajax, parse vs eval con seguridad, y cómo abrir un archivo .json.",
   lead: [

@@ -7,6 +7,9 @@ export const oshibka502En: BlogPost = {
   date: "2021-03-02",
   category: "SEO",
   cover: "/images/blog/oshibka-502/cover-en.webp",
+  metaTitle: "502 Bad Gateway scary? What the code means and what to do next",
+  metaDescription:
+    "Proxy, upstream, and fast diagnostics. Checklist — before you call support.",
   excerpt:
     "What HTTP 502 Bad Gateway means, the usual causes on site and hosting, and a calm diagnosis order — without panic or “magic” plugins.",
   lead: [
@@ -166,6 +169,9 @@ export const oshibka502Es: BlogPost = {
   date: "2021-03-02",
   category: "SEO",
   cover: "/images/blog/oshibka-502/cover-es.webp",
+  metaTitle: "¿502 Bad Gateway asusta? Qué significa y qué hacer paso a paso",
+  metaDescription:
+    "Proxy, upstream y diagnóstico rápido. Checklist — antes de llamar a soporte.",
   excerpt:
     "Qué significa HTTP 502 Bad Gateway, las causas habituales en sitio y hosting, y un orden de diagnóstico tranquilo — sin pánico ni plugins «mágicos».",
   lead: [

@@ -7,6 +7,9 @@ export const pushUvedomleniyaEs: BlogPost = {
   date: "2019-06-05",
   category: "Email marketing",
   cover: "/images/blog/push-uvedomleniya/cover-es.webp",
+  metaTitle: "¿Push irritan y dan de baja? Qué son y cómo usarlos sin spam",
+  metaDescription:
+    "Casos de uso, frecuencia y consentimiento. Checklist — antes de activarlos en web/app.",
   excerpt:
     "Push de navegador y móvil: en qué se diferencian del email y el SMS, a quién ayudan, cómo pedir permiso, qué escribir y cómo no cansar a los suscriptores — sin spam en pop-ups.",
   lead: [
@@ -122,6 +125,9 @@ export const pushUvedomleniyaEn: BlogPost = {
   date: "2019-06-05",
   category: "Email marketing",
   cover: "/images/blog/push-uvedomleniya/cover-en.webp",
+  metaTitle: "Push alerts annoying people off? What they are and how to use without spam",
+  metaDescription:
+    "Use cases, cadence, and consent. Checklist — before you enable on site/app.",
   excerpt:
     "Browser and mobile push: how they differ from email and SMS, who they help, how to get permission, what to write, and how not to tire subscribers — without spam in pop-ups.",
   lead: [

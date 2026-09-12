@@ -7,6 +7,9 @@ export const generatorNikovEn: BlogPost = {
   date: "2020-12-25",
   category: "SMM",
   cover: "/images/blog/generator-nikov/cover-en.webp",
+  metaTitle: "Username taken everywhere? How to pick a free social handle",
+  metaDescription:
+    "Criteria, checks, and generators without cringe. Checklist — before you launch a new brand/channel.",
   excerpt:
     "How to choose a username when the one you want is taken: rules for a good login, checking inside the social network, and the role of online generators — without a service catalog or the myth that the tool books it for you.",
   lead: [
@@ -158,6 +161,9 @@ export const generatorNikovEs: BlogPost = {
   date: "2020-12-25",
   category: "SMM",
   cover: "/images/blog/generator-nikov/cover-es.webp",
+  metaTitle: "¿Usuario ocupado en todos lados? Cómo elegir un nick libre",
+  metaDescription:
+    "Criterios, comprobación y generadores sin cringe. Checklist — antes de lanzar marca/canal.",
   excerpt:
     "Cómo elegir un username cuando el que quieres está ocupado: reglas de un buen login, comprobar dentro de la red social y el rol de los generadores online — sin un catálogo de servicios ni el mito de que la herramienta te lo reserva.",
   lead: [

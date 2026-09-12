@@ -7,6 +7,9 @@ export const oshibkiReklamnoyKampaniiEn: BlogPost = {
   date: "2018-08-06",
   category: "Digital marketing",
   cover: "/images/blog/oshibki-reklamnoy-kampanii/cover-en.webp",
+  metaTitle: "Campaigns running, KPIs missing? 10 mistakes in ongoing ad management",
+  metaDescription:
+    "What to fix first — and how not to repeat. Checklist — before the next report.",
   excerpt:
     "Paid search with no demand, no competitor review, an unrealistic budget, weak limits, thin keywords, irrelevant ads, bad geo, unused extensions, no ongoing management, and mixing Search with Display.",
   lead: [
@@ -126,6 +129,9 @@ export const oshibkiReklamnoyKampaniiEs: BlogPost = {
   date: "2018-08-06",
   category: "Digital marketing",
   cover: "/images/blog/oshibki-reklamnoy-kampanii/cover-es.webp",
+  metaTitle: "¿Campaña viva y sin KPI? 10 errores en la gestión de ads",
+  metaDescription:
+    "Qué arreglar primero y cómo no repetir. Checklist — antes del próximo informe.",
   excerpt:
     "Paid search sin demanda, sin revisión de competidores, un presupuesto irrealista, límites débiles, keywords finas, ads irrelevantes, geo malo, extensiones sin usar, sin gestión continua y mezclar Search con Display.",
   lead: [

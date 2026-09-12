@@ -112,9 +112,9 @@ export type AuditContent = {
 
 const auditRu: AuditContent = {
   path: "/audit-sayta/",
-  metaTitle: "Аудит сайта — ПРАЙМ",
+  metaTitle: "Сайт «стоит» в выдаче? Найдём, что ломает рост — аудит",
   metaDescription:
-    "Аудит сайта: Метрика, юзабилити, конкуренты, техника и контент. Бесплатный мини-аудит и комплексный отчёт 30–79 тыс. ₽.",
+    "Закажите мини-аудит бесплатно или полный отчёт 30–79 тыс. ₽: Метрика, юзабилити, конкуренты, техника и контент.",
   serviceName: "Аудит сайта",
   serviceType: "Аудит сайта",
   breadcrumbHome: "Главная",
@@ -222,9 +222,9 @@ const auditRu: AuditContent = {
 
 const auditEn: AuditContent = {
   path: "/en/audit/",
-  metaTitle: "Website audit — PRIME",
+  metaTitle: "Stuck in Google? We’ll find what’s blocking growth — audit",
   metaDescription:
-    "Website audit: Google Analytics, usability, competitors, technical SEO, and content. Free mini-audit and full report from $330–$880.",
+    "Book a free mini-audit or a full report from $330–$880: Analytics, UX, competitors, technical SEO, and content.",
   serviceName: "Website audit",
   serviceType: "Website audit",
   breadcrumbHome: "Home",
@@ -587,9 +587,9 @@ const auditEn: AuditContent = {
 
 const auditEs: AuditContent = {
   path: "/es/audit/",
-  metaTitle: "Auditoría web — PRIME",
+  metaTitle: "¿Tu web no avanza en Google? Auditoría: hallamos el freno",
   metaDescription:
-    "Auditoría web: Google Analytics, usabilidad, competencia, SEO técnico y contenido. Mini-auditoría gratuita e informe completo desde $330–$880.",
+    "Pide mini-auditoría gratis o informe completo desde $330–$880: Analytics, UX, competencia, SEO técnico y contenido.",
   serviceName: "Auditoría web",
   serviceType: "Auditoría web",
   breadcrumbHome: "Inicio",

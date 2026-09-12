@@ -7,6 +7,9 @@ export const programmySeoEn: BlogPost = {
   date: "2020-03-05",
   category: "SEO",
   cover: "/images/blog/programmy-seo/cover-en.webp",
+  metaTitle: "SEO tool zoo growing? Programs and services by job — lean stack",
+  metaDescription:
+    "A minimum for audits, keywords, and monitoring. Shortlist — save before you buy.",
   excerpt:
     "Which tools you need for SEO: keywords, analytics, copy checks, tech audit, links, and extensions — a stack by task without a cult of one all-in-one or instant ranking promises.",
   lead: [
@@ -265,6 +268,9 @@ export const programmySeoEs: BlogPost = {
   date: "2020-03-05",
   category: "SEO",
   cover: "/images/blog/programmy-seo/cover-es.webp",
+  metaTitle: "¿Zoo de tools SEO? Programas y servicios por tarea — stack magro",
+  metaDescription:
+    "Mínimo para auditoría, semántica y monitorización. Selección — guárdala antes de comprar.",
   excerpt:
     "Qué tools necesitas para SEO: keywords, analítica, checks de copy, auditoría técnica, enlaces y extensions — un stack por tarea sin culto a un all-in-one ni promesas de ranking instantáneo.",
   lead: [

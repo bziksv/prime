@@ -7,6 +7,9 @@ export const otzyvyDlyaProdazhEn: BlogPost = {
   date: "2019-09-26",
   category: "SEO",
   cover: "/images/blog/otzyvy-dlya-prodazh/cover-en.webp",
+  metaTitle: "“Three reviews are enough”? How many you need to sell with confidence",
+  metaDescription:
+    "Quantity vs quality and where to collect. Benchmark — before you start asking.",
   excerpt:
     "The trust threshold for reviews, how they tie into local search and maps, how to ask for reviews and handle negatives — without fake ratings or bought five-stars.",
   lead: [
@@ -230,6 +233,9 @@ export const otzyvyDlyaProdazhEs: BlogPost = {
   date: "2019-09-26",
   category: "SEO",
   cover: "/images/blog/otzyvy-dlya-prodazh/cover-es.webp",
+  metaTitle: "¿“Con tres reseñas basta”? Cuántas hacen falta para vender con más seguridad",
+  metaDescription:
+    "Cantidad vs calidad y dónde publicar. Referencia — antes de pedir reseñas.",
   excerpt:
     "El umbral de confianza de las reseñas, cómo se atan a la búsqueda local y los mapas, cómo pedir reseñas y gestionar negativos — sin valoraciones falsas ni cinco estrellas compradas.",
   lead: [

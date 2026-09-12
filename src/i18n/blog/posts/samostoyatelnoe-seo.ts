@@ -7,6 +7,9 @@ export const samostoyatelnoeSeoEn: BlogPost = {
   date: "2021-04-30",
   category: "SEO",
   cover: "/images/blog/samostoyatelnoe-seo/cover-en.webp",
+  metaTitle: "DIY SEO — where to start? Solo site promotion without chaos",
+  metaDescription:
+    "First-month priorities and common mistakes. Plan — before buying courses/tools.",
   excerpt:
     "A step-by-step DIY SEO plan for a site owner: prep, tech, keywords, content, and off-site factors — without “page one in a week” promises or buying spam links.",
   lead: [
@@ -191,6 +194,9 @@ export const samostoyatelnoeSeoEs: BlogPost = {
   date: "2021-04-30",
   category: "SEO",
   cover: "/images/blog/samostoyatelnoe-seo/cover-es.webp",
+  metaTitle: "¿SEO por tu cuenta — por dónde? Promoción DIY sin caos",
+  metaDescription:
+    "Prioridades de los primeros meses y errores típicos. Plan — antes de comprar cursos/tools.",
   excerpt:
     "Plan SEO DIY paso a paso para el dueño del sitio: prep, técnica, keywords, contenido y factores off-site — sin promesas de «primera página en una semana» ni compra de enlaces spam.",
   lead: [

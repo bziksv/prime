@@ -7,6 +7,9 @@ export const seoPosleTopaEn: BlogPost = {
   date: "2018-12-10",
   category: "SEO",
   cover: "/images/blog/seo-posle-topa/cover-en.webp",
+  metaTitle: "Hit the TOP — kill SEO? Whether to stop after you rank",
+  metaDescription:
+    "What happens without maintenance and how to hold positions. Read before you cut budget.",
   excerpt:
     "Once the site ranks well, turning SEO off is early: snippets, conversion, keyword expansion, technical health, and competitors. What maintenance actually looks like — without the myth “we made it, we can switch off.”",
   lead: [
@@ -215,6 +218,9 @@ export const seoPosleTopaEs: BlogPost = {
   date: "2018-12-10",
   category: "SEO",
   cover: "/images/blog/seo-posle-topa/cover-es.webp",
+  metaTitle: "¿Llegaste al TOP — apagas SEO? Si conviene parar tras el resultado",
+  metaDescription:
+    "Qué pasa sin mantenimiento y cómo sostener posiciones. Léelo antes de recortar presupuesto.",
   excerpt:
     "Cuando el sitio rankea bien, apagar el SEO es pronto: snippets, conversión, expansión de keywords, salud técnica y competidores. Cómo es el mantenimiento de verdad — sin el mito «ya está, podemos apagar».",
   lead: [

@@ -7,6 +7,9 @@ export const yandeksDiskEn: BlogPost = {
   date: "2020-08-20",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-disk/cover-en.webp",
+  metaTitle: "Files stuck in chat and email? Yandex Disk: cloud for work and sharing",
+  metaDescription:
+    "Access, versions, and common scenarios. Primer — before the team migrates.",
   excerpt:
     "What Yandex Disk is: file storage and sync, public links, and a comparison with Google Drive. Skip outdated free-GB figures — check the service’s current plans.",
   lead: [
@@ -118,6 +121,9 @@ export const yandeksDiskEs: BlogPost = {
   date: "2020-08-20",
   category: "Digital marketing",
   cover: "/images/blog/yandeks-disk/cover-es.webp",
+  metaTitle: "¿Archivos en chats y mail? Yandex Disk: nube para trabajo y compartir",
+  metaDescription:
+    "Accesos, versiones y escenarios típicos. Base — antes de migrar al equipo.",
   excerpt:
     "Qué es Yandex Disk: almacenamiento y sync de archivos, enlaces públicos y comparación con Google Drive. Salta cifras caducadas de GB gratis — mira los planes actuales del servicio.",
   lead: [

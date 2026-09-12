@@ -7,6 +7,9 @@ export const lookerStudioEn: BlogPost = {
   date: "2020-05-13",
   category: "Analytics",
   cover: "/images/blog/looker-studio/cover-en.webp",
+  metaTitle: "Excel reports falling apart? Looker Studio: dashboards and full-funnel analytics",
+  metaDescription:
+    "Sources, templates, and common mistakes. Checklist — before you build the first report.",
   excerpt:
     "What Looker Studio (formerly Google Data Studio) is: how to build dashboards, connect sources, and how visualization differs from true full-funnel analytics with CRM.",
   lead: [
@@ -207,6 +210,9 @@ export const lookerStudioEs: BlogPost = {
   date: "2020-05-13",
   category: "Analytics",
   cover: "/images/blog/looker-studio/cover-es.webp",
+  metaTitle: "¿Informes Excel se desmontan? Looker Studio: dashboards y analítica de punta a punta",
+  metaDescription:
+    "Fuentes, plantillas y errores típicos. Checklist — antes de montar el primer informe.",
   excerpt:
     "Qué es Looker Studio (antes Google Data Studio): cómo armar dashboards, conectar fuentes y en qué se diferencia la visualización de una verdadera analytics end-to-end con CRM.",
   lead: [

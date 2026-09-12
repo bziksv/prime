@@ -7,6 +7,9 @@ export const tipyKampaniyGoogleAdsEn: BlogPost = {
   date: "2019-12-19",
   category: "Paid search",
   cover: "/images/blog/tipy-kampaniy-google-ads/cover-en.webp",
+  metaTitle: "Wrong campaign type in Google Ads? Format overview by job",
+  metaDescription:
+    "Search, Performance Max, and more — when to use which. Cheat sheet — before you create.",
   excerpt:
     "Search, Display, YouTube, Shopping, remarketing, Performance Max, audiences — how to pick a Google Ads campaign type by role, not by a 2019 button catalog.",
   lead: [
@@ -174,6 +177,9 @@ export const tipyKampaniyGoogleAdsEs: BlogPost = {
   date: "2019-12-19",
   category: "Paid search",
   cover: "/images/blog/tipy-kampaniy-google-ads/cover-es.webp",
+  metaTitle: "¿Tipo de campaña equivocado en Google Ads? Resumen de formatos por tarea",
+  metaDescription:
+    "Search, Performance Max y más — cuándo usar cada uno. Chuleta — antes de crear.",
   excerpt:
     "Search, Display, YouTube, Shopping, remarketing, Performance Max, audiencias — cómo elegir un tipo de campaña de Google Ads por rol, no por un catálogo de botones de 2019.",
   lead: [

@@ -7,6 +7,9 @@ export const wordpressPlaginyEn: BlogPost = {
   date: "2017-12-14",
   category: "Digital marketing",
   cover: "/images/blog/wordpress-plaginy/cover-en.webp",
+  metaTitle: "Installing plugins by guesswork? WordPress: directory, ZIP, and FTP",
+  metaDescription:
+    "Steps without breaking the site. Checklist — before the next install.",
   excerpt:
     "Three ways to install a plugin on WordPress: search in the admin, ZIP upload, and copy into wp-content/plugins — without a cult of “more installs = better” or a pile of unsupported extensions.",
   lead: [
@@ -162,6 +165,9 @@ export const wordpressPlaginyEs: BlogPost = {
   date: "2017-12-14",
   category: "Digital marketing",
   cover: "/images/blog/wordpress-plaginy/cover-es.webp",
+  metaTitle: "¿Plugins a ojo por FTP? WordPress: catálogo, ZIP y FTP",
+  metaDescription:
+    "Pasos sin romper la web. Checklist — antes de la próxima instalación.",
   excerpt:
     "Tres formas de instalar un plugin en WordPress: búsqueda en el admin, subida ZIP y copia a wp-content/plugins — sin culto a «más installs = mejor» ni un montón de extensiones sin soporte.",
   lead: [

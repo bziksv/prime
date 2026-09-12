@@ -7,6 +7,9 @@ export const avatarYoutubeEn: BlogPost = {
   date: "2022-01-12",
   category: "SMM",
   cover: "/images/blog/avatar-youtube/cover-en.webp",
+  metaTitle: "YouTube channel with no face? Avatar specs and ideas",
+  metaDescription:
+    "Sizes, readability in a tiny circle, and how to upload cleanly. Checklist — update before the next upload.",
   excerpt:
     "Why a YouTube channel needs an avatar, image requirements, what to show, and how to change the icon from a computer or phone.",
   lead: [
@@ -149,6 +152,9 @@ export const avatarYoutubeEs: BlogPost = {
   date: "2022-01-12",
   category: "SMM",
   cover: "/images/blog/avatar-youtube/cover-es.webp",
+  metaTitle: "¿Canal de YouTube sin cara? Specs e ideas de avatar",
+  metaDescription:
+    "Tamaños, legibilidad en círculo pequeño y cómo subir sin sorpresas. Checklist — actualiza antes del próximo vídeo.",
   excerpt:
     "Por qué un canal de YouTube necesita un avatar, requisitos de imagen, qué mostrar y cómo cambiar el icono desde el ordenador o el teléfono.",
   lead: [

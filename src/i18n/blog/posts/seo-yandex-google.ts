@@ -7,6 +7,9 @@ export const seoYandexGoogleEn: BlogPost = {
   date: "2019-01-14",
   category: "SEO",
   cover: "/images/blog/seo-yandex-google/cover-en.webp",
+  metaTitle: "One SEO playbook for both? Yandex vs Google differences — without myths",
+  metaDescription:
+    "Commercial signals, links, and behavior. Cheat sheet — before a dual-engine strategy.",
   excerpt:
     "What’s shared and where Yandex and Google diverge: keywords, commercial signals, local SEO, webmaster tools, links, and content — a practical map for Russia, without the myth of “one algorithm for both.”",
   lead: [
@@ -245,6 +248,9 @@ export const seoYandexGoogleEs: BlogPost = {
   date: "2019-01-14",
   category: "SEO",
   cover: "/images/blog/seo-yandex-google/cover-es.webp",
+  metaTitle: "¿Un solo SEO para ambos? Diferencias Yandex vs Google — sin mitos",
+  metaDescription:
+    "Señales comerciales, enlaces y comportamiento. Chuleta — antes de la estrategia dual.",
   excerpt:
     "Qué se comparte y dónde divergen Yandex y Google: keywords, señales comerciales, SEO local, tools de webmaster, enlaces y contenido — un mapa práctico para Rusia, sin el mito de «un algoritmo para ambos».",
   lead: [

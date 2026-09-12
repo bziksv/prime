@@ -7,6 +7,9 @@ export const sozdanieInternetMagazinaEn: BlogPost = {
   date: "2018-07-12",
   category: "E-commerce",
   cover: "/images/blog/sozdanie-internet-magazina/cover-en.webp",
+  metaTitle: "Store “launch now, finish later”? 10 points you can’t ignore",
+  metaDescription:
+    "Catalog, payments, shipping, and analytics. Checklist — before ecommerce goes live.",
   excerpt:
     "Clean design, mobile layout, photos, navigation, payment and SSL, assortment, search, support, speed, and reviews — a storefront checklist before you scale traffic.",
   lead: [
@@ -126,6 +129,9 @@ export const sozdanieInternetMagazinaEs: BlogPost = {
   date: "2018-07-12",
   category: "E-commerce",
   cover: "/images/blog/sozdanie-internet-magazina/cover-es.webp",
+  metaTitle: "¿Tienda “lanzamos y luego”? 10 puntos que no puedes ignorar",
+  metaDescription:
+    "Catálogo, pagos, envío y analítica. Checklist — antes del release ecom.",
   excerpt:
     "Diseño limpio, layout móvil, fotos, navegación, pago y SSL, surtido, búsqueda, soporte, velocidad y reseñas — un checklist de storefront antes de escalar tráfico.",
   lead: [

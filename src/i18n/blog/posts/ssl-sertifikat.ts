@@ -7,6 +7,9 @@ export const sslSertifikatEn: BlogPost = {
   date: "2021-11-15",
   category: "SEO",
   cover: "/images/blog/ssl-sertifikat/cover-en.webp",
+  metaTitle: "Still on HTTP? SSL: why you need it, types, and how to choose",
+  metaDescription:
+    "Certificates without DV/OV/EV confusion. Checklist — before the HTTPS move.",
   excerpt:
     "What an SSL/TLS certificate is, how HTTPS differs from HTTP, certificate types (DV, OV, EV, wildcard), Let’s Encrypt, and what to look at when choosing.",
   lead: [
@@ -147,6 +150,9 @@ export const sslSertifikatEs: BlogPost = {
   date: "2021-11-15",
   category: "SEO",
   cover: "/images/blog/ssl-sertifikat/cover-es.webp",
+  metaTitle: "¿Aún en HTTP? SSL: para qué, tipos y cómo elegir",
+  metaDescription:
+    "Certificados sin lío DV/OV/EV. Checklist — antes del paso a HTTPS.",
   excerpt:
     "Qué es un certificado SSL/TLS, en qué se diferencia HTTPS de HTTP, tipos de certificado (DV, OV, EV, wildcard), Let’s Encrypt y qué mirar al elegir.",
   lead: [

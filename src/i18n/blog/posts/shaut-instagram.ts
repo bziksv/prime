@@ -7,6 +7,9 @@ export const shautInstagramEn: BlogPost = {
   date: "2021-04-08",
   category: "SMM",
   cover: "/images/blog/shaut-instagram/cover-en.webp",
+  metaTitle: "SFS = mutual likes only? Instagram shoutouts: pros, cons, and how to run them",
+  metaDescription:
+    "When the mechanic fits — and where the risk is. Checklist — before collabing accounts.",
   excerpt:
     "What a shoutout (shout for shout, SFS) on Instagram* is: mutual mentions, contest format, pros and cons — without the myth that it’s “free and always effective.”",
   lead: [
@@ -198,6 +201,9 @@ export const shautInstagramEs: BlogPost = {
   date: "2021-04-08",
   category: "SMM",
   cover: "/images/blog/shaut-instagram/cover-es.webp",
+  metaTitle: "¿SFS = likes mutuos? Shoutout en Instagram: pros, contras y cómo organizarlo",
+  metaDescription:
+    "Cuándo encaja la mecánica — y dónde está el riesgo. Checklist — antes del collab.",
   excerpt:
     "Qué es un shoutout (shout for shout, SFS) en Instagram*: menciones mutuas, formato concurso, pros y contras — sin el mito de que es «gratis y siempre efectivo».",
   lead: [

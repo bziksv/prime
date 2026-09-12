@@ -7,6 +7,9 @@ export const moderatsiyaFacebookAdsEn: BlogPost = {
   date: "2020-01-09",
   category: "Paid search",
   cover: "/images/blog/moderatsiya-facebook-ads/cover-en.webp",
+  metaTitle: "Ad rejected by Meta? Common Facebook Ads moderation reasons",
+  metaDescription:
+    "Policies, creative, and copy without surprises. Checklist — before the next review submit.",
   excerpt:
     "Common reasons ads get rejected or stay silent in Facebook / Meta Ads: prohibited content, before/after, clickbait UI, personal attributes, text on image, bids, and audience overlap.",
   lead: [
@@ -145,6 +148,9 @@ export const moderatsiyaFacebookAdsEs: BlogPost = {
   date: "2020-01-09",
   category: "Paid search",
   cover: "/images/blog/moderatsiya-facebook-ads/cover-es.webp",
+  metaTitle: "¿Anuncio rechazado por Meta? Causas típicas de moderación en Facebook Ads",
+  metaDescription:
+    "Políticas, creativo y texto sin sustos. Checklist — antes del próximo envío a review.",
   excerpt:
     "Motivos habituales de rechazo o silencio en Facebook / Meta Ads: contenido prohibido, before/after, UI clickbait, atributos personales, texto en la imagen, pujas y overlap de audiencias.",
   lead: [

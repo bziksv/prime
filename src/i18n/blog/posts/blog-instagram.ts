@@ -7,6 +7,9 @@ export const blogInstagramEn: BlogPost = {
   date: "2021-06-04",
   category: "SMM",
   cover: "/images/blog/blog-instagram/cover-en.webp",
+  metaTitle: "Empty grid, no ideas? Start an Instagram blog without burnout",
+  metaDescription:
+    "Topics and first steps — not “post every day at any cost.” Starter checklist — save it.",
   excerpt:
     "How to start a personal Instagram blog: pick a topic, set up the bio, build a content plan and photo series — without “instant page one with no spend” promises or a catalog of outdated apps.",
   lead: [
@@ -183,6 +186,9 @@ export const blogInstagramEs: BlogPost = {
   date: "2021-06-04",
   category: "SMM",
   cover: "/images/blog/blog-instagram/cover-es.webp",
+  metaTitle: "¿Feed vacío y sin ideas? Empieza un blog en Instagram sin quemarte",
+  metaDescription:
+    "Temas y primeros pasos — no “publicar cada día a cualquier precio”. Checklist de arranque — guárdalo.",
   excerpt:
     "Cómo empezar un blog personal en Instagram: elegir tema, armar la bio, construir un plan de contenidos y series de fotos — sin promesas de «primera página al instante sin gasto» ni catálogo de apps obsoletas.",
   lead: [

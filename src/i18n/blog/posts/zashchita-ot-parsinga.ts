@@ -7,6 +7,9 @@ export const zashchitaOtParsingaEn: BlogPost = {
   date: "2019-07-22",
   category: "Digital marketing",
   cover: "/images/blog/zashchita-ot-parsinga/cover-en.webp",
+  metaTitle: "Scrapers draining the catalog? Protection: captcha, limits, honeypot, common sense",
+  metaDescription:
+    "What actually helps without breaking UX. Checklist — before production settings.",
   excerpt:
     "Protecting a site from aggressive scraping: bot behavior, honeypots, IP analysis and limits, WAF/CDN — and why you mustn’t cut search crawlers together with the bad actors.",
   lead: [
@@ -130,6 +133,9 @@ export const zashchitaOtParsingaEs: BlogPost = {
   date: "2019-07-22",
   category: "Digital marketing",
   cover: "/images/blog/zashchita-ot-parsinga/cover-es.webp",
+  metaTitle: "¿Scrapers se llevan el catálogo? Protección: captcha, límites, honeypot y sentido común",
+  metaDescription:
+    "Qué sí ayuda sin romper UX. Checklist — antes de tocar ajustes en prod.",
   excerpt:
     "Proteger un sitio del scraping agresivo: comportamiento de bots, honeypots, análisis de IP y límites, WAF/CDN — y por qué no debes cortar crawlers de búsqueda junto con los malos actores.",
   lead: [

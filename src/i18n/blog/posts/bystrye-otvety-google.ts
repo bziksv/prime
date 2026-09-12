@@ -7,6 +7,9 @@ export const bystryeOtvetyGoogleEn: BlogPost = {
   date: "2019-07-19",
   category: "Digital marketing",
   cover: "/images/blog/bystrye-otvety-google/cover-en.webp",
+  metaTitle: "Want a featured snippet? How to earn Google’s quick answers",
+  metaDescription:
+    "Formats, answer structure, and pitfalls. Checklist — review the page before you rewrite for the box.",
   excerpt:
     "How Google’s featured snippet block works: formats, the role of question long-tails, answer structure on the page — with no “position zero” guarantee and an eye on AI Overviews.",
   lead: [
@@ -131,6 +134,9 @@ export const bystryeOtvetyGoogleEs: BlogPost = {
   date: "2019-07-19",
   category: "Digital marketing",
   cover: "/images/blog/bystrye-otvety-google/cover-es.webp",
+  metaTitle: "¿Quieres featured snippet? Cómo entrar en respuestas rápidas de Google",
+  metaDescription:
+    "Formatos, estructura de respuesta y riesgos. Checklist — revisa la página antes de reescribir.",
   excerpt:
     "Cómo funciona el bloque featured snippet de Google: formatos, el rol de las long-tails de pregunta, estructura de la respuesta en la página — sin garantía de «posición cero» y con ojo a AI Overviews.",
   lead: [

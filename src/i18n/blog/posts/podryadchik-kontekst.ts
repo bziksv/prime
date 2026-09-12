@@ -7,6 +7,9 @@ export const podryadchikKontekstEs: BlogPost = {
   date: "2018-12-06",
   category: "Paid search",
   cover: "/images/blog/podryadchik-kontekst/cover-es.webp",
+  metaTitle: "¿Agencia de contexto por precio? Cómo elegir quien sí entrega",
+  metaDescription:
+    "Preguntas, accesos y red flags. Checklist — antes de firmar el contrato.",
   excerpt:
     "Cómo ver que un contratista de Direct y Google Ads trabaja por resultados: tráfico y objetivos en Métrica/Analytics, economía (ROI, CPA, LTV), brief e informes — y cuándo cifras flojas aún no son motivo para cambiar de agencia.",
   lead: [
@@ -155,6 +158,9 @@ export const podryadchikKontekstEn: BlogPost = {
   date: "2018-12-06",
   category: "Paid search",
   cover: "/images/blog/podryadchik-kontekst/cover-en.webp",
+  metaTitle: "Picking a paid-search vendor by price? How to choose an agency that delivers",
+  metaDescription:
+    "Questions, access, and red flags. Checklist — before you sign the contract.",
   excerpt:
     "How to tell that a Direct and Google Ads contractor works for results: traffic and goals in Metrika/Analytics, economics (ROI, CPA, LTV), brief and reports — and when weak numbers aren’t yet a reason to switch agencies.",
   lead: [

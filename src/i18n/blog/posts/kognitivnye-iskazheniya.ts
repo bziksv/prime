@@ -7,6 +7,9 @@ export const kognitivnyeIskazheniyaEn: BlogPost = {
   date: "2019-01-30",
   category: "Digital marketing",
   cover: "/images/blog/kognitivnye-iskazheniya/cover-en.webp",
+  metaTitle: "Buyers aren’t fully rational? 6 biases that shape the purchase choice",
+  metaDescription:
+    "How to factor them into offer and UX without crossing into dark patterns. Cheat sheet — before the next landing.",
   excerpt:
     "Mere exposure, loss aversion, compromise, framing, the IKEA effect, and trust signals — how to use choice psychology in offers and UX without dark patterns.",
   lead: [
@@ -145,6 +148,9 @@ export const kognitivnyeIskazheniyaEs: BlogPost = {
   date: "2019-01-30",
   category: "Digital marketing",
   cover: "/images/blog/kognitivnye-iskazheniya/cover-es.webp",
+  metaTitle: "¿El cliente es “lógico”? 6 sesgos que mueven la decisión de compra",
+  metaDescription:
+    "Cómo usarlos en oferta y UX sin dark patterns. Chuleta — antes del próximo landing.",
   excerpt:
     "Mere exposure, aversión a la pérdida, compromiso, framing, efecto IKEA y señales de trust — cómo usar la psicología de la elección en ofertas y UX sin dark patterns.",
   lead: [

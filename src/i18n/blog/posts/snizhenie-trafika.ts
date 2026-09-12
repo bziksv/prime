@@ -7,6 +7,9 @@ export const snizhenieTrafikaEn: BlogPost = {
   date: "2021-06-15",
   category: "SEO",
   cover: "/images/blog/snizhenie-trafika/cover-en.webp",
+  metaTitle: "Traffic dropped overnight? Diagnosis and what to do next",
+  metaDescription:
+    "Tech, SEO, ads, and seasonality. Checklist — open analytics today.",
   excerpt:
     "Tell a real organic drop from a broken analytics tag, then check seasonality, technical issues, algorithm updates, and penalties — without panic or “it’ll bounce back tomorrow” promises.",
   lead: [
@@ -124,6 +127,9 @@ export const snizhenieTrafikaEs: BlogPost = {
   date: "2021-06-15",
   category: "SEO",
   cover: "/images/blog/snizhenie-trafika/cover-es.webp",
+  metaTitle: "¿Tráfico cae de golpe? Diagnóstico y qué hacer paso a paso",
+  metaDescription:
+    "Técnica, SEO, ads y estacionalidad. Checklist — abre analítica hoy.",
   excerpt:
     "Separa una caída orgánica real de un tag de analítica roto; luego revisa estacionalidad, issues técnicos, updates de algoritmo y penalizaciones — sin pánico ni promesas de «vuelve mañana».",
   lead: [

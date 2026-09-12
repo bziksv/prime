@@ -7,6 +7,9 @@ export const retargetingEn: BlogPost = {
   date: "2018-03-28",
   category: "Paid search",
   cover: "/images/blog/retargeting/cover-en.webp",
+  metaTitle: "Mixing targeting and retargeting? What they are — and the difference",
+  metaDescription:
+    "Audience logic and when to remarket. Primer — before you set the pixel.",
   excerpt:
     "Retargeting brings back people who already visited: cart, product view, visit without action. How it differs from targeting, which types exist, and how not to annoy the audience.",
   lead: [
@@ -205,6 +208,9 @@ export const retargetingEs: BlogPost = {
   date: "2018-03-28",
   category: "Paid search",
   cover: "/images/blog/retargeting/cover-es.webp",
+  metaTitle: "¿Mezclas targeting y retargeting? Qué son — y en qué difieren",
+  metaDescription:
+    "Lógica de audiencias y cuándo remarcar. Base — antes de configurar el píxel.",
   excerpt:
     "El retargeting trae de vuelta a quien ya visitó: carrito, vista de producto, visita sin acción. En qué se diferencia del targeting, qué tipos existen y cómo no molestar a la audiencia.",
   lead: [

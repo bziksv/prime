@@ -7,6 +7,9 @@ export const obratnyyZvonokEn: BlogPost = {
   date: "2016-10-24",
   category: "Digital marketing",
   cover: "/images/blog/obratnyy-zvonok/cover-en.webp",
+  metaTitle: "Leads dying in forms? Click-to-call widgets: why and how to choose",
+  metaDescription:
+    "Use cases, integrations, and vendor red flags. Checklist — before you embed one.",
   excerpt:
     "“Call me back” forms and callback widgets: how they differ, when they help sales, and what to check when choosing — without aggressive popups and ads for one vendor.",
   lead: [
@@ -176,6 +179,9 @@ export const obratnyyZvonokEs: BlogPost = {
   date: "2016-10-24",
   category: "Digital marketing",
   cover: "/images/blog/obratnyy-zvonok/cover-es.webp",
+  metaTitle: "¿Leads mueren en formularios? Widget de callback: para qué y cómo elegir",
+  metaDescription:
+    "Casos de uso, integración y red flags. Checklist — antes de enchufarlo a la web.",
   excerpt:
     "Formularios de «llámame» y widgets de callback: en qué se diferencian, cuándo ayudan a las ventas y qué revisar al elegir — sin popups agresivos ni ads de un solo vendor.",
   lead: [

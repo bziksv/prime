@@ -7,6 +7,9 @@ export const verstkaEmailEs: BlogPost = {
   date: "2019-08-30",
   category: "Email marketing",
   cover: "/images/blog/verstka-email/cover-es.webp",
+  metaTitle: "¿El mail se rompe en Outlook? HTML de newsletter sin sustos",
+  metaDescription:
+    "Tablas, clientes y tests. Checklist — antes del envío masivo.",
   excerpt:
     "Cómo armar emails HTML: por qué las tablas ganan a los divs, límites de CSS, responsive, imágenes, Outlook y pruebas en clientes — sin el mito de que un layout roto equivale a spam al instante.",
   lead: [
@@ -122,6 +125,9 @@ export const verstkaEmailEn: BlogPost = {
   date: "2019-08-30",
   category: "Email marketing",
   cover: "/images/blog/verstka-email/cover-en.webp",
+  metaTitle: "Email breaking in Outlook? Newsletter HTML without surprises",
+  metaDescription:
+    "Tables, clients, and testing. Checklist — before a mass send.",
   excerpt:
     "How to build HTML emails: why tables beat divs, CSS limits, responsive design, images, Outlook, and client testing — without the myth that a broken layout equals instant spam.",
   lead: [

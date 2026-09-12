@@ -7,6 +7,9 @@ export const emailMarketing2020En: BlogPost = {
   date: "2020-03-04",
   category: "Email marketing",
   cover: "/images/blog/email-marketing-2020/cover-en.webp",
+  metaTitle: "Still emailing like 2015? What works in email marketing in practice",
+  metaDescription:
+    "Segments, cadence, and offers without spam habits. Checklist — audit your flows today.",
   excerpt:
     "What actually pulls newsletters: mobile layout, triggers, segments, and a CRM link — without a cult of experimental interactivity or outdated “trends of the year.”",
   lead: [
@@ -125,6 +128,9 @@ export const emailMarketing2020Es: BlogPost = {
   date: "2020-03-04",
   category: "Email marketing",
   cover: "/images/blog/email-marketing-2020/cover-es.webp",
+  metaTitle: "¿Mailings como en 2015? Qué funciona en email marketing en la práctica",
+  metaDescription:
+    "Segmentos, frecuencia y ofertas sin hábitos de spam. Checklist — audita flujos hoy.",
   excerpt:
     "Qué tira de verdad de las newsletters: layout móvil, triggers, segmentos y un vínculo con CRM — sin culto a la interactividad experimental ni «tendencias del año» obsoletas.",
   lead: [

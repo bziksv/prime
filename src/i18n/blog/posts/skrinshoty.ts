@@ -7,6 +7,9 @@ export const skrinshotyEn: BlogPost = {
   date: "2021-09-03",
   category: "Content marketing",
   cover: "/images/blog/skrinshoty/cover-en.webp",
+  metaTitle: "Screenshot via phone camera? How to capture on PC and phone properly",
+  metaDescription:
+    "Shortcuts and common cases. Cheat sheet — one minute.",
   excerpt:
     "What a screenshot is, where it’s used in support and training, how to capture the screen on Windows, macOS, iOS, and Android, and how editors help.",
   lead: [
@@ -134,6 +137,9 @@ export const skrinshotyEs: BlogPost = {
   date: "2021-09-03",
   category: "Content marketing",
   cover: "/images/blog/skrinshoty/cover-es.webp",
+  metaTitle: "¿Captura con la cámara del móvil? Cómo hacer screenshot en PC y teléfono",
+  metaDescription:
+    "Atajos y casos típicos. Chuleta — en un minuto.",
   excerpt:
     "Qué es un screenshot, dónde se usa en soporte y formación, cómo capturar la pantalla en Windows, macOS, iOS y Android, y cómo ayudan los editores.",
   lead: [

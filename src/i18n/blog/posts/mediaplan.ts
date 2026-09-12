@@ -7,6 +7,9 @@ export const mediaplanEn: BlogPost = {
   date: "2020-08-15",
   category: "Paid search",
   cover: "/images/blog/mediaplan/cover-en.webp",
+  metaTitle: "Budget spread thin? Media plan: why you need one and how to build it",
+  metaDescription:
+    "Channels, timing, and KPIs in one sheet. Checklist — before budget approval.",
   excerpt:
     "What an advertising media plan is, how it differs from a content calendar, how to build a table of channels, budget, and timelines, and where to start testing paid search — without copying someone else’s template line for line.",
   lead: [
@@ -192,6 +195,9 @@ export const mediaplanEs: BlogPost = {
   date: "2020-08-15",
   category: "Paid search",
   cover: "/images/blog/mediaplan/cover-es.webp",
+  metaTitle: "¿Presupuesto diluido? Mediaplan: para qué sirve y cómo armarlo",
+  metaDescription:
+    "Canales, plazos y KPIs en una tabla. Checklist — antes de aprobar el gasto.",
   excerpt:
     "Qué es un media plan publicitario, en qué se diferencia de un calendario de contenido, cómo armar una tabla de canales, presupuesto y plazos, y por dónde empezar a testear paid search — sin copiar la plantilla de otro línea a línea.",
   lead: [

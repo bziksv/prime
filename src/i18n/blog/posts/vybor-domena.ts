@@ -7,6 +7,9 @@ export const vyborDomenaEs: BlogPost = {
   date: "2017-01-25",
   category: "Digital marketing",
   cover: "/images/blog/vybor-domena/cover-es.webp",
+  metaTitle: "¿Dominio a ojo? Cómo elegir el nombre del sitio sin sorpresas",
+  metaDescription:
+    "Criterios, zona y comprobación. Checklist — antes de registrar.",
   excerpt:
     "Cómo elegir un dominio: zona (.ru y otras), unicidad, región en el nombre, brevedad y claridad al dictarlo, qué palabras usar y por qué conviene dejar el dominio en el registrador — no solo en el host.",
   lead: [
@@ -125,6 +128,9 @@ export const vyborDomenaEn: BlogPost = {
   date: "2017-01-25",
   category: "Digital marketing",
   cover: "/images/blog/vybor-domena/cover-en.webp",
+  metaTitle: "Domain name by gut feel? How to choose a site address without surprises",
+  metaDescription:
+    "Criteria, TLD, and checks. Checklist — before you register.",
   excerpt:
     "How to pick a domain: zone (.ru and others), uniqueness, region in the name, brevity and spoken clarity, which words to use, and why to keep the domain with a registrar — not only the host.",
   lead: [

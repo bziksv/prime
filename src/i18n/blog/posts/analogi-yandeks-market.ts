@@ -7,6 +7,9 @@ export const analogiYandeksMarketEn: BlogPost = {
   date: "2021-06-24",
   category: "E-commerce",
   cover: "/images/blog/analogi-yandeks-market/cover-en.webp",
+  metaTitle: "Only one marketplace? Risky — how to pick alternatives",
+  metaDescription:
+    "Channel types, why multi-place helps, and what to check before connecting. Save before expanding channels.",
   excerpt:
     "Why an online store shouldn’t lean only on Yandex Market, which nearby platform types exist, and how to pick sales channels — without a 2021 catalog of dead services.",
   lead: [
@@ -150,6 +153,9 @@ export const analogiYandeksMarketEs: BlogPost = {
   date: "2021-06-24",
   category: "E-commerce",
   cover: "/images/blog/analogi-yandeks-market/cover-es.webp",
+  metaTitle: "¿Solo un marketplace? Riesgo — cómo elegir alternativas",
+  metaDescription:
+    "Tipos de canales, por qué multiplaza ayuda y qué revisar al conectar. Guarda antes de ampliar canales.",
   excerpt:
     "Por qué una tienda online no debería apoyarse solo en Yandex Market, qué tipos de plataformas cercanas existen y cómo elegir canales de venta — sin un catálogo 2021 de servicios muertos.",
   lead: [

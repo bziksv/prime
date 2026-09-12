@@ -7,6 +7,9 @@ export const sermEn: BlogPost = {
   date: "2018-03-21",
   category: "Digital marketing",
   cover: "/images/blog/serm/cover-en.webp",
+  metaTitle: "Negativity ranking for your brand? SERM: when you need it and how to run it",
+  metaDescription:
+    "Jobs, channels, and metrics — not “delete at any cost.” Plan — before reputation work starts.",
   excerpt:
     "SERM is managing reputation in search for your brand: SERP monitoring, review replies, owned properties, and content — without fake-review farms or flooding positivity.",
   lead: [
@@ -106,6 +109,9 @@ export const sermEs: BlogPost = {
   date: "2018-03-21",
   category: "Digital marketing",
   cover: "/images/blog/serm/cover-es.webp",
+  metaTitle: "¿Negatividad en el SERP de tu marca? SERM: cuándo hace falta y cómo organizarlo",
+  metaDescription:
+    "Tareas, canales y métricas — no “borrar a cualquier precio”. Plan — antes de empezar reputación.",
   excerpt:
     "SERM es gestionar la reputación en búsqueda de tu marca: monitoreo de SERP, respuestas a reviews, propiedades propias y contenido — sin granjas de reviews falsas ni inundar positividad.",
   lead: [

@@ -7,6 +7,9 @@ export const linkedinEn: BlogPost = {
   date: "2020-12-17",
   category: "SMM",
   cover: "/images/blog/linkedin/cover-en.webp",
+  metaTitle: "LinkedIn as résumé only? Profile, hiring, and company presence",
+  metaDescription:
+    "How to use the network for business without spam. Checklist — before the next outreach.",
   excerpt:
     "How LinkedIn differs from entertainment networks, how to set a profile and company page, why the platform helps hiring and B2B contacts — without outdated Premium prices and button screenshots.",
   lead: [
@@ -133,6 +136,9 @@ export const linkedinEs: BlogPost = {
   date: "2020-12-17",
   category: "SMM",
   cover: "/images/blog/linkedin/cover-es.webp",
+  metaTitle: "¿LinkedIn solo CV? Perfil, hiring y presencia corporativa",
+  metaDescription:
+    "Cómo usar la red para negocio sin spam. Checklist — antes del próximo outreach.",
   excerpt:
     "Cómo difiere LinkedIn de las redes de entretenimiento, cómo montar perfil y página de empresa, por qué la plataforma ayuda al hiring y a contactos B2B — sin precios Premium obsoletos ni capturas de botones.",
   lead: [

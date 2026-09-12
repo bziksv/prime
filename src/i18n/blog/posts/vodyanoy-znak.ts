@@ -7,6 +7,9 @@ export const vodyanoyZnakEn: BlogPost = {
   date: "2020-09-16",
   category: "Digital marketing",
   cover: "/images/blog/vodyanoy-znak/cover-en.webp",
+  metaTitle: "Watermark on everything? Why photos need one — and when it hurts",
+  metaDescription:
+    "Brand, theft, and readability. Cheat sheet — before batch processing.",
   excerpt:
     "What a watermark on digital photos is: protection and branding, downsides for perception and sharing, how to apply it carefully, and alternatives (previews, contracts, metadata).",
   lead: [
@@ -120,6 +123,9 @@ export const vodyanoyZnakEs: BlogPost = {
   date: "2020-09-16",
   category: "Digital marketing",
   cover: "/images/blog/vodyanoy-znak/cover-es.webp",
+  metaTitle: "¿Marca de agua en todo? Para qué en fotos — y cuándo estorba",
+  metaDescription:
+    "Marca, robo y legibilidad. Chuleta — antes del procesado por lote.",
   excerpt:
     "Qué es una watermark en fotos digitales: protección y branding, contras para percepción y shares, cómo aplicarla con cuidado y alternativas (previews, contratos, metadata).",
   lead: [

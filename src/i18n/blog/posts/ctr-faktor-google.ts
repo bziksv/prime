@@ -7,6 +7,9 @@ export const ctrFaktorGoogleEn: BlogPost = {
   date: "2016-10-05",
   category: "SEO",
   cover: "/images/blog/ctr-faktor-google/cover-en.webp",
+  metaTitle: "Does CTR boost rankings? Direct factor, indirect, or myth",
+  metaDescription:
+    "What practice shows — and how not to chase clicks at relevance’s expense. Save the breakdown.",
   excerpt:
     "Does Google use CTR in ranking: what representatives have said, where clicks feed experiments and personalization, and why click inflation is a bad bet.",
   lead: [
@@ -166,6 +169,9 @@ export const ctrFaktorGoogleEs: BlogPost = {
   date: "2016-10-05",
   category: "SEO",
   cover: "/images/blog/ctr-faktor-google/cover-es.webp",
+  metaTitle: "¿El CTR sube rankings? Factor directo, indirecto o mito",
+  metaDescription:
+    "Qué dice la práctica y cómo no perseguir clics a costa de relevancia. Guarda el análisis.",
   excerpt:
     "Si Google usa el CTR en el ranking: qué han dicho los representantes, dónde los clics alimentan experimentos y personalización, y por qué inflar clics es una mala apuesta.",
   lead: [

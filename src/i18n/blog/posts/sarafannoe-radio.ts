@@ -7,6 +7,9 @@ export const sarafannoeRadioEn: BlogPost = {
   date: "2020-01-17",
   category: "Digital marketing",
   cover: "/images/blog/sarafannoe-radio/cover-en.webp",
+  metaTitle: "Word of mouth “will happen alone”? How to earn referrals on purpose",
+  metaDescription:
+    "Triggers, mechanics, and measurement. Checklist — before a referral program.",
   excerpt:
     "How word of mouth works online: exceed expectations, become memorable, ask for a review, partnerships, influencers, and coverage — without fake engagement or fake recommendations.",
   lead: [
@@ -162,6 +165,9 @@ export const sarafannoeRadioEs: BlogPost = {
   date: "2020-01-17",
   category: "Marketing digital",
   cover: "/images/blog/sarafannoe-radio/cover-es.webp",
+  metaTitle: "¿El boca a boca “llega solo”? Cómo conseguir recomendaciones a propósito",
+  metaDescription:
+    "Triggers, mecánicas y medición. Checklist — antes del programa de referidos.",
   excerpt:
     "Cómo funciona el boca a boca online: superar expectativas, ser memorable, pedir una reseña, partnerships, influencers y cobertura — sin fake engagement ni recomendaciones falsas.",
   lead: [

@@ -7,6 +7,9 @@ export const seoStrukturaSaytaEn: BlogPost = {
   date: "2021-12-27",
   category: "SEO",
   cover: "/images/blog/seo-struktura-sayta/cover-en.webp",
+  metaTitle: "Site structure by accident? SEO promotion: how to build the information architecture",
+  metaDescription:
+    "Sections, URLs, and internal links without cannibalization. Checklist — before an IA redesign.",
   excerpt:
     "How to design a site structure for SEO: page hierarchy, keyword clusters, and internal linking — before you flood the CMS with random pages.",
   lead: [
@@ -229,6 +232,9 @@ export const seoStrukturaSaytaEs: BlogPost = {
   date: "2021-12-27",
   category: "SEO",
   cover: "/images/blog/seo-struktura-sayta/cover-es.webp",
+  metaTitle: "¿Estructura “como salga”? Promoción SEO: cómo armar la arquitectura",
+  metaDescription:
+    "Secciones, URLs e interlinking sin canibalización. Checklist — antes de rediseñar la IA.",
   excerpt:
     "Cómo diseñar la estructura de un sitio para SEO: jerarquía de páginas, clusters de keywords y enlazado interno — antes de inundar el CMS con páginas al azar.",
   lead: [

@@ -8,6 +8,9 @@ export const roiMarketingaEn: BlogPost = {
   date: "2020-12-07",
   category: "Digital marketing",
   cover: "/images/blog/roi-marketinga/cover-en.webp",
+  metaTitle: "Mixing ROI and ROMI? Formulas and how to measure marketing strategy",
+  metaDescription:
+    "What to count in costs and revenue. Cheat sheet — before the quarterly report.",
   excerpt:
     "How ROI/ROMI differ from KPIs and conversion, which formulas to use for ads, and how numbers decide where to grow budget — and where to cut.",
   lead: [
@@ -143,6 +146,9 @@ export const roiMarketingaEs: BlogPost = {
   date: "2020-12-07",
   category: "Digital marketing",
   cover: "/images/blog/roi-marketinga/cover-es.webp",
+  metaTitle: "¿Mezclas ROI y ROMI? Fórmulas y cómo medir la eficacia de la estrategia",
+  metaDescription:
+    "Qué meter en costes e ingresos. Chuleta — antes del informe trimestral.",
   excerpt:
     "En qué se diferencian ROI/ROMI de KPIs y conversión, qué fórmulas usar para ads y cómo los números deciden dónde crecer presupuesto — y dónde cortar.",
   lead: [

@@ -13,6 +13,9 @@ export const caseTranslationsEn: Record<string, Partial<CaseStudy>> = {
     period: "since 2014",
     metric: "3000+",
     metricLabel: "keywords on page one",
+    metaTitle: "3,000+ phrases on page one — Polimer SEO case",
+    metaDescription:
+      "Plumbing shop SEO since 2014: started at 393 phrases, prep ~1.5 months, page one planned 2–6 months. Now 3,000+ ranked. See the case.",
     summary:
       "SEO for Polimer’s plumbing catalog since 2014. We locked a 393-keyword starter set, spent ~1.5 months on prep, then grew rankings over a planned 2–6 months. Today 3000+ keywords hold page one. Orders and paid checkouts showed up in the first two months. The Bitrix storefront rebuild is a separate case.",
     coverAlt: "polimer-vrn.ru homepage — plumbing catalog",
@@ -142,6 +145,9 @@ export const caseTranslationsEn: Record<string, Partial<CaseStudy>> = {
     period: "ongoing · Bitrix",
     metric: "15,000+",
     metricLabel: "products in catalog",
+    metaTitle: "15,000+ SKUs on Bitrix — VILMED store rebuild",
+    metaDescription:
+      "Medtech e-com: smart search, catalog UX, SEO filters, 1C, composite/Brotli, and cleanup. Live on vilmed.ru — see the case.",
     summary:
       "Ongoing work on a large medical-equipment store on Bitrix: sticky header and smart search, catalog and product-card UX, SEO filters, ERP sync, composite/Brotli, and a shell cleanup. Live at vilmed.ru.",
     coverAlt: "VILMED medical equipment catalog",
@@ -262,6 +268,9 @@ export const caseTranslationsEn: Record<string, Partial<CaseStudy>> = {
     period: "product · Next.js + Laravel · since 2023",
     metric: "19",
     metricLabel: "modules in one dashboard",
+    metaTitle: "19 SEO modules instead of Excel — see the Titlo build",
+    metaDescription:
+      "How we shipped a Next.js + Laravel SaaS with module demos and a clean Bitrix migration. Read the case — then ask if you need the same stack.",
     summary:
       "We built Titlo end to end: a Next.js marketing site (titlo.ru) and a Laravel app (cabinet.titlo.ru) — 19 SEO modules, guest demos, plans, and a clean migration off Bitrix. Live at titlo.ru.",
     coverAlt: "Titlo platform homepage — SEO tools",

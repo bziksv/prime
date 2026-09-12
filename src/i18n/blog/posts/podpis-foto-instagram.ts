@@ -7,6 +7,9 @@ export const podpisFotoInstagramEn: BlogPost = {
   date: "2020-12-18",
   category: "SMM",
   cover: "/images/blog/podpis-foto-instagram/cover-en.webp",
+  metaTitle: "Caption of three emojis? What to write under Instagram photos so people read",
+  metaDescription:
+    "Structure, CTA, and length without fluff. Cheat sheet — before the next post.",
   excerpt:
     "How to write an Instagram photo caption: link to the frame, structure, quotes, hashtags, and tone for your audience — without gender clichés or the myth that “30 hashtags = reach.”",
   lead: [
@@ -164,6 +167,9 @@ export const podpisFotoInstagramEs: BlogPost = {
   date: "2020-12-18",
   category: "SMM",
   cover: "/images/blog/podpis-foto-instagram/cover-es.webp",
+  metaTitle: "¿Pie de tres emojis? Qué escribir bajo la foto en Instagram para que lean",
+  metaDescription:
+    "Estructura, CTA y longitud sin relleno. Chuleta — antes del próximo post.",
   excerpt:
     "Cómo escribir un caption de foto en Instagram: enlace al frame, estructura, citas, hashtags y tono para tu audiencia — sin clichés de género ni el mito de que «30 hashtags = alcance».",
   lead: [

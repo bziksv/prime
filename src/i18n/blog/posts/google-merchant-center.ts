@@ -7,6 +7,9 @@ export const googleMerchantCenterEn: BlogPost = {
   date: "2018-09-26",
   category: "Paid search",
   cover: "/images/blog/google-merchant-center/cover-en.webp",
+  metaTitle: "Products missing from Shopping? Merchant Center: connect the store to ads",
+  metaDescription:
+    "Feeds, errors, and the path to Shopping campaigns. Checklist — before you upload the catalog.",
   excerpt:
     "How to set up an online store in Google Merchant Center: feed, site requirements, Google Ads link, and Shopping campaigns — without outdated AdWords/AdSense clicks and “always cheaper than any channel” promises.",
   lead: [
@@ -190,6 +193,9 @@ export const googleMerchantCenterEs: BlogPost = {
   date: "2018-09-26",
   category: "Paid search",
   cover: "/images/blog/google-merchant-center/cover-es.webp",
+  metaTitle: "¿Productos fuera de Shopping? Merchant Center: conecta la tienda a ads",
+  metaDescription:
+    "Feeds, errores y camino a campañas de producto. Checklist — antes de subir el catálogo.",
   excerpt:
     "Cómo configurar una tienda online en Google Merchant Center: feed, requisitos del sitio, enlace a Google Ads y campañas Shopping — sin clics obsoletos de AdWords/AdSense ni promesas de «siempre más barato que cualquier canal».",
   lead: [

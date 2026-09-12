@@ -7,6 +7,9 @@ export const futerSaytaEn: BlogPost = {
   date: "2021-04-14",
   category: "SEO",
   cover: "/images/blog/futer-sayta/cover-en.webp",
+  metaTitle: "Footer just for show? Why it matters and what belongs there",
+  metaDescription:
+    "Nav, contacts, legal, and SEO extras. Checklist — review the footer before release.",
   excerpt:
     "The role of the site footer in navigation and trust: contacts, links, legal block, and design — without keyword spam in the footer.",
   lead: [
@@ -171,6 +174,9 @@ export const futerSaytaEs: BlogPost = {
   date: "2021-04-14",
   category: "SEO",
   cover: "/images/blog/futer-sayta/cover-es.webp",
+  metaTitle: "¿Footer de postureo? Para qué sirve y qué meter",
+  metaDescription:
+    "Navegación, contactos, legal y extras SEO. Checklist — revisa el pie antes del release.",
   excerpt:
     "El rol del footer en navegación y confianza: contactos, enlaces, bloque legal y diseño — sin spam de keywords en el pie.",
   lead: [

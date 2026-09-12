@@ -7,6 +7,9 @@ export const kodStatusaHttpEn: BlogPost = {
   date: "2021-02-01",
   category: "SEO",
   cover: "/images/blog/kod-statusa-http/cover-en.webp",
+  metaTitle: "3xx, 4xx, 5xx confusing? HTTP status codes: classes and how to check",
+  metaDescription:
+    "Decode them and diagnose fast. Cheat sheet — before the next production incident.",
   excerpt:
     "What an HTTP response status is, how to read classes 1xx–5xx, which codes matter for SEO, and how to check one URL or the whole site.",
   lead: [
@@ -203,6 +206,9 @@ export const kodStatusaHttpEs: BlogPost = {
   date: "2021-02-01",
   category: "SEO",
   cover: "/images/blog/kod-statusa-http/cover-es.webp",
+  metaTitle: "¿3xx, 4xx, 5xx confunden? Códigos HTTP: clases y cómo comprobarlos",
+  metaDescription:
+    "Descifrado y diagnóstico rápido. Chuleta — antes del próximo incidente en prod.",
   excerpt:
     "Qué es un status de respuesta HTTP, cómo leer las clases 1xx–5xx, qué códigos importan para el SEO y cómo comprobar una URL o todo el sitio.",
   lead: [

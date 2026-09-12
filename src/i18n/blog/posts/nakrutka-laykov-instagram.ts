@@ -7,6 +7,9 @@ export const nakrutkaLaykovInstagramEn: BlogPost = {
   date: "2021-11-26",
   category: "SMM",
   cover: "/images/blog/nakrutka-laykov-instagram/cover-en.webp",
+  metaTitle: "Buying likes in bulk? Instagram like farms: risks and why to skip them",
+  metaDescription:
+    "What happens to the account — and what to do instead. Read before you pay bots.",
   excerpt:
     "Why people chase Instagram likes, what’s dangerous about bots and fake-engagement services, what penalties look like, and what to do instead of buying artificial activity.",
   lead: [
@@ -158,6 +161,9 @@ export const nakrutkaLaykovInstagramEs: BlogPost = {
   date: "2021-11-26",
   category: "SMM",
   cover: "/images/blog/nakrutka-laykov-instagram/cover-es.webp",
+  metaTitle: "¿Likes a granel? Compra de likes en Instagram: riesgos y por qué no",
+  metaDescription:
+    "Qué le pasa a la cuenta y con qué sustituirlo. Léelo antes de pagar bots.",
   excerpt:
     "Por qué la gente persigue likes en Instagram, qué tiene de peligroso los bots y servicios de engagement falso, cómo se ven las sanciones y qué hacer en lugar de comprar actividad artificial.",
   lead: [

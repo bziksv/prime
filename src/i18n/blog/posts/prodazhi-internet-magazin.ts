@@ -7,6 +7,9 @@ export const prodazhiInternetMagazinEn: BlogPost = {
   date: "2019-12-16",
   category: "Digital marketing",
   cover: "/images/blog/prodazhi-internet-magazin/cover-en.webp",
+  metaTitle: "Store running, sales weak? Practical levers to grow ecommerce",
+  metaDescription:
+    "Catalog, UX, offer, and channels. Checklist — before the next optimization sprint.",
   excerpt:
     "What really moves online store sales: traffic and storefronts, product cards and UX, reviews and chat, content and video, email and AOV — without an “enable everything at once” checklist.",
   lead: [
@@ -168,6 +171,9 @@ export const prodazhiInternetMagazinEs: BlogPost = {
   date: "2019-12-16",
   category: "Digital marketing",
   cover: "/images/blog/prodazhi-internet-magazin/cover-es.webp",
+  metaTitle: "¿Tienda viva y ventas flojas? Palancas prácticas de crecimiento ecom",
+  metaDescription:
+    "Catálogo, UX, oferta y canales. Checklist — antes del próximo sprint de optimización.",
   excerpt:
     "Qué mueve de verdad las ventas de una tienda online: tráfico y escaparates, fichas y UX, reseñas y chat, contenido y vídeo, email y AOV — sin un checklist de «activar todo a la vez».",
   lead: [

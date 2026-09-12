@@ -7,6 +7,9 @@ export const cpmIliCpcEn: BlogPost = {
   date: "2021-06-29",
   category: "Digital marketing",
   cover: "/images/blog/cpm-ili-cpc/cover-en.webp",
+  metaTitle: "Pay for impressions or clicks? CPM vs CPC without KPI confusion",
+  metaDescription:
+    "When each model wins and how not to mix metrics. Media buyer cheat sheet — save it.",
   excerpt:
     "How cost-per-impression (CPM) differs from cost-per-click (CPC), which model fits which goal, how targeting shapes campaign economics, and why “which is better” always depends on the outcome you want.",
   lead: [
@@ -171,6 +174,9 @@ export const cpmIliCpcEs: BlogPost = {
   date: "2021-06-29",
   category: "Digital marketing",
   cover: "/images/blog/cpm-ili-cpc/cover-es.webp",
+  metaTitle: "¿Pagar por impresiones o clics? CPM vs CPC sin mezclar KPIs",
+  metaDescription:
+    "Cuándo gana cada modelo y cómo no mezclar métricas. Chuleta de media buying — guárdala.",
   excerpt:
     "En qué se diferencia el coste por impresión (CPM) del coste por clic (CPC), qué modelo encaja con cada objetivo, cómo el targeting moldea la economía de la campaña y por qué «cuál es mejor» siempre depende del resultado que buscas.",
   lead: [

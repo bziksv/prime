@@ -7,6 +7,9 @@ export const saytySatellityEn: BlogPost = {
   date: "2020-02-05",
   category: "SEO",
   cover: "/images/blog/sayty-satellity/cover-en.webp",
+  metaTitle: "Satellite sites “for links”? Risks and why the scheme usually backfires",
+  metaDescription:
+    "Penalties, fingerprints, and legal alternatives. Read before buying a domain grid.",
   excerpt:
     "What satellite sites meant in SEO, why people built them historically, how they endanger the main domain, and what to do instead of a private network — without PBN how-tos.",
   lead: [
@@ -231,6 +234,9 @@ export const saytySatellityEs: BlogPost = {
   date: "2020-02-05",
   category: "SEO",
   cover: "/images/blog/sayty-satellity/cover-es.webp",
+  metaTitle: "¿Satélites “para enlaces”? Riesgos y por qué el esquema suele fallar",
+  metaDescription:
+    "Sanciones, huellas y alternativas legales. Léelo antes de comprar una red de dominios.",
   excerpt:
     "Qué significaban los sitios satélite en SEO, por qué la gente los armaba históricamente, cómo ponen en peligro el dominio principal y qué hacer en vez de una red privada — sin how-tos de PBN.",
   lead: [

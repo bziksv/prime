@@ -7,6 +7,9 @@ export const yandeksIksEn: BlogPost = {
   date: "2018-09-19",
   category: "SEO",
   cover: "/images/blog/yandeks-iks/cover-en.webp",
+  metaTitle: "Still treating IQS as a KPI? What Yandex’s quality index was — and what to watch now",
+  metaDescription:
+    "Metric history and today’s proxies. Primer — before the planning debate.",
   excerpt:
     "What Yandex SQI (IKS) was, how it differed from TIC, and why chasing an outdated score is pointless — plus which Webmaster reports to use instead of a “quality index.”",
   lead: [
@@ -165,6 +168,9 @@ export const yandeksIksEs: BlogPost = {
   date: "2018-09-19",
   category: "SEO",
   cover: "/images/blog/yandeks-iks/cover-es.webp",
+  metaTitle: "¿Aún miras el IQS como KPI? Qué era el índice de calidad y qué mirar ahora",
+  metaDescription:
+    "Historia de la métrica y proxies actuales. Base — antes de la discusión en planning.",
   excerpt:
     "Qué era el SQI (ИКС) de Yandex, en qué se diferenciaba del TIC y por qué perseguir una puntuación obsoleta no tiene sentido — más qué informes de Webmaster usar en lugar de un «índice de calidad».",
   lead: [

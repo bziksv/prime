@@ -7,6 +7,9 @@ export const indeksatsiyaSaytaEn: BlogPost = {
   date: "2018-03-16",
   category: "SEO",
   cover: "/images/blog/indeksatsiya-sayta/cover-en.webp",
+  metaTitle: "Pages missing from search? What site indexation means in plain English",
+  metaDescription:
+    "How crawlers find URLs, what blocks them, and how to check. Primer — before Search Console panic.",
   excerpt:
     "How search engines crawl and add pages to the index: what affects getting into the database, robots and sitemap, Webmaster / Search Console, coverage checks — without 2010s social bookmarks or buying links “for indexing.”",
   lead: [
@@ -153,6 +156,9 @@ export const indeksatsiyaSaytaEs: BlogPost = {
   date: "2018-03-16",
   category: "SEO",
   cover: "/images/blog/indeksatsiya-sayta/cover-es.webp",
+  metaTitle: "¿Páginas fuera del buscador? Qué es la indexación, en claro",
+  metaDescription:
+    "Cómo el bot encuentra URLs, qué lo bloquea y cómo comprobarlo. Base — antes del pánico en Search Console.",
   excerpt:
     "Cómo los buscadores rastrean y meten páginas en el índice: qué afecta a entrar en la base, robots y sitemap, Webmaster / Search Console, checks de cobertura — sin social bookmarks de los 2010 ni compra de enlaces «para indexar».",
   lead: [

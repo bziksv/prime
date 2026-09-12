@@ -7,6 +7,9 @@ export const yandeksSpravochnikEn: BlogPost = {
   date: "2019-08-27",
   category: "SEO",
   cover: "/images/blog/yandeks-spravochnik/cover-en.webp",
+  metaTitle: "Business missing from Yandex Directory? Organization card: why and how to run it",
+  metaDescription:
+    "Details, reviews, and local SEO link. Checklist — before you audit the listing.",
   excerpt:
     "What an organization card is in the Yandex ecosystem (Directory / Organizations / Yandex Business): why it matters, how to claim it, what to fill in, and how to handle reviews — without outdated dashboard screenshots.",
   lead: [
@@ -145,6 +148,9 @@ export const yandeksSpravochnikEs: BlogPost = {
   date: "2019-08-27",
   category: "SEO",
   cover: "/images/blog/yandeks-spravochnik/cover-es.webp",
+  metaTitle: "¿Negocio fuera del Directorio Yandex? Ficha de organización: para qué y cómo llevarla",
+  metaDescription:
+    "Datos, reseñas y vínculo con SEO local. Checklist — antes de auditar la ficha.",
   excerpt:
     "Qué es una ficha de organización en el ecosistema Yandex (Directory / Organizations / Yandex Business): por qué importa, cómo reclamarla, qué rellenar y cómo gestionar reseñas — sin screenshots obsoletos del dashboard.",
   lead: [

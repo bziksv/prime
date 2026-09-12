@@ -7,6 +7,9 @@ export const prosmotryVkEn: BlogPost = {
   date: "2021-06-22",
   category: "SMM",
   cover: "/images/blog/prosmotry-vk/cover-en.webp",
+  metaTitle: "VK views mixed up with reach? How to read the counter properly",
+  metaDescription:
+    "Metrics without self-deception. Cheat sheet — before the community report.",
   excerpt:
     "How the view counter under VKontakte posts works, what counts as a view, how it differs from full community stats, and why fake views hurt.",
   lead: [
@@ -137,6 +140,9 @@ export const prosmotryVkEs: BlogPost = {
   date: "2021-06-22",
   category: "SMM",
   cover: "/images/blog/prosmotry-vk/cover-es.webp",
+  metaTitle: "¿Mezclas vistas VK con alcance? Cómo leer el contador bien",
+  metaDescription:
+    "Métricas sin autoengaño. Chuleta — antes del informe del público.",
   excerpt:
     "Cómo funciona el contador de vistas bajo los posts de VKontakte, qué cuenta como vista, en qué se diferencia de las stats completas de la comunidad y por qué las vistas falsas dañan.",
   lead: [

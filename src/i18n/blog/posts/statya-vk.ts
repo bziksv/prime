@@ -7,6 +7,9 @@ export const statyaVkEn: BlogPost = {
   date: "2021-07-20",
   category: "SMM",
   cover: "/images/blog/statya-vk/cover-en.webp",
+  metaTitle: "Long posts awkward in the feed? VK Articles: how to prep and publish",
+  metaDescription:
+    "Structure, cover, and in-network SEO. Checklist — before the next piece.",
   excerpt:
     "How to use the VK articles editor: title, formatting, cover, drafts, stats, and publishing on a wall or in a community.",
   lead: [
@@ -131,6 +134,9 @@ export const statyaVkEs: BlogPost = {
   date: "2021-07-20",
   category: "SMM",
   cover: "/images/blog/statya-vk/cover-es.webp",
+  metaTitle: "¿Post largo incómodo en el feed? Artículo VK: cómo preparar y publicar",
+  metaDescription:
+    "Estructura, portada y SEO dentro de la red. Checklist — antes de la próxima pieza.",
   excerpt:
     "Cómo usar el editor de artículos de VK: título, formato, cover, borradores, stats y publicación en el muro o en una comunidad.",
   lead: [

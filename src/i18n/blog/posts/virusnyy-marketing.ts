@@ -7,6 +7,9 @@ export const virusnyyMarketingEn: BlogPost = {
   date: "2019-12-25",
   category: "Digital marketing",
   cover: "/images/blog/virusnyy-marketing/cover-en.webp",
+  metaTitle: "Viral marketing = meme and hope? Types: video, memes, copy, apps",
+  metaDescription:
+    "When the mechanic fits — and where it fails. Breakdown — before campaign launch.",
   excerpt:
     "What viral marketing is, which formats people spread on their own — video, images, text, apps — and why you can’t order a viral hit with a guarantee.",
   lead: [
@@ -183,6 +186,9 @@ export const virusnyyMarketingEs: BlogPost = {
   date: "2019-12-25",
   category: "Digital marketing",
   cover: "/images/blog/virusnyy-marketing/cover-es.webp",
+  metaTitle: "¿Marketing viral = meme y esperanza? Tipos: vídeo, memes, texto, apps",
+  metaDescription:
+    "Cuándo encaja — y dónde falla. Análisis — antes de lanzar la campaña.",
   excerpt:
     "Qué es el marketing viral, qué formatos la gente reparte sola — vídeo, imágenes, texto, apps — y por qué no puedes pedir un hit viral con garantía.",
   lead: [

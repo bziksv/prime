@@ -7,6 +7,9 @@ export const mobilnayaReklamaGoogleEn: BlogPost = {
   date: "2018-10-23",
   category: "Paid search",
   cover: "/images/blog/mobilnaya-reklama-google/cover-en.webp",
+  metaTitle: "Mobile ads “too expensive”? Google mobile ads performance: how to read the numbers",
+  metaDescription:
+    "Segments, conversions, and desktop-comparison traps. Cheat sheet — before you optimize.",
   excerpt:
     "How CTR, CVR, CPC, and CPA differ for mobile Search vs Display, why industry benchmarks age fast, and how to measure efficiency in your own account.",
   lead: [
@@ -196,6 +199,9 @@ export const mobilnayaReklamaGoogleEs: BlogPost = {
   date: "2018-10-23",
   category: "Paid search",
   cover: "/images/blog/mobilnaya-reklama-google/cover-es.webp",
+  metaTitle: "¿Ads móvil “caras”? Eficacia de publicidad móvil en Google: cómo leer las cifras",
+  metaDescription:
+    "Segmentos, conversiones y trampas vs desktop. Chuleta — antes de optimizar.",
   excerpt:
     "Cómo difieren CTR, CVR, CPC y CPA en Search vs Display móvil, por qué los benchmarks de industria envejecen rápido y cómo medir la eficiencia en tu propia cuenta.",
   lead: [

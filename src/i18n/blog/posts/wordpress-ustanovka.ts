@@ -7,6 +7,9 @@ export const wordpressUstanovkaEn: BlogPost = {
   date: "2017-04-20",
   category: "Digital marketing",
   cover: "/images/blog/wordpress-ustanovka/cover-en.webp",
+  metaTitle: "“WordPress in 5 minutes” stuck? Install on hosting step by step",
+  metaDescription:
+    "Requirements, database, and common mistakes. Checklist — before first admin login.",
   excerpt:
     "Installing WordPress: hosting requirements, database, file upload, the install.php wizard, and first settings — without PHP 4.3 from 2017 guides and a Total Commander cult.",
   lead: [
@@ -186,6 +189,9 @@ export const wordpressUstanovkaEs: BlogPost = {
   date: "2017-04-20",
   category: "Digital marketing",
   cover: "/images/blog/wordpress-ustanovka/cover-es.webp",
+  metaTitle: "¿“WordPress en 5 minutos” se atasca? Instalación en hosting paso a paso",
+  metaDescription:
+    "Requisitos, BD y errores típicos. Checklist — antes del primer login al admin.",
   excerpt:
     "Instalar WordPress: requisitos de hosting, base de datos, subida de archivos, el wizard install.php y primeros ajustes — sin PHP 4.3 de guías de 2017 ni culto a Total Commander.",
   lead: [

@@ -7,6 +7,9 @@ export const aktivnostVkEn: BlogPost = {
   date: "2021-01-27",
   category: "SMM",
   cover: "/images/blog/aktivnost-vk/cover-en.webp",
+  metaTitle: "Strange VK logins and a dead community? Check activity history",
+  metaDescription:
+    "How to review sessions, kill foreign logins, and read group engagement. Security cheat sheet — save it.",
   excerpt:
     "How to check VK login history, why to end other sessions, and how community stats raise engagement — without treating every IP change as a hack.",
   lead: [
@@ -168,6 +171,9 @@ export const aktivnostVkEs: BlogPost = {
   date: "2021-01-27",
   category: "SMM",
   cover: "/images/blog/aktivnost-vk/cover-es.webp",
+  metaTitle: "¿Sesiones raras en VK y comunidad muerta? Mira el historial",
+  metaDescription:
+    "Cómo revisar accesos, cerrar sesiones ajenas y leer engagement. Chuleta de seguridad — guárdala.",
   excerpt:
     "Cómo revisar el historial de login de VK, por qué cerrar otras sesiones y cómo las stats de comunidad suben el engagement — sin tratar cada cambio de IP como un hack.",
   lead: [

@@ -7,6 +7,9 @@ export const karuselInstagramEn: BlogPost = {
   date: "2021-06-18",
   category: "SMM",
   cover: "/images/blog/karusel-instagram/cover-en.webp",
+  metaTitle: "One frame won’t hold? Instagram carousels: multiple photos in one post",
+  metaDescription:
+    "Slide story, CTA, and mistakes. Checklist — before the next series.",
   excerpt:
     "How to build an Instagram post from several photos or videos, why a carousel beats a collage, slide order and a unified style — without outdated click-paths or tools that download other people’s content.",
   lead: [
@@ -113,6 +116,9 @@ export const karuselInstagramEs: BlogPost = {
   date: "2021-06-18",
   category: "SMM",
   cover: "/images/blog/karusel-instagram/cover-es.webp",
+  metaTitle: "¿Un frame no retiene? Carrusel Instagram: varias fotos en un post",
+  metaDescription:
+    "Guion de slides, CTA y errores. Checklist — antes de la próxima serie.",
   excerpt:
     "Cómo montar un post de Instagram con varias fotos o vídeos, por qué un carrusel gana a un collage, el orden de slides y un estilo unificado — sin rutas de clics obsoletas ni herramientas que descarguen contenido ajeno.",
   lead: [

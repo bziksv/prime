@@ -7,6 +7,9 @@ export const utmMetkiEn: BlogPost = {
   date: "2018-04-20",
   category: "Digital marketing",
   cover: "/images/blog/utm-metki/cover-en.webp",
+  metaTitle: "Traffic “from somewhere”? UTM tags: what they are and why you mark links",
+  metaDescription:
+    "Parameters, a template, and common mistakes. Checklist — before the next campaign.",
   excerpt:
     "Why UTM tags matter, which parameters are required (source, medium, campaign), how to name values without report chaos, and how to read them in Metrica and Google Analytics.",
   lead: [
@@ -223,6 +226,9 @@ export const utmMetkiEs: BlogPost = {
   date: "2018-04-20",
   category: "Digital marketing",
   cover: "/images/blog/utm-metki/cover-es.webp",
+  metaTitle: "¿Tráfico “de algún lado”? UTM: qué son y para qué marcar enlaces",
+  metaDescription:
+    "Parámetros, plantilla y errores típicos. Checklist — antes de la próxima campaña.",
   excerpt:
     "Por qué importan las UTM, qué parámetros son obligatorios (source, medium, campaign), cómo nombrar valores sin caos en informes y cómo leerlos en Metrica y Google Analytics.",
   lead: [

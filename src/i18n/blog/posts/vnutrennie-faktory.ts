@@ -7,6 +7,9 @@ export const vnutrennieFaktoryEn: BlogPost = {
   date: "2019-07-17",
   category: "SEO",
   cover: "/images/blog/vnutrennie-faktory/cover-en.webp",
+  metaTitle: "SEO only via links? On-page ranking factors to fix first",
+  metaDescription:
+    "Tech, content, and commercial signals. Checklist — before off-site link building.",
   excerpt:
     "On-page SEO without mystique: content, structure, internal linking, HTTPS, speed, and mobile — what to control on your side and in what order.",
   lead: [
@@ -290,6 +293,9 @@ export const vnutrennieFaktoryEs: BlogPost = {
   date: "2019-07-17",
   category: "SEO",
   cover: "/images/blog/vnutrennie-faktory/cover-es.webp",
+  metaTitle: "¿SEO solo con enlaces? Factores internos: qué arreglar en la web",
+  metaDescription:
+    "Técnica, contenido y señales comerciales. Checklist — antes del link building externo.",
   excerpt:
     "SEO on-page sin mística: contenido, estructura, enlaces internos, HTTPS, velocidad y móvil — qué controlas de tu lado y en qué orden.",
   lead: [

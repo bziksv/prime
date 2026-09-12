@@ -7,6 +7,9 @@ export const monitoringPozitsiyEn: BlogPost = {
   date: "2018-10-30",
   category: "Digital marketing",
   cover: "/images/blog/monitoring-pozitsiy/cover-en.webp",
+  metaTitle: "Rankings by gut feel? Do you need SERP monitoring — without drowning in numbers",
+  metaDescription:
+    "Why track, how often, and what counts as a signal. Read before you buy a tool.",
   excerpt:
     "When page-one rankings are a real KPI — and when traffic, conversion, and ROMI matter more: old SEO myths, project types, and a full scorecard without a guaranteed page-one date.",
   lead: [
@@ -125,6 +128,9 @@ export const monitoringPozitsiyEs: BlogPost = {
   date: "2018-10-30",
   category: "Digital marketing",
   cover: "/images/blog/monitoring-pozitsiy/cover-es.webp",
+  metaTitle: "¿Posiciones a ojo? ¿Hace falta monitorizar el SERP — sin ahogarte en cifras",
+  metaDescription:
+    "Para qué el tracker, frecuencia y qué es señal. Léelo antes de comprar la tool.",
   excerpt:
     "Cuándo los rankings de primera página son un KPI real — y cuándo importan más tráfico, conversión y ROMI: mitos viejos de SEO, tipos de proyecto y un scorecard completo sin fecha garantizada de primera página.",
   lead: [

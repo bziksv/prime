@@ -117,9 +117,9 @@ export type SupportContent = {
 
 const supportRu: SupportContent = {
   path: "/tehpodderzhka-sayta/",
-  metaTitle: "Техподдержка сайта — ПРАЙМ",
+  metaTitle: "Сайт чинить некому? Часы техподдержки без штата — ПРАЙМ",
   metaDescription:
-    "Техподдержка и сопровождение сайта: доработки, контент, дизайн, оплаты, ускорение. Тарифы от 3 до 50 часов с персональным PM и мониторингом.",
+    "Возьмите пакет 3–50 ч: доработки, контент, дизайн, оплаты, ускорение. Персональный PM и мониторинг — без найма в штат.",
   serviceName: "Техподдержка сайта",
   serviceType: "Техподдержка сайта",
   breadcrumbHome: "Главная",
@@ -210,9 +210,9 @@ const supportRu: SupportContent = {
 
 const supportEn: SupportContent = {
   path: "/en/support/",
-  metaTitle: "Website support — PRIME",
+  metaTitle: "Nobody to fix the site? Buy support hours — not headcount",
   metaDescription:
-    "Website support and maintenance: updates, content, design, payments, performance. Plans from 3 to 50 hours with a dedicated PM and uptime monitoring.",
+    "Pick a 3–50 hour pack: updates, content, design, payments, speed. Dedicated PM and uptime monitoring — without hiring in-house.",
   serviceName: "Website support",
   serviceType: "Website support",
   breadcrumbHome: "Home",
@@ -464,9 +464,9 @@ const supportEn: SupportContent = {
 
 const supportEs: SupportContent = {
   path: "/es/support/",
-  metaTitle: "Soporte de sitios web — PRIME",
+  metaTitle: "¿Nadie mantiene la web? Horas de soporte, no plantilla",
   metaDescription:
-    "Soporte y mantenimiento de sitios web: actualizaciones, contenido, diseño, pagos, rendimiento. Planes de 3 a 50 horas con un PM dedicado y monitoreo de disponibilidad.",
+    "Elige un pack de 3–50 h: cambios, contenido, diseño, pagos, rendimiento. PM dedicado y monitoreo — sin contratar plantilla.",
   serviceName: "Soporte de sitios web",
   serviceType: "Soporte de sitios web",
   breadcrumbHome: "Inicio",

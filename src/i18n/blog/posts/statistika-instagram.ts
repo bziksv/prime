@@ -7,6 +7,9 @@ export const statistikaInstagramEn: BlogPost = {
   date: "2021-10-08",
   category: "SMM",
   cover: "/images/blog/statistika-instagram/cover-en.webp",
+  metaTitle: "Insights open, still confused? Instagram stats: which metrics matter",
+  metaDescription:
+    "Reach, engagement, and conversions without self-deception. Cheat sheet — before the SMM report.",
   excerpt:
     "Why Instagram statistics matter: reach, impressions, saves, audience, and Stories. How to read business-account Insights and not confuse likes with results.",
   lead: [
@@ -150,6 +153,9 @@ export const statistikaInstagramEs: BlogPost = {
   date: "2021-10-08",
   category: "SMM",
   cover: "/images/blog/statistika-instagram/cover-es.webp",
+  metaTitle: "¿Insights abiertos y lío? Estadísticas de Instagram: qué métricas mirar",
+  metaDescription:
+    "Alcance, engagement y conversiones sin autoengaño. Chuleta — antes del informe SMM.",
   excerpt:
     "Por qué importan las estadísticas de Instagram: alcance, impresiones, saves, audiencia y Stories. Cómo leer Insights de cuenta business y no confundir likes con resultados.",
   lead: [

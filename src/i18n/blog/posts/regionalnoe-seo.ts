@@ -7,6 +7,9 @@ export const regionalnoeSeoEn: BlogPost = {
   date: "2021-03-18",
   category: "SEO",
   cover: "/images/blog/regionalnoe-seo/cover-en.webp",
+  metaTitle: "Site “nationwide” and nowhere? Regional SEO: how to rank by city",
+  metaDescription:
+    "Structure, contacts, and local signals. Checklist — before multi-city launch.",
   excerpt:
     "How regional SEO differs from nationwide work, how to set region signals in Webmaster and on the site, and how to run two or three cities without confusion.",
   lead: [
@@ -265,6 +268,9 @@ export const regionalnoeSeoEs: BlogPost = {
   date: "2021-03-18",
   category: "SEO",
   cover: "/images/blog/regionalnoe-seo/cover-es.webp",
+  metaTitle: "¿Web “en todo el país” y en ningún lado? SEO regional: cómo rankear por ciudad",
+  metaDescription:
+    "Estructura, contactos y señales locales. Checklist — antes del lanzamiento multi-ciudad.",
   excerpt:
     "En qué se diferencia el SEO regional del trabajo a escala nacional, cómo fijar señales de región en Webmaster y en el sitio, y cómo llevar dos o tres ciudades sin confusión.",
   lead: [

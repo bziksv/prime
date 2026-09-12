@@ -7,6 +7,9 @@ export const tildaEn: BlogPost = {
   date: "2018-12-28",
   category: "Digital marketing",
   cover: "/images/blog/tilda/cover-en.webp",
+  metaTitle: "Tilda site “in one evening”? Structure, content, and publish without surprises",
+  metaDescription:
+    "Blocks, SEO extras, and release. Checklist — before the landing goes live.",
   excerpt:
     "How to assemble a landing on Tilda: block structure, copy and visuals, Zero Block vs ready blocks, SEO basics, domain, and checks — without promising a “ready site in two days” for every project.",
   lead: [
@@ -170,6 +173,9 @@ export const tildaEs: BlogPost = {
   date: "2018-12-28",
   category: "Digital marketing",
   cover: "/images/blog/tilda/cover-es.webp",
+  metaTitle: "¿Web en Tilda “en una tarde”? Estructura, contenido y publicación sin sustos",
+  metaDescription:
+    "Bloques, extras SEO y release. Checklist — antes de lanzar el landing.",
   excerpt:
     "Cómo armar una landing en Tilda: estructura de bloques, copy y visuales, Zero Block vs bloques listos, SEO básico, dominio y chequeos — sin prometer un «sitio listo en dos días» para cada proyecto.",
   lead: [

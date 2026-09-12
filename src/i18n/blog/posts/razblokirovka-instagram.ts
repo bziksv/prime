@@ -7,6 +7,9 @@ export const razblokirovkaInstagramEn: BlogPost = {
   date: "2021-06-08",
   category: "SMM",
   cover: "/images/blog/razblokirovka-instagram/cover-en.webp",
+  metaTitle: "Blocked someone — then regretted it? How to unblock on Instagram",
+  metaDescription:
+    "Where the button is and what happens next. Cheat sheet — one minute.",
   excerpt:
     "How blocking a user differs from an account ban, how to remove someone from the block list in the app, and what to do if the profile can’t be found — without third-party Instagram “clients.”",
   lead: [
@@ -154,6 +157,9 @@ export const razblokirovkaInstagramEs: BlogPost = {
   date: "2021-06-08",
   category: "SMM",
   cover: "/images/blog/razblokirovka-instagram/cover-es.webp",
+  metaTitle: "¿Bloqueaste a alguien y te arrepentiste? Cómo desbloquear en Instagram",
+  metaDescription:
+    "Dónde está el botón y qué pasa después. Chuleta — en un minuto.",
   excerpt:
     "En qué se diferencia bloquear a un usuario de un ban de cuenta, cómo quitar a alguien de la lista de bloqueados en la app y qué hacer si el perfil no aparece — sin «clientes» de Instagram de terceros.",
   lead: [

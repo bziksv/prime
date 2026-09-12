@@ -7,6 +7,9 @@ export const kraudMarketingEn: BlogPost = {
   date: "2018-03-06",
   category: "Digital marketing",
   cover: "/images/blog/kraud-marketing/cover-en.webp",
+  metaTitle: "Crowd marketing just for links? What it is and SEO impact without spam",
+  metaDescription:
+    "Venues, tone, and sanction risk. Breakdown — before mass commenting.",
   excerpt:
     "Crowd marketing means joining discussions on forums, review sites, and Q&A: useful answers, fitting mentions, spam risks — how it ties to SEO and how it differs from outreach.",
   lead: [
@@ -116,6 +119,9 @@ export const kraudMarketingEs: BlogPost = {
   date: "2018-03-06",
   category: "Digital marketing",
   cover: "/images/blog/kraud-marketing/cover-es.webp",
+  metaTitle: "¿Crowd solo por enlaces? Qué es e impacto SEO sin spam",
+  metaDescription:
+    "Plazas, tono y riesgo de sanción. Análisis — antes de comentar en masa.",
   excerpt:
     "Crowd marketing es entrar en discusiones en foros, sitios de reseñas y Q&A: respuestas útiles, menciones que encajan, riesgos de spam — cómo se liga al SEO y en qué se diferencia del outreach.",
   lead: [

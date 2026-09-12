@@ -7,6 +7,9 @@ export const algoritmKorolyovEn: BlogPost = {
   date: "2017-08-30",
   category: "SEO",
   cover: "/images/blog/algoritm-korolyov/cover-en.webp",
+  metaTitle: "“Korolyov” is history — what’s still useful for SEO practice",
+  metaDescription:
+    "What launched after Palekh, why neural search mattered, and what still applies to pages. Read it without 2017 nostalgia.",
   excerpt:
     "What the 2017 Korolyov algorithm announced after Palekh, why Yandex pushed neural nets in search, and the lasting SEO takeaway: page meaning and usefulness beat keyword stuffing.",
   lead: [
@@ -174,6 +177,9 @@ export const algoritmKorolyovEs: BlogPost = {
   date: "2017-08-30",
   category: "SEO",
   cover: "/images/blog/algoritm-korolyov/cover-es.webp",
+  metaTitle: "“Korolyov” es historia — qué sigue siendo útil en SEO",
+  metaDescription:
+    "Qué vino tras Palekh, por qué importó la búsqueda neural y qué aplica aún. Léelo sin nostalgia de 2017.",
   excerpt:
     "Qué anunció el algoritmo Korolyov de 2017 tras Palekh, por qué Yandex empujó redes neuronales en la búsqueda, y el takeaway SEO que dura: el sentido y la utilidad de la página ganan al stuffing de keywords.",
   lead: [

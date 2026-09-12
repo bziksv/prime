@@ -7,6 +7,9 @@ export const didzhitalAgentstvoEn: BlogPost = {
   date: "2021-12-29",
   category: "Digital marketing",
   cover: "/images/blog/didzhital-agentstvo/cover-en.webp",
+  metaTitle: "Agency or “just marketing”? What digital actually does differently",
+  metaDescription:
+    "Services, ownership, and when outsourcing beats in-house. Read before you pick a vendor.",
   excerpt:
     "What a digital agency is: services, team, how it differs from offline marketing, how to measure results, and how to choose a contractor.",
   lead: [
@@ -162,6 +165,9 @@ export const didzhitalAgentstvoEs: BlogPost = {
   date: "2021-12-29",
   category: "Digital marketing",
   cover: "/images/blog/didzhital-agentstvo/cover-es.webp",
+  metaTitle: "¿Agencia o “marketing normal”? En qué se diferencia digital de verdad",
+  metaDescription:
+    "Servicios, ownership y cuándo el outsource gana al in-house. Léelo antes de elegir proveedor.",
   excerpt:
     "Qué es una agencia digital: servicios, equipo, en qué se diferencia del marketing offline, cómo medir resultados y cómo elegir contratista.",
   lead: [

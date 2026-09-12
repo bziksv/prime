@@ -7,6 +7,9 @@ export const byudzhetYandeksDirektEn: BlogPost = {
   date: "2020-10-22",
   category: "Paid search",
   cover: "/images/blog/byudzhet-yandeks-direkt/cover-en.webp",
+  metaTitle: "Yandex Direct budget from thin air? Calculate a real minimum",
+  metaDescription:
+    "Formula, clicks, and test buffer. Cheat sheet — save before you approve the spend.",
   excerpt:
     "How to estimate a starting budget in Yandex Direct: PPC and the auction, CPC ceiling from unit economics, daily and weekly caps, and ways not to burn money — without a universal sum for everyone.",
   lead: [
@@ -203,6 +206,9 @@ export const byudzhetYandeksDirektEs: BlogPost = {
   date: "2020-10-22",
   category: "Paid search",
   cover: "/images/blog/byudzhet-yandeks-direkt/cover-es.webp",
+  metaTitle: "¿Presupuesto Direct “a ojo”? Calcula un mínimo real",
+  metaDescription:
+    "Fórmula, clics y colchón de test. Chuleta — guárdala antes de aprobar el gasto.",
   excerpt:
     "Cómo estimar un presupuesto de arranque en Yandex Direct: PPC y la subasta, techo de CPC desde unit economics, caps diarios y semanales, y formas de no quemar dinero — sin una suma universal para todos.",
   lead: [

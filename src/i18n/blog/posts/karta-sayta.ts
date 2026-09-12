@@ -7,6 +7,9 @@ export const kartaSaytaEn: BlogPost = {
   date: "2020-10-29",
   category: "SEO",
   cover: "/images/blog/karta-sayta/cover-en.webp",
+  metaTitle: "Sitemap just for show? XML and HTML: why you need them and how to build",
+  metaDescription:
+    "Format differences, limits, and common mistakes. Checklist — submit to Search Console today.",
   excerpt:
     "How an XML sitemap differs from an HTML map, how to create and submit the file to search engines, which URLs to include, and which mistakes hurt indexing.",
   lead: [
@@ -226,6 +229,9 @@ export const kartaSaytaEs: BlogPost = {
   date: "2020-10-29",
   category: "SEO",
   cover: "/images/blog/karta-sayta/cover-es.webp",
+  metaTitle: "¿Sitemap de postureo? XML y HTML: para qué sirven y cómo hacerlos",
+  metaDescription:
+    "Diferencias, límites y errores típicos. Checklist — envía a Search Console hoy.",
   excerpt:
     "En qué se diferencia un sitemap XML de un mapa HTML, cómo crear y enviar el archivo a los buscadores, qué URLs incluir y qué errores duelen a la indexación.",
   lead: [

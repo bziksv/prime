@@ -7,6 +7,9 @@ export const temaWordpressEn: BlogPost = {
   date: "2020-09-22",
   category: "Digital marketing",
   cover: "/images/blog/tema-wordpress/cover-en.webp",
+  metaTitle: "Picked a WordPress theme by the screenshot? 10 criteria for a blog",
+  metaDescription:
+    "Speed, SEO, custom, and support. Checklist — before you buy or switch themes.",
   excerpt:
     "What to check when picking a WordPress theme: blog needs, flexibility, speed, mobile, code, child theme, plugin compatibility — without a “best themes of the year” catalog.",
   lead: [
@@ -119,6 +122,9 @@ export const temaWordpressEs: BlogPost = {
   date: "2020-09-22",
   category: "Digital marketing",
   cover: "/images/blog/tema-wordpress/cover-es.webp",
+  metaTitle: "¿Tema WordPress por la captura? 10 criterios para un blog",
+  metaDescription:
+    "Velocidad, SEO, custom y soporte. Checklist — antes de comprar o cambiar tema.",
   excerpt:
     "Qué revisar al elegir un tema de WordPress: necesidades del blog, flexibilidad, velocidad, móvil, código, child theme, compatibilidad con plugins — sin un catálogo de «mejores temas del año».",
   lead: [

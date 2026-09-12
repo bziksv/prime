@@ -7,6 +7,9 @@ export const kontentMenedzherEn: BlogPost = {
   date: "2021-03-23",
   category: "Content marketing",
   cover: "/images/blog/kontent-menedzher/cover-en.webp",
+  metaTitle: "“Just post stuff”? Content manager: duties, skills, and how to start",
+  metaDescription:
+    "What the role includes and how to enter the field. Primer — before the offer or interview.",
   excerpt:
     "What a content manager does, how the role differs from copywriter and SMM, which duties and skills matter, and how to start.",
   lead: [
@@ -256,6 +259,9 @@ export const kontentMenedzherEs: BlogPost = {
   date: "2021-03-23",
   category: "Content marketing",
   cover: "/images/blog/kontent-menedzher/cover-es.webp",
+  metaTitle: "¿“Solo publicar”? Content manager: deberes, skills y arranque",
+  metaDescription:
+    "Qué incluye el rol y cómo entrar. Base — antes de la oferta o entrevista.",
   excerpt:
     "Qué hace un content manager, cómo se diferencia del copywriter y del SMM, qué funciones y skills importan, y cómo empezar.",
   lead: [

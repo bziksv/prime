@@ -7,6 +7,9 @@ export const chromeRasshireniyaMarketingEn: BlogPost = {
   date: "2020-01-15",
   category: "Digital marketing",
   cover: "/images/blog/chrome-rasshireniya-marketing/cover-en.webp",
+  metaTitle: "Too many tabs? Chrome extensions for marketing by job",
+  metaDescription:
+    "A stack for analytics, ads, and content — without a dozen useless icons. Save the shortlist.",
   excerpt:
     "Which classes of Chrome extensions help marketers: tasks and time tracking, screenshots and fonts, UTM and short links, email and security — without a catalog of 25 outdated names.",
   lead: [
@@ -146,6 +149,9 @@ export const chromeRasshireniyaMarketingEs: BlogPost = {
   date: "2020-01-15",
   category: "Digital marketing",
   cover: "/images/blog/chrome-rasshireniya-marketing/cover-es.webp",
+  metaTitle: "¿Demasiadas pestañas? Extensiones Chrome de marketing por tarea",
+  metaDescription:
+    "Stack para analítica, ads y contenido — sin docenas de iconos inútiles. Guarda la selección.",
   excerpt:
     "Qué clases de extensiones de Chrome ayudan a marketers: tareas y time tracking, screenshots y fuentes, UTM y short links, email y seguridad — sin un catálogo de 25 nombres caducados.",
   lead: [

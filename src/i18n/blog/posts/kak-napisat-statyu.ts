@@ -7,6 +7,9 @@ export const kakNapisatStatyuEn: BlogPost = {
   date: "2020-07-06",
   category: "Content marketing",
   cover: "/images/blog/kak-napisat-statyu/cover-en.webp",
+  metaTitle: "Stuck writing from scratch? A quality-article algorithm for beginners",
+  metaDescription:
+    "Topic, outline, draft, and edit without perfectionism. Checklist — before the next deadline.",
   excerpt:
     "Step by step: goal and audience, structure, draft, editing, and careful SEO — without magic and without writing just to fill space.",
   lead: [
@@ -155,6 +158,9 @@ export const kakNapisatStatyuEs: BlogPost = {
   date: "2020-07-06",
   category: "Content marketing",
   cover: "/images/blog/kak-napisat-statyu/cover-es.webp",
+  metaTitle: "¿Atascado escribiendo de cero? Algoritmo de artículo de calidad para novatos",
+  metaDescription:
+    "Tema, esquema, borrador y edición sin perfeccionismo. Checklist — antes del próximo deadline.",
   excerpt:
     "Paso a paso: objetivo y audiencia, estructura, borrador, edición y SEO cuidadoso — sin magia y sin escribir solo para llenar espacio.",
   lead: [

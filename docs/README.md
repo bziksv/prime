@@ -48,6 +48,7 @@ npm run dev
 | **BLOG-ARTICLE-STANDARD.md** | Как собирать статью в **новом формате** (интерактивы, обложка, вычитка, анти-реклама, **301**) |
 | **I18N-NATIVE-COPY.md** | EN (и др. локали): RU как **структура/факты**, текст как копирайтер-носитель; блог-оверлеи, banned calques, Meta `Note`, очередь `tmp/blog-en-native/` |
 | **CASES-MIGRATION-CHECKLIST.md** | Чеклист миграции кейсов |
+| **SEO-META-CHECKLIST.md** | Чеклист meta title/description: маркетинг, листинги, блог, кейсы × ru/en/es |
 | **EFFECTS-INSPIRATION-CHECKLIST.md** | Каталог эффектов с референсов для `/razrabotka-saytov/` |
 | **the7-agent-notes.md** | Порядок чтения, маркеры `[AGENT]`, правила для ИИ |
 | **prime-homepage-concept-v1.md** | Концепт главной v1 (спокойный B2B) |

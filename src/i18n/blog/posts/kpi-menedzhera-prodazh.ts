@@ -7,6 +7,9 @@ export const kpiMenedzheraProdazhEn: BlogPost = {
   date: "2019-06-04",
   category: "Digital marketing",
   cover: "/images/blog/kpi-menedzhera-prodazh/cover-en.webp",
+  metaTitle: "Sales KPIs from thin air? How to set and track manager metrics",
+  metaDescription:
+    "Funnel, quality, and skew traps. Template — before the next quarterly plan.",
   excerpt:
     "Seller KPIs: why introduce them, which metrics to pick, how to pay bonuses, where the system breaks (fake clients, salary ceilings), and how to control in CRM.",
   lead: [
@@ -129,6 +132,9 @@ export const kpiMenedzheraProdazhEs: BlogPost = {
   date: "2019-06-04",
   category: "Digital marketing",
   cover: "/images/blog/kpi-menedzhera-prodazh/cover-es.webp",
+  metaTitle: "¿KPIs de ventas a ojo? Cómo definir y controlar métricas del manager",
+  metaDescription:
+    "Embudo, calidad y trampas de sesgo. Plantilla — antes del próximo plan trimestral.",
   excerpt:
     "KPIs del vendedor: por qué introducirlos, qué métricas elegir, cómo pagar bonos, dónde se rompe el sistema (clientes falsos, techos de sueldo) y cómo controlar en el CRM.",
   lead: [

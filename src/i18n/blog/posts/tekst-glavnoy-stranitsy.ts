@@ -7,6 +7,9 @@ export const tekstGlavnoyStranitsyEn: BlogPost = {
   date: "2020-07-20",
   category: "Content marketing",
   cover: "/images/blog/tekst-glavnoy-stranitsy/cover-en.webp",
+  metaTitle: "Homepage wall of “about us”? What you should stop writing",
+  metaDescription:
+    "What to cut and what to put instead for a clear offer. Checklist — before the hero redesign.",
   excerpt:
     "Which lines spoil a homepage: empty superlatives, “personalized approach” clichés, awkward keywords, and mixing “you/You” — and what to put instead of a clear offer.",
   lead: [
@@ -138,6 +141,9 @@ export const tekstGlavnoyStranitsyEs: BlogPost = {
   date: "2020-07-20",
   category: "Content marketing",
   cover: "/images/blog/tekst-glavnoy-stranitsy/cover-es.webp",
+  metaTitle: "¿Home con sábana “sobre nosotros”? Qué es mejor no escribir",
+  metaDescription:
+    "Qué quitar y con qué sustituir para un offer claro. Checklist — antes de rediseñar el hero.",
   excerpt:
     "Qué líneas estropean una homepage: superlativos vacíos, clichés de «enfoque personalizado», keywords torpes y mezclar «tú/usted» — y qué poner en lugar de una oferta clara.",
   lead: [

@@ -7,6 +7,9 @@ export const proverkaIndeksatsiiEn: BlogPost = {
   date: "2018-11-30",
   category: "SEO",
   cover: "/images/blog/proverka-indeksatsii/cover-en.webp",
+  metaTitle: "Pages missing from search? Check indexation in Google and Yandex",
+  metaDescription:
+    "Tools and common causes. Checklist — crawl your URLs today.",
   excerpt:
     "How to check whether pages are in the Google and Yandex index: Webmaster and Search Console, the site: operator, extensions, and typical reasons a URL isn’t indexed — without confusing crawl with index.",
   lead: [
@@ -180,6 +183,9 @@ export const proverkaIndeksatsiiEs: BlogPost = {
   date: "2018-11-30",
   category: "SEO",
   cover: "/images/blog/proverka-indeksatsii/cover-es.webp",
+  metaTitle: "¿Páginas fuera del buscador? Comprueba indexación en Google y Yandex",
+  metaDescription:
+    "Tools y causas típicas. Checklist — revisa tus URLs hoy.",
   excerpt:
     "Cómo comprobar si las páginas están en el índice de Google y Yandex: Webmaster y Search Console, el operador site:, extensiones y motivos típicos de que una URL no indexe — sin confundir crawl con índice.",
   lead: [

@@ -7,6 +7,9 @@ export const strategiyaProdvizheniyaEn: BlogPost = {
   date: "2018-10-02",
   category: "SEO",
   cover: "/images/blog/strategiya-prodvizheniya/cover-en.webp",
+  metaTitle: "Promotion “like the competitor”? A strategy that fits the site’s state",
+  metaDescription:
+    "Audit → priorities → plan. Frame — before the quarterly media mix.",
   excerpt:
     "An SEO strategy isn’t copied from someone else’s checklist. It depends on site type, age, content, backlinks, and tech. How to set a goal and choose a work plan.",
   lead: [
@@ -274,6 +277,9 @@ export const strategiyaProdvizheniyaEs: BlogPost = {
   date: "2018-10-02",
   category: "SEO",
   cover: "/images/blog/strategiya-prodvizheniya/cover-es.webp",
+  metaTitle: "¿Promoción “como el competidor”? Estrategia según el estado del sitio",
+  metaDescription:
+    "Auditoría → prioridades → plan. Marco — antes del mix mediático del trimestre.",
   excerpt:
     "Una estrategia SEO no se copia del checklist de otro. Depende del tipo de sitio, edad, contenido, backlinks y técnica. Cómo fijar un objetivo y elegir un plan de trabajo.",
   lead: [

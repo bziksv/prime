@@ -7,6 +7,9 @@ export const bitrixPublichnyyRazdelEn: BlogPost = {
   date: "2017-12-13",
   category: "Websites",
   cover: "/images/blog/bitrix-publichnyy-razdel/cover-en.webp",
+  metaTitle: "Confused by on-page edits? Bitrix public area, practical",
+  metaDescription:
+    "Toolbar and edit mode — what you can do and what to avoid. Editor cheat sheet — save it.",
   excerpt:
     "How the Bitrix public-area control bar works: buttons, edit mode, include areas, and components — without clinging to old-edition screenshots or a meta keywords cult.",
   lead: [
@@ -151,6 +154,9 @@ export const bitrixPublichnyyRazdelEs: BlogPost = {
   date: "2017-12-13",
   category: "Websites",
   cover: "/images/blog/bitrix-publichnyy-razdel/cover-es.webp",
+  metaTitle: "¿Ediciones “en la web” confunden? Área pública Bitrix, práctica",
+  metaDescription:
+    "Barra y modo edición — qué se puede y qué evitar. Chuleta para editores — guárdala.",
   excerpt:
     "Cómo funciona la barra de control del área pública de Bitrix: botones, modo edición, áreas include y componentes — sin aferrarse a screenshots de ediciones viejas ni al culto de meta keywords.",
   lead: [

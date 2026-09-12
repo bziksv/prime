@@ -7,6 +7,9 @@ export const avtonapolnenieSaytaEn: BlogPost = {
   date: "2022-02-15",
   category: "SEO",
   cover: "/images/blog/avtonapolnenie-sayta/cover-en.webp",
+  metaTitle: "Site “writes itself”? Autofill — where it helps vs junk",
+  metaDescription:
+    "How auto content works, how it differs from real copy, and SEO risks. Read before plugging in a scraper.",
   excerpt:
     "How auto-filling via RSS and plugins works, where it fits, and why for serious SEO it’s usually more harmful than helpful.",
   lead: [
@@ -141,6 +144,9 @@ export const avtonapolnenieSaytaEs: BlogPost = {
   date: "2022-02-15",
   category: "SEO",
   cover: "/images/blog/avtonapolnenie-sayta/cover-es.webp",
+  metaTitle: "¿La web “se escribe sola”? Autollenado — utilidad vs basura",
+  metaDescription:
+    "Cómo funciona, en qué difiere del contenido real y riesgos SEO. Lee antes de enchufar un scraper.",
   excerpt:
     "Cómo funciona el autorelleno vía RSS y plugins, dónde encaja y por qué para SEO serio suele ser más dañino que útil.",
   lead: [

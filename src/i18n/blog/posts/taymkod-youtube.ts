@@ -7,6 +7,9 @@ export const taymkodYoutubeEn: BlogPost = {
   date: "2021-05-25",
   category: "SMM",
   cover: "/images/blog/taymkod-youtube/cover-en.webp",
+  metaTitle: "Viewers scrubbing blind? YouTube timestamps: chapters and timed links",
+  metaDescription:
+    "How to mark the video and add navigation. Checklist — before the next upload.",
   excerpt:
     "What a YouTube timecode is: chapters in the description, clickable markers, a URL with a time parameter — and why viewers and channels benefit, without outdated Studio screenshots.",
   lead: [
@@ -172,6 +175,9 @@ export const taymkodYoutubeEs: BlogPost = {
   date: "2021-05-25",
   category: "SMM",
   cover: "/images/blog/taymkod-youtube/cover-es.webp",
+  metaTitle: "¿El espectador busca a ciegas? Timestamps de YouTube: capítulos y enlace con hora",
+  metaDescription:
+    "Cómo marcar el vídeo y dar navegación. Checklist — antes de la próxima subida.",
   excerpt:
     "Qué es un timecode de YouTube: capítulos en la descripción, marcadores clicables, una URL con parámetro de tiempo — y por qué ayudan a espectadores y canales, sin capturas antiguas de Studio.",
   lead: [

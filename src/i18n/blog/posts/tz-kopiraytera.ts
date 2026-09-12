@@ -7,6 +7,9 @@ export const tzKopirayteraEn: BlogPost = {
   date: "2020-06-24",
   category: "Content marketing",
   cover: "/images/blog/tz-kopiraytera/cover-en.webp",
+  metaTitle: "Brief = “write an article”? How to brief a copywriter without endless revisions",
+  metaDescription:
+    "Goal, structure, keywords, and examples. Checklist — before work starts.",
   excerpt:
     "A copywriter brief that covers goal, audience, outline, facts, stop-list, and acceptance criteria — for sales, SEO, and homepage copy, without treating “95% uniqueness” as the only KPI.",
   lead: [
@@ -156,6 +159,9 @@ export const tzKopirayteraEs: BlogPost = {
   date: "2020-06-24",
   category: "Content marketing",
   cover: "/images/blog/tz-kopiraytera/cover-es.webp",
+  metaTitle: "¿Brief “escribe un artículo”? Cómo briefar al copy sin rondas eternas",
+  metaDescription:
+    "Objetivo, estructura, keywords y ejemplos. Checklist — antes de empezar.",
   excerpt:
     "Un brief de copywriter que cubre objetivo, audiencia, esquema, hechos, stop-list y criterios de aceptación — para copy de venta, SEO y homepage, sin tratar el «95% de unicidad» como único KPI.",
   lead: [

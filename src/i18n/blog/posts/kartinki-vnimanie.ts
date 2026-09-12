@@ -7,6 +7,9 @@ export const kartinkiVnimanieEn: BlogPost = {
   date: "2020-09-11",
   category: "Content marketing",
   cover: "/images/blog/kartinki-vnimanie/cover-en.webp",
+  metaTitle: "Users scroll past the block? Capture attention with on-page imagery",
+  metaDescription:
+    "Composition, meaning, and placement — not stock for stock’s sake. Ideas — before the next screen.",
   excerpt:
     "Which images actually stop the eye: contrast, color, meaning, and metaphor — without generic clichés and copy that lives only inside the picture.",
   lead: [
@@ -212,6 +215,9 @@ export const kartinkiVnimanieEs: BlogPost = {
   date: "2020-09-11",
   category: "Content marketing",
   cover: "/images/blog/kartinki-vnimanie/cover-es.webp",
+  metaTitle: "¿Pasan de largo el bloque? Atrae la atención con imagen en la web",
+  metaDescription:
+    "Composición, sentido y lugar en el layout — no stock por stock. Ideas — antes de la próxima pantalla.",
   excerpt:
     "Qué imágenes detienen de verdad la mirada: contraste, color, sentido y metáfora — sin clichés genéricos ni copy que vive solo dentro de la foto.",
   lead: [

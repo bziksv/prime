@@ -7,6 +7,9 @@ export const telegramKanalEn: BlogPost = {
   date: "2021-08-06",
   category: "SMM",
   cover: "/images/blog/telegram-kanal/cover-en.webp",
+  metaTitle: "Telegram channel live — then silence? Branding, content, and growth from scratch",
+  metaDescription:
+    "Avatar, posts, and distribution. Checklist — before the next launch push.",
   excerpt:
     "How to launch a Telegram channel: avatar and description, post mix, helper bots, schedule, ads, and traffic from other platforms — without betting on fake growth.",
   lead: [
@@ -153,6 +156,9 @@ export const telegramKanalEs: BlogPost = {
   date: "2021-08-06",
   category: "SMM",
   cover: "/images/blog/telegram-kanal/cover-es.webp",
+  metaTitle: "¿Canal Telegram creado — y silencio? Diseño, contenido y crecimiento desde cero",
+  metaDescription:
+    "Avatar, posts y distribución. Checklist — antes del próximo empujón.",
   excerpt:
     "Cómo lanzar un canal de Telegram: avatar y descripción, mix de posts, bots de ayuda, horario, ads y tráfico desde otras plataformas — sin apostar por crecimiento falso.",
   lead: [

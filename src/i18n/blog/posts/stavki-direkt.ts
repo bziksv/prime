@@ -7,6 +7,9 @@ export const stavkiDirektEn: BlogPost = {
   date: "2021-03-05",
   category: "Paid search",
   cover: "/images/blog/stavki-direkt/cover-en.webp",
+  metaTitle: "Yandex Direct bids by gut? Setup and management without burning budget",
+  metaDescription:
+    "Strategies, manual mode, and control. Checklist — before the next optimization pass.",
   excerpt:
     "How bidding works in Yandex Direct: manual and automated control, impressions, click price, and what to watch beyond “bid higher.”",
   lead: [
@@ -162,6 +165,9 @@ export const stavkiDirektEs: BlogPost = {
   date: "2021-03-05",
   category: "Paid search",
   cover: "/images/blog/stavki-direkt/cover-es.webp",
+  metaTitle: "¿Pujas Direct a ojo? Configuración y gestión sin quemar presupuesto",
+  metaDescription:
+    "Estrategias, modo manual y control. Checklist — antes de la próxima optimización.",
   excerpt:
     "Cómo funcionan las pujas en Yandex Direct: control manual y automático, impresiones, precio del clic y qué mirar más allá de «puja más alto».",
   lead: [

@@ -7,6 +7,9 @@ export const analitikaTelegramEn: BlogPost = {
   date: "2020-02-10",
   category: "SMM",
   cover: "/images/blog/analitika-telegram/cover-en.webp",
+  metaTitle: "Telegram views lying to you? Read reach the right way",
+  metaDescription:
+    "How views differ from reach and which channel metrics matter. SMM cheat sheet — save it.",
   excerpt:
     "How to read Telegram channel stats: how views differ from reach, which metrics to watch in Insights and third-party tools — without the outdated “Telegram has no analytics.”",
   lead: [
@@ -136,6 +139,9 @@ export const analitikaTelegramEs: BlogPost = {
   date: "2020-02-10",
   category: "SMM",
   cover: "/images/blog/analitika-telegram/cover-es.webp",
+  metaTitle: "¿Las views de Telegram engañan? Lee el alcance bien",
+  metaDescription:
+    "En qué difieren views y alcance y qué métricas del canal importan. Chuleta SMM — guárdala.",
   excerpt:
     "Cómo leer las stats de un canal Telegram: en qué se diferencian views y alcance, qué métricas mirar en Insights y herramientas de terceros — sin el «Telegram no tiene analytics» obsoleto.",
   lead: [

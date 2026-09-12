@@ -7,6 +7,9 @@ export const rekomendatsiiTiktokEn: BlogPost = {
   date: "2020-05-25",
   category: "SMM",
   cover: "/images/blog/rekomendatsii-tiktok/cover-en.webp",
+  metaTitle: "For You feels like a lottery? How TikTok recommendations work — and what matters",
+  metaDescription:
+    "Algorithm signals without myths. Breakdown — before the next video series.",
   excerpt:
     "How the TikTok For You feed works: retention, watch-through, shares, and comments — without magical 2020 hashtags or “guaranteed trend” promises.",
   lead: [
@@ -138,6 +141,9 @@ export const rekomendatsiiTiktokEs: BlogPost = {
   date: "2020-05-25",
   category: "SMM",
   cover: "/images/blog/rekomendatsii-tiktok/cover-es.webp",
+  metaTitle: "¿For You es lotería? Cómo funcionan las recomendaciones de TikTok y qué importa",
+  metaDescription:
+    "Señales del algoritmo sin mitos. Análisis — antes de la próxima serie de vídeos.",
   excerpt:
     "Cómo funciona el feed For You de TikTok: retention, watch-through, shares y comentarios — sin hashtags mágicos de 2020 ni promesas de «trend garantizado».",
   lead: [

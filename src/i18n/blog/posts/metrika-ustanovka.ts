@@ -7,6 +7,9 @@ export const metrikaUstanovkaEn: BlogPost = {
   date: "2021-04-27",
   category: "SEO",
   cover: "/images/blog/metrika-ustanovka/cover-en.webp",
+  metaTitle: "No counter yet? Install Yandex Metrica on the site — step by step",
+  metaDescription:
+    "Code, GTM, and hit verification. Checklist — get it live in one sitting.",
   excerpt:
     "Where to paste the Yandex Metrica code in WordPress, Bitrix, Joomla, and site builders: counter in head / via plugin, visit checks, and common mistakes.",
   lead: [
@@ -174,6 +177,9 @@ export const metrikaUstanovkaEs: BlogPost = {
   date: "2021-04-27",
   category: "SEO",
   cover: "/images/blog/metrika-ustanovka/cover-es.webp",
+  metaTitle: "¿Aún sin contador? Instala Yandex Métrica en la web — paso a paso",
+  metaDescription:
+    "Código, GTM y verificación de hits. Checklist — actívalo de una vez.",
   excerpt:
     "Dónde pegar el código de Yandex Metrica en WordPress, Bitrix, Joomla y constructores: contador en head / vía plugin, comprobar visitas y errores frecuentes.",
   lead: [

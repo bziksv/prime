@@ -7,6 +7,9 @@ export const menedzherSmmEn: BlogPost = {
   date: "2022-02-09",
   category: "SMM",
   cover: "/images/blog/menedzher-smm/cover-en.webp",
+  metaTitle: "SMM = “post pictures”? Duties, skills, pros and cons of the job",
+  metaDescription:
+    "Real ownership without rose glasses. Breakdown — before hiring or interviewing.",
   excerpt:
     "What an SMM manager does: strategy, content, audience growth, communication, analytics. Skills you need and how to enter the profession.",
   lead: [
@@ -250,6 +253,9 @@ export const menedzherSmmEs: BlogPost = {
   date: "2022-02-09",
   category: "SMM",
   cover: "/images/blog/menedzher-smm/cover-es.webp",
+  metaTitle: "¿SMM = “subir fotos”? Deberes, skills, pros y contras del oficio",
+  metaDescription:
+    "Ownership real sin romanticismo. Análisis — antes de contratar o entrevistar.",
   excerpt:
     "Qué hace un SMM manager: estrategia, contenido, crecimiento de audiencia, comunicación, analítica. Skills que necesitas y cómo entrar en la profesión.",
   lead: [

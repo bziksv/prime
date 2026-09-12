@@ -7,6 +7,9 @@ export const naymSmmEn: BlogPost = {
   date: "2019-07-18",
   category: "SMM",
   cover: "/images/blog/naym-smm/cover-en.webp",
+  metaTitle: "Hiring SMM for pretty grids? How to pick a specialist that delivers",
+  metaDescription:
+    "Questions, a test task, and red flags. Checklist — before you make an offer.",
   excerpt:
     "How to hire an SMM manager or agency: what to check in the portfolio, which interview questions to ask, and how to set a short test without a free “full strategy.”",
   lead: [
@@ -164,6 +167,9 @@ export const naymSmmEs: BlogPost = {
   date: "2019-07-18",
   category: "SMM",
   cover: "/images/blog/naym-smm/cover-es.webp",
+  metaTitle: "¿Contratar SMM por el feed bonito? Cómo elegir especialista de verdad",
+  metaDescription:
+    "Preguntas, prueba y red flags. Checklist — antes de hacer la oferta.",
   excerpt:
     "Cómo contratar a un SMM manager o a una agencia: qué revisar en el portfolio, qué preguntas hacer en la entrevista y cómo plantear una prueba corta sin una «estrategia completa» gratis.",
   lead: [

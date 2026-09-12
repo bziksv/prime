@@ -7,6 +7,9 @@ export const prognozTrafikaEn: BlogPost = {
   date: "2019-10-17",
   category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika/cover-en.webp",
+  metaTitle: "Promised “a million from SEO”? Traffic forecasts: how to estimate potential",
+  metaDescription:
+    "A method without fantasy in the proposal. Cheat sheet — before you approve the plan.",
   excerpt:
     "How to estimate potential organic traffic: keyword set, frequency, realistic positions, and CTR — without the illusion of an “exact” forecast and without swapping prep for page-one rankings.",
   lead: [
@@ -165,6 +168,9 @@ export const prognozTrafikaEs: BlogPost = {
   date: "2019-10-17",
   category: "Digital marketing",
   cover: "/images/blog/prognoz-trafika/cover-es.webp",
+  metaTitle: "¿Te prometen “un millón de SEO”? Pronóstico de tráfico: cómo estimar el potencial",
+  metaDescription:
+    "Método sin fantasía en la propuesta. Chuleta — antes de aprobar el plan.",
   excerpt:
     "Cómo estimar el tráfico orgánico potencial: conjunto de keywords, frecuencia, posiciones realistas y CTR — sin la ilusión de un pronóstico «exacto» y sin confundir la preparación con aparecer en la primera página.",
   lead: [

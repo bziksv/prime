@@ -7,6 +7,9 @@ export const blokirovkaInstagramEn: BlogPost = {
   date: "2021-07-13",
   category: "SMM",
   cover: "/images/blog/blokirovka-instagram/cover-en.webp",
+  metaTitle: "Instagram locked you out? Recover access without making it worse",
+  metaDescription:
+    "Common causes, recovery steps, and what not to try. Cheat sheet — save before you panic.",
   excerpt:
     "Why Instagram restricts accounts, how a full ban differs from “action blocked,” how to appeal via official forms, and how to lower risk — without grey schemes.",
   lead: [
@@ -141,6 +144,9 @@ export const blokirovkaInstagramEs: BlogPost = {
   date: "2021-07-13",
   category: "SMM",
   cover: "/images/blog/blokirovka-instagram/cover-es.webp",
+  metaTitle: "¿Instagram te bloqueó? Recupera el acceso sin empeorarlo",
+  metaDescription:
+    "Causas típicas, pasos de recuperación y qué no hacer. Chuleta — guárdala antes del pánico.",
   excerpt:
     "Por qué Instagram restringe cuentas, en qué se diferencia un ban completo de «action blocked», cómo apelar por formularios oficiales y cómo bajar el riesgo — sin esquemas grises.",
   lead: [

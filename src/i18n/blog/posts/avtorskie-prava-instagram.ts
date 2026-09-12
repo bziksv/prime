@@ -7,6 +7,9 @@ export const avtorskiePravaInstagramEn: BlogPost = {
   date: "2020-08-07",
   category: "SMM",
   cover: "/images/blog/avtorskie-prava-instagram/cover-en.webp",
+  metaTitle: "Music/photo claim on Instagram? Copyright without panic",
+  metaDescription:
+    "What usually triggers claims, profile risk, and how to respond. Cheat sheet — save it.",
   excerpt:
     "How to stay clear of copyright trouble on Instagram*: music and photos, what to do after a claim, how to protect your own work — without DRM-bypass guides.",
   lead: [
@@ -209,6 +212,9 @@ export const avtorskiePravaInstagramEs: BlogPost = {
   date: "2020-08-07",
   category: "SMM",
   cover: "/images/blog/avtorskie-prava-instagram/cover-es.webp",
+  metaTitle: "¿Reclamo de música/foto en Instagram? Copyright sin pánico",
+  metaDescription:
+    "Qué suele disparar quejas, riesgo del perfil y cómo responder. Chuleta — guárdala.",
   excerpt:
     "Cómo mantenerse lejos de problemas de copyright en Instagram*: música y fotos, qué hacer tras una claim, cómo proteger tu propio trabajo — sin guías de bypass de DRM.",
   lead: [

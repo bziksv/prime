@@ -7,6 +7,9 @@ export const zabluzhdeniyaKontekstaEn: BlogPost = {
   date: "2020-01-13",
   category: "Paid search",
   cover: "/images/blog/zabluzhdeniya-konteksta/cover-en.webp",
+  metaTitle: "Think you know paid search? 15 myths it’s time to drop",
+  metaDescription:
+    "Bids, keywords, and KPIs without folklore. Breakdown — before the next optimization.",
   excerpt:
     "Persistent PPC myths: search only, position #1 only, “display always burns,” blind Google recommendations, instant sales, and “triple the budget — triple the leads” — what’s wrong with each one.",
   lead: [
@@ -190,6 +193,9 @@ export const zabluzhdeniyaKontekstaEs: BlogPost = {
   date: "2020-01-13",
   category: "Paid search",
   cover: "/images/blog/zabluzhdeniya-konteksta/cover-es.webp",
+  metaTitle: "¿Crees que ya sabes de contexto? 15 mitos de los que toca deshacerse",
+  metaDescription:
+    "Pujas, keywords y KPIs sin folklore. Análisis — antes de la próxima optimización.",
   excerpt:
     "Mitos persistentes de PPC: solo búsqueda, solo posición 1, «display siempre quema», recomendaciones de Google a ciegas, ventas al instante y «triplica el presupuesto — triplicas leads» — qué falla en cada uno.",
   lead: [

@@ -7,6 +7,9 @@ export const bityeSsylkiEn: BlogPost = {
   date: "2021-03-30",
   category: "SEO",
   cover: "/images/blog/bitye-ssylki/cover-en.webp",
+  metaTitle: "404s stacking quietly? Find and fix broken links",
+  metaDescription:
+    "How to hunt dead URLs, what to fix first, and why SEO/UX care. Checklist — crawl the site today.",
   excerpt:
     "What broken links are (404 and other errors), how they hurt UX and SEO, how to find them with a crawler, and what to do: edit, 301, or remove.",
   lead: [
@@ -256,6 +259,9 @@ export const bityeSsylkiEs: BlogPost = {
   date: "2021-03-30",
   category: "SEO",
   cover: "/images/blog/bitye-ssylki/cover-es.webp",
+  metaTitle: "¿404 silenciosos? Encuentra y repara enlaces rotos",
+  metaDescription:
+    "Cómo buscar URLs muertas, qué arreglar primero y por qué importa SEO/UX. Checklist — rastrea la web hoy.",
   excerpt:
     "Qué son los enlaces rotos (404 y otros errores), cómo duelen a la UX y al SEO, cómo encontrarlos con un crawler y qué hacer: editar, 301 o quitar.",
   lead: [

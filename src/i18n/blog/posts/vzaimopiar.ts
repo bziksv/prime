@@ -7,6 +7,9 @@ export const vzaimopiarEn: BlogPost = {
   date: "2021-01-21",
   category: "SMM",
   cover: "/images/blog/vzaimopiar/cover-en.webp",
+  metaTitle: "Shoutout swaps via shady markets? How to arrange mutual promo cleanly",
+  metaDescription:
+    "Partner criteria and format. Checklist — before the collab publish.",
   excerpt:
     "How cross-promotion works: picking a partner, exchange formats, agreements, and risks — without a catalog of fake-engagement “PR exchanges” and the myth that “free = growth.”",
   lead: [
@@ -174,6 +177,9 @@ export const vzaimopiarEs: BlogPost = {
   date: "2021-01-21",
   category: "SMM",
   cover: "/images/blog/vzaimopiar/cover-es.webp",
+  metaTitle: "¿Intercambio de promo vía mercado gris? Cómo acordar cross-promo limpia",
+  metaDescription:
+    "Criterios de partner y formato. Checklist — antes de publicar el collab.",
   excerpt:
     "Cómo funciona el cross-promotion: elegir partner, formatos de intercambio, acuerdos y riesgos — sin un catálogo de «PR exchanges» de fake engagement ni el mito de que «gratis = crecimiento».",
   lead: [

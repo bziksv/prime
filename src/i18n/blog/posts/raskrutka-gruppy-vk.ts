@@ -7,6 +7,9 @@ export const raskrutkaGruppyVkEn: BlogPost = {
   date: "2021-11-02",
   category: "SMM",
   cover: "/images/blog/raskrutka-gruppy-vk/cover-en.webp",
+  metaTitle: "Dead VK group? Growth: prep and subscriber growth without fake fans",
+  metaDescription:
+    "Content, invites, and ads without fake follows. Checklist — before the next push.",
   excerpt:
     "How to grow a VK community yourself: name, content, design, live audience growth methods, and why fake followers are dangerous.",
   lead: [
@@ -161,6 +164,9 @@ export const raskrutkaGruppyVkEs: BlogPost = {
   date: "2021-11-02",
   category: "SMM",
   cover: "/images/blog/raskrutka-gruppy-vk/cover-es.webp",
+  metaTitle: "¿Grupo VK muerto? Crecimiento: preparación y subida de seguidores",
+  metaDescription:
+    "Contenido, invitaciones y ads sin followers falsos. Checklist — antes del próximo empujón.",
   excerpt:
     "Cómo crecer una comunidad de VK tú mismo: nombre, contenido, diseño, métodos de crecimiento con audiencia viva y por qué los seguidores falsos son peligrosos.",
   lead: [

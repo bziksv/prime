@@ -7,6 +7,9 @@ export const analizKonkurentovEn: BlogPost = {
   date: "2021-10-19",
   category: "SEO",
   cover: "/images/blog/analiz-konkurentov/cover-en.webp",
+  metaTitle: "Competitors feel invisible? Map traffic and visibility",
+  metaDescription:
+    "SimilarWeb, Ahrefs, Semrush and more — what to check on site, links, and reputation. Checklist before strategy.",
   excerpt:
     "How to estimate competitors’ traffic and visibility: SimilarWeb, Ahrefs, Semrush, and other sources. Why the numbers diverge — and how not to kid yourself.",
   lead: [
@@ -142,6 +145,9 @@ export const analizKonkurentovEs: BlogPost = {
   date: "2021-10-19",
   category: "SEO",
   cover: "/images/blog/analiz-konkurentov/cover-es.webp",
+  metaTitle: "¿Competidores “invisibles”? Mapea tráfico y visibilidad",
+  metaDescription:
+    "SimilarWeb, Ahrefs, Semrush y más — qué mirar en web, links y reputación. Checklist antes de la estrategia.",
   excerpt:
     "Cómo estimar el tráfico y la visibilidad de la competencia: SimilarWeb, Ahrefs, Semrush y otras fuentes. Por qué divergen las cifras — y cómo no engañarte.",
   lead: [

@@ -7,6 +7,9 @@ export const saytPeredReklamoyEn: BlogPost = {
   date: "2020-03-18",
   category: "Paid search",
   cover: "/images/blog/sayt-pered-reklamoy/cover-en.webp",
+  metaTitle: "Ads live, site half-baked? Pre-launch checks so you don’t burn budget",
+  metaDescription:
+    "Forms, speed, analytics, and offer. Checklist — before the first bid.",
   excerpt:
     "A site checklist before Yandex Direct and Google Ads: goals and KPIs, forms and thank-you pages, analytics, first screen, trust, mobile, and lead delivery — so you don’t burn clicks on a raw landing.",
   lead: [
@@ -200,6 +203,9 @@ export const saytPeredReklamoyEs: BlogPost = {
   date: "2020-03-18",
   category: "Búsqueda de pago",
   cover: "/images/blog/sayt-pered-reklamoy/cover-es.webp",
+  metaTitle: "¿Ads ya vivas y web a medias? Revisión previa sin quemar presupuesto",
+  metaDescription:
+    "Formularios, velocidad, analítica y oferta. Checklist — antes de la primera puja.",
   excerpt:
     "Checklist del sitio antes de Yandex Direct y Google Ads: objetivos y KPIs, formularios y thank-you, analytics, primera pantalla, confianza, móvil y entrega de leads — para no quemar clics en un landing crudo.",
   lead: [

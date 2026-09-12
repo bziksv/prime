@@ -7,6 +7,9 @@ export const novogodnyayaRasprodazhaEn: BlogPost = {
   date: "2019-01-10",
   category: "Paid search",
   cover: "/images/blog/novogodnyaya-rasprodazha/cover-en.webp",
+  metaTitle: "Holiday sale at the last minute? Yandex Direct and Google Ads without the scramble",
+  metaDescription:
+    "Offer, creatives, and peak budget. Checklist — launch before the rush.",
   excerpt:
     "How to prep paid search for a New Year sale: demand and forecast, buyer types, creatives, separate campaigns, and what to do after the holidays — without blindly copying 2017 US stats.",
   lead: [
@@ -172,6 +175,9 @@ export const novogodnyayaRasprodazhaEs: BlogPost = {
   date: "2019-01-10",
   category: "Paid search",
   cover: "/images/blog/novogodnyaya-rasprodazha/cover-es.webp",
+  metaTitle: "¿Promo de fin de año a última hora? Direct y Google Ads sin agobio",
+  metaDescription:
+    "Oferta, creativos y presupuesto en pico. Checklist — lanza antes del ajetreo.",
   excerpt:
     "Cómo preparar paid search para una rebaja de Año Nuevo: demanda y forecast, tipos de comprador, creatividades, campañas aparte y qué hacer tras las fiestas — sin copiar a ciegas stats de EE. UU. de 2017.",
   lead: [

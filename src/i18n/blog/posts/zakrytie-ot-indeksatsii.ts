@@ -7,6 +7,9 @@ export const zakrytieOtIndeksatsiiEn: BlogPost = {
   date: "2021-09-22",
   category: "SEO",
   cover: "/images/blog/zakrytie-ot-indeksatsii/cover-en.webp",
+  metaTitle: "Pages indexed for no reason? Blocking indexation: robots, meta, and when to use",
+  metaDescription:
+    "How not to block the wrong URLs. Checklist — before you edit robots.txt.",
   excerpt:
     "When to block pages from indexing, how robots.txt, meta robots, and X-Robots-Tag differ, how to remove duplicates and utility sections — without cloaking or outdated tricks.",
   lead: [
@@ -185,6 +188,9 @@ export const zakrytieOtIndeksatsiiEs: BlogPost = {
   date: "2021-09-22",
   category: "SEO",
   cover: "/images/blog/zakrytie-ot-indeksatsii/cover-es.webp",
+  metaTitle: "¿Páginas indexadas de más? Cerrar indexación: robots, meta y cuándo hace falta",
+  metaDescription:
+    "Cómo no cerrar de más. Checklist — antes de editar robots.txt.",
   excerpt:
     "Cuándo bloquear páginas a la indexación, en qué se diferencian robots.txt, meta robots y X-Robots-Tag, cómo sacar duplicados y secciones de utilidad — sin cloaking ni trucos desfasados.",
   lead: [

@@ -7,6 +7,9 @@ export const rsyaMetrikaEn: BlogPost = {
   date: "2018-07-06",
   category: "Digital marketing",
   cover: "/images/blog/rsya-metrika/cover-en.webp",
+  metaTitle: "Yandex Display running — money opaque? Revenue metrics in Yandex Metrica",
+  metaDescription:
+    "Which reports to open and how to read them. Checklist — check the dashboard today.",
   excerpt:
     "Yandex Advertising Network (YAN) revenue in Metrica: why publishers watch income and ad views, which metrics matter, and how to connect reports — without outdated 2018 account screenshots.",
   lead: [
@@ -151,6 +154,9 @@ export const rsyaMetrikaEs: BlogPost = {
   date: "2018-07-06",
   category: "Marketing digital",
   cover: "/images/blog/rsya-metrika/cover-es.webp",
+  metaTitle: "¿RSYa gira y no se ve el dinero? Indicadores monetarios en Yandex Métrica",
+  metaDescription:
+    "Qué informes mirar y cómo leerlos. Checklist — abre el panel hoy.",
   excerpt:
     "Ingresos de la Red Publicitaria de Yandex (YAN) en Metrica: por qué los publishers miran ingresos e impresiones de ads, qué métricas importan y cómo conectar informes — sin capturas obsoletas de cuentas de 2018.",
   lead: [

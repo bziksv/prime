@@ -7,6 +7,9 @@ export const aydentikaBrendaEn: BlogPost = {
   date: "2019-12-06",
   category: "Digital marketing",
   cover: "/images/blog/aydentika-brenda/cover-en.webp",
+  metaTitle: "Logo exists, brand still fuzzy? Build identity that sticks",
+  metaDescription:
+    "Color, type, shape, and a brand book without fluff. Checklist — audit touchpoints before the next redesign.",
   excerpt:
     "What brand identity is, how it differs from branding and corporate style, what the foundation is (color, type, form), and how to build it without carrier chaos.",
   lead: [
@@ -178,6 +181,9 @@ export const aydentikaBrendaEs: BlogPost = {
   date: "2019-12-06",
   category: "Digital marketing",
   cover: "/images/blog/aydentika-brenda/cover-es.webp",
+  metaTitle: "¿Hay logo y la marca flota? Arma identidad que se note",
+  metaDescription:
+    "Color, tipografía, forma y brandbook sin relleno. Checklist — audita soportes antes del rediseño.",
   excerpt:
     "Qué es la identidad de marca, en qué se diferencia del branding y del estilo corporativo, cuál es la base (color, tipografía, forma) y cómo construirla sin caos en los soportes.",
   lead: [

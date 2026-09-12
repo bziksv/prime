@@ -7,6 +7,9 @@ export const muzykaStoriesInstagramEn: BlogPost = {
   date: "2020-07-09",
   category: "SMM",
   cover: "/images/blog/muzyka-stories-instagram/cover-en.webp",
+  metaTitle: "Gray-area music in Stories? Stickers, licenses, and editors without surprises",
+  metaDescription:
+    "What’s legal and where the risks are. Cheat sheet — before the next Stories series.",
   excerpt:
     "How to add music to Instagram Stories with the built-in sticker, why catalog access depends on region and account type, and how to work in editors without shady “workarounds.”",
   lead: [
@@ -152,6 +155,9 @@ export const muzykaStoriesInstagramEs: BlogPost = {
   date: "2020-07-09",
   category: "SMM",
   cover: "/images/blog/muzyka-stories-instagram/cover-es.webp",
+  metaTitle: "¿Música “gris” en Stories? Stickers, licencias y editores sin sustos",
+  metaDescription:
+    "Qué es legal y dónde hay riesgo. Chuleta — antes de la próxima serie de Stories.",
   excerpt:
     "Cómo añadir música a Instagram Stories con el sticker built-in, por qué el acceso al catálogo depende de región y tipo de cuenta, y cómo trabajar en editores sin «workarounds» dudosos.",
   lead: [

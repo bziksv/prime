@@ -7,6 +7,9 @@ export const runetEn: BlogPost = {
   date: "2020-10-13",
   category: "Blog",
   cover: "/images/blog/runet/cover-en.webp",
+  metaTitle: "Runet “just Russia’s internet”? What it is and how the segment differs",
+  metaDescription:
+    "Audience, platforms, and marketing nuances. Primer — before a local-market strategy.",
   excerpt:
     "Runet is the Russian-language / Russia-facing segment of the internet: .ru and .рф domains, Cyrillic content, search and service ecosystems — traits without outdated stats and stereotypes.",
   lead: [
@@ -159,6 +162,9 @@ export const runetEs: BlogPost = {
   date: "2020-10-13",
   category: "Blog",
   cover: "/images/blog/runet/cover-es.webp",
+  metaTitle: "¿Runet “solo internet de Rusia”? Qué es y en qué se diferencia el segmento",
+  metaDescription:
+    "Audiencia, plataformas y matices de marketing. Base — antes de la estrategia local.",
   excerpt:
     "Runet es el segmento de internet en ruso / orientado a Rusia: dominios .ru y .рф, contenido en cirílico, ecosistemas de búsqueda y servicios — rasgos sin estadísticas obsoletas ni estereotipos.",
   lead: [

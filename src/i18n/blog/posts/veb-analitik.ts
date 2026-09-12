@@ -7,6 +7,9 @@ export const vebAnalitikEn: BlogPost = {
   date: "2019-12-04",
   category: "SEO",
   cover: "/images/blog/veb-analitik/cover-en.webp",
+  metaTitle: "Analyst “just opens Analytics”? Duties, skills, and career path",
+  metaDescription:
+    "Real ownership without rose glasses. Primer — before hiring or interviewing.",
   excerpt:
     "What a web analyst does, which skills matter, where to learn, how careers usually grow, and why the job is more than exporting a Metrica report.",
   lead: [
@@ -212,6 +215,9 @@ export const vebAnalitikEs: BlogPost = {
   date: "2019-12-04",
   category: "SEO",
   cover: "/images/blog/veb-analitik/cover-es.webp",
+  metaTitle: "¿Analista “solo abre Analytics”? Deberes, skills y carrera",
+  metaDescription:
+    "Ownership real sin romanticismo. Base — antes de contratar o entrevistar.",
   excerpt:
     "Qué hace un web analyst, qué skills importan, dónde aprender, cómo suele crecer la carrera y por qué el trabajo es más que exportar un informe de Metrica.",
   lead: [

@@ -7,6 +7,9 @@ export const effektivnostVideoreklamyEn: BlogPost = {
   date: "2019-05-06",
   category: "Digital marketing",
   cover: "/images/blog/effektivnost-videoreklamy/cover-en.webp",
+  metaTitle: "Video ads “for reach only”? Media, brand, and business metrics that matter",
+  metaDescription:
+    "How to measure without mixing KPIs. Checklist — before you approve creative and budget.",
   excerpt:
     "Video ad metrics by layer: impressions and viewability, VTR/CPV, reach and frequency; Brand Lift and surveys; conversions, promo codes, and assisted paths — without worshipping a single CTR.",
   lead: [
@@ -136,6 +139,9 @@ export const effektivnostVideoreklamyEs: BlogPost = {
   date: "2019-05-06",
   category: "Digital marketing",
   cover: "/images/blog/effektivnost-videoreklamy/cover-es.webp",
+  metaTitle: "¿Videoads “solo reach”? Métricas media, marca y negocio que importan",
+  metaDescription:
+    "Cómo medir sin mezclar KPIs. Checklist — antes de aprobar creativo y presupuesto.",
   excerpt:
     "Métricas de ads en vídeo por capa: impresiones y viewability, VTR/CPV, reach y frequency; Brand Lift y encuestas; conversiones, códigos promo y caminos asistidos — sin adorar un solo CTR.",
   lead: [

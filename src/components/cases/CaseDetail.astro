@@ -53,7 +53,9 @@ const hasAlternate = isCaseTranslated(item.slug, "en");
 const alternatePath =
   hasAlternate ? (locale === "en" ? ruPath : enPath) : undefined;
 
-const pageDescription = `${item.metric} ${item.metricLabel}. ${item.summary}`;
+const pageTitle = item.metaTitle ?? `${item.title} ${ui.pageTitleSuffix}`;
+const pageDescription =
+  item.metaDescription ?? `${item.metric} ${item.metricLabel}. ${item.summary}`;
 const caseLd = caseJsonLd({
   name: item.title,
   description: pageDescription,
@@ -68,7 +70,7 @@ const contactsHref = contactsPath(locale);
 ---
 
 <CasesLayout
-  title={`${item.title} ${ui.pageTitleSuffix}`}
+  title={pageTitle}
   description={pageDescription}
   path={pagePath}
   image={item.cover}

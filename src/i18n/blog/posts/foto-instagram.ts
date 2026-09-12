@@ -7,6 +7,9 @@ export const fotoInstagramEn: BlogPost = {
   date: "2021-06-29",
   category: "SMM",
   cover: "/images/blog/foto-instagram/cover-en.webp",
+  metaTitle: "Feed like everyone else? Instagram photos: idea, composition, shoot",
+  metaDescription:
+    "Practical moves without a studio. Shot checklist — save before the next post series.",
   excerpt:
     "How to pick a visual niche, shoot with composition and light, and prep photos for a blog or shop on Instagram — without “girls only” clichés or copying other feeds.",
   lead: [
@@ -158,6 +161,9 @@ export const fotoInstagramEs: BlogPost = {
   date: "2021-06-29",
   category: "SMM",
   cover: "/images/blog/foto-instagram/cover-es.webp",
+  metaTitle: "¿Feed como todos? Fotos para Instagram: idea, composición, disparo",
+  metaDescription:
+    "Trucos prácticos sin estudio. Checklist de toma — guárdalo antes de la próxima serie.",
   excerpt:
     "Cómo elegir un nicho visual, disparar con composición y luz, y preparar fotos para un blog o tienda en Instagram — sin clichés de «solo chicas» ni copiar feeds ajenos.",
   lead: [

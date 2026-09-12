@@ -7,6 +7,9 @@ export const affiliatFiltrEn: BlogPost = {
   date: "2018-01-24",
   category: "SEO",
   cover: "/images/blog/affiliat-filtr/cover-en.webp",
+  metaTitle: "Two sites for one offer tanked? Check the affiliate filter",
+  metaDescription:
+    "How search engines link domains, which signals hurt, and how to separate projects safely. Checklist — audit your mirrors.",
   excerpt:
     "What affiliate sites mean in SEO, why search engines use an affiliate filter, which signals link domains, and how to run several projects safely without clones for the same queries.",
   lead: [
@@ -105,6 +108,9 @@ export const affiliatFiltrEs: BlogPost = {
   date: "2018-01-24",
   category: "SEO",
   cover: "/images/blog/affiliat-filtr/cover-es.webp",
+  metaTitle: "¿Dos webs del mismo servicio cayeron? Revisa el filtro afiliado",
+  metaDescription:
+    "Cómo los buscadores vinculan dominios, qué señales duelen y cómo separar proyectos. Checklist — audita espejos.",
   excerpt:
     "Qué significan los sitios afiliados en SEO, por qué los buscadores usan un filtro de afiliados, qué señales vinculan dominios y cómo llevar varios proyectos con seguridad sin clones para las mismas queries.",
   lead: [

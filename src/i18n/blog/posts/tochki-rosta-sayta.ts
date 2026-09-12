@@ -7,6 +7,9 @@ export const tochkiRostaSaytaEn: BlogPost = {
   date: "2019-09-20",
   category: "Digital marketing",
   cover: "/images/blog/tochki-rosta-sayta/cover-en.webp",
+  metaTitle: "Traffic and leads stalled? Site growth points: where to look first",
+  metaDescription:
+    "SEO, UX, content, and tech without chaos. Diagnostics checklist — today.",
   excerpt:
     "What to do when site growth hits a plateau: expand the keyword set, strengthen CRO and landings, fix behavior and speed, add content and channels — without the myth that everything is already squeezed.",
   lead: [
@@ -169,6 +172,9 @@ export const tochkiRostaSaytaEs: BlogPost = {
   date: "2019-09-20",
   category: "Digital marketing",
   cover: "/images/blog/tochki-rosta-sayta/cover-es.webp",
+  metaTitle: "¿Tráfico y leads parados? Puntos de crecimiento: por dónde mirar primero",
+  metaDescription:
+    "SEO, UX, contenido y técnica sin caos. Checklist de diagnóstico — hoy.",
   excerpt:
     "Qué hacer cuando el crecimiento del sitio llega a una meseta: ampliar el conjunto de keywords, reforzar CRO y landings, corregir comportamiento y velocidad, sumar contenido y canales — sin el mito de que ya está todo exprimido.",
   lead: [

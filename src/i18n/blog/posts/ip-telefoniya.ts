@@ -7,6 +7,9 @@ export const ipTelefoniyaEn: BlogPost = {
   date: "2019-07-23",
   category: "Digital marketing",
   cover: "/images/blog/ip-telefoniya/cover-en.webp",
+  metaTitle: "Calls on personal mobiles? Business VoIP: why and how to connect",
+  metaDescription:
+    "Use cases, CRM integration, and a start without overspend. Checklist — before you switch the PBX.",
   excerpt:
     "What IP telephony (VoIP) is: voice over the internet, office and call-center use cases, what to check when picking a provider, and how to launch without promising “always −15%.”",
   lead: [
@@ -140,6 +143,9 @@ export const ipTelefoniyaEs: BlogPost = {
   date: "2019-07-23",
   category: "Digital marketing",
   cover: "/images/blog/ip-telefoniya/cover-es.webp",
+  metaTitle: "¿Llamadas al móvil personal? Telefonía IP para negocio: por qué y cómo",
+  metaDescription:
+    "Casos de uso, CRM y arranque sin pagar de más. Checklist — antes de cambiar la centralita.",
   excerpt:
     "Qué es la telefonía IP (VoIP): voz por internet, casos de oficina y call center, qué comprobar al elegir proveedor y cómo lanzar sin prometer «siempre −15%».",
   lead: [

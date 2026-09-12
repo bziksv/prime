@@ -7,6 +7,9 @@ export const urlYoutubeEn: BlogPost = {
   date: "2020-11-18",
   category: "SMM",
   cover: "/images/blog/url-youtube/cover-en.webp",
+  metaTitle: "YouTube channel URL full of digits? Make a readable link",
+  metaDescription:
+    "Custom handle and verification. Checklist — before you share it in ads.",
   excerpt:
     "How a short channel address differs from an ID, what conditions YouTube usually sets, and how to change the link without outdated screenshots — with a note on @handles and change limits.",
   lead: [
@@ -146,6 +149,9 @@ export const urlYoutubeEs: BlogPost = {
   date: "2020-11-18",
   category: "SMM",
   cover: "/images/blog/url-youtube/cover-es.webp",
+  metaTitle: "¿URL del canal YouTube llena de dígitos? Haz un enlace legible",
+  metaDescription:
+    "Handle custom y verificación. Checklist — antes de compartirla en ads.",
   excerpt:
     "En qué se diferencia una dirección corta del canal de un ID, qué condiciones suele poner YouTube y cómo cambiar el enlace sin capturas obsoletas — con una nota sobre @handles y límites de cambio.",
   lead: [

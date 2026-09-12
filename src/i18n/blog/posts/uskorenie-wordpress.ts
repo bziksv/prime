@@ -7,6 +7,9 @@ export const uskorenieWordpressEn: BlogPost = {
   date: "2019-09-27",
   category: "Digital marketing",
   cover: "/images/blog/uskorenie-wordpress/cover-en.webp",
+  metaTitle: "WordPress crawling? Speed it up: hosting, theme, plugins",
+  metaDescription:
+    "What to cut first. Checklist — before CWV complaints pile up.",
   excerpt:
     "What really slows WordPress: TTFB and hosting, a heavy theme, duplicate plugins, images, and JS/CSS. A practical work order — without worshipping one PageSpeed score or copying 2019 foreign case studies.",
   lead: [
@@ -145,6 +148,9 @@ export const uskorenieWordpressEs: BlogPost = {
   date: "2019-09-27",
   category: "Digital marketing",
   cover: "/images/blog/uskorenie-wordpress/cover-es.webp",
+  metaTitle: "¿WordPress lento? Acelera: hosting, tema, plugins",
+  metaDescription:
+    "Qué recortar primero. Checklist — antes de que se acumulen quejas de CWV.",
   excerpt:
     "Qué ralentiza de verdad WordPress: TTFB y hosting, un tema pesado, plugins duplicados, imágenes y JS/CSS. Un orden de trabajo práctico — sin adorar una nota de PageSpeed ni copiar casos extranjeros de 2019.",
   lead: [

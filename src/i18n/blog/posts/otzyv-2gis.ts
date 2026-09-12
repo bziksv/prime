@@ -7,6 +7,9 @@ export const otzyv2gisEs: BlogPost = {
   date: "2019-12-23",
   category: "SEO",
   cover: "/images/blog/otzyv-2gis/cover-es.webp",
+  metaTitle: "¿Una reseña en 2GIS molesta? Qué funciona de verdad para quitarla",
+  metaDescription:
+    "Reglas de la plataforma, reportes y límites legales. Chuleta — sin esquemas grises.",
   excerpt:
     "Cómo gestionar reseñas negativas en 2GIS: hablar con el autor, reportar a moderación, cuándo no cerrar el listing y por qué una crítica honesta suele quedarse.",
   lead: [
@@ -194,6 +197,9 @@ export const otzyv2gisEn: BlogPost = {
   date: "2019-12-23",
   category: "SEO",
   cover: "/images/blog/otzyv-2gis/cover-en.webp",
+  metaTitle: "A 2GIS review hurting you? What actually works for removal",
+  metaDescription:
+    "Platform rules, reports, and legal limits. Cheat sheet — no gray schemes.",
   excerpt:
     "How to handle negative reviews on 2GIS: talk to the author, report to moderators, when not to close the listing, and why an honest review usually stays.",
   lead: [

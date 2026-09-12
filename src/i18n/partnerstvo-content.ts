@@ -86,9 +86,9 @@ export type PartnerContent = {
 
 const partnerRu: PartnerContent = {
   path: "/partnerstvo/",
-  metaTitle: "Партнерство — ПРАЙМ",
+  metaTitle: "Приводите клиентов ПРАЙМ — забирайте процент каждый месяц",
   metaDescription:
-    "Партнёрство с ПРАЙМ: рекомендуйте интернет-маркетинг, получайте процент. Прозрачные отчёты, договор и выплаты раз в месяц.",
+    "Станьте партнёром: договор, прозрачные отчёты и выплаты по факту. Рекомендуете маркетинг — зарабатываете вместе с нами.",
   breadcrumbHome: "Главная",
   breadcrumbCurrent: "Партнерство",
   menuLabel: "Меню",
@@ -156,9 +156,9 @@ const partnerRu: PartnerContent = {
 
 const partnerEn: PartnerContent = {
   path: "/en/partnership/",
-  metaTitle: "Partnership — PRIME",
+  metaTitle: "Refer clients to PRIME — collect commission every month",
   metaDescription:
-    "Partner with PRIME: refer digital marketing clients and earn a commission. Clear monthly reports, a real contract, and payouts on actuals — worldwide.",
+    "Join the partner program: a real contract, clear reports, payouts on actuals. You refer digital marketing — we share the fee.",
   breadcrumbHome: "Home",
   breadcrumbCurrent: "Partnership",
   menuLabel: "Menu",
@@ -404,9 +404,9 @@ const partnerEn: PartnerContent = {
 
 const partnerEs: PartnerContent = {
   path: "/es/partnership/",
-  metaTitle: "Programa de partners — PRIME",
+  metaTitle: "Trae clientes a PRIME — cobra comisión cada mes",
   metaDescription:
-    "Hazte partner de PRIME: recomienda clientes de marketing digital y gana una comisión. Informes mensuales claros, contrato real y pagos sobre lo facturado — en todo el mundo.",
+    "Únete al programa: contrato real, informes claros y pagos sobre lo facturado. Tú recomiendas marketing — compartimos el fee.",
   breadcrumbHome: "Inicio",
   breadcrumbCurrent: "Partners",
   menuLabel: "Menú",

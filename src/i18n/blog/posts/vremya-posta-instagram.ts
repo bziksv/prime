@@ -7,6 +7,9 @@ export const vremyaPostaInstagramEn: BlogPost = {
   date: "2019-06-29",
   category: "SMM",
   cover: "/images/blog/vremya-posta-instagram/cover-en.webp",
+  metaTitle: "Posting when “everyone” posts? Best Instagram timing for your audience",
+  metaDescription:
+    "Pick slots from Insights — not myths. Checklist — before the week calendar.",
   excerpt:
     "How to choose Instagram publish times from your own stats: morning, midday, evening, formats, frequency, and tests — without universal “2019 tables” or sketchy auto-posters.",
   lead: [
@@ -170,6 +173,9 @@ export const vremyaPostaInstagramEs: BlogPost = {
   date: "2019-06-29",
   category: "SMM",
   cover: "/images/blog/vremya-posta-instagram/cover-es.webp",
+  metaTitle: "¿Publicar “cuando todos”? Mejor hora en Instagram para tu audiencia",
+  metaDescription:
+    "Elige slots con Insights — no mitos. Checklist — antes del calendario de la semana.",
   excerpt:
     "Cómo elegir horarios de publicación en Instagram con tus propias métricas: mañana, mediodía, noche, formatos, frecuencia y tests — sin tablas universales de 2019 ni auto-posters dudosos.",
   lead: [

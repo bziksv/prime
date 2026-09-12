@@ -7,6 +7,9 @@ export const razmeshchenieLendingaEn: BlogPost = {
   date: "2019-10-21",
   category: "Digital marketing",
   cover: "/images/blog/razmeshchenie-lendinga/cover-en.webp",
+  metaTitle: "Landing on subdomain or root? Where to host without hurting SEO",
+  metaDescription:
+    "Domain, subdomain, and site section — pros and risks. Read before ads go live.",
   excerpt:
     "Three ways to place a landing page: a separate domain, a subdomain, or a URL on the main site — pros, cons, SEO, and when to pick which for the offer and audience.",
   lead: [
@@ -148,6 +151,9 @@ export const razmeshchenieLendingaEs: BlogPost = {
   date: "2019-10-21",
   category: "Digital marketing",
   cover: "/images/blog/razmeshchenie-lendinga/cover-es.webp",
+  metaTitle: "¿Landing en subdominio o raíz? Dónde alojarlo sin dañar el SEO",
+  metaDescription:
+    "Dominio, subdominio y sección — pros y riesgos. Léelo antes de lanzar ads.",
   excerpt:
     "Tres formas de colocar una landing: un dominio aparte, un subdominio o una URL en el sitio principal — pros, contras, SEO y cuándo elegir cada una según oferta y audiencia.",
   lead: [

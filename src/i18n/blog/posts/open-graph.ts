@@ -7,6 +7,9 @@ export const openGraphEn: BlogPost = {
   date: "2020-10-15",
   category: "SEO",
   cover: "/images/blog/open-graph/cover-en.webp",
+  metaTitle: "Social shares with no image? Open Graph: fix the link preview",
+  metaDescription:
+    "Tags, sizes, and common mistakes. Checklist — test sharing before the campaign.",
   excerpt:
     "What Open Graph is, which meta tags set title, description, and image on share, how to check the preview, and typical markup mistakes.",
   lead: [
@@ -209,6 +212,9 @@ export const openGraphEs: BlogPost = {
   date: "2020-10-15",
   category: "SEO",
   cover: "/images/blog/open-graph/cover-es.webp",
+  metaTitle: "¿Share sin imagen? Open Graph: arregla la preview del enlace",
+  metaDescription:
+    "Tags, tamaños y errores típicos. Checklist — prueba el share antes de la campaña.",
   excerpt:
     "Qué es Open Graph, qué meta tags fijan title, description e imagen al compartir, cómo comprobar el preview y errores habituales de markup.",
   lead: [
