@@ -127,8 +127,8 @@ const crumbsLd = breadcrumbJsonLd(
                 <p class="b-migrate__kicker">Миграция со старого сайта</p>
                 <h2 class="b-migrate__title">Перенос и новый формат</h2>
                 <p class="b-migrate__lead">
-                  Перенос на Astro и «новый формат» — разные вещи. Тексты уже тащим,
-                  целевую вёрстку статей ещё не делали.
+                  Очередь закрыта: отдельные статьи на Astro + dup→301 на канон.
+                  «Новый формат» — от числа реальных статей, не от всех WP-черновиков.
                 </p>
               </div>
               <p class="b-migrate__local-badge" title="Блок виден только в astro dev, на проде отсутствует">
@@ -140,32 +140,32 @@ const crumbsLd = breadcrumbJsonLd(
             <div class="b-migrate__tracks">
               <div class="b-migrate__track">
                 <div class="b-migrate__track-label">
-                  <span>Перенесено</span>
-                  <strong>{migration.migrated} / {migration.eligible}</strong>
+                  <span>Очередь закрыта</span>
+                  <strong>{migration.closed} / {migration.eligible}</strong>
                 </div>
                 <div
                   class="b-migrate__bar"
                   role="progressbar"
                   aria-valuemin="0"
                   aria-valuemax={migration.eligible}
-                  aria-valuenow={migration.migrated}
-                  aria-label={`Перенесено ${migration.migrated} из ${migration.eligible}`}
+                  aria-valuenow={migration.closed}
+                  aria-label={`Закрыто ${migration.closed} из ${migration.eligible}`}
                 >
-                  <span style={`width: ${Math.max(migration.migratePct, migration.migrated ? 2 : 0)}%`}></span>
+                  <span style={`width: ${Math.max(migration.migratePct, migration.closed ? 2 : 0)}%`}></span>
                 </div>
               </div>
               <div class="b-migrate__track">
                 <div class="b-migrate__track-label">
                   <span>Новый формат</span>
-                  <strong>{migration.newFormat} / {migration.eligible}</strong>
+                  <strong>{migration.newFormat} / {migration.migrated}</strong>
                 </div>
                 <div
                   class="b-migrate__bar b-migrate__bar--format"
                   role="progressbar"
                   aria-valuemin="0"
-                  aria-valuemax={migration.eligible}
+                  aria-valuemax={migration.migrated}
                   aria-valuenow={migration.newFormat}
-                  aria-label={`В новом формате ${migration.newFormat} из ${migration.eligible}`}
+                  aria-label={`В новом формате ${migration.newFormat} из ${migration.migrated}`}
                 >
                   <span style={`width: ${Math.max(migration.formatPct, migration.newFormat ? 2 : 0)}%`}></span>
                 </div>
@@ -175,24 +175,24 @@ const crumbsLd = breadcrumbJsonLd(
             <div class="b-migrate__stats">
               <div class="b-migrate__stat b-migrate__stat--done">
                 <strong>{migration.migrated}</strong>
-                <span>перенесено на Astro</span>
+                <span>статей на Astro</span>
               </div>
               <div class="b-migrate__stat b-migrate__stat--format">
                 <strong>{migration.newFormat}</strong>
                 <span>в новом формате</span>
               </div>
               <div class="b-migrate__stat">
+                <strong>{migration.dupClosed}</strong>
+                <span>dup → 301 на канон</span>
+              </div>
+              <div class="b-migrate__stat">
                 <strong>{migration.left}</strong>
                 <span>ещё перенести</span>
               </div>
-              <div class="b-migrate__stat">
-                <strong>{migration.eligible}</strong>
-                <span>пригодных в чеклисте</span>
-              </div>
             </div>
             <p class="b-migrate__note">
-              Skip / мусор в чеклисте: {migration.skip}. Этот дашборд рендерится только
-              в <code>astro dev</code> — в production-сборке блока нет.
+              Пригодных в WP: {migration.eligible}. Skip / мусор: {migration.skip}.
+              Дашборд только в <code>astro dev</code> — на проде блока нет.
             </p>
 
             <div class="b-migrate__cats" aria-label="Рубрики в чеклисте">

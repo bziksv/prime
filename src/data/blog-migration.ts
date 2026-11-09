@@ -15,8 +15,13 @@ export const blogMigrationTotals = {
   dbTotal: 830,
   /** Пригодных к переносу (≥800 симв., slug+title) */
   eligible: 813,
-  /** Пустые / битые / дубли */
+  /** Пустые / битые / мусор (вне очереди переноса) */
   skip: 17,
+  /**
+   * Закрыты как dup → 301 на канон (отдельную Astro-статью не делали).
+   * eligible = migrated + dupClosed.
+   */
+  dupClosed: 240,
 } as const;
 
 /**
@@ -616,12 +621,16 @@ export function getBlogMigrationProgress() {
   const migrated = blogPosts.length;
   const newFormatSet = new Set(blogNewFormatSlugs);
   const newFormat = blogPosts.filter((p) => newFormatSet.has(p.slug)).length;
-  const { eligible, skip, dbTotal } = blogMigrationTotals;
-  const left = Math.max(0, eligible - migrated);
+  const { eligible, skip, dbTotal, dupClosed } = blogMigrationTotals;
+  /** Сколько ещё тащить как отдельные статьи (dup сюда не входят). */
+  const left = Math.max(0, eligible - migrated - dupClosed);
+  /** Закрыто по очереди: отдельные статьи + dup→канон. */
+  const closed = migrated + dupClosed;
   const migratePct =
-    eligible > 0 ? Math.min(100, Math.round((migrated / eligible) * 1000) / 10) : 0;
+    eligible > 0 ? Math.min(100, Math.round((closed / eligible) * 1000) / 10) : 0;
+  /** Новый формат считаем от реальных Astro-статей, не от WP-eligible. */
   const formatPct =
-    eligible > 0 ? Math.min(100, Math.round((newFormat / eligible) * 1000) / 10) : 0;
+    migrated > 0 ? Math.min(100, Math.round((newFormat / migrated) * 1000) / 10) : 0;
 
   const articles = [...blogPosts]
     .sort((a, b) => a.title.localeCompare(b.title, "ru"))
@@ -638,13 +647,14 @@ export function getBlogMigrationProgress() {
     migrated,
     newFormat,
     left,
+    dupClosed,
+    closed,
     eligible,
     skip,
     dbTotal,
     migratePct,
     formatPct,
-    /** @deprecated use migrated */
-    done: migrated,
+    done: true,
     /** @deprecated use migratePct */
     pct: migratePct,
     byCategory: blogMigrationByCategory,
