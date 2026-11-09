@@ -20,8 +20,6 @@ const copy =
     ? {
         beforeCookies: "На нашем сайте используются",
         cookies: "cookie-файлы",
-        and: "и",
-        recommendations: "рекомендательные технологии",
         mid: ", которые помогают улучшать функциональность, адаптировать рекламу и собирать статистику посещений. Продолжая использовать сайт, вы даёте",
         consent: "согласие на обработку персональных данных",
         and2: "и подтверждаете, что ознакомлены с",
@@ -34,8 +32,6 @@ const copy =
       ? {
           beforeCookies: "En este sitio usamos",
           cookies: "cookies",
-          and: "y",
-          recommendations: "tecnologías de recomendación",
           mid: " para mejorar el sitio, adaptar la publicidad y recopilar estadísticas de visita. Al continuar usando el sitio, das tu",
           consent: "consentimiento para el tratamiento de datos personales",
           and2: "y confirmas que conoces la",
@@ -47,8 +43,6 @@ const copy =
       : {
           beforeCookies: "We use",
           cookies: "cookies",
-          and: "and",
-          recommendations: "recommendation technologies",
           mid: " to improve the site, tailor ads and collect visit stats. By continuing to use the site, you give your",
           consent: "consent to personal data processing",
           and2: "and confirm that you have read the",
@@ -61,10 +55,7 @@ const copy =
 
 <div class="cookie-notice">
   {copy.beforeCookies}{" "}
-  <a {...linkAttrs} href={docs.cookies}>{copy.cookies}</a>
-  {" "}{copy.and}{" "}
-  <a {...linkAttrs} href={docs.recommendations}>{copy.recommendations}</a>
-  {copy.mid}{" "}
+  <a {...linkAttrs} href={docs.cookies}>{copy.cookies}</a>{copy.mid}{" "}
   <a {...linkAttrs} href={docs.consent}>{copy.consent}</a>
   {" "}{copy.and2}{" "}
   <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>

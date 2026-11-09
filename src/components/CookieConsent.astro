@@ -23,8 +23,6 @@ const copy =
         title: "Cookies и рекомендации",
         beforeCookies: "Используем",
         cookies: "cookie-файлы",
-        and: "и",
-        recommendations: "рекомендательные технологии",
         mid: "для работы сайта, рекламы и статистики. Продолжая использовать сайт, вы даёте",
         consent: "согласие на обработку персональных данных",
         and2: "и подтверждаете, что ознакомлены с",
@@ -39,8 +37,6 @@ const copy =
           title: "Cookies y recomendaciones",
           beforeCookies: "Usamos",
           cookies: "cookies",
-          and: "y",
-          recommendations: "tecnologías de recomendación",
           mid: "para el sitio, la publicidad y la analítica. Al continuar usando el sitio, das tu",
           consent: "consentimiento para el tratamiento de datos personales",
           and2: "y confirmas que conoces la",
@@ -54,8 +50,6 @@ const copy =
           title: "Cookies and recommendations",
           beforeCookies: "We use",
           cookies: "cookies",
-          and: "and",
-          recommendations: "recommendation technologies",
           mid: "for the site, ads and analytics. By continuing to use the site, you give your",
           consent: "consent to personal data processing",
           and2: "and confirm that you have read the",
@@ -79,10 +73,7 @@ const copy =
       <p class="v6-cookie-bar__title">{copy.title}</p>
       <p class="v6-cookie-bar__text">
         {copy.beforeCookies}{" "}
-        <a {...linkAttrs} href={docs.cookies}>{copy.cookies}</a>
-        {" "}{copy.and}{" "}
-        <a {...linkAttrs} href={docs.recommendations}>{copy.recommendations}</a>
-        {" "}{copy.mid}{" "}
+        <a {...linkAttrs} href={docs.cookies}>{copy.cookies}</a>{" "}{copy.mid}{" "}
         <a {...linkAttrs} href={docs.consent}>{copy.consent}</a>
         {" "}{copy.and2}{" "}
         <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>
