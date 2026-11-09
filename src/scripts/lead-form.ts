@@ -5,6 +5,8 @@ type LeadPayload = {
   phone: string;
   email: string;
   service: string;
+  system: string;
+  budget: string;
   site: string;
   brand: string;
   crm: string;
@@ -15,6 +17,8 @@ type LeadPayload = {
   page: string;
   source: string;
   company: string;
+  /** Согласие на обработку ПДн (чекбокс agree), проверяется сервером. */
+  agree: boolean;
 };
 
 const regionLabels: Record<string, string> = {
@@ -283,6 +287,8 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
       phone: field(fd, "phone"),
       email: field(fd, "email"),
       service: field(fd, "service") || field(fd, "type") || field(fd, "focus"),
+      system: field(fd, "system"),
+      budget: field(fd, "budget"),
       site: field(fd, "site"),
       brand: field(fd, "brand"),
       crm: field(fd, "crm"),
@@ -293,6 +299,7 @@ export function bindLeadForm(opts: BindLeadFormOptions): void {
       page: location.pathname,
       source,
       company: field(fd, "company"),
+      agree: fd.has("agree"),
     };
 
     try {

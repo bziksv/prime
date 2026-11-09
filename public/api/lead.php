@@ -96,6 +96,8 @@ $name = lead_clean((string) ($payload['name'] ?? ''), 80);
 $phone = lead_clean((string) ($payload['phone'] ?? ''), 40);
 $email = lead_clean((string) ($payload['email'] ?? ''), 120);
 $service = lead_clean((string) ($payload['service'] ?? ''), 120);
+$system = lead_clean((string) ($payload['system'] ?? ''), 120);
+$budget = lead_clean((string) ($payload['budget'] ?? ''), 120);
 $site = lead_clean((string) ($payload['site'] ?? ''), 200);
 $brand = lead_clean((string) ($payload['brand'] ?? ''), 120);
 $crm = lead_clean((string) ($payload['crm'] ?? ''), 80);
@@ -121,6 +123,14 @@ if ($page !== '' && !preg_match('#^/[a-zA-Z0-9/_\\-\\.]*$#', $page)) {
     $page = '/';
 }
 
+// Согласие на обработку ПДн: должно прийти явно (agree = true), иначе заявка не принимается.
+$agreeRaw = $payload['agree'] ?? false;
+$agreed = $agreeRaw === true || $agreeRaw === 1 || $agreeRaw === '1' || $agreeRaw === 'true' || $agreeRaw === 'on';
+if (!$agreed) {
+    lead_fail(400, 'Нужно согласие на обработку персональных данных');
+}
+const LEAD_POLICY_URL = 'https://prime-ltd.su/legal/privacy/';
+
 $ip = lead_client_ip();
 if (!lead_rate_ok($rateDir, $ip)) {
     lead_fail(429, 'Слишком много заявок. Попробуйте позже.');
@@ -135,6 +145,8 @@ $lines = [
     "Телефон: {$phone}",
     "Email: " . ($email !== '' ? $email : '—'),
     "Услуга / фокус: " . ($service !== '' ? $service : '—'),
+    "Система: " . ($system !== '' ? $system : '—'),
+    "Бюджет: " . ($budget !== '' ? $budget : '—'),
     "Сайт: " . ($site !== '' ? $site : '—'),
     "Бренд: " . ($brand !== '' ? $brand : '—'),
     "CRM: " . ($crm !== '' ? $crm : '—'),
@@ -143,6 +155,7 @@ $lines = [
     "Стиль: " . ($style !== '' ? $style : '—'),
     "Страница: " . ($page !== '' ? "https://prime-ltd.su{$page}" : '—'),
     "Источник: " . ($source !== '' ? $source : '—'),
+    "Согласие на ПДн: да, {$when} (МСК), политика: " . LEAD_POLICY_URL,
     "IP: {$ip}",
     "",
     "Сообщение:",
@@ -176,6 +189,8 @@ $logName = $dataDir . '/' . date('Ymd-His') . '-' . substr(hash('sha256', $ip . 
             'phone' => $phone,
             'email' => $email,
             'service' => $service,
+            'system' => $system,
+            'budget' => $budget,
             'site' => $site,
             'brand' => $brand,
             'crm' => $crm,
@@ -184,6 +199,7 @@ $logName = $dataDir . '/' . date('Ymd-His') . '-' . substr(hash('sha256', $ip . 
             'style' => $style,
             'page' => $page,
             'source' => $source,
+            'consent' => ['agreed' => true, 'at' => $when, 'policy' => LEAD_POLICY_URL],
             'ip' => $ip,
         ],
         JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT

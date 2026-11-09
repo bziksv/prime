@@ -333,14 +333,25 @@ function initMigrateArticles() {
   render();
 }
 
-function initIndex() {
+async function loadSearchDocs(root: HTMLElement): Promise<BlogSearchDoc[]> {
+  const url = root.dataset.blogSearchUrl;
+  if (!url) return blogSearchIndex;
+  try {
+    const res = await fetch(url, { headers: { Accept: "application/json" } });
+    if (!res.ok) return blogSearchIndex;
+    return (await res.json()) as BlogSearchDoc[];
+  } catch {
+    return blogSearchIndex;
+  }
+}
+
+async function initIndex() {
   const root = qs<HTMLElement>("[data-blog-index]");
   if (!root) return;
 
   const i18n =
     readJson<BlogIndexI18n>(root, "[data-blog-index-i18n]") ?? blogIndexI18n("ru");
-  const docs =
-    readJson<BlogSearchDoc[]>(root, "[data-blog-docs]") ?? blogSearchIndex;
+  const docs = await loadSearchDocs(root);
   const input = qs<HTMLInputElement>("[data-blog-search]", root);
   const clearBtn = qs<HTMLButtonElement>("[data-blog-search-clear]", root);
   const grid = qs<HTMLElement>("[data-blog-grid]", root);
@@ -560,6 +571,6 @@ function initArticle() {
   initBlogArticleInteract(root);
 }
 
-initIndex();
+void initIndex();
 initMigrateArticles();
 initArticle();

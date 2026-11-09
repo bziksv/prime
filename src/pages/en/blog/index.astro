@@ -11,7 +11,6 @@ import {
   blogPosts,
   getBaseViews,
   getReadingMinutes,
-  toSearchDoc,
 } from "../../../data/blog";
 import { contactsPath } from "../../../i18n/contacts-content";
 import {
@@ -44,8 +43,6 @@ const categories = (() => {
     .map(([name, count]) => ({ name, count }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "en"));
 })();
-
-const searchDocs = posts.map(toSearchDoc);
 
 const blogDescription =
   "Read agency practice on SEO, Google Ads, SMM, and digital marketing — no “page-one secrets.” Bookmark the blog; we refresh posts from live projects.";
@@ -108,9 +105,9 @@ const crumbsLd = breadcrumbJsonLd(
           <a href={contactsHref} class="v6-btn">{ui.leaveRequest}</a>
         </header>
 
-        <div class="v6-content" data-blog-index>
+        <div class="v6-content" data-blog-index data-blog-search-url="/en/blog/search-index.json">
           <script type="application/json" data-blog-index-i18n set:html={jsonForScript(indexUi)} />
-          <script type="application/json" data-blog-docs set:html={jsonForScript(searchDocs)} />
+          <!-- Индекс поиска грузится отдельным JSON (как на RU, без встраивания в HTML) -->
 
           <section class="b-hero">
             <p class="b-hero__kicker">{indexUi.kicker}</p>
