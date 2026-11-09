@@ -25,8 +25,12 @@ const copy =
         cookies: "cookie-файлы",
         and: "и",
         recommendations: "рекомендательные технологии",
-        mid: "для работы сайта, рекламы и статистики. Продолжая пользоваться сайтом, вы соглашаетесь с обработкой",
-        privacy: "персональных данных",
+        mid: "для работы сайта, рекламы и статистики. Продолжая использовать сайт, вы даёте",
+        consent: "согласие на обработку персональных данных",
+        and2: "и подтверждаете, что ознакомлены с",
+        privacy: "политикой обработки персональных данных",
+        and3: "и",
+        recommendationsRules: "правилами применения рекомендательных технологий",
         accept: "Принять",
       }
     : locale === "es"
@@ -37,8 +41,12 @@ const copy =
           cookies: "cookies",
           and: "y",
           recommendations: "tecnologías de recomendación",
-          mid: "para el sitio, la publicidad y la analítica. Al continuar, aceptas el tratamiento de",
-          privacy: "datos personales",
+          mid: "para el sitio, la publicidad y la analítica. Al continuar usando el sitio, das tu",
+          consent: "consentimiento para el tratamiento de datos personales",
+          and2: "y confirmas que conoces la",
+          privacy: "política de tratamiento de datos personales",
+          and3: "y las",
+          recommendationsRules: "normas de uso de las tecnologías de recomendación",
           accept: "Aceptar",
         }
       : {
@@ -48,8 +56,12 @@ const copy =
           cookies: "cookies",
           and: "and",
           recommendations: "recommendation technologies",
-          mid: "for the site, ads and analytics. By continuing, you agree to processing of",
-          privacy: "personal data",
+          mid: "for the site, ads and analytics. By continuing to use the site, you give your",
+          consent: "consent to personal data processing",
+          and2: "and confirm that you have read the",
+          privacy: "personal data processing policy",
+          and3: "and the",
+          recommendationsRules: "rules for recommendation technologies",
           accept: "Accept",
         };
 ---
@@ -71,7 +83,11 @@ const copy =
         {" "}{copy.and}{" "}
         <a {...linkAttrs} href={docs.recommendations}>{copy.recommendations}</a>
         {" "}{copy.mid}{" "}
-        <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>.
+        <a {...linkAttrs} href={docs.consent}>{copy.consent}</a>
+        {" "}{copy.and2}{" "}
+        <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>
+        {" "}{copy.and3}{" "}
+        <a {...linkAttrs} href={docs.recommendations}>{copy.recommendationsRules}</a>.
       </p>
     </div>
     <button type="button" class="v6-cookie-bar__btn" id="v6-cookie-accept">{copy.accept}</button>

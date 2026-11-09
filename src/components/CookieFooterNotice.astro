@@ -22,8 +22,12 @@ const copy =
         cookies: "cookie-файлы",
         and: "и",
         recommendations: "рекомендательные технологии",
-        mid: ", которые помогают улучшать функциональность, адаптировать рекламу и собирать статистику посещений. Продолжая пользоваться сайтом, вы соглашаетесь с обработкой",
-        privacy: "персональных данных",
+        mid: ", которые помогают улучшать функциональность, адаптировать рекламу и собирать статистику посещений. Продолжая использовать сайт, вы даёте",
+        consent: "согласие на обработку персональных данных",
+        and2: "и подтверждаете, что ознакомлены с",
+        privacy: "политикой обработки персональных данных",
+        and3: "и",
+        recommendationsRules: "правилами применения рекомендательных технологий",
         after: ". Вы можете отключить cookies в настройках браузера.",
       }
     : locale === "es"
@@ -32,8 +36,12 @@ const copy =
           cookies: "cookies",
           and: "y",
           recommendations: "tecnologías de recomendación",
-          mid: " para mejorar el sitio, adaptar la publicidad y recopilar estadísticas de visita. Al continuar, aceptas el tratamiento de",
-          privacy: "datos personales",
+          mid: " para mejorar el sitio, adaptar la publicidad y recopilar estadísticas de visita. Al continuar usando el sitio, das tu",
+          consent: "consentimiento para el tratamiento de datos personales",
+          and2: "y confirmas que conoces la",
+          privacy: "política de tratamiento de datos personales",
+          and3: "y las",
+          recommendationsRules: "normas de uso de las tecnologías de recomendación",
           after: ". Puedes desactivar las cookies en los ajustes del navegador.",
         }
       : {
@@ -41,8 +49,12 @@ const copy =
           cookies: "cookies",
           and: "and",
           recommendations: "recommendation technologies",
-          mid: " to improve the site, tailor ads and collect visit stats. By continuing, you agree to processing of",
-          privacy: "personal data",
+          mid: " to improve the site, tailor ads and collect visit stats. By continuing to use the site, you give your",
+          consent: "consent to personal data processing",
+          and2: "and confirm that you have read the",
+          privacy: "personal data processing policy",
+          and3: "and the",
+          recommendationsRules: "rules for recommendation technologies",
           after: ". You can disable cookies in your browser settings.",
         };
 ---
@@ -53,6 +65,9 @@ const copy =
   {" "}{copy.and}{" "}
   <a {...linkAttrs} href={docs.recommendations}>{copy.recommendations}</a>
   {copy.mid}{" "}
+  <a {...linkAttrs} href={docs.consent}>{copy.consent}</a>
+  {" "}{copy.and2}{" "}
   <a {...linkAttrs} href={docs.privacy}>{copy.privacy}</a>
-  {copy.after}
+  {" "}{copy.and3}{" "}
+  <a {...linkAttrs} href={docs.recommendations}>{copy.recommendationsRules}</a>{copy.after}
 </div>
